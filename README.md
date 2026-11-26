@@ -33,3 +33,7 @@ Cabeçalho e rodapé permanecem visíveis; somente a área central rola quando n
 ## Instalação e funcionamento offline
 
 Abra por HTTPS no Chrome. Aguarde a preparação dos recursos offline. Em Exibição, use Instalar Pingnet quando oferecido pelo navegador; também é possível usar o menu do Chrome. Desconecte a internet e recarregue para testar. A primeira preparação exige conexão. Em Exibição, Verificar atualização consulta o Service Worker; Aplicar atualização aparece quando uma versão está aguardando. O cache é versionado e não intercepta destinos externos. O armazenamento local não é apagado. O título e subtítulo não são links; somente o logotipo leva ao Início. O monitoramento ainda não está disponível.
+
+## Armazenamento local e isolamento
+
+Etapa 06: IndexedDB `pingnet-observatorio-local-Pingnet`, versão 1. Coleções: preferences, profiles, sessions, measurements, events, notes, pingState e fileHandles. Índices por perfil e data para consultas futuras. Apenas o perfil padrão e as preferências de aparência são gravados nesta etapa; nenhuma medição é simulada. Em Configurações de Sistema, Verificar armazenamento consulta contagens reais. O manifest fixa a identidade e o escopo em `/Pingnet/`, portanto publique nesse diretório exato. O cache tem prefixo próprio e a atualização remove somente caches conhecidos do Pingnet. Não limpe os dados da origem compartilhada com outros aplicativos. O backup externo será implementado na etapa 26.
