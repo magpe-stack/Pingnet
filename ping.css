@@ -8,3 +8,5 @@
 @media print{#ping{display:none!important}}
 
 #ping .ping-face[data-motion=wave] .ping-hand{animation:ping-wave .35s ease-in-out 3 alternate;transform-origin:bottom center}#ping .ping-face[data-motion=celebrate] img:first-child{animation:ping-hop .5s ease-in-out 2}#ping .ping-face[data-motion=sad] img:first-child{animation:ping-sad 1s ease-in-out}#ping .ping-face[data-motion=think] img:first-child{animation:ping-think .6s ease-in-out 2 alternate}#ping .ping-face[data-motion=breathe] img:first-child{animation:ping-breathe 1s ease-in-out}@keyframes ping-wave{from{transform:rotate(-12deg)}to{transform:rotate(24deg)}}@keyframes ping-hop{50%{transform:translateY(-7px)}}@keyframes ping-sad{50%{transform:translateY(3px) scale(.96)}}@keyframes ping-think{to{transform:rotate(-9deg)}}@keyframes ping-breathe{50%{transform:scale(1.05)}}@media(prefers-reduced-motion:reduce){#ping .ping-face img{animation:none!important}}
+
+#ping .ping-sr{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap;}

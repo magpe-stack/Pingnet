@@ -89,3 +89,6 @@ Humor fictício diário persistido em pingState, separado das observações. Fal
 
 ## Etapa 23 — Pinglish
 Voz procedural original com 15 perfis emocionais. O áudio depende de interação inicial permitida pelo navegador. Texto integral permanece disponível; sincronização progressiva na etapa 24 e controles na etapa 25.
+
+## Etapa 24 — Sincronização audiovisual
+Texto progressivo proporcional à duração da voz, com alternativa silenciosa. Expressões e gestos por emoção, retorno ao contexto atual ao terminar, cancelamento ao arrastar ou ocultar a página. Leitores de tela recebem a frase completa; redução de movimento apresenta texto integral.

@@ -1,3 +1,4 @@
+import {mountSync} from './ping-sync.js';
 import {mountVoice,playVoice,stopVoice} from './ping-voice.js';
 import {mountOpinions} from './ping-opinions.js';
 import {mountBrain} from './ping-brain.js';
@@ -12,17 +13,18 @@ const face=root.querySelector('button'),bubble=root.querySelector('.ping-bubble'
 function place(x,y){pos=clampPosition(x,y,root.offsetWidth,root.offsetHeight,document.documentElement.clientWidth,document.documentElement.clientHeight);root.style.left=pos.x+'px';root.style.top=pos.y+'px';bubble.classList.toggle('below',pos.y<100);bubble.classList.toggle('left',pos.x>document.documentElement.clientWidth/2);}
 function save(){revision++;put('pingState',{id:'position',...pos}).catch(console.error);}
 mountVoice();
-function speak(text,emotion){playVoice(text,emotion);bubble.textContent=text;bubble.hidden=false;clearTimeout(timer);timer=setTimeout(()=>bubble.hidden=true,8500);}
+const motion=mountMotion(root,snapshot,activeId);
+const sync=mountSync(root,bubble,motion,playVoice,stopVoice);
+const speak=sync.speak;
 place(innerWidth-root.offsetWidth-12,innerHeight-root.offsetHeight-56);get('pingState','position').then(p=>{if(p&&!revision&&!drag)place(p.x,p.y)}).catch(console.error);
 face.addEventListener('pointerdown',e=>{if(!e.isPrimary||e.button!==0)return;suppress=false;drag={id:e.pointerId,x:e.clientX,y:e.clientY,start:{...pos},moved:false};face.setPointerCapture(e.pointerId)});
-face.addEventListener('pointermove',e=>{if(drag?.id!==e.pointerId)return;const dx=e.clientX-drag.x,dy=e.clientY-drag.y;if(Math.hypot(dx,dy)>5)drag.moved=true;if(drag.moved){root.dataset.dragging='true';face.dataset.motion='';bubble.hidden=true;stopVoice();place(drag.start.x+dx,drag.start.y+dy)}});
+face.addEventListener('pointermove',e=>{if(drag?.id!==e.pointerId)return;const dx=e.clientX-drag.x,dy=e.clientY-drag.y;if(Math.hypot(dx,dy)>5)drag.moved=true;if(drag.moved){root.dataset.dragging='true';face.dataset.motion='';sync.cancel();place(drag.start.x+dx,drag.start.y+dy)}});
 function finish(e){if(drag?.id!==e.pointerId)return;suppress=drag.moved;if(drag.moved)save();drag=null;root.dataset.dragging='false';}
 face.addEventListener('pointerup',finish);face.addEventListener('pointercancel',finish);face.addEventListener('lostpointercapture',finish);
 face.addEventListener('click',e=>{if(suppress&&e.detail!==0){suppress=false;return;}talk()});
 face.addEventListener('keydown',e=>{const delta={ArrowLeft:[-16,0],ArrowRight:[16,0],ArrowUp:[0,-16],ArrowDown:[0,16]}[e.key];if(delta){e.preventDefault();place(pos.x+delta[0],pos.y+delta[1]);save()}});
 window.addEventListener('resize',()=>place(pos.x,pos.y));
 
-mountMotion(root,snapshot,activeId);
 
 const talk=mountBrain({read:snapshot,profile:activeId,speak,blocked:()=>!!drag||Date.now()<opinionUntil});
 
