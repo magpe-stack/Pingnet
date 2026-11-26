@@ -51,3 +51,6 @@ O resumo diário utiliza a média dos tempos de respostas verificadas e conta co
 ## Etapa 11 — Painel Início
 
 O cartão promocional foi removido; o logotipo principal permanece. Servidores, estado da coleta, contadores e horário real da última rodada registrada estão no mesmo painel. Resultados anteriores permanecem identificados pelo horário, inclusive após o fim da bateria. A qualidade diária fica em painel separado. A interface compacta permite rolagem quando necessária por tamanho de tela ou acessibilidade. A linha do tempo real será implementada na etapa 12; não se apresenta uma faixa cinza fictícia. O intervalo e limite experimental de coletas permanecem inalterados.
+
+## Etapa 12 — Linha do tempo
+Visualização diária na página Início e seleção de data na página Linha do tempo. Intervalos estimados apenas entre rodadas consecutivas da mesma sessão, separadas por até 90 segundos. Cinza inclui períodos futuros e sem monitoramento; inconclusivo é distinto de interrupção. Salvar e Abrir permanecem previstos para a etapa 26.
