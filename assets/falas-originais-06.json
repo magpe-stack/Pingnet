@@ -1,0 +1,1491 @@
+{
+  "grupo": "recuperacao_pausa",
+  "parte": "A",
+  "estado": "retorno_alivio",
+  "personagem": "Ping",
+  "formato_assets": "webp",
+  "comportamento_visual": {
+    "animado": true,
+    "flutuante": true,
+    "arrastavel": true,
+    "gestos_pequenos_ao_lado": true
+  },
+  "frases": [
+    {
+      "id": "ret-001",
+      "estado": "retorno_alivio",
+      "modo": "apenas_carinha",
+      "frase": "A internet voltou! Incidente encerrado com sucesso.",
+      "carinha": "emoji_u1f972_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ret-002",
+      "estado": "retorno_alivio",
+      "modo": "apenas_carinha",
+      "frase": "Ufa, o sinal retornou! Já marquei a hora da volta.",
+      "carinha": "emoji_u1f605_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ret-003",
+      "estado": "retorno_alivio",
+      "modo": "apenas_carinha",
+      "frase": "Que paz ver a conexão de volta no radar!",
+      "carinha": "emoji_u1f607_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ret-004",
+      "estado": "retorno_alivio",
+      "modo": "apenas_carinha",
+      "frase": "Voltou! Até ri de alívio quando o ping respondeu.",
+      "carinha": "emoji_u1f602_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ret-005",
+      "estado": "retorno_alivio",
+      "modo": "apenas_carinha",
+      "frase": "Sinal recuperado! A bancada respira aliviada.",
+      "carinha": "emoji_u1f970_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ret-006",
+      "estado": "retorno_alivio",
+      "modo": "apenas_carinha",
+      "frase": "A queda acabou e a duração total já foi calculada.",
+      "carinha": "emoji_u1f972_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ret-007",
+      "estado": "retorno_alivio",
+      "modo": "apenas_carinha",
+      "frase": "Voltamos a falar com os servidores lá fora!",
+      "carinha": "emoji_u1f605_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ret-008",
+      "estado": "retorno_alivio",
+      "modo": "apenas_carinha",
+      "frase": "Sinal restaurado sem precisar pedir milagre.",
+      "carinha": "emoji_u1f607_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ret-009",
+      "estado": "retorno_alivio",
+      "modo": "apenas_carinha",
+      "frase": "A linha acordou e voltou a responder direitinho!",
+      "carinha": "emoji_u1f602_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ret-010",
+      "estado": "retorno_alivio",
+      "modo": "apenas_carinha",
+      "frase": "Que bom ter a conexão de volta por aqui!",
+      "carinha": "emoji_u1f970_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ret-011",
+      "estado": "retorno_alivio",
+      "modo": "apenas_carinha",
+      "frase": "Retorno confirmado nos testes de conectividade.",
+      "carinha": "emoji_u1f972_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ret-012",
+      "estado": "retorno_alivio",
+      "modo": "apenas_carinha",
+      "frase": "Passou o sufoco: o ping voltou a bater ponto!",
+      "carinha": "emoji_u1f605_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ret-013",
+      "estado": "retorno_alivio",
+      "modo": "apenas_carinha",
+      "frase": "A rede voltou ao normal com tranquilidade.",
+      "carinha": "emoji_u1f607_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ret-014",
+      "estado": "retorno_alivio",
+      "modo": "apenas_carinha",
+      "frase": "A queda virou história no nosso log!",
+      "carinha": "emoji_u1f602_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ret-015",
+      "estado": "retorno_alivio",
+      "modo": "apenas_carivio",
+      "frase": "Conexão recuperada e coração na paz!",
+      "carinha": "emoji_u1f970_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ret-016",
+      "estado": "retorno_alivio",
+      "modo": "apenas_carinha",
+      "frase": "Fechamos o incidente com a hora exata do retorno.",
+      "carinha": "emoji_u1f972_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ret-017",
+      "estado": "retorno_alivio",
+      "modo": "apenas_carinha",
+      "frase": "Respirando de novo: o sinal voltou a fluir.",
+      "carinha": "emoji_u1f605_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ret-018",
+      "estado": "retorno_alivio",
+      "modo": "apenas_carinha",
+      "frase": "Tudo reatado entre a bancada e a internet.",
+      "carinha": "emoji_u1f607_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ret-019",
+      "estado": "retorno_alivio",
+      "modo": "apenas_carinha",
+      "frase": "O sinal deu as caras de novo por aqui!",
+      "carinha": "emoji_u1f602_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ret-020",
+      "estado": "retorno_alivio",
+      "modo": "apenas_carinha",
+      "frase": "A conexão voltou e o Pingnet já anotou.",
+      "carinha": "emoji_u1f970_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ret-021",
+      "estado": "retorno_alivio",
+      "modo": "apenas_carinha",
+      "frase": "Fim da queda! O contador de interrupção parou.",
+      "carinha": "emoji_u1f972_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ret-022",
+      "estado": "retorno_alivio",
+      "modo": "apenas_carinha",
+      "frase": "Por pouco achei que ia demorar mais... mas voltou!",
+      "carinha": "emoji_u1f605_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ret-023",
+      "estado": "retorno_alivio",
+      "modo": "apenas_carinha",
+      "frase": "Sinal de volta com serenidade na linha.",
+      "carinha": "emoji_u1f607_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ret-024",
+      "estado": "retorno_alivio",
+      "modo": "apenas_carinha",
+      "frase": "A internet voltou a respirar normalmente!",
+      "carinha": "emoji_u1f602_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ret-025",
+      "estado": "retorno_alivio",
+      "modo": "apenas_carinha",
+      "frase": "Retorno celebrado com carinho no observatório.",
+      "carinha": "emoji_u1f970_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ret-026",
+      "estado": "retorno_alivio",
+      "modo": "apenas_carinha",
+      "frase": "A resposta voltou e o gráfico respirou.",
+      "carinha": "emoji_u1f972_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ret-027",
+      "estado": "retorno_alivio",
+      "modo": "apenas_carinha",
+      "frase": "Deu tudo certo no retorno: pacotes passando!",
+      "carinha": "emoji_u1f605_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ret-028",
+      "estado": "retorno_alivio",
+      "modo": "apenas_carinha",
+      "frase": "A rede retomou o ritmo com calma.",
+      "carinha": "emoji_u1f607_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ret-029",
+      "estado": "retorno_alivio",
+      "modo": "apenas_carinha",
+      "frase": "Voltou! Mais uma queda encerrada no registro.",
+      "carinha": "emoji_u1f602_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ret-030",
+      "estado": "retorno_alivio",
+      "modo": "apenas_carinha",
+      "frase": "Que alívio ver o sinal firme de novo!",
+      "carinha": "emoji_u1f970_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ret-031",
+      "estado": "retorno_alivio",
+      "modo": "apenas_carinha",
+      "frase": "O link voltou a responder nos alvos-teste.",
+      "carinha": "emoji_u1f972_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ret-032",
+      "estado": "retorno_alivio",
+      "modo": "apenas_carinha",
+      "frase": "Passou a tensão: estamos online novamente.",
+      "carinha": "emoji_u1f605_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ret-033",
+      "estado": "retorno_alivio",
+      "modo": "apenas_carinha",
+      "frase": "Retorno limpo e sem novos sustos na sequência.",
+      "carinha": "emoji_u1f607_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ret-034",
+      "estado": "retorno_alivio",
+      "modo": "apenas_carinha",
+      "frase": "A conexão voltou a bater papo com a rede!",
+      "carinha": "emoji_u1f602_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ret-035",
+      "estado": "retorno_alivio",
+      "modo": "apenas_carinha",
+      "frase": "Sinal recuperado por aqui — tudo certo agora.",
+      "carinha": "emoji_u1f970_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ret-036",
+      "estado": "retorno_alivio",
+      "modo": "apenas_carinha",
+      "frase": "Incidente fechado e duração total salva no histórico.",
+      "carinha": "emoji_u1f972_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ret-037",
+      "estado": "retorno_alivio",
+      "modo": "apenas_carinha",
+      "frase": "Voltou a funcionar! Alívio geral na bancada.",
+      "carinha": "emoji_u1f605_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ret-038",
+      "estado": "retorno_alivio",
+      "modo": "apenas_carinha",
+      "frase": "A paz voltou para a linha neste instante.",
+      "carinha": "emoji_u1f607_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ret-039",
+      "estado": "retorno_alivio",
+      "modo": "apenas_carinha",
+      "frase": "A conexão não aguentou ficar fora e voltou!",
+      "carinha": "emoji_u1f602_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ret-040",
+      "estado": "retorno_alivio",
+      "modo": "apenas_carinha",
+      "frase": "Sinal de volta com muito alívio por aqui.",
+      "carinha": "emoji_u1f970_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ret-041",
+      "estado": "retorno_alivio",
+      "modo": "apenas_carinha",
+      "frase": "A queda terminou e os pings voltaram.",
+      "carinha": "emoji_u1f972_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ret-042",
+      "estado": "retorno_alivio",
+      "modo": "apenas_carinha",
+      "frase": "Ufa, o retorno veio bem na hora certa!",
+      "carinha": "emoji_u1f605_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ret-043",
+      "estado": "retorno_alivio",
+      "modo": "apenas_carinha",
+      "frase": "Conectividade restaurada com tranquilidade.",
+      "carinha": "emoji_u1f607_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ret-044",
+      "estado": "retorno_alivio",
+      "modo": "apenas_carinha",
+      "frase": "Voltou o sinal e voltou o sorriso na tela!",
+      "carinha": "emoji_u1f602_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ret-045",
+      "estado": "retorno_alivio",
+      "modo": "apenas_carinha",
+      "frase": "A rede voltou firme para o laboratório.",
+      "carinha": "emoji_u1f970_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ret-046",
+      "estado": "retorno_alivio",
+      "modo": "apenas_carinha",
+      "frase": "Retorno registrado com o tempo exato da falha.",
+      "carinha": "emoji_u1f972_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ret-047",
+      "estado": "retorno_alivio",
+      "modo": "apenas_carinha",
+      "frase": "Deu alívio ver a resposta voltar sem engasgo.",
+      "carinha": "emoji_u1f605_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ret-048",
+      "estado": "retorno_alivio",
+      "modo": "apenas_carinha",
+      "frase": "Sinal recuperado em paz por aqui.",
+      "carinha": "emoji_u1f607_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ret-049",
+      "estado": "retorno_alivio",
+      "modo": "apenas_carinha",
+      "frase": "A internet voltou a trabalhar sem falta!",
+      "carinha": "emoji_u1f602_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ret-050",
+      "estado": "retorno_alivio",
+      "modo": "apenas_carinha",
+      "frase": "Retorno concluído no Pingnet! Seguimos monitorando.",
+      "carinha": "emoji_u1f970_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ret-051",
+      "estado": "retorno_alivio",
+      "modo": "carinha_e_gestos",
+      "frase": "Graças ao sinal! A internet voltou por aqui!",
+      "carinha": "emoji_u1f972_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f64f_3d.webp",
+            "duracao_ms": 1350
+          }
+        ]
+      }
+    },
+    {
+      "id": "ret-052",
+      "estado": "retorno_alivio",
+      "modo": "carinha_e_gestos",
+      "frase": "Voltou! Joinha de alívio na bancada!",
+      "carinha": "emoji_u1f605_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 1350
+          }
+        ]
+      }
+    },
+    {
+      "id": "ret-053",
+      "estado": "retorno_alivio",
+      "modo": "carinha_e_gestos",
+      "frase": "Ufa, voltou! Mãos juntas de alívio e joinha firme!",
+      "carinha": "emoji_u1f972_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f64f_3d.webp",
+            "duracao_ms": 900
+          },
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 1100
+          }
+        ]
+      }
+    },
+    {
+      "id": "ret-054",
+      "estado": "retorno_alivio",
+      "modo": "carinha_e_gestos",
+      "frase": "A conexão retornou e merece uma salva de palmas!",
+      "carinha": "emoji_u1f607_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44f_3d.webp",
+            "duracao_ms": 1100
+          }
+        ]
+      }
+    },
+    {
+      "id": "ret-055",
+      "estado": "retorno_alivio",
+      "modo": "carinha_e_gestos",
+      "frase": "Retorno comemorado: alívio, joinha, palmas e força!",
+      "carinha": "emoji_u1f605_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f64f_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44f_3d.webp",
+            "duracao_ms": 950
+          },
+          {
+            "gesto": "emoji_u1f4aa_3d.webp",
+            "duracao_ms": 1100
+          }
+        ]
+      }
+    },
+    {
+      "id": "ret-056",
+      "estado": "retorno_alivio",
+      "modo": "carinha_e_gestos",
+      "frase": "Oi, sinal! Que bom te ver de volta na linha!",
+      "carinha": "emoji_u1f970_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44b_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f64f_3d.webp",
+            "duracao_ms": 900
+          },
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 1100
+          }
+        ]
+      }
+    },
+    {
+      "id": "ret-057",
+      "estado": "retorno_alivio",
+      "modo": "carinha_e_gestos",
+      "frase": "Grande retorno na rede: alívio, aceno, joinha, palmas e mãos pro alto!",
+      "carinha": "emoji_u1f602_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_longa",
+        "passos": [
+          {
+            "gesto": "emoji_u1f64f_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f44b_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44f_3d.webp",
+            "duracao_ms": 950
+          },
+          {
+            "gesto": "emoji_u1f64c_3d.webp",
+            "duracao_ms": 1150
+          }
+        ]
+      }
+    },
+    {
+      "id": "ret-058",
+      "estado": "retorno_alivio",
+      "modo": "carinha_e_gestos",
+      "frase": "Palmas porque a internet voltou a responder!",
+      "carinha": "emoji_u1f972_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44f_3d.webp",
+            "duracao_ms": 1350
+          }
+        ]
+      }
+    },
+    {
+      "id": "ret-059",
+      "estado": "retorno_alivio",
+      "modo": "carinha_e_gestos",
+      "frase": "Aceno de boas-vindas de volta ao sinal!",
+      "carinha": "emoji_u1f607_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44b_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "ret-060",
+      "estado": "retorno_alivio",
+      "modo": "carinha_e_gestos",
+      "frase": "A linha voltou com força e deixou a bancada leve!",
+      "carinha": "emoji_u1f605_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f64f_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44f_3d.webp",
+            "duracao_ms": 900
+          },
+          {
+            "gesto": "emoji_u1f4aa_3d.webp",
+            "duracao_ms": 1100
+          }
+        ]
+      }
+    },
+    {
+      "id": "ret-061",
+      "estado": "retorno_alivio",
+      "modo": "carinha_e_gestos",
+      "frase": "Voltou! Agora é só acompanhar o próximo ciclo.",
+      "carinha": "emoji_u1f970_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 1000
+          }
+        ]
+      }
+    },
+    {
+      "id": "ret-062",
+      "estado": "retorno_alivio",
+      "modo": "carinha_e_gestos",
+      "frase": "Sinal de volta e alívio confirmado!",
+      "carinha": "emoji_u1f972_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 1350
+          }
+        ]
+      }
+    },
+    {
+      "id": "ret-063",
+      "estado": "retorno_alivio",
+      "modo": "carinha_e_gestos",
+      "frase": "Ufa, o ping voltou! Palmas e mãos pro alto!",
+      "carinha": "emoji_u1f602_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f64f_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44f_3d.webp",
+            "duracao_ms": 900
+          },
+          {
+            "gesto": "emoji_u1f64c_3d.webp",
+            "duracao_ms": 1150
+          }
+        ]
+      }
+    },
+    {
+      "id": "ret-064",
+      "estado": "retorno_alivio",
+      "modo": "carinha_e_gestos",
+      "frase": "A conexão voltou sem deixar saudade da queda.",
+      "carinha": "emoji_u1f607_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f64f_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44f_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "ret-065",
+      "estado": "retorno_alivio",
+      "modo": "carinha_e_gestos",
+      "frase": "Retorno em grande estilo: alívio, aceno, joinha, aplausos e força!",
+      "carinha": "emoji_u1f605_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_longa",
+        "passos": [
+          {
+            "gesto": "emoji_u1f64f_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f44b_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44f_3d.webp",
+            "duracao_ms": 950
+          },
+          {
+            "gesto": "emoji_u1f4aa_3d.webp",
+            "duracao_ms": 1150
+          }
+        ]
+      }
+    },
+    {
+      "id": "ret-066",
+      "estado": "retorno_alivio",
+      "modo": "carinha_e_gestos",
+      "frase": "Que bom que voltou! Mãozinhas de alívio aqui.",
+      "carinha": "emoji_u1f970_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f64f_3d.webp",
+            "duracao_ms": 1350
+          }
+        ]
+      }
+    },
+    {
+      "id": "ret-067",
+      "estado": "retorno_alivio",
+      "modo": "carinha_e_gestos",
+      "frase": "A queda encerrou e o sinal voltou firme!",
+      "carinha": "emoji_u1f972_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f4aa_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "ret-068",
+      "estado": "retorno_alivio",
+      "modo": "carinha_e_gestos",
+      "frase": "Olha o gráfico voltando a respirar por aqui!",
+      "carinha": "emoji_u1f605_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f64f_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "ret-069",
+      "estado": "retorno_alivio",
+      "modo": "carinha_e_gestos",
+      "frase": "Retorno tranquilo na bancada do Pingnet!",
+      "carinha": "emoji_u1f607_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 1350
+          }
+        ]
+      }
+    },
+    {
+      "id": "ret-070",
+      "estado": "retorno_alivio",
+      "modo": "carinha_e_gestos",
+      "frase": "Voltou a conexão! Palmas da equipe do Ping!",
+      "carinha": "emoji_u1f602_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44f_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "ret-071",
+      "estado": "retorno_alivio",
+      "modo": "carinha_e_gestos",
+      "frase": "Alívio total: o sinal voltou e já está ativo!",
+      "carinha": "emoji_u1f970_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f64f_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44f_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "ret-072",
+      "estado": "retorno_alivio",
+      "modo": "carinha_e_gestos",
+      "frase": "Sinal recuperado nesta checagem!",
+      "carinha": "emoji_u1f972_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44f_3d.webp",
+            "duracao_ms": 1350
+          }
+        ]
+      }
+    },
+    {
+      "id": "ret-073",
+      "estado": "retorno_alivio",
+      "modo": "carinha_e_gestos",
+      "frase": "Fim da queda: alívio, aceno, joinha, palmas e celebração!",
+      "carinha": "emoji_u1f605_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_longa",
+        "passos": [
+          {
+            "gesto": "emoji_u1f64f_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f44b_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44f_3d.webp",
+            "duracao_ms": 950
+          },
+          {
+            "gesto": "emoji_u1f64c_3d.webp",
+            "duracao_ms": 1150
+          }
+        ]
+      }
+    },
+    {
+      "id": "ret-074",
+      "estado": "retorno_alivio",
+      "modo": "carinha_e_gestos",
+      "frase": "Ufa! Voltou a responder direitinho!",
+      "carinha": "emoji_u1f607_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f64f_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "ret-075",
+      "estado": "retorno_alivio",
+      "modo": "carinha_e_gestos",
+      "frase": "A conexão voltou e deixou todo mundo sorrindo!",
+      "carinha": "emoji_u1f602_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44f_3d.webp",
+            "duracao_ms": 900
+          },
+          {
+            "gesto": "emoji_u1f64c_3d.webp",
+            "duracao_ms": 1150
+          }
+        ]
+      }
+    },
+    {
+      "id": "ret-076",
+      "estado": "retorno_alivio",
+      "modo": "carinha_e_gestos",
+      "frase": "Sinal de volta com paz e aprovação!",
+      "carinha": "emoji_u1f970_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 1350
+          }
+        ]
+      }
+    },
+    {
+      "id": "ret-077",
+      "estado": "retorno_alivio",
+      "modo": "carinha_e_gestos",
+      "frase": "Voltou! Mais uma interrupção encerrada.",
+      "carinha": "emoji_u1f972_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f64f_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "ret-078",
+      "estado": "retorno_alivio",
+      "modo": "carinha_e_gestos",
+      "frase": "Retorno limpo e comemorado na tela!",
+      "carinha": "emoji_u1f605_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44f_3d.webp",
+            "duracao_ms": 900
+          },
+          {
+            "gesto": "emoji_u1f4aa_3d.webp",
+            "duracao_ms": 1100
+          }
+        ]
+      }
+    },
+    {
+      "id": "ret-079",
+      "estado": "retorno_alivio",
+      "modo": "carinha_e_gestos",
+      "frase": "A internet voltou e o Ping agradece com força!",
+      "carinha": "emoji_u1f607_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_longa",
+        "passos": [
+          {
+            "gesto": "emoji_u1f64f_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f44b_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44f_3d.webp",
+            "duracao_ms": 950
+          },
+          {
+            "gesto": "emoji_u1f4aa_3d.webp",
+            "duracao_ms": 1150
+          }
+        ]
+      }
+    },
+    {
+      "id": "ret-080",
+      "estado": "retorno_alivio",
+      "modo": "carinha_e_gestos",
+      "frase": "Sinal recuperado! Palmas pelo retorno.",
+      "carinha": "emoji_u1f602_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44f_3d.webp",
+            "duracao_ms": 1350
+          }
+        ]
+      }
+    },
+    {
+      "id": "ret-081",
+      "estado": "retorno_alivio",
+      "modo": "carinha_e_gestos",
+      "frase": "Que bom ter o sinal de volta por aqui!",
+      "carinha": "emoji_u1f970_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44b_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "ret-082",
+      "estado": "retorno_alivio",
+      "modo": "carinha_e_gestos",
+      "frase": "Incidente fechado com alívio e joinha!",
+      "carinha": "emoji_u1f972_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f64f_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44f_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "ret-083",
+      "estado": "retorno_alivio",
+      "modo": "carinha_e_gestos",
+      "frase": "A conexão voltou e o relógio zerou a queda!",
+      "carinha": "emoji_u1f605_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 1350
+          }
+        ]
+      }
+    },
+    {
+      "id": "ret-084",
+      "estado": "retorno_alivio",
+      "modo": "carinha_e_gestos",
+      "frase": "Sinal restaurado com tranquilidade na linha.",
+      "carinha": "emoji_u1f607_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f64f_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "ret-085",
+      "estado": "retorno_alivio",
+      "modo": "carinha_e_gestos",
+      "frase": "Voltou! A bancada já está em festa de novo!",
+      "carinha": "emoji_u1f602_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44f_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f64c_3d.webp",
+            "duracao_ms": 1150
+          }
+        ]
+      }
+    },
+    {
+      "id": "ret-086",
+      "estado": "retorno_alivio",
+      "modo": "carinha_e_gestos",
+      "frase": "Alívio por ver o sinal funcionando outra vez!",
+      "carinha": "emoji_u1f970_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f64f_3d.webp",
+            "duracao_ms": 1350
+          }
+        ]
+      }
+    },
+    {
+      "id": "ret-087",
+      "estado": "retorno_alivio",
+      "modo": "carinha_e_gestos",
+      "frase": "Retorno celebrado na linha: alívio, aceno, joinha, palmas e mãos pro alto!",
+      "carinha": "emoji_u1f972_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_longa",
+        "passos": [
+          {
+            "gesto": "emoji_u1f64f_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f44b_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44f_3d.webp",
+            "duracao_ms": 950
+          },
+          {
+            "gesto": "emoji_u1f64c_3d.webp",
+            "duracao_ms": 1150
+          }
+        ]
+      }
+    },
+    {
+      "id": "ret-088",
+      "estado": "retorno_alivio",
+      "modo": "carinha_e_gestos",
+      "frase": "Ufa, o sinal retornou sem enrolação!",
+      "carinha": "emoji_u1f605_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f64f_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44f_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "ret-089",
+      "estado": "retorno_alivio",
+      "modo": "carinha_e_gestos",
+      "frase": "A conexão voltou e recuperou o fôlego!",
+      "carinha": "emoji_u1f607_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f64f_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f4aa_3d.webp",
+            "duracao_ms": 1100
+          }
+        ]
+      }
+    },
+    {
+      "id": "ret-090",
+      "estado": "retorno_alivio",
+      "modo": "carinha_e_gestos",
+      "frase": "Voltou! Joinha de confiança na tela!",
+      "carinha": "emoji_u1f602_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 1350
+          }
+        ]
+      }
+    },
+    {
+      "id": "ret-091",
+      "estado": "retorno_alivio",
+      "modo": "carinha_e_gestos",
+      "frase": "Retorno registrado com paz e aplausos!",
+      "carinha": "emoji_u1f970_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44f_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "ret-092",
+      "estado": "retorno_alivio",
+      "modo": "carinha_e_gestos",
+      "frase": "A internet voltou e o Ping já está de olho!",
+      "carinha": "emoji_u1f972_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f64f_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 1000
+          }
+        ]
+      }
+    },
+    {
+      "id": "ret-093",
+      "estado": "retorno_alivio",
+      "modo": "carinha_e_gestos",
+      "frase": "Sinal de volta com muito alívio por aqui!",
+      "carinha": "emoji_u1f605_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f64f_3d.webp",
+            "duracao_ms": 1350
+          }
+        ]
+      }
+    },
+    {
+      "id": "ret-094",
+      "estado": "retorno_alivio",
+      "modo": "carinha_e_gestos",
+      "frase": "Voltou com tudo: alívio, aceno, joinha, palmas e força!",
+      "carinha": "emoji_u1f607_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_longa",
+        "passos": [
+          {
+            "gesto": "emoji_u1f64f_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f44b_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44f_3d.webp",
+            "duracao_ms": 950
+          },
+          {
+            "gesto": "emoji_u1f4aa_3d.webp",
+            "duracao_ms": 1150
+          }
+        ]
+      }
+    },
+    {
+      "id": "ret-095",
+      "estado": "retorno_alivio",
+      "modo": "carinha_e_gestos",
+      "frase": "A queda ficou pra trás! Sinal ativo de novo.",
+      "carinha": "emoji_u1f602_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44f_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "ret-096",
+      "estado": "retorno_alivio",
+      "modo": "carinha_e_gestos",
+      "frase": "Que alívio ver o link funcionando direitinho!",
+      "carinha": "emoji_u1f970_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f64f_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44f_3d.webp",
+            "duracao_ms": 900
+          },
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "ret-097",
+      "estado": "retorno_alivio",
+      "modo": "carinha_e_gestos",
+      "frase": "Sinal de volta após a queda!",
+      "carinha": "emoji_u1f972_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 1350
+          }
+        ]
+      }
+    },
+    {
+      "id": "ret-098",
+      "estado": "retorno_alivio",
+      "modo": "carinha_e_gestos",
+      "frase": "Ufa, o ping voltou a bater certinho!",
+      "carinha": "emoji_u1f605_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f64f_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "ret-099",
+      "estado": "retorno_alivio",
+      "modo": "carinha_e_gestos",
+      "frase": "Fechando o retorno com paz, palmas e joinha!",
+      "carinha": "emoji_u1f607_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f64f_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44f_3d.webp",
+            "duracao_ms": 900
+          },
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "ret-100",
+      "estado": "retorno_alivio",
+      "modo": "carinha_e_gestos",
+      "frase": "A internet voltou! O Ping está de volta à ativa.",
+      "carinha": "emoji_u1f602_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f64f_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    }
+  ]
+}

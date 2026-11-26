@@ -1,0 +1,1491 @@
+{
+  "grupo": "instabilidade",
+  "parte": "A",
+  "estado": "instavel_jitter",
+  "personagem": "Ping",
+  "formato_assets": "webp",
+  "comportamento_visual": {
+    "animado": true,
+    "flutuante": true,
+    "arrastavel": true,
+    "gestos_pequenos_ao_lado": true
+  },
+  "frases": [
+    {
+      "id": "jit-001",
+      "estado": "instavel_jitter",
+      "modo": "apenas_carinha",
+      "frase": "Opa, a latência começou a dançar por aqui!",
+      "carinha": "emoji_u1f635_200d_1f4ab_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "jit-002",
+      "estado": "instavel_jitter",
+      "modo": "apenas_carinha",
+      "frase": "Jitter subindo e descendo sem avisar...",
+      "carinha": "emoji_u1f974_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "jit-003",
+      "estado": "instavel_jitter",
+      "modo": "apenas_carinha",
+      "frase": "A conexão deu uma tremida nesta leitura.",
+      "carinha": "emoji_u1fae2_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "jit-004",
+      "estado": "instavel_jitter",
+      "modo": "apenas_carinha",
+      "frase": "Resposta ora rápida, ora demorada... que bagunça!",
+      "carinha": "emoji_u1f92a_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "jit-005",
+      "estado": "instavel_jitter",
+      "modo": "apenas_carinha",
+      "frase": "A linha não caiu de vez, mas está bem instável.",
+      "carinha": "emoji_u1f615_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "jit-006",
+      "estado": "instavel_jitter",
+      "modo": "apenas_carinha",
+      "frase": "P95 e P99 deram uma esticada agora.",
+      "carinha": "emoji_u1f635_200d_1f4ab_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "jit-007",
+      "estado": "instavel_jitter",
+      "modo": "apenas_carinha",
+      "frase": "Difícil manter o ritmo com tanta oscilação.",
+      "carinha": "emoji_u1f974_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "jit-008",
+      "estado": "instavel_jitter",
+      "modo": "apenas_carinha",
+      "frase": "O sinal está meio arrepiado nesta janela.",
+      "carinha": "emoji_u1fae2_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "jit-009",
+      "estado": "instavel_jitter",
+      "modo": "apenas_carinha",
+      "frase": "Cada ping chega num tempo diferente!",
+      "carinha": "emoji_u1f92a_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "jit-010",
+      "estado": "instavel_jitter",
+      "modo": "apenas_carinha",
+      "frase": "Não é queda total, mas incomoda bastante.",
+      "carinha": "emoji_u1f615_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "jit-011",
+      "estado": "instavel_jitter",
+      "modo": "apenas_carinha",
+      "frase": "A curva virou montanha-russa de milissegundos!",
+      "carinha": "emoji_u1f635_200d_1f4ab_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "jit-012",
+      "estado": "instavel_jitter",
+      "modo": "apenas_carinha",
+      "frase": "Sinal meio tonto com tanto jitter na linha.",
+      "carinha": "emoji_u1f974_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "jit-013",
+      "estado": "instavel_jitter",
+      "modo": "apenas_carinha",
+      "frase": "Chacoalhou feio entre uma medição e outra.",
+      "carinha": "emoji_u1fae2_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "jit-014",
+      "estado": "instavel_jitter",
+      "modo": "apenas_carinha",
+      "frase": "A conexão está fazendo graça com a latência!",
+      "carinha": "emoji_u1f92a_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "jit-015",
+      "estado": "instavel_jitter",
+      "modo": "apenas_carinha",
+      "frase": "A estabilidade perdeu um pouco do prumo agora.",
+      "carinha": "emoji_u1f615_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "jit-016",
+      "estado": "instavel_jitter",
+      "modo": "apenas_carinha",
+      "frase": "Rodada de testes com bastante variação de RTT.",
+      "carinha": "emoji_u1f635_200d_1f4ab_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "jit-017",
+      "estado": "instavel_jitter",
+      "modo": "apenas_carinha",
+      "frase": "O sinal está cambaleando na bancada.",
+      "carinha": "emoji_u1f974_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "jit-018",
+      "estado": "instavel_jitter",
+      "modo": "apenas_carinha",
+      "frase": "Vibração alta na frequência das respostas.",
+      "carinha": "emoji_u1fae2_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "jit-019",
+      "estado": "instavel_jitter",
+      "modo": "apenas_carinha",
+      "frase": "Hora vai liso, hora dá uma engasgada!",
+      "carinha": "emoji_u1f92a_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "jit-020",
+      "estado": "instavel_jitter",
+      "modo": "apenas_carinha",
+      "frase": "Oscilação persistente detectada no histórico recente.",
+      "carinha": "emoji_u1f615_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "jit-021",
+      "estado": "instavel_jitter",
+      "modo": "apenas_carinha",
+      "frase": "Fiquei tonto só de olhar esse jitter subir!",
+      "carinha": "emoji_u1f635_200d_1f4ab_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "jit-022",
+      "estado": "instavel_jitter",
+      "modo": "apenas_carinha",
+      "frase": "Conexão meio zonza nesta faixa de tempo.",
+      "carinha": "emoji_u1f974_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "jit-023",
+      "estado": "instavel_jitter",
+      "modo": "apenas_carinha",
+      "frase": "Deu uma sacudida no tempo de resposta.",
+      "carinha": "emoji_u1fae2_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "jit-024",
+      "estado": "instavel_jitter",
+      "modo": "apenas_carinha",
+      "frase": "A latência resolveu fazer acrobacia agora!",
+      "carinha": "emoji_u1f92a_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "jit-025",
+      "estado": "instavel_jitter",
+      "modo": "apenas_carinha",
+      "frase": "Sinal irregular, vale ficar de olho.",
+      "carinha": "emoji_u1f615_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "jit-026",
+      "estado": "instavel_jitter",
+      "modo": "apenas_carinha",
+      "frase": "Média tranquila, mas os picos estão salgados.",
+      "carinha": "emoji_u1f635_200d_1f4ab_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "jit-027",
+      "estado": "instavel_jitter",
+      "modo": "apenas_carinha",
+      "frase": "A rede está meio embaralhada neste momento.",
+      "carinha": "emoji_u1f974_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "jit-028",
+      "estado": "instavel_jitter",
+      "modo": "apenas_carinha",
+      "frase": "Treme-treme de latência na última coleta.",
+      "carinha": "emoji_u1fae2_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "jit-029",
+      "estado": "instavel_jitter",
+      "modo": "apenas_carinha",
+      "frase": "Sem firmeza nenhuma no compasso dos pings!",
+      "carinha": "emoji_u1f92a_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "jit-030",
+      "estado": "instavel_jitter",
+      "modo": "apenas_carinha",
+      "frase": "A estabilidade está meio frouxa por aqui.",
+      "carinha": "emoji_u1f615_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "jit-031",
+      "estado": "instavel_jitter",
+      "modo": "apenas_carinha",
+      "frase": "Variação forte entre um pacote e o próximo!",
+      "carinha": "emoji_u1f635_200d_1f4ab_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "jit-032",
+      "estado": "instavel_jitter",
+      "modo": "apenas_carinha",
+      "frase": "O sinal está meio grogue com tanta oscilação.",
+      "carinha": "emoji_u1f974_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "jit-033",
+      "estado": "instavel_jitter",
+      "modo": "apenas_carinha",
+      "frase": "Estremecimentos na linha durante o ciclo.",
+      "carinha": "emoji_u1fae2_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "jit-034",
+      "estado": "instavel_jitter",
+      "modo": "apenas_carinha",
+      "frase": "Hoje a latência não para quieta nem um segundo!",
+      "carinha": "emoji_u1f92a_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "jit-035",
+      "estado": "instavel_jitter",
+      "modo": "apenas_carinha",
+      "frase": "A conexão está oscilando mais que o normal.",
+      "carinha": "emoji_u1f615_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "jit-036",
+      "estado": "instavel_jitter",
+      "modo": "apenas_carinha",
+      "frase": "Gráfico ziguezagueando sem pedir licença!",
+      "carinha": "emoji_u1f635_200d_1f4ab_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "jit-037",
+      "estado": "instavel_jitter",
+      "modo": "apenas_carinha",
+      "frase": "Ritmo irregular e latência bem descompassada.",
+      "carinha": "emoji_u1f974_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "jit-038",
+      "estado": "instavel_jitter",
+      "modo": "apenas_carinha",
+      "frase": "Chacoalhão repentino nas respostas da rede.",
+      "carinha": "emoji_u1fae2_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "jit-039",
+      "estado": "instavel_jitter",
+      "modo": "apenas_carinha",
+      "frase": "A rede está meio elétrica e sem constância!",
+      "carinha": "emoji_u1f92a_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "jit-040",
+      "estado": "instavel_jitter",
+      "modo": "apenas_carinha",
+      "frase": "Não caiu, mas a qualidade da linha caiu um pouco.",
+      "carinha": "emoji_u1f615_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "jit-041",
+      "estado": "instavel_jitter",
+      "modo": "apenas_carinha",
+      "frase": "P99 disparando em espiral nesta rodada!",
+      "carinha": "emoji_u1f635_200d_1f4ab_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "jit-042",
+      "estado": "instavel_jitter",
+      "modo": "apenas_carinha",
+      "frase": "Sinal confuso com oscilações repetidas.",
+      "carinha": "emoji_u1f974_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "jit-043",
+      "estado": "instavel_jitter",
+      "modo": "apenas_carinha",
+      "frase": "A linha deu mais uma tremidinha agora.",
+      "carinha": "emoji_u1fae2_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "jit-044",
+      "estado": "instavel_jitter",
+      "modo": "apenas_carinha",
+      "frase": "Jitter mandando ver na confusão hoje!",
+      "carinha": "emoji_u1f92a_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "jit-045",
+      "estado": "instavel_jitter",
+      "modo": "apenas_carinha",
+      "frase": "A estabilidade está meio incerta nesta hora.",
+      "carinha": "emoji_u1f615_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "jit-046",
+      "estado": "instavel_jitter",
+      "modo": "apenas_carinha",
+      "frase": "Respostas instáveis e difíceis de prever!",
+      "carinha": "emoji_u1f635_200d_1f4ab_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "jit-047",
+      "estado": "instavel_jitter",
+      "modo": "apenas_carinha",
+      "frase": "O sinal está balançando fora do compasso.",
+      "carinha": "emoji_u1f974_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "jit-048",
+      "estado": "instavel_jitter",
+      "modo": "apenas_carinha",
+      "frase": "Vibração indesejada na leitura atual.",
+      "carinha": "emoji_u1fae2_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "jit-049",
+      "estado": "instavel_jitter",
+      "modo": "apenas_carinha",
+      "frase": "A latência está pregando peça na bancada!",
+      "carinha": "emoji_u1f92a_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "jit-050",
+      "estado": "instavel_jitter",
+      "modo": "apenas_carinha",
+      "frase": "Instabilidade moderada no radar do Pingnet.",
+      "carinha": "emoji_u1f615_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "jit-051",
+      "estado": "instavel_jitter",
+      "modo": "carinha_e_gestos",
+      "frase": "Só um tiquinho de oscilação... ou nem tão pouquinho!",
+      "carinha": "emoji_u1f635_200d_1f4ab_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f90f_3d.webp",
+            "duracao_ms": 1300
+          }
+        ]
+      }
+    },
+    {
+      "id": "jit-052",
+      "estado": "instavel_jitter",
+      "modo": "carinha_e_gestos",
+      "frase": "Opa, a conexão deu uma tremida forte agora!",
+      "carinha": "emoji_u1fae2_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1fae2_3d.webp",
+            "duracao_ms": 1300
+          }
+        ]
+      }
+    },
+    {
+      "id": "jit-053",
+      "estado": "instavel_jitter",
+      "modo": "carinha_e_gestos",
+      "frase": "Mediu curtinho e já tremeu na base!",
+      "carinha": "emoji_u1f974_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f90f_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1fae2_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "jit-054",
+      "estado": "instavel_jitter",
+      "modo": "carinha_e_gestos",
+      "frase": "Olha esse jitter ali pulando fora da linha!",
+      "carinha": "emoji_u1f92a_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1fae2_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "jit-055",
+      "estado": "instavel_jitter",
+      "modo": "carinha_e_gestos",
+      "frase": "Aponta o detalhe, mede a variação e sente o tremor!",
+      "carinha": "emoji_u1f635_200d_1f4ab_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u261d_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f90f_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1fae2_3d.webp",
+            "duracao_ms": 950
+          },
+          {
+            "gesto": "emoji_u1f590_3d.webp",
+            "duracao_ms": 1000
+          }
+        ]
+      }
+    },
+    {
+      "id": "jit-056",
+      "estado": "instavel_jitter",
+      "modo": "carinha_e_gestos",
+      "frase": "Calma aí, linha! Muita oscilação de uma vez!",
+      "carinha": "emoji_u1f974_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u270b_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1fae2_3d.webp",
+            "duracao_ms": 950
+          },
+          {
+            "gesto": "emoji_u1f90f_3d.webp",
+            "duracao_ms": 950
+          }
+        ]
+      }
+    },
+    {
+      "id": "jit-057",
+      "estado": "instavel_jitter",
+      "modo": "carinha_e_gestos",
+      "frase": "Olha o jitter: aponta, mede, treme, segura e confere!",
+      "carinha": "emoji_u1f635_200d_1f4ab_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_longa",
+        "passos": [
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 750
+          },
+          {
+            "gesto": "emoji_u1f90f_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1fae2_3d.webp",
+            "duracao_ms": 900
+          },
+          {
+            "gesto": "emoji_u270b_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f90f_3d.webp",
+            "duracao_ms": 950
+          }
+        ]
+      }
+    },
+    {
+      "id": "jit-058",
+      "estado": "instavel_jitter",
+      "modo": "carinha_e_gestos",
+      "frase": "Mão aberta tentando segurar a instabilidade!",
+      "carinha": "emoji_u1f615_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f590_3d.webp",
+            "duracao_ms": 1300
+          }
+        ]
+      }
+    },
+    {
+      "id": "jit-059",
+      "estado": "instavel_jitter",
+      "modo": "carinha_e_gestos",
+      "frase": "Nota esse engasgo curto na série de pings!",
+      "carinha": "emoji_u1f92a_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u261d_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f90f_3d.webp",
+            "duracao_ms": 1000
+          }
+        ]
+      }
+    },
+    {
+      "id": "jit-060",
+      "estado": "instavel_jitter",
+      "modo": "carinha_e_gestos",
+      "frase": "O sinal balançou e deixou a bancada alerta.",
+      "carinha": "emoji_u1fae2_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1fae2_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u261d_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f590_3d.webp",
+            "duracao_ms": 1000
+          }
+        ]
+      }
+    },
+    {
+      "id": "jit-061",
+      "estado": "instavel_jitter",
+      "modo": "carinha_e_gestos",
+      "frase": "Latência indo e voltando fora de hora!",
+      "carinha": "emoji_u1f974_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1fae2_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f90f_3d.webp",
+            "duracao_ms": 950
+          }
+        ]
+      }
+    },
+    {
+      "id": "jit-062",
+      "estado": "instavel_jitter",
+      "modo": "carinha_e_gestos",
+      "frase": "Olha esse pico de jitter no monitor!",
+      "carinha": "emoji_u1f635_200d_1f4ab_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 1300
+          }
+        ]
+      }
+    },
+    {
+      "id": "jit-063",
+      "estado": "instavel_jitter",
+      "modo": "carinha_e_gestos",
+      "frase": "Tremor rápido no gráfico e dedo em riste!",
+      "carinha": "emoji_u1f92a_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1fae2_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u261d_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f90f_3d.webp",
+            "duracao_ms": 950
+          }
+        ]
+      }
+    },
+    {
+      "id": "jit-064",
+      "estado": "instavel_jitter",
+      "modo": "carinha_e_gestos",
+      "frase": "Quase nada de estabilidade nesse trecho!",
+      "carinha": "emoji_u1f615_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f90f_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f590_3d.webp",
+            "duracao_ms": 1000
+          }
+        ]
+      }
+    },
+    {
+      "id": "jit-065",
+      "estado": "instavel_jitter",
+      "modo": "carinha_e_gestos",
+      "frase": "Sessão agitada com muita variação de latência!",
+      "carinha": "emoji_u1f635_200d_1f4ab_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_longa",
+        "passos": [
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 750
+          },
+          {
+            "gesto": "emoji_u1fae2_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f90f_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1fae2_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f590_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "jit-066",
+      "estado": "instavel_jitter",
+      "modo": "carinha_e_gestos",
+      "frase": "O sinal está meio trêmulo nesta leitura.",
+      "carinha": "emoji_u1fae2_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f90f_3d.webp",
+            "duracao_ms": 1300
+          }
+        ]
+      }
+    },
+    {
+      "id": "jit-067",
+      "estado": "instavel_jitter",
+      "modo": "carinha_e_gestos",
+      "frase": "Pega leve, latência! Oscilou feio agora.",
+      "carinha": "emoji_u1f974_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u270b_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1fae2_3d.webp",
+            "duracao_ms": 1000
+          }
+        ]
+      }
+    },
+    {
+      "id": "jit-068",
+      "estado": "instavel_jitter",
+      "modo": "carinha_e_gestos",
+      "frase": "Olha o sobe-e-desce da resposta na tela!",
+      "carinha": "emoji_u1f92a_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f90f_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1fae2_3d.webp",
+            "duracao_ms": 1000
+          }
+        ]
+      }
+    },
+    {
+      "id": "jit-069",
+      "estado": "instavel_jitter",
+      "modo": "carinha_e_gestos",
+      "frase": "Aviso: latência com comportamento errático.",
+      "carinha": "emoji_u1f615_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u261d_3d.webp",
+            "duracao_ms": 1300
+          }
+        ]
+      }
+    },
+    {
+      "id": "jit-070",
+      "estado": "instavel_jitter",
+      "modo": "carinha_e_gestos",
+      "frase": "O jitter deu um pulo e mexeu na média.",
+      "carinha": "emoji_u1f635_200d_1f4ab_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1fae2_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u261d_3d.webp",
+            "duracao_ms": 1000
+          }
+        ]
+      }
+    },
+    {
+      "id": "jit-071",
+      "estado": "instavel_jitter",
+      "modo": "carinha_e_gestos",
+      "frase": "A conexão está meio balançada nesta hora.",
+      "carinha": "emoji_u1f974_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f90f_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1fae2_3d.webp",
+            "duracao_ms": 900
+          },
+          {
+            "gesto": "emoji_u1f90f_3d.webp",
+            "duracao_ms": 950
+          }
+        ]
+      }
+    },
+    {
+      "id": "jit-072",
+      "estado": "instavel_jitter",
+      "modo": "carinha_e_gestos",
+      "frase": "Tremorzinho chato na linha, mas seguimos!",
+      "carinha": "emoji_u1fae2_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1fae2_3d.webp",
+            "duracao_ms": 1300
+          }
+        ]
+      }
+    },
+    {
+      "id": "jit-073",
+      "estado": "instavel_jitter",
+      "modo": "carinha_e_gestos",
+      "frase": "Muita bagunça nos tempos de resposta agora!",
+      "carinha": "emoji_u1f92a_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_longa",
+        "passos": [
+          {
+            "gesto": "emoji_u261d_3d.webp",
+            "duracao_ms": 750
+          },
+          {
+            "gesto": "emoji_u1f90f_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1fae2_3d.webp",
+            "duracao_ms": 900
+          },
+          {
+            "gesto": "emoji_u1f590_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f90f_3d.webp",
+            "duracao_ms": 950
+          }
+        ]
+      }
+    },
+    {
+      "id": "jit-074",
+      "estado": "instavel_jitter",
+      "modo": "carinha_e_gestos",
+      "frase": "Olha esse trecho irregular aqui no painel!",
+      "carinha": "emoji_u1f615_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f90f_3d.webp",
+            "duracao_ms": 1000
+          }
+        ]
+      }
+    },
+    {
+      "id": "jit-075",
+      "estado": "instavel_jitter",
+      "modo": "carinha_e_gestos",
+      "frase": "Oscilação forte deixando o gráfico agitado.",
+      "carinha": "emoji_u1f635_200d_1f4ab_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1fae2_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f590_3d.webp",
+            "duracao_ms": 900
+          },
+          {
+            "gesto": "emoji_u1f90f_3d.webp",
+            "duracao_ms": 950
+          }
+        ]
+      }
+    },
+    {
+      "id": "jit-076",
+      "estado": "instavel_jitter",
+      "modo": "carinha_e_gestos",
+      "frase": "A variação de latência está bem marcada agora.",
+      "carinha": "emoji_u1f974_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f90f_3d.webp",
+            "duracao_ms": 1300
+          }
+        ]
+      }
+    },
+    {
+      "id": "jit-077",
+      "estado": "instavel_jitter",
+      "modo": "carinha_e_gestos",
+      "frase": "Sinal chacoalhando no meio da medição!",
+      "carinha": "emoji_u1fae2_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1fae2_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u261d_3d.webp",
+            "duracao_ms": 1000
+          }
+        ]
+      }
+    },
+    {
+      "id": "jit-078",
+      "estado": "instavel_jitter",
+      "modo": "carinha_e_gestos",
+      "frase": "A conexão está meio doidinha nesta janela.",
+      "carinha": "emoji_u1f92a_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1fae2_3d.webp",
+            "duracao_ms": 900
+          },
+          {
+            "gesto": "emoji_u1f90f_3d.webp",
+            "duracao_ms": 950
+          }
+        ]
+      }
+    },
+    {
+      "id": "jit-079",
+      "estado": "instavel_jitter",
+      "modo": "carinha_e_gestos",
+      "frase": "Jitter alto exigindo atenção dobrada!",
+      "carinha": "emoji_u1f635_200d_1f4ab_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_longa",
+        "passos": [
+          {
+            "gesto": "emoji_u261d_3d.webp",
+            "duracao_ms": 750
+          },
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f90f_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1fae2_3d.webp",
+            "duracao_ms": 900
+          },
+          {
+            "gesto": "emoji_u270b_3d.webp",
+            "duracao_ms": 950
+          }
+        ]
+      }
+    },
+    {
+      "id": "jit-080",
+      "estado": "instavel_jitter",
+      "modo": "carinha_e_gestos",
+      "frase": "Estabilidade oscilando neste momento.",
+      "carinha": "emoji_u1f615_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f590_3d.webp",
+            "duracao_ms": 1300
+          }
+        ]
+      }
+    },
+    {
+      "id": "jit-081",
+      "estado": "instavel_jitter",
+      "modo": "carinha_e_gestos",
+      "frase": "Mediu um engasgo e logo depois tremeu!",
+      "carinha": "emoji_u1f974_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f90f_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1fae2_3d.webp",
+            "duracao_ms": 1000
+          }
+        ]
+      }
+    },
+    {
+      "id": "jit-082",
+      "estado": "instavel_jitter",
+      "modo": "carinha_e_gestos",
+      "frase": "A curva não consegue ficar parada por aqui.",
+      "carinha": "emoji_u1fae2_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1fae2_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f90f_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u261d_3d.webp",
+            "duracao_ms": 950
+          }
+        ]
+      }
+    },
+    {
+      "id": "jit-083",
+      "estado": "instavel_jitter",
+      "modo": "carinha_e_gestos",
+      "frase": "Que mistura maluca de latências na rodada!",
+      "carinha": "emoji_u1f92a_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1fae2_3d.webp",
+            "duracao_ms": 1300
+          }
+        ]
+      }
+    },
+    {
+      "id": "jit-084",
+      "estado": "instavel_jitter",
+      "modo": "carinha_e_gestos",
+      "frase": "Olha o jitter subindo ali no gráfico!",
+      "carinha": "emoji_u1f635_200d_1f4ab_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f90f_3d.webp",
+            "duracao_ms": 1000
+          }
+        ]
+      }
+    },
+    {
+      "id": "jit-085",
+      "estado": "instavel_jitter",
+      "modo": "carinha_e_gestos",
+      "frase": "A conexão está meio cambaleante por aqui.",
+      "carinha": "emoji_u1f974_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f590_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1fae2_3d.webp",
+            "duracao_ms": 900
+          },
+          {
+            "gesto": "emoji_u1f90f_3d.webp",
+            "duracao_ms": 950
+          }
+        ]
+      }
+    },
+    {
+      "id": "jit-086",
+      "estado": "instavel_jitter",
+      "modo": "carinha_e_gestos",
+      "frase": "Sinal instável nesta medição do Pingnet.",
+      "carinha": "emoji_u1f615_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f90f_3d.webp",
+            "duracao_ms": 1300
+          }
+        ]
+      }
+    },
+    {
+      "id": "jit-087",
+      "estado": "instavel_jitter",
+      "modo": "carinha_e_gestos",
+      "frase": "Tremor e variação forte na série atual!",
+      "carinha": "emoji_u1fae2_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_longa",
+        "passos": [
+          {
+            "gesto": "emoji_u1fae2_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f90f_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u261d_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f590_3d.webp",
+            "duracao_ms": 1000
+          }
+        ]
+      }
+    },
+    {
+      "id": "jit-088",
+      "estado": "instavel_jitter",
+      "modo": "carinha_e_gestos",
+      "frase": "Pega calma, sinal! Muito jitter de uma vez.",
+      "carinha": "emoji_u1f635_200d_1f4ab_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u270b_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f90f_3d.webp",
+            "duracao_ms": 1000
+          }
+        ]
+      }
+    },
+    {
+      "id": "jit-089",
+      "estado": "instavel_jitter",
+      "modo": "carinha_e_gestos",
+      "frase": "Oscilando sem padrão fixo nesta leitura.",
+      "carinha": "emoji_u1f974_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f90f_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u261d_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1fae2_3d.webp",
+            "duracao_ms": 950
+          }
+        ]
+      }
+    },
+    {
+      "id": "jit-090",
+      "estado": "instavel_jitter",
+      "modo": "carinha_e_gestos",
+      "frase": "A latência deu uma balançada forte agora!",
+      "carinha": "emoji_u1f92a_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1fae2_3d.webp",
+            "duracao_ms": 1300
+          }
+        ]
+      }
+    },
+    {
+      "id": "jit-091",
+      "estado": "instavel_jitter",
+      "modo": "carinha_e_gestos",
+      "frase": "Repara nesse engasgo curto mas frequente.",
+      "carinha": "emoji_u1f615_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f90f_3d.webp",
+            "duracao_ms": 1000
+          }
+        ]
+      }
+    },
+    {
+      "id": "jit-092",
+      "estado": "instavel_jitter",
+      "modo": "carinha_e_gestos",
+      "frase": "O sinal está tremendo e pedindo firmeza.",
+      "carinha": "emoji_u1fae2_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1fae2_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f590_3d.webp",
+            "duracao_ms": 900
+          },
+          {
+            "gesto": "emoji_u261d_3d.webp",
+            "duracao_ms": 950
+          }
+        ]
+      }
+    },
+    {
+      "id": "jit-093",
+      "estado": "instavel_jitter",
+      "modo": "carinha_e_gestos",
+      "frase": "Muita oscilação entre os pings desta rodada!",
+      "carinha": "emoji_u1f635_200d_1f4ab_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f90f_3d.webp",
+            "duracao_ms": 1300
+          }
+        ]
+      }
+    },
+    {
+      "id": "jit-094",
+      "estado": "instavel_jitter",
+      "modo": "carinha_e_gestos",
+      "frase": "Linha instável e respostas bem variáveis.",
+      "carinha": "emoji_u1f974_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_longa",
+        "passos": [
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 750
+          },
+          {
+            "gesto": "emoji_u1f90f_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1fae2_3d.webp",
+            "duracao_ms": 900
+          },
+          {
+            "gesto": "emoji_u1f90f_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f590_3d.webp",
+            "duracao_ms": 1000
+          }
+        ]
+      }
+    },
+    {
+      "id": "jit-095",
+      "estado": "instavel_jitter",
+      "modo": "carinha_e_gestos",
+      "frase": "A conexão deu mais uma oscilada agora.",
+      "carinha": "emoji_u1f92a_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1fae2_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f90f_3d.webp",
+            "duracao_ms": 1000
+          }
+        ]
+      }
+    },
+    {
+      "id": "jit-096",
+      "estado": "instavel_jitter",
+      "modo": "carinha_e_gestos",
+      "frase": "Atenção: o jitter está acima do sossego.",
+      "carinha": "emoji_u1f615_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u261d_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f90f_3d.webp",
+            "duracao_ms": 950
+          }
+        ]
+      }
+    },
+    {
+      "id": "jit-097",
+      "estado": "instavel_jitter",
+      "modo": "carinha_e_gestos",
+      "frase": "Sinal com tremor nesta coleta.",
+      "carinha": "emoji_u1fae2_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1fae2_3d.webp",
+            "duracao_ms": 1300
+          }
+        ]
+      }
+    },
+    {
+      "id": "jit-098",
+      "estado": "instavel_jitter",
+      "modo": "carinha_e_gestos",
+      "frase": "Latência embaralhada e difícil de cravar!",
+      "carinha": "emoji_u1f635_200d_1f4ab_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f90f_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1fae2_3d.webp",
+            "duracao_ms": 1000
+          }
+        ]
+      }
+    },
+    {
+      "id": "jit-099",
+      "estado": "instavel_jitter",
+      "modo": "carinha_e_gestos",
+      "frase": "Fechando o ciclo com jitter bem presente na linha.",
+      "carinha": "emoji_u1f974_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1fae2_3d.webp",
+            "duracao_ms": 900
+          },
+          {
+            "gesto": "emoji_u1f590_3d.webp",
+            "duracao_ms": 1000
+          }
+        ]
+      }
+    },
+    {
+      "id": "jit-100",
+      "estado": "instavel_jitter",
+      "modo": "carinha_e_gestos",
+      "frase": "Sinal oscilando por aqui! Fico de olho na próxima.",
+      "carinha": "emoji_u1f92a_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u261d_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1fae2_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,1490 @@
+{
+  "grupo": "analise",
+  "estado": "investigando_analise",
+  "personagem": "Ping",
+  "formato_assets": "webp",
+  "comportamento_visual": {
+    "animado": true,
+    "flutuante": true,
+    "arrastavel": true,
+    "gestos_pequenos_ao_lado": true
+  },
+  "frases": [
+    {
+      "id": "ana-001",
+      "estado": "investigando_analise",
+      "modo": "apenas_carinha",
+      "frase": "Deixa eu olhar esse gráfico com calma.",
+      "carinha": "emoji_u1f9d0_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ana-002",
+      "estado": "investigando_analise",
+      "modo": "apenas_carinha",
+      "frase": "Analisando os números da última rodada...",
+      "carinha": "emoji_u1f914_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ana-003",
+      "estado": "investigando_analise",
+      "modo": "apenas_carinha",
+      "frase": "Tem um detalhe interessante nessa curva aqui.",
+      "carinha": "emoji_u1f928_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ana-004",
+      "estado": "investigando_analise",
+      "modo": "apenas_carinha",
+      "frase": "Comparando hoje com a média dos últimos dias.",
+      "carinha": "emoji_u1f9d0_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ana-005",
+      "estado": "investigando_analise",
+      "modo": "apenas_carinha",
+      "frase": "Olho vivo nas variações de latência agora.",
+      "carinha": "emoji_u1f441_200d_1f5e8_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ana-006",
+      "estado": "investigando_analise",
+      "modo": "apenas_carinha",
+      "frase": "Vamos ver como ficou o P95 e o P99 nessa janela.",
+      "carinha": "emoji_u1f914_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ana-007",
+      "estado": "investigando_analise",
+      "modo": "apenas_carinha",
+      "frase": "Investigando o comportamento da rota passo a passo.",
+      "carinha": "emoji_u1f9d0_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ana-008",
+      "estado": "investigando_analise",
+      "modo": "apenas_carinha",
+      "frase": "Hum... esse trecho merece uma segunda olhada.",
+      "carinha": "emoji_u1f928_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ana-009",
+      "estado": "investigando_analise",
+      "modo": "apenas_carinha",
+      "frase": "Conferindo os tempos de resposta por alvo.",
+      "carinha": "emoji_u1f914_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ana-010",
+      "estado": "investigando_analise",
+      "modo": "apenas_carinha",
+      "frase": "Observando o mapa de calor para achar padrões.",
+      "carinha": "emoji_u1f9d0_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ana-011",
+      "estado": "investigando_analise",
+      "modo": "apenas_carinha",
+      "frase": "Será que isso é padrão do horário ou acaso?",
+      "carinha": "emoji_u1f914_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ana-012",
+      "estado": "investigando_analise",
+      "modo": "apenas_carinha",
+      "frase": "Revisando o histórico antes de tirar conclusão.",
+      "carinha": "emoji_u1f9d0_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ana-013",
+      "estado": "investigando_analise",
+      "modo": "apenas_carinha",
+      "frase": "Acompanhando os timings da conexão de perto.",
+      "carinha": "emoji_u1f441_200d_1f5e8_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ana-014",
+      "estado": "investigando_analise",
+      "modo": "apenas_carinha",
+      "frase": "Cotejando a semana atual com a passada.",
+      "carinha": "emoji_u1f914_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ana-015",
+      "estado": "investigando_analise",
+      "modo": "apenas_carinha",
+      "frase": "Olhando o resumo mensal com lupa na mão.",
+      "carinha": "emoji_u1f9d0_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ana-016",
+      "estado": "investigando_analise",
+      "modo": "apenas_carinha",
+      "frase": "Alguma coisa mudou sutilmente nessa leitura.",
+      "carinha": "emoji_u1f928_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ana-017",
+      "estado": "investigando_analise",
+      "modo": "apenas_carinha",
+      "frase": "Calculando o uptime real sobre o tempo monitorado.",
+      "carinha": "emoji_u1f914_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ana-018",
+      "estado": "investigando_analise",
+      "modo": "apenas_carinha",
+      "frase": "Varrendo os registros em busca de tendências.",
+      "carinha": "emoji_u1f9d0_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ana-019",
+      "estado": "investigando_analise",
+      "modo": "apenas_carinha",
+      "frase": "Foco total nos detalhes da telemetria agora.",
+      "carinha": "emoji_u1f441_200d_1f5e8_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ana-020",
+      "estado": "investigando_analise",
+      "modo": "apenas_carinha",
+      "frase": "Avaliando se a diferença entre médias faz sentido.",
+      "carinha": "emoji_u1f914_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ana-021",
+      "estado": "investigando_analise",
+      "modo": "apenas_carinha",
+      "frase": "Examinando o comportamento hora a hora.",
+      "carinha": "emoji_u1f9d0_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ana-022",
+      "estado": "investigando_analise",
+      "modo": "apenas_carinha",
+      "frase": "Opa, reparei numa nuance nesse gráfico...",
+      "carinha": "emoji_u1f928_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ana-023",
+      "estado": "investigando_analise",
+      "modo": "apenas_carinha",
+      "frase": "Cruzando os dados de latência com os de banda.",
+      "carinha": "emoji_u1f914_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ana-024",
+      "estado": "investigando_analise",
+      "modo": "apenas_carinha",
+      "frase": "Lendo as entrelinhas do histórico anual.",
+      "carinha": "emoji_u1f9d0_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ana-025",
+      "estado": "investigando_analise",
+      "modo": "apenas_carinha",
+      "frase": "Observando o ritmo das respostas em silêncio.",
+      "carinha": "emoji_u1f441_200d_1f5e8_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ana-026",
+      "estado": "investigando_analise",
+      "modo": "apenas_carinha",
+      "frase": "Checando se há relação com algum evento anotado.",
+      "carinha": "emoji_u1f914_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ana-027",
+      "estado": "investigando_analise",
+      "modo": "apenas_carinha",
+      "frase": "Inspecionando cada ponto fora da curva.",
+      "carinha": "emoji_u1f9d0_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ana-028",
+      "estado": "investigando_analise",
+      "modo": "apenas_carinha",
+      "frase": "Parece simples à primeira vista, mas vou conferir.",
+      "carinha": "emoji_u1f928_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ana-029",
+      "estado": "investigando_analise",
+      "modo": "apenas_carinha",
+      "frase": "Comparando os meses para ver a evolução real.",
+      "carinha": "emoji_u1f914_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ana-030",
+      "estado": "investigando_analise",
+      "modo": "apenas_carinha",
+      "frase": "Olhando o quadro completo antes de falar.",
+      "carinha": "emoji_u1f9d0_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ana-031",
+      "estado": "investigando_analise",
+      "modo": "apenas_carinha",
+      "frase": "Monitorando os sinais com atenção dobrada.",
+      "carinha": "emoji_u1f441_200d_1f5e8_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ana-032",
+      "estado": "investigando_analise",
+      "modo": "apenas_carinha",
+      "frase": "Pensando no que esse pico quer dizer na prática.",
+      "carinha": "emoji_u1f914_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ana-033",
+      "estado": "investigando_analise",
+      "modo": "apenas_carinha",
+      "frase": "Separando sinal limpo de ruído passageiro.",
+      "carinha": "emoji_u1f9d0_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ana-034",
+      "estado": "investigando_analise",
+      "modo": "apenas_carinha",
+      "frase": "Essa oscilação chamou a minha atenção.",
+      "carinha": "emoji_u1f928_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ana-035",
+      "estado": "investigando_analise",
+      "modo": "apenas_carinha",
+      "frase": "Confrontando a meta contratada com a entrega.",
+      "carinha": "emoji_u1f914_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ana-036",
+      "estado": "investigando_analise",
+      "modo": "apenas_carinha",
+      "frase": "Analisando os intervalos entre os incidentes.",
+      "carinha": "emoji_u1f9d0_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ana-037",
+      "estado": "investigando_analise",
+      "modo": "apenas_carinha",
+      "frase": "De olho em cada milissegundo da rodada.",
+      "carinha": "emoji_u1f441_200d_1f5e8_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ana-038",
+      "estado": "investigando_analise",
+      "modo": "apenas_carinha",
+      "frase": "Verificando se a estabilidade melhora à noite.",
+      "carinha": "emoji_u1f914_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ana-039",
+      "estado": "investigando_analise",
+      "modo": "apenas_carinha",
+      "frase": "Examinando o histórico sem pular nenhuma linha.",
+      "carinha": "emoji_u1f9d0_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ana-040",
+      "estado": "investigando_analise",
+      "modo": "apenas_carinha",
+      "frase": "Interessante... isso muda o comparativo.",
+      "carinha": "emoji_u1f928_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ana-041",
+      "estado": "investigando_analise",
+      "modo": "apenas_carinha",
+      "frase": "Estudando o comportamento em dias úteis e folga.",
+      "carinha": "emoji_u1f914_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ana-042",
+      "estado": "investigando_analise",
+      "modo": "apenas_carinha",
+      "frase": "Checando os dados agregados com critério.",
+      "carinha": "emoji_u1f9d0_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ana-043",
+      "estado": "investigando_analise",
+      "modo": "apenas_carinha",
+      "frase": "Observando o que se repete no painel.",
+      "carinha": "emoji_u1f441_200d_1f5e8_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ana-044",
+      "estado": "investigando_analise",
+      "modo": "apenas_carinha",
+      "frase": "Pensando se vale ajustar o intervalo de leitura.",
+      "carinha": "emoji_u1f914_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ana-045",
+      "estado": "investigando_analise",
+      "modo": "apenas_carinha",
+      "frase": "Acompanhando o comparativo passo a passo.",
+      "carinha": "emoji_u1f9d0_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ana-046",
+      "estado": "investigando_analise",
+      "modo": "apenas_carinha",
+      "frase": "Tem um padrãozinho querendo aparecer aqui.",
+      "carinha": "emoji_u1f928_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ana-047",
+      "estado": "investigando_analise",
+      "modo": "apenas_carinha",
+      "frase": "Revisando os números antes de fechar a leitura.",
+      "carinha": "emoji_u1f914_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ana-048",
+      "estado": "investigando_analise",
+      "modo": "apenas_carinha",
+      "frase": "Olhando o detalhe fino da série histórica.",
+      "carinha": "emoji_u1f9d0_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ana-049",
+      "estado": "investigando_analise",
+      "modo": "apenas_carinha",
+      "frase": "Atento a qualquer mudança sutil no sinal.",
+      "carinha": "emoji_u1f441_200d_1f5e8_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ana-050",
+      "estado": "investigando_analise",
+      "modo": "apenas_carinha",
+      "frase": "Investigação em andamento na bancada do Pingnet.",
+      "carinha": "emoji_u1f914_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "ana-051",
+      "estado": "investigando_analise",
+      "modo": "carinha_e_gestos",
+      "frase": "Olha bem para esse ponto aqui no gráfico!",
+      "carinha": "emoji_u1f9d0_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 1350
+          }
+        ]
+      }
+    },
+    {
+      "id": "ana-052",
+      "estado": "investigando_analise",
+      "modo": "carinha_e_gestos",
+      "frase": "Repare só nesse detalhe que eu marquei!",
+      "carinha": "emoji_u1f928_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u261d_3d.webp",
+            "duracao_ms": 1350
+          }
+        ]
+      }
+    },
+    {
+      "id": "ana-053",
+      "estado": "investigando_analise",
+      "modo": "carinha_e_gestos",
+      "frase": "Aponto aqui e chamo atenção para o dado!",
+      "carinha": "emoji_u1f9d0_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u261d_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "ana-054",
+      "estado": "investigando_analise",
+      "modo": "carinha_e_gestos",
+      "frase": "A diferença é pequenininha, mas eu vi!",
+      "carinha": "emoji_u1f914_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f90f_3d.webp",
+            "duracao_ms": 900
+          },
+          {
+            "gesto": "emoji_u261d_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "ana-055",
+      "estado": "investigando_analise",
+      "modo": "carinha_e_gestos",
+      "frase": "Investigando na bancada: aponto, meço e confirmo!",
+      "carinha": "emoji_u1f9d0_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f90f_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u261d_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44c_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "ana-056",
+      "estado": "investigando_analise",
+      "modo": "carinha_e_gestos",
+      "frase": "Olhando o antes e o depois no comparativo!",
+      "carinha": "emoji_u1f914_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f448_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u261d_3d.webp",
+            "duracao_ms": 1000
+          }
+        ]
+      }
+    },
+    {
+      "id": "ana-057",
+      "estado": "investigando_analise",
+      "modo": "carinha_e_gestos",
+      "frase": "Análise completa no histórico: olha, mede, anota e fecha!",
+      "carinha": "emoji_u1f9d0_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_longa",
+        "passos": [
+          {
+            "gesto": "emoji_u1f448_3d.webp",
+            "duracao_ms": 750
+          },
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f90f_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u270d_3d.webp",
+            "duracao_ms": 950
+          },
+          {
+            "gesto": "emoji_u1f44c_3d.webp",
+            "duracao_ms": 1100
+          }
+        ]
+      }
+    },
+    {
+      "id": "ana-058",
+      "estado": "investigando_analise",
+      "modo": "carinha_e_gestos",
+      "frase": "Medida exata na análise desta leitura!",
+      "carinha": "emoji_u1f914_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f90c_3d.webp",
+            "duracao_ms": 1300
+          }
+        ]
+      }
+    },
+    {
+      "id": "ana-059",
+      "estado": "investigando_analise",
+      "modo": "carinha_e_gestos",
+      "frase": "Olha esse dado aqui e anota a observação!",
+      "carinha": "emoji_u1f9d0_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u270d_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "ana-060",
+      "estado": "investigando_analise",
+      "modo": "carinha_e_gestos",
+      "frase": "Só um tiquinho de variação, nada fora do esquadro.",
+      "carinha": "emoji_u1f928_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f90f_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u261d_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f90c_3d.webp",
+            "duracao_ms": 1000
+          }
+        ]
+      }
+    },
+    {
+      "id": "ana-061",
+      "estado": "investigando_analise",
+      "modo": "carinha_e_gestos",
+      "frase": "Conferindo os gráficos de ponta a ponta!",
+      "carinha": "emoji_u1f9d0_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f448_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 1000
+          }
+        ]
+      }
+    },
+    {
+      "id": "ana-062",
+      "estado": "investigando_analise",
+      "modo": "carinha_e_gestos",
+      "frase": "Opa, olha esse salto na curva de latência!",
+      "carinha": "emoji_u1f928_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 1300
+          }
+        ]
+      }
+    },
+    {
+      "id": "ana-063",
+      "estado": "investigando_analise",
+      "modo": "carinha_e_gestos",
+      "frase": "Ajustando o foco no comparativo semanal!",
+      "carinha": "emoji_u1f914_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u261d_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f90c_3d.webp",
+            "duracao_ms": 1000
+          }
+        ]
+      }
+    },
+    {
+      "id": "ana-064",
+      "estado": "investigando_analise",
+      "modo": "carinha_e_gestos",
+      "frase": "Olha esse detalhe fino no histórico do mês!",
+      "carinha": "emoji_u1f9d0_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f90f_3d.webp",
+            "duracao_ms": 1000
+          }
+        ]
+      }
+    },
+    {
+      "id": "ana-065",
+      "estado": "investigando_analise",
+      "modo": "carinha_e_gestos",
+      "frase": "Varredura detalhada nos dados da rede!",
+      "carinha": "emoji_u1f441_200d_1f5e8_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_longa",
+        "passos": [
+          {
+            "gesto": "emoji_u1f448_3d.webp",
+            "duracao_ms": 750
+          },
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u261d_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f90f_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f90c_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "ana-066",
+      "estado": "investigando_analise",
+      "modo": "carinha_e_gestos",
+      "frase": "Anotando o comportamento dessa janela de teste.",
+      "carinha": "emoji_u1f914_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u270d_3d.webp",
+            "duracao_ms": 1300
+          }
+        ]
+      }
+    },
+    {
+      "id": "ana-067",
+      "estado": "investigando_analise",
+      "modo": "carinha_e_gestos",
+      "frase": "Olha ali na esquerda como estava antes!",
+      "carinha": "emoji_u1f9d0_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f448_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u261d_3d.webp",
+            "duracao_ms": 1000
+          }
+        ]
+      }
+    },
+    {
+      "id": "ana-068",
+      "estado": "investigando_analise",
+      "modo": "carinha_e_gestos",
+      "frase": "Examinando cada ponto com precisão de relógio.",
+      "carinha": "emoji_u1f928_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f90f_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f90c_3d.webp",
+            "duracao_ms": 1000
+          }
+        ]
+      }
+    },
+    {
+      "id": "ana-069",
+      "estado": "investigando_analise",
+      "modo": "carinha_e_gestos",
+      "frase": "Fica de olho nessa coluna do mapa de calor!",
+      "carinha": "emoji_u1f9d0_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u261d_3d.webp",
+            "duracao_ms": 1300
+          }
+        ]
+      }
+    },
+    {
+      "id": "ana-070",
+      "estado": "investigando_analise",
+      "modo": "carinha_e_gestos",
+      "frase": "Comparando o trecho atual com o histórico longo.",
+      "carinha": "emoji_u1f914_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f448_3d.webp",
+            "duracao_ms": 1000
+          }
+        ]
+      }
+    },
+    {
+      "id": "ana-071",
+      "estado": "investigando_analise",
+      "modo": "carinha_e_gestos",
+      "frase": "Olha bem para a curva e anota a conclusão!",
+      "carinha": "emoji_u1f9d0_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u261d_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u270d_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "ana-072",
+      "estado": "investigando_analise",
+      "modo": "carinha_e_gestos",
+      "frase": "Amostra fina, leitura limpa e foco total.",
+      "carinha": "emoji_u1f928_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f90c_3d.webp",
+            "duracao_ms": 1300
+          }
+        ]
+      }
+    },
+    {
+      "id": "ana-073",
+      "estado": "investigando_analise",
+      "modo": "carinha_e_gestos",
+      "frase": "Investigando o que mudou entre uma leitura e outra.",
+      "carinha": "emoji_u1f914_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_longa",
+        "passos": [
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 750
+          },
+          {
+            "gesto": "emoji_u1f90f_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f448_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u261d_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u270d_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "ana-074",
+      "estado": "investigando_analise",
+      "modo": "carinha_e_gestos",
+      "frase": "Repara nesse pico ali em cima!",
+      "carinha": "emoji_u1f9d0_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u261d_3d.webp",
+            "duracao_ms": 1000
+          }
+        ]
+      }
+    },
+    {
+      "id": "ana-075",
+      "estado": "investigando_analise",
+      "modo": "carinha_e_gestos",
+      "frase": "Checando os detalhes da medição com calma.",
+      "carinha": "emoji_u1f441_200d_1f5e8_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f90f_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u261d_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44c_3d.webp",
+            "duracao_ms": 1000
+          }
+        ]
+      }
+    },
+    {
+      "id": "ana-076",
+      "estado": "investigando_analise",
+      "modo": "carinha_e_gestos",
+      "frase": "Olho atento no gráfico de hoje!",
+      "carinha": "emoji_u1f9d0_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 1300
+          }
+        ]
+      }
+    },
+    {
+      "id": "ana-077",
+      "estado": "investigando_analise",
+      "modo": "carinha_e_gestos",
+      "frase": "Medindo a diferença entre o pico e a média.",
+      "carinha": "emoji_u1f914_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f90f_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 1000
+          }
+        ]
+      }
+    },
+    {
+      "id": "ana-078",
+      "estado": "investigando_analise",
+      "modo": "carinha_e_gestos",
+      "frase": "Leitura cuidadosa antes de fechar o diagnóstico.",
+      "carinha": "emoji_u1f928_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u261d_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f90f_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u270d_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "ana-079",
+      "estado": "investigando_analise",
+      "modo": "carinha_e_gestos",
+      "frase": "Investigando cada camada do histórico!",
+      "carinha": "emoji_u1f9d0_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_longa",
+        "passos": [
+          {
+            "gesto": "emoji_u1f448_3d.webp",
+            "duracao_ms": 750
+          },
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f90f_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u261d_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f90c_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "ana-080",
+      "estado": "investigando_analise",
+      "modo": "carinha_e_gestos",
+      "frase": "Marcando esse ponto para observar melhor.",
+      "carinha": "emoji_u1f914_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u261d_3d.webp",
+            "duracao_ms": 1300
+          }
+        ]
+      }
+    },
+    {
+      "id": "ana-081",
+      "estado": "investigando_analise",
+      "modo": "carinha_e_gestos",
+      "frase": "Olha como o comparativo muda de cara aqui!",
+      "carinha": "emoji_u1f9d0_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u261d_3d.webp",
+            "duracao_ms": 1000
+          }
+        ]
+      }
+    },
+    {
+      "id": "ana-082",
+      "estado": "investigando_analise",
+      "modo": "carinha_e_gestos",
+      "frase": "Analisando o comportamento do sinal ao longo do dia.",
+      "carinha": "emoji_u1f441_200d_1f5e8_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f448_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u270d_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "ana-083",
+      "estado": "investigando_analise",
+      "modo": "carinha_e_gestos",
+      "frase": "Anotação feita: seguimos acompanhando o sinal.",
+      "carinha": "emoji_u1f928_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u270d_3d.webp",
+            "duracao_ms": 1300
+          }
+        ]
+      }
+    },
+    {
+      "id": "ana-084",
+      "estado": "investigando_analise",
+      "modo": "carinha_e_gestos",
+      "frase": "Olho na métrica e mão na caneta da bancada!",
+      "carinha": "emoji_u1f9d0_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u270d_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "ana-085",
+      "estado": "investigando_analise",
+      "modo": "carinha_e_gestos",
+      "frase": "Comparando os dados com calma e precisão.",
+      "carinha": "emoji_u1f914_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f90f_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u261d_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f90c_3d.webp",
+            "duracao_ms": 1000
+          }
+        ]
+      }
+    },
+    {
+      "id": "ana-086",
+      "estado": "investigando_analise",
+      "modo": "carinha_e_gestos",
+      "frase": "Olha esse trecho aqui, bem curioso!",
+      "carinha": "emoji_u1f9d0_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 1300
+          }
+        ]
+      }
+    },
+    {
+      "id": "ana-087",
+      "estado": "investigando_analise",
+      "modo": "carinha_e_gestos",
+      "frase": "Revisando o histórico antes de avançar.",
+      "carinha": "emoji_u1f928_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_longa",
+        "passos": [
+          {
+            "gesto": "emoji_u1f448_3d.webp",
+            "duracao_ms": 750
+          },
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u261d_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f90f_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u270d_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "ana-088",
+      "estado": "investigando_analise",
+      "modo": "carinha_e_gestos",
+      "frase": "Acompanhando os detalhes sem pressa.",
+      "carinha": "emoji_u1f441_200d_1f5e8_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u261d_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f90c_3d.webp",
+            "duracao_ms": 1000
+          }
+        ]
+      }
+    },
+    {
+      "id": "ana-089",
+      "estado": "investigando_analise",
+      "modo": "carinha_e_gestos",
+      "frase": "Observando o gráfico de ponta a ponta.",
+      "carinha": "emoji_u1f9d0_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f448_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44c_3d.webp",
+            "duracao_ms": 1000
+          }
+        ]
+      }
+    },
+    {
+      "id": "ana-090",
+      "estado": "investigando_analise",
+      "modo": "carinha_e_gestos",
+      "frase": "Ajustando a leitura com atenção total.",
+      "carinha": "emoji_u1f914_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f90f_3d.webp",
+            "duracao_ms": 1300
+          }
+        ]
+      }
+    },
+    {
+      "id": "ana-091",
+      "estado": "investigando_analise",
+      "modo": "carinha_e_gestos",
+      "frase": "Olha esse ponto no comparativo de hoje!",
+      "carinha": "emoji_u1f9d0_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u261d_3d.webp",
+            "duracao_ms": 1000
+          }
+        ]
+      }
+    },
+    {
+      "id": "ana-092",
+      "estado": "investigando_analise",
+      "modo": "carinha_e_gestos",
+      "frase": "Registrando o que apareceu na análise.",
+      "carinha": "emoji_u1f928_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u261d_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u270d_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "ana-093",
+      "estado": "investigando_analise",
+      "modo": "carinha_e_gestos",
+      "frase": "Verificando o detalhe antes de seguir.",
+      "carinha": "emoji_u1f914_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u261d_3d.webp",
+            "duracao_ms": 1300
+          }
+        ]
+      }
+    },
+    {
+      "id": "ana-094",
+      "estado": "investigando_analise",
+      "modo": "carinha_e_gestos",
+      "frase": "Leitura limpa e observação anotada!",
+      "carinha": "emoji_u1f9d0_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_longa",
+        "passos": [
+          {
+            "gesto": "emoji_u1f448_3d.webp",
+            "duracao_ms": 750
+          },
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f90f_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u270d_3d.webp",
+            "duracao_ms": 950
+          },
+          {
+            "gesto": "emoji_u1f90c_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "ana-095",
+      "estado": "investigando_analise",
+      "modo": "carinha_e_gestos",
+      "frase": "De olho no histórico e nos comparativos.",
+      "carinha": "emoji_u1f441_200d_1f5e8_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f90c_3d.webp",
+            "duracao_ms": 1000
+          }
+        ]
+      }
+    },
+    {
+      "id": "ana-096",
+      "estado": "investigando_analise",
+      "modo": "carinha_e_gestos",
+      "frase": "Checando os números com calma na bancada.",
+      "carinha": "emoji_u1f914_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f90f_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u261d_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44c_3d.webp",
+            "duracao_ms": 1000
+          }
+        ]
+      }
+    },
+    {
+      "id": "ana-097",
+      "estado": "investigando_analise",
+      "modo": "carinha_e_gestos",
+      "frase": "Olha esse dado aqui no painel!",
+      "carinha": "emoji_u1f9d0_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 1300
+          }
+        ]
+      }
+    },
+    {
+      "id": "ana-098",
+      "estado": "investigando_analise",
+      "modo": "carinha_e_gestos",
+      "frase": "Anotando mais uma pista da telemetria.",
+      "carinha": "emoji_u1f928_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u261d_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u270d_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "ana-099",
+      "estado": "investigando_analise",
+      "modo": "carinha_e_gestos",
+      "frase": "Fechando o exame desse trecho com critério.",
+      "carinha": "emoji_u1f9d0_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f90f_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44c_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "ana-100",
+      "estado": "investigando_analise",
+      "modo": "carinha_e_gestos",
+      "frase": "Análise concluída por aqui! Seguimos de olho.",
+      "carinha": "emoji_u1f914_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u261d_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f90c_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    }
+  ]
+}

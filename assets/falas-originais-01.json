@@ -1,0 +1,2953 @@
+{
+  "grupo": "positivo",
+  "personagem": "Ping",
+  "formato_assets": "webp",
+  "comportamento_visual": {
+    "animado": true,
+    "flutuante": true,
+    "arrastavel": true,
+    "gestos_pequenos_ao_lado": true
+  },
+  "frases": [
+    {
+      "id": "est-001",
+      "estado": "estavel_redondo",
+      "modo": "apenas_carinha",
+      "frase": "Sinal limpo e redondinho por aqui.",
+      "carinha": "emoji_u1f60a_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "est-002",
+      "estado": "estavel_redondo",
+      "modo": "apenas_carinha",
+      "frase": "Tudo calmo na linha, sem sustos agora.",
+      "carinha": "emoji_u1f642_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "est-003",
+      "estado": "estavel_redondo",
+      "modo": "apenas_carinha",
+      "frase": "Latência comportada e zero quedas na rodada.",
+      "carinha": "emoji_u1f60c_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "est-004",
+      "estado": "estavel_redondo",
+      "modo": "apenas_carinha",
+      "frase": "Bancada tranquila, a conexão está firme.",
+      "carinha": "emoji_u1f60e_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "est-005",
+      "estado": "estavel_redondo",
+      "modo": "apenas_carinha",
+      "frase": "Respostas indo e voltando sem engasgar.",
+      "carinha": "emoji_u263a_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "est-006",
+      "estado": "estavel_redondo",
+      "modo": "apenas_carinha",
+      "frase": "Mais um ciclo saudável anotado no histórico.",
+      "carinha": "emoji_u1f60a_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "est-007",
+      "estado": "estavel_redondo",
+      "modo": "apenas_carinha",
+      "frase": "O pulso da rede bate certinho neste momento.",
+      "carinha": "emoji_u1f642_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "est-008",
+      "estado": "estavel_redondo",
+      "modo": "apenas_carinha",
+      "frase": "Sem ruído chato atrapalhando a medição.",
+      "carinha": "emoji_u1f60c_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "est-009",
+      "estado": "estavel_redondo",
+      "modo": "apenas_carinha",
+      "frase": "Pacotes chegando no prazo e sem perdas.",
+      "carinha": "emoji_u1f60e_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "est-010",
+      "estado": "estavel_redondo",
+      "modo": "apenas_carinha",
+      "frase": "Dia bom para acompanhar os gráficos sem pressa.",
+      "carinha": "emoji_u263a_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "est-011",
+      "estado": "estavel_redondo",
+      "modo": "apenas_carinha",
+      "frase": "A rota está aberta e respondendo bem.",
+      "carinha": "emoji_u1f60a_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "est-012",
+      "estado": "estavel_redondo",
+      "modo": "apenas_carinha",
+      "frase": "Nenhum pico esquisito estragando a curva.",
+      "carinha": "emoji_u1f642_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "est-013",
+      "estado": "estavel_redondo",
+      "modo": "apenas_carinha",
+      "frase": "Sinal constante, do jeito que o laboratório gosta.",
+      "carinha": "emoji_u1f60c_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "est-014",
+      "estado": "estavel_redondo",
+      "modo": "apenas_carinha",
+      "frase": "Tudo sob controle por aqui, pode ficar sossegado.",
+      "carinha": "emoji_u1f60e_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "est-015",
+      "estado": "estavel_redondo",
+      "modo": "apenas_carinha",
+      "frase": "Amostra limpa, média bonita e estabilidade em dia.",
+      "carinha": "emoji_u263a_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "est-016",
+      "estado": "estavel_redondo",
+      "modo": "apenas_carinha",
+      "frase": "Ping leve e conversa fluida com os alvos.",
+      "carinha": "emoji_u1f60a_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "est-017",
+      "estado": "estavel_redondo",
+      "modo": "apenas_carinha",
+      "frase": "Sem soluços na rede até agora.",
+      "carinha": "emoji_u1f642_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "est-018",
+      "estado": "estavel_redondo",
+      "modo": "apenas_carinha",
+      "frase": "Conexão serena, igual água de poço limpo.",
+      "carinha": "emoji_u1f60c_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "est-019",
+      "estado": "estavel_redondo",
+      "modo": "apenas_carinha",
+      "frase": "A linha está cooperando hoje.",
+      "carinha": "emoji_u1f60e_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "est-020",
+      "estado": "estavel_redondo",
+      "modo": "apenas_carinha",
+      "frase": "Mais uma janela de paz registrada no Pingnet.",
+      "carinha": "emoji_u263a_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "est-021",
+      "estado": "estavel_redondo",
+      "modo": "apenas_carinha",
+      "frase": "Os tempos de resposta estão bem alinhados.",
+      "carinha": "emoji_u1f60a_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "est-022",
+      "estado": "estavel_redondo",
+      "modo": "apenas_carinha",
+      "frase": "Sem engasgos no caminho de ida nem de volta.",
+      "carinha": "emoji_u1f642_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "est-023",
+      "estado": "estavel_redondo",
+      "modo": "apenas_carinha",
+      "frase": "Estabilidade exemplar nesta faixa horária.",
+      "carinha": "emoji_u1f60c_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "est-024",
+      "estado": "estavel_redondo",
+      "modo": "apenas_carinha",
+      "frase": "Rede firme, sem pedir socorro.",
+      "carinha": "emoji_u1f60e_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "est-025",
+      "estado": "estavel_redondo",
+      "modo": "apenas_carinha",
+      "frase": "Sinal de respeito neste trecho da medição.",
+      "carinha": "emoji_u263a_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "est-026",
+      "estado": "estavel_redondo",
+      "modo": "apenas_carinha",
+      "frase": "Tudo fluindo com naturalidade por aqui.",
+      "carinha": "emoji_u1f60a_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "est-027",
+      "estado": "estavel_redondo",
+      "modo": "apenas_carinha",
+      "frase": "As medições seguem equilibradas e previsíveis.",
+      "carinha": "emoji_u1f642_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "est-028",
+      "estado": "estavel_redondo",
+      "modo": "apenas_carinha",
+      "frase": "Sem interrupções nem tremedeiras na linha.",
+      "carinha": "emoji_u1f60c_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "est-029",
+      "estado": "estavel_redondo",
+      "modo": "apenas_carinha",
+      "frase": "O observatório está em modo sossego hoje.",
+      "carinha": "emoji_u1f60e_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "est-030",
+      "estado": "estavel_redondo",
+      "modo": "apenas_carinha",
+      "frase": "Conexão estável e sem surpresas ruins.",
+      "carinha": "emoji_u263a_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "est-031",
+      "estado": "estavel_redondo",
+      "modo": "apenas_carinha",
+      "frase": "Cada teste confirma que o sinal está inteiro.",
+      "carinha": "emoji_u1f60a_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "est-032",
+      "estado": "estavel_redondo",
+      "modo": "apenas_carinha",
+      "frase": "Latência baixa e comportamento bem disciplinado.",
+      "carinha": "emoji_u1f642_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "est-033",
+      "estado": "estavel_redondo",
+      "modo": "apenas_carinha",
+      "frase": "Respiro tranquilo enquanto a rede trabalha bem.",
+      "carinha": "emoji_u1f60c_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "est-034",
+      "estado": "estavel_redondo",
+      "modo": "apenas_carinha",
+      "frase": "Caminho livre entre o PC e os servidores.",
+      "carinha": "emoji_u1f60e_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "est-035",
+      "estado": "estavel_redondo",
+      "modo": "apenas_carinha",
+      "frase": "O histórico agradece por um dia assim.",
+      "carinha": "emoji_u263a_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "est-036",
+      "estado": "estavel_redondo",
+      "modo": "apenas_carinha",
+      "frase": "Sem falhas no radar desta rodada.",
+      "carinha": "emoji_u1f60a_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "est-037",
+      "estado": "estavel_redondo",
+      "modo": "apenas_carinha",
+      "frase": "A conexão segura firme sem perder o ritmo.",
+      "carinha": "emoji_u1f642_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "est-038",
+      "estado": "estavel_redondo",
+      "modo": "apenas_carinha",
+      "frase": "Tudo certo nos testes desta sessão.",
+      "carinha": "emoji_u1f60c_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "est-039",
+      "estado": "estavel_redondo",
+      "modo": "apenas_carinha",
+      "frase": "Sinal limpo e sem sinal de alerta.",
+      "carinha": "emoji_u1f60e_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "est-040",
+      "estado": "estavel_redondo",
+      "modo": "apenas_carinha",
+      "frase": "Um daqueles momentos em que nada dá problema.",
+      "carinha": "emoji_u263a_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "est-041",
+      "estado": "estavel_redondo",
+      "modo": "apenas_carinha",
+      "frase": "A rede está redonda como moeda nova.",
+      "carinha": "emoji_u1f60a_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "est-042",
+      "estado": "estavel_redondo",
+      "modo": "apenas_carinha",
+      "frase": "Nenhuma oscilação relevante na última leitura.",
+      "carinha": "emoji_u1f642_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "est-043",
+      "estado": "estavel_redondo",
+      "modo": "apenas_carinha",
+      "frase": "Paz na linha e estabilidade garantida.",
+      "carinha": "emoji_u1f60c_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "est-044",
+      "estado": "estavel_redondo",
+      "modo": "apenas_carinha",
+      "frase": "Monitoramento rodando liso por aqui.",
+      "carinha": "emoji_u1f60e_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "est-045",
+      "estado": "estavel_redondo",
+      "modo": "apenas_carinha",
+      "frase": "Tudo em ordem no laboratório de rede.",
+      "carinha": "emoji_u263a_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "est-046",
+      "estado": "estavel_redondo",
+      "modo": "apenas_carinha",
+      "frase": "Sinal consistente e sem variação brusca.",
+      "carinha": "emoji_u1f60a_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "est-047",
+      "estado": "estavel_redondo",
+      "modo": "apenas_carinha",
+      "frase": "A conexão mantém o passo certinho.",
+      "carinha": "emoji_u1f642_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "est-048",
+      "estado": "estavel_redondo",
+      "modo": "apenas_carinha",
+      "frase": "Sem engasgos nem atrasos dignos de nota.",
+      "carinha": "emoji_u1f60c_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "est-049",
+      "estado": "estavel_redondo",
+      "modo": "apenas_carinha",
+      "frase": "O sinal está firme e bem disposto.",
+      "carinha": "emoji_u1f60e_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "est-050",
+      "estado": "estavel_redondo",
+      "modo": "apenas_carinha",
+      "frase": "Disponibilidade plena durante este ciclo.",
+      "carinha": "emoji_u263a_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "est-051",
+      "estado": "estavel_redondo",
+      "modo": "carinha_e_gestos",
+      "frase": "Tudo certo aqui: sinal limpo e joinha garantido!",
+      "carinha": "emoji_u1f60a_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 1400
+          }
+        ]
+      }
+    },
+    {
+      "id": "est-052",
+      "estado": "estavel_redondo",
+      "modo": "carinha_e_gestos",
+      "frase": "Medição redondinha, na medida exata!",
+      "carinha": "emoji_u1f60c_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44c_3d.webp",
+            "duracao_ms": 1400
+          }
+        ]
+      }
+    },
+    {
+      "id": "est-053",
+      "estado": "estavel_redondo",
+      "modo": "carinha_e_gestos",
+      "frase": "Confiro e aprovo: a conexão está firme.",
+      "carinha": "emoji_u1f642_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44c_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 1100
+          }
+        ]
+      }
+    },
+    {
+      "id": "est-054",
+      "estado": "estavel_redondo",
+      "modo": "carinha_e_gestos",
+      "frase": "Olha esse histórico limpo e aprovado por mim!",
+      "carinha": "emoji_u1f60e_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 1100
+          }
+        ]
+      }
+    },
+    {
+      "id": "est-055",
+      "estado": "estavel_redondo",
+      "modo": "carinha_e_gestos",
+      "frase": "Bom dia de rede! Tudo certinho na bancada.",
+      "carinha": "emoji_u1f60a_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44b_3d.webp",
+            "duracao_ms": 900
+          },
+          {
+            "gesto": "emoji_u1faf3_3d.webp",
+            "duracao_ms": 950
+          }
+        ]
+      }
+    },
+    {
+      "id": "est-056",
+      "estado": "estavel_redondo",
+      "modo": "carinha_e_gestos",
+      "frase": "Sem falhas, sem pressa e com sinal aprovado!",
+      "carinha": "emoji_u263a_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44c_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 1100
+          }
+        ]
+      }
+    },
+    {
+      "id": "est-057",
+      "estado": "estavel_redondo",
+      "modo": "carinha_e_gestos",
+      "frase": "A linha passou no teste com nota máxima!",
+      "carinha": "emoji_u1f60e_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44c_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 900
+          },
+          {
+            "gesto": "emoji_u1f44f_3d.webp",
+            "duracao_ms": 1100
+          }
+        ]
+      }
+    },
+    {
+      "id": "est-058",
+      "estado": "estavel_redondo",
+      "modo": "carinha_e_gestos",
+      "frase": "Mais uma hora inteira sem nenhuma queda!",
+      "carinha": "emoji_u1f60a_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f44c_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "est-059",
+      "estado": "estavel_redondo",
+      "modo": "carinha_e_gestos",
+      "frase": "Latência baixa, sinal firme e aplausos da rede!",
+      "carinha": "emoji_u1f60c_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44f_3d.webp",
+            "duracao_ms": 1000
+          },
+          {
+            "gesto": "emoji_u1f44c_3d.webp",
+            "duracao_ms": 950
+          }
+        ]
+      }
+    },
+    {
+      "id": "est-060",
+      "estado": "estavel_redondo",
+      "modo": "carinha_e_gestos",
+      "frase": "Chequei tudo aqui: conexão limpa e estável.",
+      "carinha": "emoji_u1f642_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u261d_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f44c_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "est-061",
+      "estado": "estavel_redondo",
+      "modo": "carinha_e_gestos",
+      "frase": "Boletim de estabilidade fechado: sinal redondo!",
+      "carinha": "emoji_u1f60e_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_longa",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44b_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f44c_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 900
+          },
+          {
+            "gesto": "emoji_u1f44f_3d.webp",
+            "duracao_ms": 950
+          },
+          {
+            "gesto": "emoji_u1f4aa_3d.webp",
+            "duracao_ms": 1150
+          }
+        ]
+      }
+    },
+    {
+      "id": "est-062",
+      "estado": "estavel_redondo",
+      "modo": "carinha_e_gestos",
+      "frase": "O Ping dá aval completo: rede tranquila!",
+      "carinha": "emoji_u1f60a_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 1300
+          }
+        ]
+      }
+    },
+    {
+      "id": "est-063",
+      "estado": "estavel_redondo",
+      "modo": "carinha_e_gestos",
+      "frase": "Zero engasgos nesta volta do relógio.",
+      "carinha": "emoji_u263a_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44c_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "est-064",
+      "estado": "estavel_redondo",
+      "modo": "carinha_e_gestos",
+      "frase": "Sinal certinho, sem nenhuma reclamação.",
+      "carinha": "emoji_u1f60c_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44c_3d.webp",
+            "duracao_ms": 1300
+          }
+        ]
+      }
+    },
+    {
+      "id": "est-065",
+      "estado": "estavel_redondo",
+      "modo": "carinha_e_gestos",
+      "frase": "Olha que sequência limpa na nossa bancada!",
+      "carinha": "emoji_u1f60e_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 900
+          },
+          {
+            "gesto": "emoji_u1f44f_3d.webp",
+            "duracao_ms": 1000
+          }
+        ]
+      }
+    },
+    {
+      "id": "est-066",
+      "estado": "estavel_redondo",
+      "modo": "carinha_e_gestos",
+      "frase": "A conexão segue firme como rocha.",
+      "carinha": "emoji_u1f60a_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f4aa_3d.webp",
+            "duracao_ms": 1100
+          }
+        ]
+      }
+    },
+    {
+      "id": "est-067",
+      "estado": "estavel_redondo",
+      "modo": "carinha_e_gestos",
+      "frase": "Tudo tranquilo por aqui, só acompanhando.",
+      "carinha": "emoji_u1f642_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 1250
+          }
+        ]
+      }
+    },
+    {
+      "id": "est-068",
+      "estado": "estavel_redondo",
+      "modo": "carinha_e_gestos",
+      "frase": "Amostras limpas e alinhadas no painel.",
+      "carinha": "emoji_u1f60c_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f44c_3d.webp",
+            "duracao_ms": 1000
+          }
+        ]
+      }
+    },
+    {
+      "id": "est-069",
+      "estado": "estavel_redondo",
+      "modo": "carinha_e_gestos",
+      "frase": "Mais uma rodada sem sustos na linha!",
+      "carinha": "emoji_u263a_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44c_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 900
+          },
+          {
+            "gesto": "emoji_u1f44c_3d.webp",
+            "duracao_ms": 950
+          }
+        ]
+      }
+    },
+    {
+      "id": "est-070",
+      "estado": "estavel_redondo",
+      "modo": "carinha_e_gestos",
+      "frase": "A rede está trabalhando com elegância hoje.",
+      "carinha": "emoji_u1f60e_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_longa",
+        "passos": [
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 750
+          },
+          {
+            "gesto": "emoji_u1f44c_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 900
+          },
+          {
+            "gesto": "emoji_u1f44f_3d.webp",
+            "duracao_ms": 950
+          },
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 1100
+          }
+        ]
+      }
+    },
+    {
+      "id": "est-071",
+      "estado": "estavel_redondo",
+      "modo": "carinha_e_gestos",
+      "frase": "Sinal aprovado, sem precisar mexer em nada.",
+      "carinha": "emoji_u1f60a_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44c_3d.webp",
+            "duracao_ms": 1300
+          }
+        ]
+      }
+    },
+    {
+      "id": "est-072",
+      "estado": "estavel_redondo",
+      "modo": "carinha_e_gestos",
+      "frase": "Latência contida e ritmo bem constante.",
+      "carinha": "emoji_u1f642_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u261d_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 1000
+          }
+        ]
+      }
+    },
+    {
+      "id": "est-073",
+      "estado": "estavel_redondo",
+      "modo": "carinha_e_gestos",
+      "frase": "Tudo limpo no radar, pode seguir tranquilo.",
+      "carinha": "emoji_u1f60c_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 1300
+          }
+        ]
+      }
+    },
+    {
+      "id": "est-074",
+      "estado": "estavel_redondo",
+      "modo": "carinha_e_gestos",
+      "frase": "O sinal está tinindo por aqui!",
+      "carinha": "emoji_u1f60e_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44c_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f44f_3d.webp",
+            "duracao_ms": 950
+          },
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "est-075",
+      "estado": "estavel_redondo",
+      "modo": "carinha_e_gestos",
+      "frase": "Mais um bloco de estabilidade pra conta!",
+      "carinha": "emoji_u263a_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44f_3d.webp",
+            "duracao_ms": 1000
+          }
+        ]
+      }
+    },
+    {
+      "id": "est-076",
+      "estado": "estavel_redondo",
+      "modo": "carinha_e_gestos",
+      "frase": "A conexão mantém um padrão bem bonito.",
+      "carinha": "emoji_u1f60a_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f44c_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 1000
+          }
+        ]
+      }
+    },
+    {
+      "id": "est-077",
+      "estado": "estavel_redondo",
+      "modo": "carinha_e_gestos",
+      "frase": "Sem ruído, sem queda e sem drama.",
+      "carinha": "emoji_u1f642_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44c_3d.webp",
+            "duracao_ms": 1250
+          }
+        ]
+      }
+    },
+    {
+      "id": "est-078",
+      "estado": "estavel_redondo",
+      "modo": "carinha_e_gestos",
+      "frase": "O sinal está bem comportado nesta medição.",
+      "carinha": "emoji_u1f60c_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44c_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 1000
+          }
+        ]
+      }
+    },
+    {
+      "id": "est-079",
+      "estado": "estavel_redondo",
+      "modo": "carinha_e_gestos",
+      "frase": "Estabilidade em dia no nosso observatório!",
+      "carinha": "emoji_u1f60e_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_longa",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44b_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f44c_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 900
+          },
+          {
+            "gesto": "emoji_u1f44f_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "est-080",
+      "estado": "estavel_redondo",
+      "modo": "carinha_e_gestos",
+      "frase": "Tudo certo por aqui, sinal limpo e firme.",
+      "carinha": "emoji_u263a_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 1300
+          }
+        ]
+      }
+    },
+    {
+      "id": "est-081",
+      "estado": "estavel_redondo",
+      "modo": "carinha_e_gestos",
+      "frase": "A linha está andando em linha reta!",
+      "carinha": "emoji_u1f60a_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 1000
+          }
+        ]
+      }
+    },
+    {
+      "id": "est-082",
+      "estado": "estavel_redondo",
+      "modo": "carinha_e_gestos",
+      "frase": "Leitura limpa e sem dor de cabeça.",
+      "carinha": "emoji_u1f642_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44c_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 900
+          },
+          {
+            "gesto": "emoji_u1f4aa_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "est-083",
+      "estado": "estavel_redondo",
+      "modo": "carinha_e_gestos",
+      "frase": "Respostas rápidas e sem engasgo nenhum.",
+      "carinha": "emoji_u1f60c_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44c_3d.webp",
+            "duracao_ms": 1250
+          }
+        ]
+      }
+    },
+    {
+      "id": "est-084",
+      "estado": "estavel_redondo",
+      "modo": "carinha_e_gestos",
+      "frase": "A conexão está dando aula de estabilidade!",
+      "carinha": "emoji_u1f60e_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44f_3d.webp",
+            "duracao_ms": 900
+          },
+          {
+            "gesto": "emoji_u1f44c_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "est-085",
+      "estado": "estavel_redondo",
+      "modo": "carinha_e_gestos",
+      "frase": "Sinal de tranquilidade na nossa tela.",
+      "carinha": "emoji_u263a_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44c_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 1000
+          }
+        ]
+      }
+    },
+    {
+      "id": "est-086",
+      "estado": "estavel_redondo",
+      "modo": "carinha_e_gestos",
+      "frase": "Cada ping volta certinho no seu lugar.",
+      "carinha": "emoji_u1f60a_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u261d_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f44c_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 1000
+          }
+        ]
+      }
+    },
+    {
+      "id": "est-087",
+      "estado": "estavel_redondo",
+      "modo": "carinha_e_gestos",
+      "frase": "Sem novidade ruim por aqui, tudo certo.",
+      "carinha": "emoji_u1f642_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 1250
+          }
+        ]
+      }
+    },
+    {
+      "id": "est-088",
+      "estado": "estavel_redondo",
+      "modo": "carinha_e_gestos",
+      "frase": "Sinal suave e bem equilibrado agora.",
+      "carinha": "emoji_u1f60c_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44c_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 1000
+          }
+        ]
+      }
+    },
+    {
+      "id": "est-089",
+      "estado": "estavel_redondo",
+      "modo": "carinha_e_gestos",
+      "frase": "Mais uma hora firme de monitoramento!",
+      "carinha": "emoji_u1f60e_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_longa",
+        "passos": [
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f44c_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44f_3d.webp",
+            "duracao_ms": 950
+          },
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "est-090",
+      "estado": "estavel_redondo",
+      "modo": "carinha_e_gestos",
+      "frase": "A conexão está redondinha neste ciclo.",
+      "carinha": "emoji_u263a_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44c_3d.webp",
+            "duracao_ms": 1300
+          }
+        ]
+      }
+    },
+    {
+      "id": "est-091",
+      "estado": "estavel_redondo",
+      "modo": "carinha_e_gestos",
+      "frase": "Tudo alinhado entre o app e a rede!",
+      "carinha": "emoji_u1f60a_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44c_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 1000
+          }
+        ]
+      }
+    },
+    {
+      "id": "est-092",
+      "estado": "estavel_redondo",
+      "modo": "carinha_e_gestos",
+      "frase": "Sem perdas no caminho, tudo entregue!",
+      "carinha": "emoji_u1f642_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f44c_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 1000
+          }
+        ]
+      }
+    },
+    {
+      "id": "est-093",
+      "estado": "estavel_redondo",
+      "modo": "carinha_e_gestos",
+      "frase": "O sinal está limpinho, sem chiado.",
+      "carinha": "emoji_u1f60c_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 1250
+          }
+        ]
+      }
+    },
+    {
+      "id": "est-094",
+      "estado": "estavel_redondo",
+      "modo": "carinha_e_gestos",
+      "frase": "A bancada está com moral hoje!",
+      "carinha": "emoji_u1f60e_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44c_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44f_3d.webp",
+            "duracao_ms": 1000
+          }
+        ]
+      }
+    },
+    {
+      "id": "est-095",
+      "estado": "estavel_redondo",
+      "modo": "carinha_e_gestos",
+      "frase": "Sinal sereno e confiável por aqui.",
+      "carinha": "emoji_u263a_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44c_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 1000
+          }
+        ]
+      }
+    },
+    {
+      "id": "est-096",
+      "estado": "estavel_redondo",
+      "modo": "carinha_e_gestos",
+      "frase": "A conexão está firme na medição!",
+      "carinha": "emoji_u1f60a_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f4aa_3d.webp",
+            "duracao_ms": 950
+          },
+          {
+            "gesto": "emoji_u1f44c_3d.webp",
+            "duracao_ms": 950
+          }
+        ]
+      }
+    },
+    {
+      "id": "est-097",
+      "estado": "estavel_redondo",
+      "modo": "carinha_e_gestos",
+      "frase": "Tudo certo na linha desta rodada.",
+      "carinha": "emoji_u1f642_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 1250
+          }
+        ]
+      }
+    },
+    {
+      "id": "est-098",
+      "estado": "estavel_redondo",
+      "modo": "carinha_e_gestos",
+      "frase": "Sem falhas no caminho de ida e volta.",
+      "carinha": "emoji_u1f60c_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44c_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 1000
+          }
+        ]
+      }
+    },
+    {
+      "id": "est-099",
+      "estado": "estavel_redondo",
+      "modo": "carinha_e_gestos",
+      "frase": "Fechando mais um trecho com sinal limpo!",
+      "carinha": "emoji_u1f60e_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_longa",
+        "passos": [
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f44c_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44f_3d.webp",
+            "duracao_ms": 950
+          },
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "est-100",
+      "estado": "estavel_redondo",
+      "modo": "carinha_e_gestos",
+      "frase": "Tudo redondo no Pingnet! Próxima medição a caminho.",
+      "carinha": "emoji_u263a_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44c_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec-001",
+      "estado": "recorde_banda",
+      "modo": "apenas_carinha",
+      "frase": "Olha essa velocidade voando no teste!",
+      "carinha": "emoji_u1f929_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "rec-002",
+      "estado": "recorde_banda",
+      "modo": "apenas_carinha",
+      "frase": "Banda cheia e resposta super rápida por aqui!",
+      "carinha": "emoji_u1f973_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "rec-003",
+      "estado": "recorde_banda",
+      "modo": "apenas_carinha",
+      "frase": "Passou da meta com folga nesta medição!",
+      "carinha": "emoji_u1f604_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "rec-004",
+      "estado": "recorde_banda",
+      "modo": "apenas_carinha",
+      "frase": "A conexão abriu o acelerador hoje!",
+      "carinha": "emoji_u1f601_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "rec-005",
+      "estado": "recorde_banda",
+      "modo": "apenas_carinha",
+      "frase": "Desempenho de dar gosto de ver no gráfico!",
+      "carinha": "emoji_u1f606_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "rec-006",
+      "estado": "recorde_banda",
+      "modo": "apenas_carinha",
+      "frase": "Novo pico bonito registrado no histórico!",
+      "carinha": "emoji_u1f929_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "rec-007",
+      "estado": "recorde_banda",
+      "modo": "apenas_carinha",
+      "frase": "Download e upload em alta sem pedir licença!",
+      "carinha": "emoji_u1f973_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "rec-008",
+      "estado": "recorde_banda",
+      "modo": "apenas_carinha",
+      "frase": "Esse teste entregou tudo o que prometia e mais!",
+      "carinha": "emoji_u1f604_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "rec-009",
+      "estado": "recorde_banda",
+      "modo": "apenas_carinha",
+      "frase": "A linha está solta e voando baixo!",
+      "carinha": "emoji_u1f601_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "rec-010",
+      "estado": "recorde_banda",
+      "modo": "apenas_carinha",
+      "frase": "Que sequência forte de estabilidade e velocidade!",
+      "carinha": "emoji_u1f606_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "rec-011",
+      "estado": "recorde_banda",
+      "modo": "apenas_carinha",
+      "frase": "O medidor mal deu conta de acompanhar o ritmo!",
+      "carinha": "emoji_u1f929_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "rec-012",
+      "estado": "recorde_banda",
+      "modo": "apenas_carinha",
+      "frase": "Sinal potente e sem engasgos no trajeto!",
+      "carinha": "emoji_u1f973_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "rec-013",
+      "estado": "recorde_banda",
+      "modo": "apenas_carinha",
+      "frase": "Acima da média recente, bem acima!",
+      "carinha": "emoji_u1f604_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "rec-014",
+      "estado": "recorde_banda",
+      "modo": "apenas_carinha",
+      "frase": "A banda respondeu com força total!",
+      "carinha": "emoji_u1f601_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "rec-015",
+      "estado": "recorde_banda",
+      "modo": "apenas_carinha",
+      "frase": "Hoje a conexão resolveu caprichar!",
+      "carinha": "emoji_u1f606_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "rec-016",
+      "estado": "recorde_banda",
+      "modo": "apenas_carinha",
+      "frase": "Marca histórica para o nosso comparativo!",
+      "carinha": "emoji_u1f929_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "rec-017",
+      "estado": "recorde_banda",
+      "modo": "apenas_carinha",
+      "frase": "Velocidade alta e latência bem comportada!",
+      "carinha": "emoji_u1f973_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "rec-018",
+      "estado": "recorde_banda",
+      "modo": "apenas_carinha",
+      "frase": "Banda no talo e sem perder o equilíbrio!",
+      "carinha": "emoji_u1f604_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "rec-019",
+      "estado": "recorde_banda",
+      "modo": "apenas_carinha",
+      "frase": "Esse resultado merece destaque no painel!",
+      "carinha": "emoji_u1f601_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "rec-020",
+      "estado": "recorde_banda",
+      "modo": "apenas_carinha",
+      "frase": "Fôlego sobrando nesta medição de banda!",
+      "carinha": "emoji_u1f606_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "rec-021",
+      "estado": "recorde_banda",
+      "modo": "apenas_carinha",
+      "frase": "A rede mostrou potência de verdade agora!",
+      "carinha": "emoji_u1f929_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "rec-022",
+      "estado": "recorde_banda",
+      "modo": "apenas_carinha",
+      "frase": "Desempenho brilhante nesta janela de teste!",
+      "carinha": "emoji_u1f973_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "rec-023",
+      "estado": "recorde_banda",
+      "modo": "apenas_carinha",
+      "frase": "Superou a referência com tranquilidade!",
+      "carinha": "emoji_u1f604_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "rec-024",
+      "estado": "recorde_banda",
+      "modo": "apenas_carinha",
+      "frase": "Sinal afiadíssimo e banda generosa!",
+      "carinha": "emoji_u1f601_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "rec-025",
+      "estado": "recorde_banda",
+      "modo": "apenas_carinha",
+      "frase": "O gráfico deu um salto bonito pra cima!",
+      "carinha": "emoji_u1f606_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "rec-026",
+      "estado": "recorde_banda",
+      "modo": "apenas_carinha",
+      "frase": "Ritmo forte, limpo e sem engasgos!",
+      "carinha": "emoji_u1f929_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "rec-027",
+      "estado": "recorde_banda",
+      "modo": "apenas_carinha",
+      "frase": "Que alegria ver a banda entregar nesse nível!",
+      "carinha": "emoji_u1f973_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "rec-028",
+      "estado": "recorde_banda",
+      "modo": "apenas_carinha",
+      "frase": "Teste de velocidade aprovado com louvor!",
+      "carinha": "emoji_u1f604_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "rec-029",
+      "estado": "recorde_banda",
+      "modo": "apenas_carinha",
+      "frase": "A conexão pegou embalo de campeão!",
+      "carinha": "emoji_u1f601_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "rec-030",
+      "estado": "recorde_banda",
+      "modo": "apenas_carinha",
+      "frase": "Mais uma marca forte para guardar no histórico!",
+      "carinha": "emoji_u1f606_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "rec-031",
+      "estado": "recorde_banda",
+      "modo": "apenas_carinha",
+      "frase": "Potência sobrando na linha agora!",
+      "carinha": "emoji_u1f929_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "rec-032",
+      "estado": "recorde_banda",
+      "modo": "apenas_carinha",
+      "frase": "Banda rápida e sem nenhuma hesitação!",
+      "carinha": "emoji_u1f973_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "rec-033",
+      "estado": "recorde_banda",
+      "modo": "apenas_carinha",
+      "frase": "O sinal chegou forte e direto ao ponto!",
+      "carinha": "emoji_u1f604_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "rec-034",
+      "estado": "recorde_banda",
+      "modo": "apenas_carinha",
+      "frase": "Excelente rendimento nesta rodada de teste!",
+      "carinha": "emoji_u1f601_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "rec-035",
+      "estado": "recorde_banda",
+      "modo": "apenas_carinha",
+      "frase": "A linha não economizou velocidade hoje!",
+      "carinha": "emoji_u1f606_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "rec-036",
+      "estado": "recorde_banda",
+      "modo": "apenas_carinha",
+      "frase": "Um dos melhores registros do período por aqui!",
+      "carinha": "emoji_u1f929_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "rec-037",
+      "estado": "recorde_banda",
+      "modo": "apenas_carinha",
+      "frase": "Velocidade em alta e estabilidade junto!",
+      "carinha": "emoji_u1f973_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "rec-038",
+      "estado": "recorde_banda",
+      "modo": "apenas_carinha",
+      "frase": "O teste bateu um número bem animador!",
+      "carinha": "emoji_u1f604_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "rec-039",
+      "estado": "recorde_banda",
+      "modo": "apenas_carinha",
+      "frase": "Sinal afiado como navalha neste momento!",
+      "carinha": "emoji_u1f601_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "rec-040",
+      "estado": "recorde_banda",
+      "modo": "apenas_carinha",
+      "frase": "Banda acima do esperado na medição atual!",
+      "carinha": "emoji_u1f606_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "rec-041",
+      "estado": "recorde_banda",
+      "modo": "apenas_carinha",
+      "frase": "A conexão veio com tudo nesta leitura!",
+      "carinha": "emoji_u1f929_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "rec-042",
+      "estado": "recorde_banda",
+      "modo": "apenas_carinha",
+      "frase": "Desempenho de gala no laboratório hoje!",
+      "carinha": "emoji_u1f973_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "rec-043",
+      "estado": "recorde_banda",
+      "modo": "apenas_carinha",
+      "frase": "A banda passou raspando no recorde!",
+      "carinha": "emoji_u1f604_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "rec-044",
+      "estado": "recorde_banda",
+      "modo": "apenas_carinha",
+      "frase": "Sinal forte, veloz e sem engasgos!",
+      "carinha": "emoji_u1f601_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "rec-045",
+      "estado": "recorde_banda",
+      "modo": "apenas_carinha",
+      "frase": "Que beleza de resultado na tela!",
+      "carinha": "emoji_u1f606_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "rec-046",
+      "estado": "recorde_banda",
+      "modo": "apenas_carinha",
+      "frase": "A linha entregou potência de sobra!",
+      "carinha": "emoji_u1f929_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "rec-047",
+      "estado": "recorde_banda",
+      "modo": "apenas_carinha",
+      "frase": "Banda firme e veloz nesta rodada!",
+      "carinha": "emoji_u1f973_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "rec-048",
+      "estado": "recorde_banda",
+      "modo": "apenas_carinha",
+      "frase": "Resultado de respeito no teste de banda!",
+      "carinha": "emoji_u1f604_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "rec-049",
+      "estado": "recorde_banda",
+      "modo": "apenas_carinha",
+      "frase": "A rede está com gás total por aqui!",
+      "carinha": "emoji_u1f601_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "rec-050",
+      "estado": "recorde_banda",
+      "modo": "apenas_carinha",
+      "frase": "Mais um pico de velocidade anotado!",
+      "carinha": "emoji_u1f606_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "rec-051",
+      "estado": "recorde_banda",
+      "modo": "carinha_e_gestos",
+      "frase": "Olha essa potência! A banda está com tudo!",
+      "carinha": "emoji_u1f929_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f4aa_3d.webp",
+            "duracao_ms": 1400
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec-052",
+      "estado": "recorde_banda",
+      "modo": "carinha_e_gestos",
+      "frase": "Recorde na área! Pode comemorar na bancada!",
+      "carinha": "emoji_u1f973_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f64c_3d.webp",
+            "duracao_ms": 1400
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec-053",
+      "estado": "recorde_banda",
+      "modo": "carinha_e_gestos",
+      "frase": "Força total e mãos pro alto por esse resultado!",
+      "carinha": "emoji_u1f604_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f4aa_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f64c_3d.webp",
+            "duracao_ms": 1150
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec-054",
+      "estado": "recorde_banda",
+      "modo": "carinha_e_gestos",
+      "frase": "Olha esse pico ali no gráfico, que beleza!",
+      "carinha": "emoji_u1f929_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f4aa_3d.webp",
+            "duracao_ms": 1150
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec-055",
+      "estado": "recorde_banda",
+      "modo": "carinha_e_gestos",
+      "frase": "Rock na linha! Banda forte e vitória certa!",
+      "carinha": "emoji_u1f973_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f918_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f4aa_3d.webp",
+            "duracao_ms": 900
+          },
+          {
+            "gesto": "emoji_u270c_3d.webp",
+            "duracao_ms": 900
+          },
+          {
+            "gesto": "emoji_u1f64c_3d.webp",
+            "duracao_ms": 1150
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec-056",
+      "estado": "recorde_banda",
+      "modo": "carinha_e_gestos",
+      "frase": "A conexão mandou ver com força e aplausos!",
+      "carinha": "emoji_u1f601_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f4aa_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44f_3d.webp",
+            "duracao_ms": 950
+          },
+          {
+            "gesto": "emoji_u1f64c_3d.webp",
+            "duracao_ms": 1150
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec-057",
+      "estado": "recorde_banda",
+      "modo": "carinha_e_gestos",
+      "frase": "Que coreografia de banda rápida! Marca histórica!",
+      "carinha": "emoji_u1f929_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_longa",
+        "passos": [
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 750
+          },
+          {
+            "gesto": "emoji_u1f4aa_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44f_3d.webp",
+            "duracao_ms": 900
+          },
+          {
+            "gesto": "emoji_u270c_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f64c_3d.webp",
+            "duracao_ms": 1200
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec-058",
+      "estado": "recorde_banda",
+      "modo": "carinha_e_gestos",
+      "frase": "A rede está mostrando músculo hoje!",
+      "carinha": "emoji_u1f604_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f4aa_3d.webp",
+            "duracao_ms": 1350
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec-059",
+      "estado": "recorde_banda",
+      "modo": "carinha_e_gestos",
+      "frase": "Vitória da banda no teste de agora!",
+      "carinha": "emoji_u1f973_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u270c_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f64c_3d.webp",
+            "duracao_ms": 1100
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec-060",
+      "estado": "recorde_banda",
+      "modo": "carinha_e_gestos",
+      "frase": "Banda voando e aplausos garantidos!",
+      "carinha": "emoji_u1f606_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44f_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f4aa_3d.webp",
+            "duracao_ms": 1100
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec-061",
+      "estado": "recorde_banda",
+      "modo": "carinha_e_gestos",
+      "frase": "Olha esse salto de velocidade na bancada!",
+      "carinha": "emoji_u1f929_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f918_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f4aa_3d.webp",
+            "duracao_ms": 1100
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec-062",
+      "estado": "recorde_banda",
+      "modo": "carinha_e_gestos",
+      "frase": "A conexão veio cheia de energia!",
+      "carinha": "emoji_u1f601_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f64c_3d.webp",
+            "duracao_ms": 1350
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec-063",
+      "estado": "recorde_banda",
+      "modo": "carinha_e_gestos",
+      "frase": "Banda firme, rápida e aplaudida!",
+      "carinha": "emoji_u1f973_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f4aa_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u270c_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44f_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec-064",
+      "estado": "recorde_banda",
+      "modo": "carinha_e_gestos",
+      "frase": "Que descarga boa de velocidade na rede!",
+      "carinha": "emoji_u1f604_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f4aa_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec-065",
+      "estado": "recorde_banda",
+      "modo": "carinha_e_gestos",
+      "frase": "A linha bateu forte no teste de agora!",
+      "carinha": "emoji_u1f929_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_longa",
+        "passos": [
+          {
+            "gesto": "emoji_u1f918_3d.webp",
+            "duracao_ms": 750
+          },
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f4aa_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44f_3d.webp",
+            "duracao_ms": 950
+          },
+          {
+            "gesto": "emoji_u1f64c_3d.webp",
+            "duracao_ms": 1150
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec-066",
+      "estado": "recorde_banda",
+      "modo": "carinha_e_gestos",
+      "frase": "Velocidade em alta e festa no laboratório!",
+      "carinha": "emoji_u1f973_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44f_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f64c_3d.webp",
+            "duracao_ms": 1100
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec-067",
+      "estado": "recorde_banda",
+      "modo": "carinha_e_gestos",
+      "frase": "Banda acima da média e sinal sólido!",
+      "carinha": "emoji_u1f601_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f4aa_3d.webp",
+            "duracao_ms": 1350
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec-068",
+      "estado": "recorde_banda",
+      "modo": "carinha_e_gestos",
+      "frase": "Olha o número que apareceu por aqui!",
+      "carinha": "emoji_u1f606_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f44f_3d.webp",
+            "duracao_ms": 900
+          },
+          {
+            "gesto": "emoji_u270c_3d.webp",
+            "duracao_ms": 1000
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec-069",
+      "estado": "recorde_banda",
+      "modo": "carinha_e_gestos",
+      "frase": "Mais uma marca forte pra nossa coleção!",
+      "carinha": "emoji_u1f929_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u270c_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f4aa_3d.webp",
+            "duracao_ms": 1100
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec-070",
+      "estado": "recorde_banda",
+      "modo": "carinha_e_gestos",
+      "frase": "A conexão entregou um sprint de respeito!",
+      "carinha": "emoji_u1f973_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f918_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f4aa_3d.webp",
+            "duracao_ms": 900
+          },
+          {
+            "gesto": "emoji_u1f64c_3d.webp",
+            "duracao_ms": 1100
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec-071",
+      "estado": "recorde_banda",
+      "modo": "carinha_e_gestos",
+      "frase": "Banda com fôlego de sobra agora!",
+      "carinha": "emoji_u1f604_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f64c_3d.webp",
+            "duracao_ms": 1350
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec-072",
+      "estado": "recorde_banda",
+      "modo": "carinha_e_gestos",
+      "frase": "A linha não segurou nada nesta rodada!",
+      "carinha": "emoji_u1f601_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f4aa_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44f_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec-073",
+      "estado": "recorde_banda",
+      "modo": "carinha_e_gestos",
+      "frase": "Resultado vibrante na nossa bancada!",
+      "carinha": "emoji_u1f929_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_longa",
+        "passos": [
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f918_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f4aa_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44f_3d.webp",
+            "duracao_ms": 950
+          },
+          {
+            "gesto": "emoji_u1f64c_3d.webp",
+            "duracao_ms": 1150
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec-074",
+      "estado": "recorde_banda",
+      "modo": "carinha_e_gestos",
+      "frase": "A velocidade subiu e o Ping aprovou!",
+      "carinha": "emoji_u1f973_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f4aa_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec-075",
+      "estado": "recorde_banda",
+      "modo": "carinha_e_gestos",
+      "frase": "Banda fortíssima no teste de agora!",
+      "carinha": "emoji_u1f606_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f4aa_3d.webp",
+            "duracao_ms": 1350
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec-076",
+      "estado": "recorde_banda",
+      "modo": "carinha_e_gestos",
+      "frase": "Que desempenho bonito na medição!",
+      "carinha": "emoji_u1f604_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44f_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f4aa_3d.webp",
+            "duracao_ms": 900
+          },
+          {
+            "gesto": "emoji_u1f64c_3d.webp",
+            "duracao_ms": 1100
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec-077",
+      "estado": "recorde_banda",
+      "modo": "carinha_e_gestos",
+      "frase": "A conexão está com tudo na pista!",
+      "carinha": "emoji_u1f929_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f918_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f64c_3d.webp",
+            "duracao_ms": 1100
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec-078",
+      "estado": "recorde_banda",
+      "modo": "carinha_e_gestos",
+      "frase": "Pico de velocidade registrado com sucesso!",
+      "carinha": "emoji_u1f973_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f4aa_3d.webp",
+            "duracao_ms": 900
+          },
+          {
+            "gesto": "emoji_u1f44f_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec-079",
+      "estado": "recorde_banda",
+      "modo": "carinha_e_gestos",
+      "frase": "A banda respondeu com brilho e força!",
+      "carinha": "emoji_u1f601_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f64c_3d.webp",
+            "duracao_ms": 1350
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec-080",
+      "estado": "recorde_banda",
+      "modo": "carinha_e_gestos",
+      "frase": "Mais uma marca alta na história do Pingnet!",
+      "carinha": "emoji_u1f606_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_longa",
+        "passos": [
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f4aa_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u270c_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44f_3d.webp",
+            "duracao_ms": 950
+          },
+          {
+            "gesto": "emoji_u1f64c_3d.webp",
+            "duracao_ms": 1150
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec-081",
+      "estado": "recorde_banda",
+      "modo": "carinha_e_gestos",
+      "frase": "Banda solta e sem nenhuma trava!",
+      "carinha": "emoji_u1f929_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f4aa_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u270c_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec-082",
+      "estado": "recorde_banda",
+      "modo": "carinha_e_gestos",
+      "frase": "Que salto de desempenho por aqui!",
+      "carinha": "emoji_u1f973_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44f_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f4aa_3d.webp",
+            "duracao_ms": 900
+          },
+          {
+            "gesto": "emoji_u1f64c_3d.webp",
+            "duracao_ms": 1100
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec-083",
+      "estado": "recorde_banda",
+      "modo": "carinha_e_gestos",
+      "frase": "A conexão está voando alto agora!",
+      "carinha": "emoji_u1f604_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f64c_3d.webp",
+            "duracao_ms": 1350
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec-084",
+      "estado": "recorde_banda",
+      "modo": "carinha_e_gestos",
+      "frase": "Banda forte e sem perder o compasso!",
+      "carinha": "emoji_u1f601_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f4aa_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44d_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec-085",
+      "estado": "recorde_banda",
+      "modo": "carinha_e_gestos",
+      "frase": "Olha esse resultado brilhando no painel!",
+      "carinha": "emoji_u1f606_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f64c_3d.webp",
+            "duracao_ms": 1100
+          },
+          {
+            "gesto": "emoji_u1f44f_3d.webp",
+            "duracao_ms": 1000
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec-086",
+      "estado": "recorde_banda",
+      "modo": "carinha_e_gestos",
+      "frase": "A rede está entregando velocidade de sobra!",
+      "carinha": "emoji_u1f929_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f4aa_3d.webp",
+            "duracao_ms": 1350
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec-087",
+      "estado": "recorde_banda",
+      "modo": "carinha_e_gestos",
+      "frase": "Dia de banda forte e comemoração!",
+      "carinha": "emoji_u1f973_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f918_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f4aa_3d.webp",
+            "duracao_ms": 1100
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec-088",
+      "estado": "recorde_banda",
+      "modo": "carinha_e_gestos",
+      "frase": "A linha passou da marca com folga!",
+      "carinha": "emoji_u1f604_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44aa_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44f_3d.webp",
+            "duracao_ms": 950
+          },
+          {
+            "gesto": "emoji_u270c_3d.webp",
+            "duracao_ms": 1000
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec-089",
+      "estado": "recorde_banda",
+      "modo": "carinha_e_gestos",
+      "frase": "Que potência linda nesta medição!",
+      "carinha": "emoji_u1f601_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_longa",
+        "passos": [
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f4aa_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44f_3d.webp",
+            "duracao_ms": 900
+          },
+          {
+            "gesto": "emoji_u270c_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f64c_3d.webp",
+            "duracao_ms": 1150
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec-090",
+      "estado": "recorde_banda",
+      "modo": "carinha_e_gestos",
+      "frase": "Banda rápida e sorriso no rosto!",
+      "carinha": "emoji_u1f606_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f64c_3d.webp",
+            "duracao_ms": 1350
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec-091",
+      "estado": "recorde_banda",
+      "modo": "carinha_e_gestos",
+      "frase": "O medidor registrou uma bela arrancada!",
+      "carinha": "emoji_u1f929_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f64c_3d.webp",
+            "duracao_ms": 1100
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec-092",
+      "estado": "recorde_banda",
+      "modo": "carinha_e_gestos",
+      "frase": "A conexão veio com força total hoje!",
+      "carinha": "emoji_u1f973_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f4aa_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f64c_3d.webp",
+            "duracao_ms": 1000
+          },
+          {
+            "gesto": "emoji_u1f44f_3d.webp",
+            "duracao_ms": 1000
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec-093",
+      "estado": "recorde_banda",
+      "modo": "carinha_e_gestos",
+      "frase": "Mais um pico de banda no histórico!",
+      "carinha": "emoji_u1f604_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f4aa_3d.webp",
+            "duracao_ms": 1350
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec-094",
+      "estado": "recorde_banda",
+      "modo": "carinha_e_gestos",
+      "frase": "Banda firme e aplausos da bancada!",
+      "carinha": "emoji_u1f601_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44f_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f4aa_3d.webp",
+            "duracao_ms": 1100
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec-095",
+      "estado": "recorde_banda",
+      "modo": "carinha_e_gestos",
+      "frase": "A rede está dando show de velocidade!",
+      "carinha": "emoji_u1f606_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f918_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f44f_3d.webp",
+            "duracao_ms": 950
+          },
+          {
+            "gesto": "emoji_u1f64c_3d.webp",
+            "duracao_ms": 1100
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec-096",
+      "estado": "recorde_banda",
+      "modo": "carinha_e_gestos",
+      "frase": "Resultado de primeira nesta leitura!",
+      "carinha": "emoji_u1f929_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f64c_3d.webp",
+            "duracao_ms": 1350
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec-097",
+      "estado": "recorde_banda",
+      "modo": "carinha_e_gestos",
+      "frase": "Velocidade em alta no nosso laboratório!",
+      "carinha": "emoji_u1f973_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f4aa_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u270c_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec-098",
+      "estado": "recorde_banda",
+      "modo": "carinha_e_gestos",
+      "frase": "A banda respondeu acima da expectativa!",
+      "carinha": "emoji_u1f604_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f4aa_3d.webp",
+            "duracao_ms": 900
+          },
+          {
+            "gesto": "emoji_u1f64c_3d.webp",
+            "duracao_ms": 1100
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec-099",
+      "estado": "recorde_banda",
+      "modo": "carinha_e_gestos",
+      "frase": "Fechando essa medição com chave de ouro e força!",
+      "carinha": "emoji_u1f601_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_longa",
+        "passos": [
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f4aa_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44f_3d.webp",
+            "duracao_ms": 900
+          },
+          {
+            "gesto": "emoji_u270c_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f64c_3d.webp",
+            "duracao_ms": 1150
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec-100",
+      "estado": "recorde_banda",
+      "modo": "carinha_e_gestos",
+      "frase": "Banda no topo! O Ping comemora junto!",
+      "carinha": "emoji_u1f606_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f4aa_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f64c_3d.webp",
+            "duracao_ms": 1150
+          }
+        ]
+      }
+    }
+  ]
+}

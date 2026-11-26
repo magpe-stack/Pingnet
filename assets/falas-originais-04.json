@@ -1,0 +1,1491 @@
+{
+  "grupo": "instabilidade",
+  "parte": "B",
+  "estado": "falsa_conexao",
+  "personagem": "Ping",
+  "formato_assets": "webp",
+  "comportamento_visual": {
+    "animado": true,
+    "flutuante": true,
+    "arrastavel": true,
+    "gestos_pequenos_ao_lado": true
+  },
+  "frases": [
+    {
+      "id": "fal-001",
+      "estado": "falsa_conexao",
+      "modo": "apenas_carinha",
+      "frase": "Parece conectado, mas os pacotes não passam...",
+      "carinha": "emoji_u1f636_200d_1f32b_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "fal-002",
+      "estado": "falsa_conexao",
+      "modo": "apenas_carinha",
+      "frase": "Tem sinal local, mas a internet real sumiu na névoa.",
+      "carinha": "emoji_u1fae5_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "fal-003",
+      "estado": "falsa_conexao",
+      "modo": "apenas_carinha",
+      "frase": "A conexão está de ponta-cabeça hoje!",
+      "carinha": "emoji_u1f643_3d (1).webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "fal-004",
+      "estado": "falsa_conexao",
+      "modo": "apenas_carinha",
+      "frase": "O ícone diz que tem rede, mas é conversa fiada!",
+      "carinha": "emoji_u1f925_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "fal-005",
+      "estado": "falsa_conexao",
+      "modo": "apenas_carinha",
+      "frase": "Disfarce perfeito de conexão ativa, zero resposta útil.",
+      "carinha": "emoji_u1f978_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "fal-006",
+      "estado": "falsa_conexao",
+      "modo": "apenas_carinha",
+      "frase": "O DNS travou ou o portal bloqueou a saída.",
+      "carinha": "emoji_u1f636_200d_1f32b_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "fal-007",
+      "estado": "falsa_conexao",
+      "modo": "apenas_carinha",
+      "frase": "Quase um fantasma de sinal na tela agora.",
+      "carinha": "emoji_u1fae5_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "fal-008",
+      "estado": "falsa_conexao",
+      "modo": "apenas_carinha",
+      "frase": "Tudo ao contrário: rede ligada, internet muda.",
+      "carinha": "emoji_u1f643_3d (1).webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "fal-009",
+      "estado": "falsa_conexao",
+      "modo": "apenas_carinha",
+      "frase": "Não cai no truque desse sinal enganoso!",
+      "carinha": "emoji_u1f925_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "fal-010",
+      "estado": "falsa_conexao",
+      "modo": "apenas_carinha",
+      "frase": "O roteador acendeu, mas lá fora não responde.",
+      "carinha": "emoji_u1f978_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "fal-011",
+      "estado": "falsa_conexao",
+      "modo": "apenas_carinha",
+      "frase": "Névoa espessa entre o Pingnet e os servidores.",
+      "carinha": "emoji_u1f636_200d_1f32b_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "fal-012",
+      "estado": "falsa_conexao",
+      "modo": "apenas_carinha",
+      "frase": "Sinal meio apagado, quase só pontilhado.",
+      "carinha": "emoji_u1fae5_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "fal-013",
+      "estado": "falsa_conexao",
+      "modo": "apenas_carinha",
+      "frase": "A rota resolveu fazer graça às avessas!",
+      "carinha": "emoji_u1f643_3d (1).webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "fal-014",
+      "estado": "falsa_conexao",
+      "modo": "apenas_carinha",
+      "frase": "Falsa sensação de internet funcionando por aqui.",
+      "carinha": "emoji_u1f925_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "fal-015",
+      "estado": "falsa_conexao",
+      "modo": "apenas_carinha",
+      "frase": "Parece um link normal, mas não entrega nada.",
+      "carinha": "emoji_u1f978_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "fal-016",
+      "estado": "falsa_conexao",
+      "modo": "apenas_carinha",
+      "frase": "O probe bateu na porta e ninguém atendeu lá fora.",
+      "carinha": "emoji_u1f636_200d_1f32b_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "fal-017",
+      "estado": "falsa_conexao",
+      "modo": "apenas_carinha",
+      "frase": "Conexão falhando em silêncio no meio da névoa.",
+      "carinha": "emoji_u1fae5_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "fal-018",
+      "estado": "falsa_conexao",
+      "modo": "apenas_carinha",
+      "frase": "Que inversão estranha: link de pé, saída travada.",
+      "carinha": "emoji_u1f643_3d (1).webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "fal-019",
+      "estado": "falsa_conexao",
+      "modo": "apenas_carinha",
+      "frase": "O status jura de pé junto que está tudo bem...",
+      "carinha": "emoji_u1f925_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "fal-020",
+      "estado": "falsa_conexao",
+      "modo": "apenas_carinha",
+      "frase": "Sinal fantasiado de online sem passar um byte.",
+      "carinha": "emoji_u1f978_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "fal-021",
+      "estado": "falsa_conexao",
+      "modo": "apenas_carinha",
+      "frase": "Fumaça e névoa na saída para a internet.",
+      "carinha": "emoji_u1f636_200d_1f32b_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "fal-022",
+      "estado": "falsa_conexao",
+      "modo": "apenas_carinha",
+      "frase": "A conexão ficou meio translúcida nesta checagem.",
+      "carinha": "emoji_u1fae5_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "fal-023",
+      "estado": "falsa_conexao",
+      "modo": "apenas_carinha",
+      "frase": "Virado do avesso: rede presente, navegação nula.",
+      "carinha": "emoji_u1f643_3d (1).webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "fal-024",
+      "estado": "falsa_conexao",
+      "modo": "apenas_carinha",
+      "frase": "A interface diz 'online', mas o teste desmente.",
+      "carinha": "emoji_u1f925_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "fal-025",
+      "estado": "falsa_conexao",
+      "modo": "apenas_carinha",
+      "frase": "Disfarce de sinal ativo detectado pelo Ping.",
+      "carinha": "emoji_u1f978_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "fal-026",
+      "estado": "falsa_conexao",
+      "modo": "apenas_carinha",
+      "frase": "A rota sumiu dentro da névoa agora.",
+      "carinha": "emoji_u1f636_200d_1f32b_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "fal-027",
+      "estado": "falsa_conexao",
+      "modo": "apenas_carinha",
+      "frase": "Sinal sem corpo, só a aparência de ligado.",
+      "carinha": "emoji_u1fae5_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "fal-028",
+      "estado": "falsa_conexao",
+      "modo": "apenas_carinha",
+      "frase": "Tudo invertido no caminho desta medição!",
+      "carinha": "emoji_u1f643_3d (1).webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "fal-029",
+      "estado": "falsa_conexao",
+      "modo": "apenas_carinha",
+      "frase": "Aparência de conexão limpa, mas o teste não passa.",
+      "carinha": "emoji_u1f925_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "fal-030",
+      "estado": "falsa_conexao",
+      "modo": "apenas_carinha",
+      "frase": "Puro disfarce de rede: o sinal local engana.",
+      "carinha": "emoji_u1f978_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "fal-031",
+      "estado": "falsa_conexao",
+      "modo": "apenas_carinha",
+      "frase": "Visibilidade zero para os alvos externos agora.",
+      "carinha": "emoji_u1f636_200d_1f32b_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "fal-032",
+      "estado": "falsa_conexao",
+      "modo": "apenas_carinha",
+      "frase": "O sinal está quase sumindo no ar.",
+      "carinha": "emoji_u1fae5_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "fal-033",
+      "estado": "falsa_conexao",
+      "modo": "apenas_carinha",
+      "frase": "Conexão de cabeça para baixo neste instante.",
+      "carinha": "emoji_u1f643_3d (1).webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "fal-034",
+      "estado": "falsa_conexao",
+      "modo": "apenas_carinha",
+      "frase": "Não dá para confiar no indicador cego hoje.",
+      "carinha": "emoji_u1f925_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "fal-035",
+      "estado": "falsa_conexao",
+      "modo": "apenas_carinha",
+      "frase": "Parece rede funcionando, mas não passa nada.",
+      "carinha": "emoji_u1f978_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "fal-036",
+      "estado": "falsa_conexao",
+      "modo": "apenas_carinha",
+      "frase": "Névoa na conexão: tem link, mas sem saída real.",
+      "carinha": "emoji_u1f636_200d_1f32b_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "fal-037",
+      "estado": "falsa_conexao",
+      "modo": "apenas_carinha",
+      "frase": "Sinal frágil, quase só contorno no painel.",
+      "carinha": "emoji_u1fae5_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "fal-038",
+      "estado": "falsa_conexao",
+      "modo": "apenas_carinha",
+      "frase": "A lógica da rede deu uma invertida agora!",
+      "carinha": "emoji_u1f643_3d (1).webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "fal-039",
+      "estado": "falsa_conexao",
+      "modo": "apenas_carinha",
+      "frase": "Falsa conexão à vista: não me convence!",
+      "carinha": "emoji_u1f925_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "fal-040",
+      "estado": "falsa_conexao",
+      "modo": "apenas_carinha",
+      "frase": "Sinal disfarçado: conectado só no papel.",
+      "carinha": "emoji_u1f978_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "fal-041",
+      "estado": "falsa_conexao",
+      "modo": "apenas_carinha",
+      "frase": "Tudo encoberto por aqui, sem resposta externa.",
+      "carinha": "emoji_u1f636_200d_1f32b_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "fal-042",
+      "estado": "falsa_conexao",
+      "modo": "apenas_carinha",
+      "frase": "A linha ficou meio apagada nesta leitura.",
+      "carinha": "emoji_u1fae5_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "fal-043",
+      "estado": "falsa_conexao",
+      "modo": "apenas_carinha",
+      "frase": "O teste de conectividade pegou a contradição!",
+      "carinha": "emoji_u1f643_3d (1).webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "fal-044",
+      "estado": "falsa_conexao",
+      "modo": "apenas_carinha",
+      "frase": "O navegador acha que tem rede, mas não tem!",
+      "carinha": "emoji_u1f925_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "fal-045",
+      "estado": "falsa_conexao",
+      "modo": "apenas_carinha",
+      "frase": "Falsa conexão bem camuflada nesta checagem.",
+      "carinha": "emoji_u1f978_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "fal-046",
+      "estado": "falsa_conexao",
+      "modo": "apenas_carinha",
+      "frase": "A névoa bloqueou a passagem para fora.",
+      "carinha": "emoji_u1f636_200d_1f32b_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "fal-047",
+      "estado": "falsa_conexao",
+      "modo": "apenas_carinha",
+      "frase": "Sinal quase invisível na entrega real de dados.",
+      "carinha": "emoji_u1fae5_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "fal-048",
+      "estado": "falsa_conexao",
+      "modo": "apenas_carinha",
+      "frase": "Tudo trocado: tem rede, falta internet.",
+      "carinha": "emoji_u1f643_3d (1).webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "fal-049",
+      "estado": "falsa_conexao",
+      "modo": "apenas_carinha",
+      "frase": "O indicador pisca 'ok', mas o ping não passa.",
+      "carinha": "emoji_u1f925_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "fal-050",
+      "estado": "falsa_conexao",
+      "modo": "apenas_carinha",
+      "frase": "Falsa conexão registrada na bancada do Pingnet.",
+      "carinha": "emoji_u1f978_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "fal-051",
+      "estado": "falsa_conexao",
+      "modo": "carinha_e_gestos",
+      "frase": "E aí, cadê a internet de verdade desse sinal?",
+      "carinha": "emoji_u1f636_200d_1f32b_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1faf4_3d.webp",
+            "duracao_ms": 1300
+          }
+        ]
+      }
+    },
+    {
+      "id": "fal-052",
+      "estado": "falsa_conexao",
+      "modo": "carinha_e_gestos",
+      "frase": "Psiu... o sinal local finge que está tudo bem!",
+      "carinha": "emoji_u1f925_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f92b_3d (1).webp",
+            "duracao_ms": 1300
+          }
+        ]
+      }
+    },
+    {
+      "id": "fal-053",
+      "estado": "falsa_conexao",
+      "modo": "carinha_e_gestos",
+      "frase": "Mão aberta de dúvida e joinha pra baixo: não passa!",
+      "carinha": "emoji_u1fae5_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1faf4_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "fal-054",
+      "estado": "falsa_conexao",
+      "modo": "carinha_e_gestos",
+      "frase": "Olha esse sinal enganoso bem aqui na tela!",
+      "carinha": "emoji_u1f643_3d (1).webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "fal-055",
+      "estado": "falsa_conexao",
+      "modo": "carinha_e_gestos",
+      "frase": "Aponta o truque, abre a mão, mede o nada e reprova!",
+      "carinha": "emoji_u1f978_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1faf4_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f90f_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "fal-056",
+      "estado": "falsa_conexao",
+      "modo": "carinha_e_gestos",
+      "frase": "Psiu, olha só essa falsa conexão que o Ping pegou!",
+      "carinha": "emoji_u1f925_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f92b_3d (1).webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "fal-057",
+      "estado": "falsa_conexao",
+      "modo": "carinha_e_gestos",
+      "frase": "Investigação de falsa conexão: olha, aponta, pergunta, trava e reprova!",
+      "carinha": "emoji_u1f636_200d_1f32b_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_longa",
+        "passos": [
+          {
+            "gesto": "emoji_u1f448_3d.webp",
+            "duracao_ms": 750
+          },
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1faf4_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u270b_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 1100
+          }
+        ]
+      }
+    },
+    {
+      "id": "fal-058",
+      "estado": "falsa_conexao",
+      "modo": "carinha_e_gestos",
+      "frase": "Tem rede conectada, mas zero internet útil!",
+      "carinha": "emoji_u1f643_3d (1).webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 1300
+          }
+        ]
+      }
+    },
+    {
+      "id": "fal-059",
+      "estado": "falsa_conexao",
+      "modo": "carinha_e_gestos",
+      "frase": "Psiu: não conta pra ninguém que o sinal está só de fachada!",
+      "carinha": "emoji_u1f978_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f92b_3d (1).webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1faf4_3d.webp",
+            "duracao_ms": 1000
+          }
+        ]
+      }
+    },
+    {
+      "id": "fal-060",
+      "estado": "falsa_conexao",
+      "modo": "carinha_e_gestos",
+      "frase": "Olha esse engasgo fantasma na saída da rede!",
+      "carinha": "emoji_u1fae5_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f90f_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "fal-061",
+      "estado": "falsa_conexao",
+      "modo": "carinha_e_gestos",
+      "frase": "O sinal dá de ombros e não entrega pacote!",
+      "carinha": "emoji_u1f636_200d_1f32b_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1faf4_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 1000
+          }
+        ]
+      }
+    },
+    {
+      "id": "fal-062",
+      "estado": "falsa_conexao",
+      "modo": "carinha_e_gestos",
+      "frase": "Olha esse sinal disfarçado bem aqui!",
+      "carinha": "emoji_u1f978_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 1300
+          }
+        ]
+      }
+    },
+    {
+      "id": "fal-063",
+      "estado": "falsa_conexao",
+      "modo": "carinha_e_gestos",
+      "frase": "A conexão faz cara de boa, mas reprova no teste!",
+      "carinha": "emoji_u1f925_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1faf4_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "fal-064",
+      "estado": "falsa_conexao",
+      "modo": "carinha_e_gestos",
+      "frase": "Tudo ao contrário por aqui: não dá para aprovar.",
+      "carinha": "emoji_u1f643_3d (1).webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1faf4_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 1000
+          }
+        ]
+      }
+    },
+    {
+      "id": "fal-065",
+      "estado": "falsa_conexao",
+      "modo": "carinha_e_gestos",
+      "frase": "Falsa conexão sob investigação cerrada no Pingnet!",
+      "carinha": "emoji_u1f636_200d_1f32b_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_longa",
+        "passos": [
+          {
+            "gesto": "emoji_u1f448_3d.webp",
+            "duracao_ms": 750
+          },
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f90f_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1faf4_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "fal-066",
+      "estado": "falsa_conexao",
+      "modo": "carinha_e_gestos",
+      "frase": "Onde foi parar a resposta dos servidores?",
+      "carinha": "emoji_u1fae5_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1faf4_3d.webp",
+            "duracao_ms": 1300
+          }
+        ]
+      }
+    },
+    {
+      "id": "fal-067",
+      "estado": "falsa_conexao",
+      "modo": "carinha_e_gestos",
+      "frase": "Psiu: a rede até conecta, mas trava na saída!",
+      "carinha": "emoji_u1f925_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f92b_3d (1).webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 1000
+          }
+        ]
+      }
+    },
+    {
+      "id": "fal-068",
+      "estado": "falsa_conexao",
+      "modo": "carinha_e_gestos",
+      "frase": "Olha esse sinal fingindo que funciona!",
+      "carinha": "emoji_u1f978_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1faf4_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "fal-069",
+      "estado": "falsa_conexao",
+      "modo": "carinha_e_gestos",
+      "frase": "Conexão falhando no disfarce de ativa.",
+      "carinha": "emoji_u1f636_200d_1f32b_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 1300
+          }
+        ]
+      }
+    },
+    {
+      "id": "fal-070",
+      "estado": "falsa_conexao",
+      "modo": "carinha_e_gestos",
+      "frase": "Olha o engasgo invisível aqui no teste!",
+      "carinha": "emoji_u1fae5_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f90f_3d.webp",
+            "duracao_ms": 1000
+          }
+        ]
+      }
+    },
+    {
+      "id": "fal-071",
+      "estado": "falsa_conexao",
+      "modo": "carinha_e_gestos",
+      "frase": "Tudo virado: tem sinal, mas não tem internet!",
+      "carinha": "emoji_u1f643_3d (1).webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1faf4_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u270b_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "fal-072",
+      "estado": "falsa_conexao",
+      "modo": "carinha_e_gestos",
+      "frase": "Psiu: não dá pra confiar nesse sinal agora.",
+      "carinha": "emoji_u1f925_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f92b_3d (1).webp",
+            "duracao_ms": 1300
+          }
+        ]
+      }
+    },
+    {
+      "id": "fal-073",
+      "estado": "falsa_conexao",
+      "modo": "carinha_e_gestos",
+      "frase": "Falsa conexão detectada: olha, mede, trava e nega!",
+      "carinha": "emoji_u1f978_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_longa",
+        "passos": [
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 750
+          },
+          {
+            "gesto": "emoji_u1f90f_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1faf4_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u270b_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "fal-074",
+      "estado": "falsa_conexao",
+      "modo": "carinha_e_gestos",
+      "frase": "E aí, sinal? Cadê a resposta lá de fora?",
+      "carinha": "emoji_u1f636_200d_1f32b_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1faf4_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 1000
+          }
+        ]
+      }
+    },
+    {
+      "id": "fal-075",
+      "estado": "falsa_conexao",
+      "modo": "carinha_e_gestos",
+      "frase": "O probe não passou pela névoa desta rodada.",
+      "carinha": "emoji_u1fae5_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f90f_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1faf4_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "fal-076",
+      "estado": "falsa_conexao",
+      "modo": "carinha_e_gestos",
+      "frase": "Sinal enganoso reprovado na bancada!",
+      "carinha": "emoji_u1f925_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 1300
+          }
+        ]
+      }
+    },
+    {
+      "id": "fal-077",
+      "estado": "falsa_conexao",
+      "modo": "carinha_e_gestos",
+      "frase": "Olha esse sinal de ponta-cabeça sem saída!",
+      "carinha": "emoji_u1f643_3d (1).webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 1000
+          }
+        ]
+      }
+    },
+    {
+      "id": "fal-078",
+      "estado": "falsa_conexao",
+      "modo": "carinha_e_gestos",
+      "frase": "Psiu: a falsa conexão tentou passar batido!",
+      "carinha": "emoji_u1f978_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f92b_3d (1).webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "fal-079",
+      "estado": "falsa_conexao",
+      "modo": "carinha_e_gestos",
+      "frase": "Rota encoberta e sem entrega real de dados.",
+      "carinha": "emoji_u1f636_200d_1f32b_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_longa",
+        "passos": [
+          {
+            "gesto": "emoji_u1f448_3d.webp",
+            "duracao_ms": 750
+          },
+          {
+            "gesto": "emoji_u1faf4_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u270b_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "fal-080",
+      "estado": "falsa_conexao",
+      "modo": "carinha_e_gestos",
+      "frase": "Nem sinal claro nem resposta externa agora.",
+      "carinha": "emoji_u1fae5_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1faf4_3d.webp",
+            "duracao_ms": 1300
+          }
+        ]
+      }
+    },
+    {
+      "id": "fal-081",
+      "estado": "falsa_conexao",
+      "modo": "carinha_e_gestos",
+      "frase": "Finge que tem internet, mas não entrega nada!",
+      "carinha": "emoji_u1f925_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1faf4_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 1000
+          }
+        ]
+      }
+    },
+    {
+      "id": "fal-082",
+      "estado": "falsa_conexao",
+      "modo": "carinha_e_gestos",
+      "frase": "Conexão invertida: aponta, trava e não passa!",
+      "carinha": "emoji_u1f643_3d (1).webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u270b_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "fal-083",
+      "estado": "falsa_conexao",
+      "modo": "carinha_e_gestos",
+      "frase": "Psiu: o disfarce da rede não enganou o Ping!",
+      "carinha": "emoji_u1f978_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f92b_3d (1).webp",
+            "duracao_ms": 1300
+          }
+        ]
+      }
+    },
+    {
+      "id": "fal-084",
+      "estado": "falsa_conexao",
+      "modo": "carinha_e_gestos",
+      "frase": "Olha esse sinal perdido na névoa!",
+      "carinha": "emoji_u1f636_200d_1f32b_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1faf4_3d.webp",
+            "duracao_ms": 1000
+          }
+        ]
+      }
+    },
+    {
+      "id": "fal-085",
+      "estado": "falsa_conexao",
+      "modo": "carinha_e_gestos",
+      "frase": "Quase nada passando por essa linha agora.",
+      "carinha": "emoji_u1fae5_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f90f_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1faf4_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "fal-086",
+      "estado": "falsa_conexao",
+      "modo": "carinha_e_gestos",
+      "frase": "Sinal enganoso na área: não aprovo!",
+      "carinha": "emoji_u1f925_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 1300
+          }
+        ]
+      }
+    },
+    {
+      "id": "fal-087",
+      "estado": "falsa_conexao",
+      "modo": "carinha_e_gestos",
+      "frase": "Checagem de falsa conexão: olha, pergunta, trava e reprova!",
+      "carinha": "emoji_u1f643_3d (1).webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_longa",
+        "passos": [
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 750
+          },
+          {
+            "gesto": "emoji_u1faf4_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f90f_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u270b_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "fal-088",
+      "estado": "falsa_conexao",
+      "modo": "carinha_e_gestos",
+      "frase": "Psiu: o sinal está fazendo cena de online!",
+      "carinha": "emoji_u1f978_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f92b_3d (1).webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 1000
+          }
+        ]
+      }
+    },
+    {
+      "id": "fal-089",
+      "estado": "falsa_conexao",
+      "modo": "carinha_e_gestos",
+      "frase": "Cadê o retorno do alvo? Só névoa por aqui!",
+      "carinha": "emoji_u1f636_200d_1f32b_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1faf4_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "fal-090",
+      "estado": "falsa_conexao",
+      "modo": "carinha_e_gestos",
+      "frase": "Sinal sem firmeza real nesta leitura.",
+      "carinha": "emoji_u1fae5_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f90f_3d.webp",
+            "duracao_ms": 1300
+          }
+        ]
+      }
+    },
+    {
+      "id": "fal-091",
+      "estado": "falsa_conexao",
+      "modo": "carinha_e_gestos",
+      "frase": "A rede diz uma coisa, mas o ping mostra outra!",
+      "carinha": "emoji_u1f925_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 1000
+          }
+        ]
+      }
+    },
+    {
+      "id": "fal-092",
+      "estado": "falsa_conexao",
+      "modo": "carinha_e_gestos",
+      "frase": "Tudo ao contrário nessa checagem de saída!",
+      "carinha": "emoji_u1f643_3d (1).webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1faf4_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f90f_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "fal-093",
+      "estado": "falsa_conexao",
+      "modo": "carinha_e_gestos",
+      "frase": "Falsa conexão na mira do nosso laboratório!",
+      "carinha": "emoji_u1f978_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 1300
+          }
+        ]
+      }
+    },
+    {
+      "id": "fal-094",
+      "estado": "falsa_conexao",
+      "modo": "carinha_e_gestos",
+      "frase": "Sem resposta válida: olha, pergunta, trava e reprova!",
+      "carinha": "emoji_u1f636_200d_1f32b_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_longa",
+        "passos": [
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 750
+          },
+          {
+            "gesto": "emoji_u1faf4_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f90f_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u270b_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "fal-095",
+      "estado": "falsa_conexao",
+      "modo": "carinha_e_gestos",
+      "frase": "Sinal fraco e sem entrega na rodada.",
+      "carinha": "emoji_u1fae5_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1faf4_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 1000
+          }
+        ]
+      }
+    },
+    {
+      "id": "fal-096",
+      "estado": "falsa_conexao",
+      "modo": "carinha_e_gestos",
+      "frase": "Psiu: é só aparência de conexão funcionando!",
+      "carinha": "emoji_u1f925_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f92b_3d (1).webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1faf4_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "fal-097",
+      "estado": "falsa_conexao",
+      "modo": "carinha_e_gestos",
+      "frase": "Conexão falhando mesmo com rede acesa!",
+      "carinha": "emoji_u1f643_3d (1).webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 1300
+          }
+        ]
+      }
+    },
+    {
+      "id": "fal-098",
+      "estado": "falsa_conexao",
+      "modo": "carinha_e_gestos",
+      "frase": "Olha esse disfarce de conexão ativa!",
+      "carinha": "emoji_u1f978_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 1000
+          }
+        ]
+      }
+    },
+    {
+      "id": "fal-099",
+      "estado": "falsa_conexao",
+      "modo": "carinha_e_gestos",
+      "frase": "Fechando o ciclo com falsa conexão na linha.",
+      "carinha": "emoji_u1f636_200d_1f32b_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1faf4_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "fal-100",
+      "estado": "falsa_conexao",
+      "modo": "carinha_e_gestos",
+      "frase": "Falsa conexão flagrada! Continuo testando a saída.",
+      "carinha": "emoji_u1f925_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1faf4_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    }
+  ]
+}

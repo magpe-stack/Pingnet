@@ -1,0 +1,1494 @@
+{
+  "grupo": "critico",
+  "estado": "queda_pane",
+  "personagem": "Ping",
+  "formato_assets": "webp",
+  "comportamento_visual": {
+    "animado": true,
+    "flutuante": true,
+    "arrastavel": true,
+    "gestos_pequenos_ao_lado": true
+  },
+  "frases": [
+    {
+      "id": "que-001",
+      "estado": "queda_pane",
+      "modo": "apenas_carinha",
+      "frase": "A internet caiu! Começou a contagem da queda.",
+      "carinha": "emoji_u1f631_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "que-002",
+      "estado": "queda_pane",
+      "modo": "apenas_carinha",
+      "frase": "Caiu no meio da rodada! Que raiva dessa falha.",
+      "carinha": "emoji_u1f620_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "que-003",
+      "estado": "queda_pane",
+      "modo": "apenas_carinha",
+      "frase": "Perdemos o sinal de novo por aqui...",
+      "carinha": "emoji_u1f622_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "que-004",
+      "estado": "queda_pane",
+      "modo": "apenas_carinha",
+      "frase": "Pane total na linha! Nenhuma resposta nos testes.",
+      "carinha": "emoji_u1f92f_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "que-005",
+      "estado": "queda_pane",
+      "modo": "apenas_carinha",
+      "frase": "Não dá para engolir uma queda bem agora!",
+      "carinha": "emoji_u1f621_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "que-006",
+      "estado": "queda_pane",
+      "modo": "apenas_carinha",
+      "frase": "Silêncio absoluto dos servidores neste instante.",
+      "carinha": "emoji_u2620_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "que-007",
+      "estado": "queda_pane",
+      "modo": "apenas_carinha",
+      "frase": "O monitor marcou queda: hora de anotar o início.",
+      "carinha": "emoji_u1f631_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "que-008",
+      "estado": "queda_pane",
+      "modo": "apenas_carinha",
+      "frase": "Mais um incidente aberto no log de quedas.",
+      "carinha": "emoji_u1f622_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "que-009",
+      "estado": "queda_pane",
+      "modo": "apenas_carinha",
+      "frase": "Timeout atrás de timeout... a linha foi pro chão!",
+      "carinha": "emoji_u1f620_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "que-010",
+      "estado": "queda_pane",
+      "modo": "apenas_carinha",
+      "frase": "A conexão sumiu sem deixar rastro na leitura.",
+      "carinha": "emoji_u1f92f_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "que-011",
+      "estado": "queda_pane",
+      "modo": "apenas_carinha",
+      "frase": "A paciência da bancada foi testada agora!",
+      "carinha": "emoji_u1f621_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "que-012",
+      "estado": "queda_pane",
+      "modo": "apenas_carinha",
+      "frase": "Queda confirmada em todos os alvos verificados.",
+      "carinha": "emoji_u1f631_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "que-013",
+      "estado": "queda_pane",
+      "modo": "apenas_carinha",
+      "frase": "Que tristeza ver a linha vermelha acender.",
+      "carinha": "emoji_u1f622_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "que-014",
+      "estado": "queda_pane",
+      "modo": "apenas_carinha",
+      "frase": "Caiu feio e estragou o ritmo do dia!",
+      "carinha": "emoji_u1f620_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "que-015",
+      "estado": "queda_pane",
+      "modo": "apenas_carinha",
+      "frase": "Pane seca: zero pacotes respondendo lá fora.",
+      "carinha": "emoji_u2620_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "que-016",
+      "estado": "queda_pane",
+      "modo": "apenas_carinha",
+      "frase": "A queda pegou a gente de surpresa nesta rodada!",
+      "carinha": "emoji_u1f631_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "que-017",
+      "estado": "queda_pane",
+      "modo": "apenas_carinha",
+      "frase": "Não é justo cair bem agora... que indignação!",
+      "carinha": "emoji_u1f621_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "que-018",
+      "estado": "queda_pane",
+      "modo": "apenas_carinha",
+      "frase": "Mais uma interrupção na conta da operadora.",
+      "carinha": "emoji_u1f622_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "que-019",
+      "estado": "queda_pane",
+      "modo": "apenas_carinha",
+      "frase": "A cabeça até ferve quando a rede cai assim!",
+      "carinha": "emoji_u1f92f_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "que-020",
+      "estado": "queda_pane",
+      "modo": "apenas_carinha",
+      "frase": "Sinal cortado! Seguimos contando cada segundo fora.",
+      "carinha": "emoji_u1f620_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "que-021",
+      "estado": "queda_pane",
+      "modo": "apenas_carinha",
+      "frase": "Queda ativa detectada: o relógio da falha começou.",
+      "carinha": "emoji_u1f631_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "que-022",
+      "estado": "queda_pane",
+      "modo": "apenas_carinha",
+      "frase": "Caiu do nada e deixou o histórico em alerta.",
+      "carinha": "emoji_u1f622_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "que-023",
+      "estado": "queda_pane",
+      "modo": "apenas_carinha",
+      "frase": "Indisponibilidade total nesta checagem!",
+      "carinha": "emoji_u2620_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "que-024",
+      "estado": "queda_pane",
+      "modo": "apenas_carinha",
+      "frase": "A linha apagou e o Pingnet registrou o tombo.",
+      "carinha": "emoji_u1f620_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "que-025",
+      "estado": "queda_pane",
+      "modo": "apenas_carinha",
+      "frase": "Que queda chata no meio do monitoramento!",
+      "carinha": "emoji_u1f621_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "que-026",
+      "estado": "queda_pane",
+      "modo": "apenas_carinha",
+      "frase": "Nenhum alvo respondeu nesta sequência de probes.",
+      "carinha": "emoji_u1f92f_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "que-027",
+      "estado": "queda_pane",
+      "modo": "apenas_carinha",
+      "frase": "A conexão caiu e a barra ficou vermelha.",
+      "carinha": "emoji_u1f631_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "que-028",
+      "estado": "queda_pane",
+      "modo": "apenas_carinha",
+      "frase": "Mais uma queda para o balanço do período.",
+      "carinha": "emoji_u1f622_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "que-029",
+      "estado": "queda_pane",
+      "modo": "apenas_carinha",
+      "frase": "A linha não segurou a onda e caiu feio!",
+      "carinha": "emoji_u1f620_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "que-030",
+      "estado": "queda_pane",
+      "modo": "apenas_carinha",
+      "frase": "Sem saída para a internet neste momento crítico.",
+      "carinha": "emoji_u2620_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "que-031",
+      "estado": "queda_pane",
+      "modo": "apenas_carinha",
+      "frase": "Caiu de vez! Vamos esperar a rede voltar.",
+      "carinha": "emoji_u1f621_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "que-032",
+      "estado": "queda_pane",
+      "modo": "apenas_carinha",
+      "frase": "Pane de conectividade registrada no observatório.",
+      "carinha": "emoji_u1f631_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "que-033",
+      "estado": "queda_pane",
+      "modo": "apenas_carinha",
+      "frase": "A estabilidade foi interrompida por uma queda.",
+      "carinha": "emoji_u1f622_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "que-034",
+      "estado": "queda_pane",
+      "modo": "apenas_carinha",
+      "frase": "Que estouro de paciência ver a rede cair assim!",
+      "carinha": "emoji_u1f92f_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "que-035",
+      "estado": "queda_pane",
+      "modo": "apenas_carinha",
+      "frase": "A queda já está marcada com hora exata.",
+      "carinha": "emoji_u1f620_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "que-036",
+      "estado": "queda_pane",
+      "modo": "apenas_carinha",
+      "frase": "Rede fora do ar durante esta verificação.",
+      "carinha": "emoji_u2620_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "que-037",
+      "estado": "queda_pane",
+      "modo": "apenas_carinha",
+      "frase": "Mais uma queda no radar — o Pingnet não deixa passar.",
+      "carinha": "emoji_u1f631_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "que-038",
+      "estado": "queda_pane",
+      "modo": "apenas_carinha",
+      "frase": "Dá até aperto ver o sinal cair do nada.",
+      "carinha": "emoji_u1f622_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "que-039",
+      "estado": "queda_pane",
+      "modo": "apenas_carinha",
+      "frase": "Caiu no pior momento! Anotando a falha.",
+      "carinha": "emoji_u1f621_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "que-040",
+      "estado": "queda_pane",
+      "modo": "apenas_carinha",
+      "frase": "O sinal morreu na praia nesta rodada.",
+      "carinha": "emoji_u1f620_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "que-041",
+      "estado": "queda_pane",
+      "modo": "apenas_carinha",
+      "frase": "Queda severa: nenhum teste obteve resposta.",
+      "carinha": "emoji_u1f92f_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "que-042",
+      "estado": "queda_pane",
+      "modo": "apenas_carinha",
+      "frase": "A conexão caiu e o contador de downtime rodou.",
+      "carinha": "emoji_u1f631_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "que-043",
+      "estado": "queda_pane",
+      "modo": "apenas_carinha",
+      "frase": "Mais uma interrupção que pesa na média.",
+      "carinha": "emoji_u1f622_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "que-044",
+      "estado": "queda_pane",
+      "modo": "apenas_carinha",
+      "frase": "Pane geral na saída para a rede!",
+      "carinha": "emoji_u2620_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "que-045",
+      "estado": "queda_pane",
+      "modo": "apenas_carinha",
+      "frase": "Não dá para aceitar uma queda seca assim!",
+      "carinha": "emoji_u1f621_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "que-046",
+      "estado": "queda_pane",
+      "modo": "apenas_carinha",
+      "frase": "A linha caiu e deixou a bancada em alerta.",
+      "carinha": "emoji_u1f620_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "que-047",
+      "estado": "queda_pane",
+      "modo": "apenas_carinha",
+      "frase": "Queda detectada: seguimos monitorando o retorno.",
+      "carinha": "emoji_u1f631_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "que-048",
+      "estado": "queda_pane",
+      "modo": "apenas_carinha",
+      "frase": "Triste ver a conexão cair bem agora.",
+      "carinha": "emoji_u1f622_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "que-049",
+      "estado": "queda_pane",
+      "modo": "apenas_carinha",
+      "frase": "A rede caiu feio nesta verificação!",
+      "carinha": "emoji_u1f92f_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "que-050",
+      "estado": "queda_pane",
+      "modo": "apenas_carinha",
+      "frase": "Queda registrada no Pingnet! Aguardando retorno.",
+      "carinha": "emoji_u1f620_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "que-051",
+      "estado": "queda_pane",
+      "modo": "carinha_e_gestos",
+      "frase": "Parou tudo! A internet caiu de vez agora!",
+      "carinha": "emoji_u1f631_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u270b_3d.webp",
+            "duracao_ms": 1350
+          }
+        ]
+      }
+    },
+    {
+      "id": "que-052",
+      "estado": "queda_pane",
+      "modo": "carinha_e_gestos",
+      "frase": "Reprovação total: caiu e não voltou ainda!",
+      "carinha": "emoji_u1f620_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 1350
+          }
+        ]
+      }
+    },
+    {
+      "id": "que-053",
+      "estado": "queda_pane",
+      "modo": "carinha_e_gestos",
+      "frase": "Mão erguida: parou tudo e reprovou na hora!",
+      "carinha": "emoji_u1f621_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u270b_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 1100
+          }
+        ]
+      }
+    },
+    {
+      "id": "que-054",
+      "estado": "queda_pane",
+      "modo": "carinha_e_gestos",
+      "frase": "Alerta de queda: dedo pra cima e sinal travado!",
+      "carinha": "emoji_u1f631_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u261d_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u270b_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "que-055",
+      "estado": "queda_pane",
+      "modo": "carinha_e_gestos",
+      "frase": "Queda detectada: alerta, pare, reprove e trema de raiva!",
+      "carinha": "emoji_u1f621_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u261d_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u270b_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 950
+          },
+          {
+            "gesto": "emoji_u1fae2_3d.webp",
+            "duracao_ms": 1000
+          }
+        ]
+      }
+    },
+    {
+      "id": "que-056",
+      "estado": "queda_pane",
+      "modo": "carinha_e_gestos",
+      "frase": "Caiu no meio da leitura... que desânimo na rede!",
+      "carinha": "emoji_u1f622_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u270b_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 950
+          },
+          {
+            "gesto": "emoji_u1f64f_3d.webp",
+            "duracao_ms": 1100
+          }
+        ]
+      }
+    },
+    {
+      "id": "que-057",
+      "estado": "queda_pane",
+      "modo": "carinha_e_gestos",
+      "frase": "Pane feia na linha: pare, reprove, trema, olhe pra cima, peça sinal e reprove de novo!",
+      "carinha": "emoji_u1f92f_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_longa",
+        "passos": [
+          {
+            "gesto": "emoji_u270b_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1fae2_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f446_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f64f_3d.webp",
+            "duracao_ms": 950
+          },
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 1100
+          }
+        ]
+      }
+    },
+    {
+      "id": "que-058",
+      "estado": "queda_pane",
+      "modo": "carinha_e_gestos",
+      "frase": "Caiu feio: o Ping dá joinha pra baixo sem dó!",
+      "carinha": "emoji_u1f620_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 1350
+          }
+        ]
+      }
+    },
+    {
+      "id": "que-059",
+      "estado": "queda_pane",
+      "modo": "carinha_e_gestos",
+      "frase": "Tremor de indignação quando a conexão cai assim!",
+      "carinha": "emoji_u1f621_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1fae2_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "que-060",
+      "estado": "queda_pane",
+      "modo": "carinha_e_gestos",
+      "frase": "Olha o aviso de queda bem aqui na tela!",
+      "carinha": "emoji_u1f631_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u261d_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u270b_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "que-061",
+      "estado": "queda_pane",
+      "modo": "carinha_e_gestos",
+      "frase": "Tomara que volte logo... a queda derrubou tudo!",
+      "carinha": "emoji_u1f622_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 900
+          },
+          {
+            "gesto": "emoji_u1f64f_3d.webp",
+            "duracao_ms": 1100
+          }
+        ]
+      }
+    },
+    {
+      "id": "que-062",
+      "estado": "queda_pane",
+      "modo": "carinha_e_gestos",
+      "frase": "Sinal cortado! Nada passando na bancada.",
+      "carinha": "emoji_u2620_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u270b_3d.webp",
+            "duracao_ms": 1350
+          }
+        ]
+      }
+    },
+    {
+      "id": "que-063",
+      "estado": "queda_pane",
+      "modo": "carinha_e_gestos",
+      "frase": "Caiu e deixou a gente na mão de novo!",
+      "carinha": "emoji_u1f620_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u270b_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1fae2_3d.webp",
+            "duracao_ms": 900
+          },
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "que-064",
+      "estado": "queda_pane",
+      "modo": "carinha_e_gestos",
+      "frase": "Atenção: queda registrada agora mesmo!",
+      "carinha": "emoji_u1f631_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u261d_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "que-065",
+      "estado": "queda_pane",
+      "modo": "carinha_e_gestos",
+      "frase": "Queda séria: aponta o incidente, trava, treme, pede retorno e reprova!",
+      "carinha": "emoji_u1f621_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_longa",
+        "passos": [
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 750
+          },
+          {
+            "gesto": "emoji_u270b_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1fae2_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f64f_3d.webp",
+            "duracao_ms": 950
+          },
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 1100
+          }
+        ]
+      }
+    },
+    {
+      "id": "que-066",
+      "estado": "queda_pane",
+      "modo": "carinha_e_gestos",
+      "frase": "Não respondeu nada! Queda braba por aqui.",
+      "carinha": "emoji_u1f92f_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 1350
+          }
+        ]
+      }
+    },
+    {
+      "id": "que-067",
+      "estado": "queda_pane",
+      "modo": "carinha_e_gestos",
+      "frase": "A conexão caiu e o Ping fez sinal de pare!",
+      "carinha": "emoji_u1f620_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u270b_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "que-068",
+      "estado": "queda_pane",
+      "modo": "carinha_e_gestos",
+      "frase": "Queda chata, mas o relógio já está marcando tudo.",
+      "carinha": "emoji_u1f622_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u261d_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 900
+          },
+          {
+            "gesto": "emoji_u1f64f_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "que-069",
+      "estado": "queda_pane",
+      "modo": "carinha_e_gestos",
+      "frase": "Susto na linha: caiu bem na verificação!",
+      "carinha": "emoji_u1f631_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u270b_3d.webp",
+            "duracao_ms": 1350
+          }
+        ]
+      }
+    },
+    {
+      "id": "que-070",
+      "estado": "queda_pane",
+      "modo": "carinha_e_gestos",
+      "frase": "Pane total e zero paciência nesta queda!",
+      "carinha": "emoji_u1f621_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1fae2_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "que-071",
+      "estado": "queda_pane",
+      "modo": "carinha_e_gestos",
+      "frase": "A rede caiu feio — fica de olho no contador!",
+      "carinha": "emoji_u1f620_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u261d_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u270b_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "que-072",
+      "estado": "queda_pane",
+      "modo": "carinha_e_gestos",
+      "frase": "Queda feia registrada sem nenhuma resposta.",
+      "carinha": "emoji_u2620_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 1350
+          }
+        ]
+      }
+    },
+    {
+      "id": "que-073",
+      "estado": "queda_pane",
+      "modo": "carinha_e_gestos",
+      "frase": "A conexão caiu e não deu sinal de vida!",
+      "carinha": "emoji_u1f92f_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_longa",
+        "passos": [
+          {
+            "gesto": "emoji_u270b_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1fae2_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f446_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 1100
+          }
+        ]
+      }
+    },
+    {
+      "id": "que-074",
+      "estado": "queda_pane",
+      "modo": "carinha_e_gestos",
+      "frase": "Olha esse incidente abrindo no histórico!",
+      "carinha": "emoji_u1f631_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u270b_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "que-075",
+      "estado": "queda_pane",
+      "modo": "carinha_e_gestos",
+      "frase": "Que queda triste bem agora... seguimos esperando.",
+      "carinha": "emoji_u1f622_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1fae2_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f64f_3d.webp",
+            "duracao_ms": 1100
+          }
+        ]
+      }
+    },
+    {
+      "id": "que-076",
+      "estado": "queda_pane",
+      "modo": "carinha_e_gestos",
+      "frase": "Caiu e reprovou em todos os testes!",
+      "carinha": "emoji_u1f620_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 1350
+          }
+        ]
+      }
+    },
+    {
+      "id": "que-077",
+      "estado": "queda_pane",
+      "modo": "carinha_e_gestos",
+      "frase": "Parou na hora! Queda crítica na linha.",
+      "carinha": "emoji_u1f621_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u270b_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "que-078",
+      "estado": "queda_pane",
+      "modo": "carinha_e_gestos",
+      "frase": "A conexão caiu e deixou o Ping em alerta!",
+      "carinha": "emoji_u1f631_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u261d_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1fae2_3d.webp",
+            "duracao_ms": 900
+          },
+          {
+            "gesto": "emoji_u270b_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "que-079",
+      "estado": "queda_pane",
+      "modo": "carinha_e_gestos",
+      "frase": "Queda feia no observatório: trava, reprova, treme, apela e marca!",
+      "carinha": "emoji_u1f620_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_longa",
+        "passos": [
+          {
+            "gesto": "emoji_u270b_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1fae2_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f64f_3d.webp",
+            "duracao_ms": 950
+          },
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 1100
+          }
+        ]
+      }
+    },
+    {
+      "id": "que-080",
+      "estado": "queda_pane",
+      "modo": "carinha_e_gestos",
+      "frase": "Linha fora do ar! Nenhuma resposta agora.",
+      "carinha": "emoji_u2620_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u270b_3d.webp",
+            "duracao_ms": 1350
+          }
+        ]
+      }
+    },
+    {
+      "id": "que-081",
+      "estado": "queda_pane",
+      "modo": "carinha_e_gestos",
+      "frase": "Caiu e estragou a sequência limpa!",
+      "carinha": "emoji_u1f92f_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1fae2_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "que-082",
+      "estado": "queda_pane",
+      "modo": "carinha_e_gestos",
+      "frase": "Mais uma queda anotada na conta da rede.",
+      "carinha": "emoji_u1f622_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 900
+          },
+          {
+            "gesto": "emoji_u1f64f_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "que-083",
+      "estado": "queda_pane",
+      "modo": "carinha_e_gestos",
+      "frase": "Queda ativa! Reprovado na checagem atual.",
+      "carinha": "emoji_u1f620_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 1350
+          }
+        ]
+      }
+    },
+    {
+      "id": "que-084",
+      "estado": "queda_pane",
+      "modo": "carinha_e_gestos",
+      "frase": "O sinal caiu e o Ping deu sinal de pare!",
+      "carinha": "emoji_u1f631_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u270b_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "que-085",
+      "estado": "queda_pane",
+      "modo": "carinha_e_gestos",
+      "frase": "Caiu no meio do expediente da bancada!",
+      "carinha": "emoji_u1f621_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u270b_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1fae2_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "que-086",
+      "estado": "queda_pane",
+      "modo": "carinha_e_gestos",
+      "frase": "Zero resposta na rede durante esta queda.",
+      "carinha": "emoji_u2620_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 1350
+          }
+        ]
+      }
+    },
+    {
+      "id": "que-087",
+      "estado": "queda_pane",
+      "modo": "carinha_e_gestos",
+      "frase": "Pane na conexão: para, reprova, treme, apela e insiste!",
+      "carinha": "emoji_u1f92f_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_longa",
+        "passos": [
+          {
+            "gesto": "emoji_u270b_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1fae2_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f64f_3d.webp",
+            "duracao_ms": 950
+          },
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 1100
+          }
+        ]
+      }
+    },
+    {
+      "id": "que-088",
+      "estado": "queda_pane",
+      "modo": "carinha_e_gestos",
+      "frase": "Atenção máxima: a internet caiu agora!",
+      "carinha": "emoji_u1f631_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u261d_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u270b_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "que-089",
+      "estado": "queda_pane",
+      "modo": "carinha_e_gestos",
+      "frase": "Queda feia e chata de acompanhar no gráfico.",
+      "carinha": "emoji_u1f622_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f449_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 900
+          },
+          {
+            "gesto": "emoji_u1f64f_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "que-090",
+      "estado": "queda_pane",
+      "modo": "carinha_e_gestos",
+      "frase": "Caiu e não deu trégua neste teste!",
+      "carinha": "emoji_u1f620_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 1350
+          }
+        ]
+      }
+    },
+    {
+      "id": "que-091",
+      "estado": "queda_pane",
+      "modo": "carinha_e_gestos",
+      "frase": "Sinal cortado bem no meio da medição!",
+      "carinha": "emoji_u1f621_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u270b_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "que-092",
+      "estado": "queda_pane",
+      "modo": "carinha_e_gestos",
+      "frase": "A conexão caiu e o alerta já está ativo!",
+      "carinha": "emoji_u1f631_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u261d_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u270b_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "que-093",
+      "estado": "queda_pane",
+      "modo": "carinha_e_gestos",
+      "frase": "Queda séria: nenhuma resposta da rede.",
+      "carinha": "emoji_u2620_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 1350
+          }
+        ]
+      }
+    },
+    {
+      "id": "que-094",
+      "estado": "queda_pane",
+      "modo": "carinha_e_gestos",
+      "frase": "Queda feia no Pingnet: para, reprova, treme, apela e marca a falha!",
+      "carinha": "emoji_u1f92f_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_longa",
+        "passos": [
+          {
+            "gesto": "emoji_u270b_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1fae2_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f64f_3d.webp",
+            "duracao_ms": 950
+          },
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 1100
+          }
+        ]
+      }
+    },
+    {
+      "id": "que-095",
+      "estado": "queda_pane",
+      "modo": "carinha_e_gestos",
+      "frase": "Mais uma queda registrada na bancada.",
+      "carinha": "emoji_u1f622_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f64f_3d.webp",
+            "duracao_ms": 1100
+          }
+        ]
+      }
+    },
+    {
+      "id": "que-096",
+      "estado": "queda_pane",
+      "modo": "carinha_e_gestos",
+      "frase": "Caiu feio e deixou a linha muda!",
+      "carinha": "emoji_u1f620_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u270b_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1fae2_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "que-097",
+      "estado": "queda_pane",
+      "modo": "carinha_e_gestos",
+      "frase": "Sinal caiu! Fica de olho no aviso.",
+      "carinha": "emoji_u1f631_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u270b_3d.webp",
+            "duracao_ms": 1350
+          }
+        ]
+      }
+    },
+    {
+      "id": "que-098",
+      "estado": "queda_pane",
+      "modo": "carinha_e_gestos",
+      "frase": "Queda ativa: mão erguida e reprovação!",
+      "carinha": "emoji_u1f621_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u270b_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "que-099",
+      "estado": "queda_pane",
+      "modo": "carinha_e_gestos",
+      "frase": "Fechando esta rodada com queda registrada no log.",
+      "carinha": "emoji_u1f620_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u261d_3d.webp",
+            "duracao_ms": 800
+          },
+          {
+            "gesto": "emoji_u270b_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    },
+    {
+      "id": "que-100",
+      "estado": "queda_pane",
+      "modo": "carinha_e_gestos",
+      "frase": "Queda em andamento! O Ping continua vigiando o retorno.",
+      "carinha": "emoji_u1f631_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u270b_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44e_3d.webp",
+            "duracao_ms": 1050
+          }
+        ]
+      }
+    }
+  ]
+}

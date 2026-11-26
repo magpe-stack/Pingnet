@@ -1,0 +1,1491 @@
+{
+  "grupo": "recuperacao_pausa",
+  "parte": "B",
+  "estado": "pc_desligado_pausa",
+  "personagem": "Ping",
+  "formato_assets": "webp",
+  "comportamento_visual": {
+    "animado": true,
+    "flutuante": true,
+    "arrastavel": true,
+    "gestos_pequenos_ao_lado": true
+  },
+  "frases": [
+    {
+      "id": "pau-001",
+      "estado": "pc_desligado_pausa",
+      "modo": "apenas_carinha",
+      "frase": "Monitoramento em pausa — sem medições falsas por aqui.",
+      "carinha": "emoji_u1f634_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "pau-002",
+      "estado": "pc_desligado_pausa",
+      "modo": "apenas_carinha",
+      "frase": "Zzz... o Ping descansou durante a pausa da bancada.",
+      "carinha": "emoji_u1f62a_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "pau-003",
+      "estado": "pc_desligado_pausa",
+      "modo": "apenas_carinha",
+      "frase": "Tempo de descanso no radar: retomamos quando voltar!",
+      "carinha": "emoji_u1f971_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "pau-004",
+      "estado": "pc_desligado_pausa",
+      "modo": "apenas_carinha",
+      "frase": "Máquina desligada ou em pausa: tudo quieto por enquanto.",
+      "carinha": "emoji_u1f614_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "pau-005",
+      "estado": "pc_desligado_pausa",
+      "modo": "apenas_carinha",
+      "frase": "Pausa assumida com calma para não sujar a estatística.",
+      "carinha": "emoji_u1f60c_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "pau-006",
+      "estado": "pc_desligado_pausa",
+      "modo": "apenas_carinha",
+      "frase": "Sem coleta ativa agora — o Ping tira uma soneca.",
+      "carinha": "emoji_u1f634_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "pau-007",
+      "estado": "pc_desligado_pausa",
+      "modo": "apenas_carinha",
+      "frase": "Bocejo de pausa: o relógio espera o retorno.",
+      "carinha": "emoji_u1f971_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "pau-008",
+      "estado": "pc_desligado_pausa",
+      "modo": "apenas_carinha",
+      "frase": "Bancada em repouso! Nada de alarme indevido.",
+      "carinha": "emoji_u1f60c_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "pau-009",
+      "estado": "pc_desligado_pausa",
+      "modo": "apenas_carinha",
+      "frase": "Desligado por aqui: o Ping aguarda a próxima sessão.",
+      "carinha": "emoji_u1f62a_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "pau-010",
+      "estado": "pc_desligado_pausa",
+      "modo": "apenas_carinha",
+      "frase": "Pausa registrada para manter o histórico honesto.",
+      "carinha": "emoji_u1f614_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "pau-011",
+      "estado": "pc_desligado_pausa",
+      "modo": "apenas_carinha",
+      "frase": "Silêncio programado no Pingnet durante a pausa.",
+      "carinha": "emoji_u1f634_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "pau-012",
+      "estado": "pc_desligado_pausa",
+      "modo": "apenas_carinha",
+      "frase": "O sono bateu no modo de espera da linha.",
+      "carinha": "emoji_u1f62a_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "pau-013",
+      "estado": "pc_desligado_pausa",
+      "modo": "apenas_carinha",
+      "frase": "Bocejo leve: pausa limpa sem forçar leitura.",
+      "carinha": "emoji_u1f971_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "pau-014",
+      "estado": "pc_desligado_pausa",
+      "modo": "apenas_carinha",
+      "frase": "Respiro tranquilo na bancada enquanto não há teste.",
+      "carinha": "emoji_u1f60c_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "pau-015",
+      "estado": "pc_desligado_pausa",
+      "modo": "apenas_carinha",
+      "frase": "Sem PC ativo neste momento — tudo em pausa.",
+      "carinha": "emoji_u1f614_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "pau-016",
+      "estado": "pc_desligado_pausa",
+      "modo": "apenas_carinha",
+      "frase": "Modo soneca ligado enquanto o monitoramento dorme.",
+      "carinha": "emoji_u1f634_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "pau-017",
+      "estado": "pc_desligado_pausa",
+      "modo": "apenas_carinha",
+      "frase": "Pausa no ar: voltamos quando a estação acordar.",
+      "carinha": "emoji_u1f971_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "pau-018",
+      "estado": "pc_desligado_pausa",
+      "modo": "apenas_carinha",
+      "frase": "Descanso merecido entre uma jornada e outra.",
+      "carinha": "emoji_u1f60c_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "pau-019",
+      "estado": "pc_desligado_pausa",
+      "modo": "apenas_carinha",
+      "frase": "Pausa marcada: nada de contar falha fantasma.",
+      "carinha": "emoji_u1f62a_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "pau-020",
+      "estado": "pc_desligado_pausa",
+      "modo": "apenas_carinha",
+      "frase": "A bancada deu uma parada agora — tudo sossegado.",
+      "carinha": "emoji_u1f614_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "pau-021",
+      "estado": "pc_desligado_pausa",
+      "modo": "apenas_carinha",
+      "frase": "Zzz... monitoramento pausado com tranquilidade.",
+      "carinha": "emoji_u1f634_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "pau-022",
+      "estado": "pc_desligado_pausa",
+      "modo": "apenas_carinha",
+      "frase": "Esperando a próxima ligação da bancada.",
+      "carinha": "emoji_u1f62a_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "pau-023",
+      "estado": "pc_desligado_pausa",
+      "modo": "apenas_carinha",
+      "frase": "Bocejo de descanso: tudo pausado por enquanto.",
+      "carinha": "emoji_u1f971_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "pau-024",
+      "estado": "pc_desligado_pausa",
+      "modo": "apenas_carinha",
+      "frase": "Calma e pausa: o Ping não apressa o tempo.",
+      "carinha": "emoji_u1f60c_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "pau-025",
+      "estado": "pc_desligado_pausa",
+      "modo": "apenas_carinha",
+      "frase": "Sem probes rodando nesta pausa da máquina.",
+      "carinha": "emoji_u1f614_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "pau-026",
+      "estado": "pc_desligado_pausa",
+      "modo": "apenas_carinha",
+      "frase": "Hora de cochilar enquanto a bancada está desligada.",
+      "carinha": "emoji_u1f634_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "pau-027",
+      "estado": "pc_desligado_pausa",
+      "modo": "apenas_carinha",
+      "frase": "Pausa tranquila: seguimos quando o PC voltar.",
+      "carinha": "emoji_u1f971_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "pau-028",
+      "estado": "pc_desligado_pausa",
+      "modo": "apenas_carinha",
+      "frase": "Paz na bancada durante o intervalo sem testes.",
+      "carinha": "emoji_u1f60c_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "pau-029",
+      "estado": "pc_desligado_pausa",
+      "modo": "apenas_carinha",
+      "frase": "Nada de medição neste momento de pausa.",
+      "carinha": "emoji_u1f62a_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "pau-030",
+      "estado": "pc_desligado_pausa",
+      "modo": "apenas_carinha",
+      "frase": "Bancada desligada: modo pausa ativado.",
+      "carinha": "emoji_u1f614_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "pau-031",
+      "estado": "pc_desligado_pausa",
+      "modo": "apenas_carinha",
+      "frase": "Dormindo no ponto com consciência limpa na pausa!",
+      "carinha": "emoji_u1f634_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "pau-032",
+      "estado": "pc_desligado_pausa",
+      "modo": "apenas_carinha",
+      "frase": "Intervalo calmo enquanto o sistema está parado.",
+      "carinha": "emoji_u1f971_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "pau-033",
+      "estado": "pc_desligado_pausa",
+      "modo": "apenas_carinha",
+      "frase": "Tudo sereno por aqui durante a pausa.",
+      "carinha": "emoji_u1f60c_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "pau-034",
+      "estado": "pc_desligado_pausa",
+      "modo": "apenas_carinha",
+      "frase": "Pausa no observatório — até a próxima rodada.",
+      "carinha": "emoji_u1f62a_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "pau-035",
+      "estado": "pc_desligado_pausa",
+      "modo": "apenas_carinha",
+      "frase": "Sem coleta por aqui: máquina em descanso.",
+      "carinha": "emoji_u1f614_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "pau-036",
+      "estado": "pc_desligado_pausa",
+      "modo": "apenas_carinha",
+      "frase": "Zzz... pausa limpa e sem ruído nos dados.",
+      "carinha": "emoji_u1f634_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "pau-037",
+      "estado": "pc_desligado_pausa",
+      "modo": "apenas_carinha",
+      "frase": "A pausa chegou e o Ping entrou no ritmo devagar.",
+      "carinha": "emoji_u1f971_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "pau-038",
+      "estado": "pc_desligado_pausa",
+      "modo": "apenas_carinha",
+      "frase": "Respirando em pausa até o retorno da estação.",
+      "carinha": "emoji_u1f60c_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "pau-039",
+      "estado": "pc_desligado_pausa",
+      "modo": "apenas_carinha",
+      "frase": "Pausa ativa no Pingnet: tudo em silêncio.",
+      "carinha": "emoji_u1f62a_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "pau-040",
+      "estado": "pc_desligado_pausa",
+      "modo": "apenas_carinha",
+      "frase": "Máquina fora de operação — pausa registrada.",
+      "carinha": "emoji_u1f614_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "pau-041",
+      "estado": "pc_desligado_pausa",
+      "modo": "apenas_carinha",
+      "frase": "Soneca de pausa enquanto o PC não está ligado.",
+      "carinha": "emoji_u1f634_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "pau-042",
+      "estado": "pc_desligado_pausa",
+      "modo": "apenas_carinha",
+      "frase": "Bocejo tranquilo: pausa sem pressa por aqui.",
+      "carinha": "emoji_u1f971_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "pau-043",
+      "estado": "pc_desligado_pausa",
+      "modo": "apenas_carinha",
+      "frase": "Pausa serena na bancada do Pingnet.",
+      "carinha": "emoji_u1f60c_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "pau-044",
+      "estado": "pc_desligado_pausa",
+      "modo": "apenas_carinha",
+      "frase": "Sem testes em curso neste momento de pausa.",
+      "carinha": "emoji_u1f62a_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "pau-045",
+      "estado": "pc_desligado_pausa",
+      "modo": "apenas_carinha",
+      "frase": "Pausa assumida: aguardando o próximo ciclo.",
+      "carinha": "emoji_u1f614_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "pau-046",
+      "estado": "pc_desligado_pausa",
+      "modo": "apenas_carinha",
+      "frase": "Modo descanso ligado durante a pausa.",
+      "carinha": "emoji_u1f634_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "pau-047",
+      "estado": "pc_desligado_pausa",
+      "modo": "apenas_carinha",
+      "frase": "Pausa tranquila até nova ativação.",
+      "carinha": "emoji_u1f971_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "pau-048",
+      "estado": "pc_desligado_pausa",
+      "modo": "apenas_carinha",
+      "frase": "Tudo quieto e em paz na pausa de agora.",
+      "carinha": "emoji_u1f60c_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "pau-049",
+      "estado": "pc_desligado_pausa",
+      "modo": "apenas_carinha",
+      "frase": "Pausa registrada sem alarmes falsos.",
+      "carinha": "emoji_u1f62a_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "pau-050",
+      "estado": "pc_desligado_pausa",
+      "modo": "apenas_carinha",
+      "frase": "Monitoramento pausado! O Ping descansa até a próxima.",
+      "carinha": "emoji_u1f634_3d.webp",
+      "gesto_ou_coreografia": null
+    },
+    {
+      "id": "pau-051",
+      "estado": "pc_desligado_pausa",
+      "modo": "carinha_e_gestos",
+      "frase": "Tchauzinho por enquanto — entramos em pausa!",
+      "carinha": "emoji_u1f634_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44b_3d.webp",
+            "duracao_ms": 1300
+          }
+        ]
+      }
+    },
+    {
+      "id": "pau-052",
+      "estado": "pc_desligado_pausa",
+      "modo": "carinha_e_gestos",
+      "frase": "Psiu... tudo em pausa agora para não gerar ruído!",
+      "carinha": "emoji_u1f60c_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f92b_3d (1).webp",
+            "duracao_ms": 1300
+          }
+        ]
+      }
+    },
+    {
+      "id": "pau-053",
+      "estado": "pc_desligado_pausa",
+      "modo": "carinha_e_gestos",
+      "frase": "Pausa assumida: mão de descanso e tchau sereno!",
+      "carinha": "emoji_u1f971_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1faf4_3d.webp",
+            "duracao_ms": 900
+          },
+          {
+            "gesto": "emoji_u1f44b_3d.webp",
+            "duracao_ms": 1100
+          }
+        ]
+      }
+    },
+    {
+      "id": "pau-054",
+      "estado": "pc_desligado_pausa",
+      "modo": "carinha_e_gestos",
+      "frase": "Psiu, pausa no radar: tchauzinho e até já!",
+      "carinha": "emoji_u1f62a_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f92b_3d (1).webp",
+            "duracao_ms": 900
+          },
+          {
+            "gesto": "emoji_u1f44b_3d.webp",
+            "duracao_ms": 1100
+          }
+        ]
+      }
+    },
+    {
+      "id": "pau-055",
+      "estado": "pc_desligado_pausa",
+      "modo": "carinha_e_gestos",
+      "frase": "Entrando em pausa: silêncio, descanso, aceno e mãos juntas!",
+      "carinha": "emoji_u1f634_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f92b_3d (1).webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1faf4_3d.webp",
+            "duracao_ms": 900
+          },
+          {
+            "gesto": "emoji_u1f44b_3d.webp",
+            "duracao_ms": 950
+          },
+          {
+            "gesto": "emoji_u1f64f_3d.webp",
+            "duracao_ms": 1100
+          }
+        ]
+      }
+    },
+    {
+      "id": "pau-056",
+      "estado": "pc_desligado_pausa",
+      "modo": "carinha_e_gestos",
+      "frase": "Pausa tranquila: tudo parado com respeito ao tempo!",
+      "carinha": "emoji_u1f60c_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f64f_3d.webp",
+            "duracao_ms": 900
+          },
+          {
+            "gesto": "emoji_u1faf4_3d.webp",
+            "duracao_ms": 900
+          },
+          {
+            "gesto": "emoji_u1f44b_3d.webp",
+            "duracao_ms": 1100
+          }
+        ]
+      }
+    },
+    {
+      "id": "pau-057",
+      "estado": "pc_desligado_pausa",
+      "modo": "carinha_e_gestos",
+      "frase": "Rotina de pausa: silêncio, mão aberta, descanso, tchau e paz!",
+      "carinha": "emoji_u1f971_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_longa",
+        "passos": [
+          {
+            "gesto": "emoji_u1f92b_3d (1).webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u270b_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1faf4_3d.webp",
+            "duracao_ms": 900
+          },
+          {
+            "gesto": "emoji_u1f44b_3d.webp",
+            "duracao_ms": 950
+          },
+          {
+            "gesto": "emoji_u1f64f_3d.webp",
+            "duracao_ms": 1100
+          }
+        ]
+      }
+    },
+    {
+      "id": "pau-058",
+      "estado": "pc_desligado_pausa",
+      "modo": "carinha_e_gestos",
+      "frase": "Pausa calma com mãozinhas de sossego!",
+      "carinha": "emoji_u1f614_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f64f_3d.webp",
+            "duracao_ms": 1300
+          }
+        ]
+      }
+    },
+    {
+      "id": "pau-059",
+      "estado": "pc_desligado_pausa",
+      "modo": "carinha_e_gestos",
+      "frase": "Tudo parado por aqui — tchau até a volta!",
+      "carinha": "emoji_u1f62a_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u270b_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44b_3d.webp",
+            "duracao_ms": 1100
+          }
+        ]
+      }
+    },
+    {
+      "id": "pau-060",
+      "estado": "pc_desligado_pausa",
+      "modo": "carinha_e_gestos",
+      "frase": "Psiu: sem coleta ativa durante a pausa!",
+      "carinha": "emoji_u1f634_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f92b_3d (1).webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1faf4_3d.webp",
+            "duracao_ms": 900
+          },
+          {
+            "gesto": "emoji_u1f64f_3d.webp",
+            "duracao_ms": 1100
+          }
+        ]
+      }
+    },
+    {
+      "id": "pau-061",
+      "estado": "pc_desligado_pausa",
+      "modo": "carinha_e_gestos",
+      "frase": "Descansando na pausa e dando tchauzinho!",
+      "carinha": "emoji_u1f971_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1faf4_3d.webp",
+            "duracao_ms": 900
+          },
+          {
+            "gesto": "emoji_u1f44b_3d.webp",
+            "duracao_ms": 1100
+          }
+        ]
+      }
+    },
+    {
+      "id": "pau-062",
+      "estado": "pc_desligado_pausa",
+      "modo": "carinha_e_gestos",
+      "frase": "Silêncio no modo de pausa por aqui.",
+      "carinha": "emoji_u1f60c_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f92b_3d (1).webp",
+            "duracao_ms": 1300
+          }
+        ]
+      }
+    },
+    {
+      "id": "pau-063",
+      "estado": "pc_desligado_pausa",
+      "modo": "carinha_e_gestos",
+      "frase": "Pausa assumida: mão parada, tchau e paz!",
+      "carinha": "emoji_u1f614_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u270b_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44b_3d.webp",
+            "duracao_ms": 950
+          },
+          {
+            "gesto": "emoji_u1f64f_3d.webp",
+            "duracao_ms": 1100
+          }
+        ]
+      }
+    },
+    {
+      "id": "pau-064",
+      "estado": "pc_desligado_pausa",
+      "modo": "carinha_e_gestos",
+      "frase": "Psiu: a bancada dorme em paz nesta pausa.",
+      "carinha": "emoji_u1f634_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f92b_3d (1).webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f64f_3d.webp",
+            "duracao_ms": 1100
+          }
+        ]
+      }
+    },
+    {
+      "id": "pau-065",
+      "estado": "pc_desligado_pausa",
+      "modo": "carinha_e_gestos",
+      "frase": "Pausa prolongada: silêncio, dúvida leve, descanso, tchau e sossego!",
+      "carinha": "emoji_u1f62a_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_longa",
+        "passos": [
+          {
+            "gesto": "emoji_u1f92b_3d (1).webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1faf4_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u270b_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44b_3d.webp",
+            "duracao_ms": 950
+          },
+          {
+            "gesto": "emoji_u1f64f_3d.webp",
+            "duracao_ms": 1100
+          }
+        ]
+      }
+    },
+    {
+      "id": "pau-066",
+      "estado": "pc_desligado_pausa",
+      "modo": "carinha_e_gestos",
+      "frase": "Até logo! Pausa limpa no Pingnet.",
+      "carinha": "emoji_u1f971_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44b_3d.webp",
+            "duracao_ms": 1300
+          }
+        ]
+      }
+    },
+    {
+      "id": "pau-067",
+      "estado": "pc_desligado_pausa",
+      "modo": "carinha_e_gestos",
+      "frase": "Psiu: tudo quieto enquanto não há sinal ativo.",
+      "carinha": "emoji_u1f60c_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f92b_3d (1).webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1faf4_3d.webp",
+            "duracao_ms": 1000
+          }
+        ]
+      }
+    },
+    {
+      "id": "pau-068",
+      "estado": "pc_desligado_pausa",
+      "modo": "carinha_e_gestos",
+      "frase": "Pausa tranquila: paz, descanso e tchau!",
+      "carinha": "emoji_u1f614_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f64f_3d.webp",
+            "duracao_ms": 900
+          },
+          {
+            "gesto": "emoji_u1faf4_3d.webp",
+            "duracao_ms": 900
+          },
+          {
+            "gesto": "emoji_u1f44b_3d.webp",
+            "duracao_ms": 1100
+          }
+        ]
+      }
+    },
+    {
+      "id": "pau-069",
+      "estado": "pc_desligado_pausa",
+      "modo": "carinha_e_gestos",
+      "frase": "Sossego total durante a pausa da bancada.",
+      "carinha": "emoji_u1f634_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f64f_3d.webp",
+            "duracao_ms": 1300
+          }
+        ]
+      }
+    },
+    {
+      "id": "pau-070",
+      "estado": "pc_desligado_pausa",
+      "modo": "carinha_e_gestos",
+      "frase": "Tchauzinho de pausa! Voltamos quando acordar.",
+      "carinha": "emoji_u1f62a_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1faf4_3d.webp",
+            "duracao_ms": 900
+          },
+          {
+            "gesto": "emoji_u1f44b_3d.webp",
+            "duracao_ms": 1100
+          }
+        ]
+      }
+    },
+    {
+      "id": "pau-071",
+      "estado": "pc_desligado_pausa",
+      "modo": "carinha_e_gestos",
+      "frase": "Psiu: modo pausa ativado com tranquilidade.",
+      "carinha": "emoji_u1f971_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f92b_3d (1).webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f64f_3d.webp",
+            "duracao_ms": 900
+          },
+          {
+            "gesto": "emoji_u1f44b_3d.webp",
+            "duracao_ms": 1100
+          }
+        ]
+      }
+    },
+    {
+      "id": "pau-072",
+      "estado": "pc_desligado_pausa",
+      "modo": "carinha_e_gestos",
+      "frase": "Pausa serena por aqui — tchau até já!",
+      "carinha": "emoji_u1f60c_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44b_3d.webp",
+            "duracao_ms": 1300
+          }
+        ]
+      }
+    },
+    {
+      "id": "pau-073",
+      "estado": "pc_desligado_pausa",
+      "modo": "carinha_e_gestos",
+      "frase": "Pausa na linha: silêncio, parada, descanso, tchau e paz!",
+      "carinha": "emoji_u1f634_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_longa",
+        "passos": [
+          {
+            "gesto": "emoji_u1f92b_3d (1).webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u270b_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1faf4_3d.webp",
+            "duracao_ms": 900
+          },
+          {
+            "gesto": "emoji_u1f44b_3d.webp",
+            "duracao_ms": 950
+          },
+          {
+            "gesto": "emoji_u1f64f_3d.webp",
+            "duracao_ms": 1100
+          }
+        ]
+      }
+    },
+    {
+      "id": "pau-074",
+      "estado": "pc_desligado_pausa",
+      "modo": "carinha_e_gestos",
+      "frase": "Psiu: sem coleta neste intervalo de pausa.",
+      "carinha": "emoji_u1f614_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f92b_3d (1).webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f64f_3d.webp",
+            "duracao_ms": 1100
+          }
+        ]
+      }
+    },
+    {
+      "id": "pau-075",
+      "estado": "pc_desligado_pausa",
+      "modo": "carinha_e_gestos",
+      "frase": "Pausa leve: descanso, aceno e sossego!",
+      "carinha": "emoji_u1f62a_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1faf4_3d.webp",
+            "duracao_ms": 900
+          },
+          {
+            "gesto": "emoji_u1f44b_3d.webp",
+            "duracao_ms": 950
+          },
+          {
+            "gesto": "emoji_u1f64f_3d.webp",
+            "duracao_ms": 1100
+          }
+        ]
+      }
+    },
+    {
+      "id": "pau-076",
+      "estado": "pc_desligado_pausa",
+      "modo": "carinha_e_gestos",
+      "frase": "Sossego e pausa na bancada agora.",
+      "carinha": "emoji_u1f971_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f64f_3d.webp",
+            "duracao_ms": 1300
+          }
+        ]
+      }
+    },
+    {
+      "id": "pau-077",
+      "estado": "pc_desligado_pausa",
+      "modo": "carinha_e_gestos",
+      "frase": "Tchauzinho! Tudo pausado sem estresse.",
+      "carinha": "emoji_u1f60c_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f64f_3d.webp",
+            "duracao_ms": 900
+          },
+          {
+            "gesto": "emoji_u1f44b_3d.webp",
+            "duracao_ms": 1100
+          }
+        ]
+      }
+    },
+    {
+      "id": "pau-078",
+      "estado": "pc_desligado_pausa",
+      "modo": "carinha_e_gestos",
+      "frase": "Psiu: o Ping entrou em modo soneca!",
+      "carinha": "emoji_u1f634_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f92b_3d (1).webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1faf4_3d.webp",
+            "duracao_ms": 900
+          },
+          {
+            "gesto": "emoji_u1f44b_3d.webp",
+            "duracao_ms": 1100
+          }
+        ]
+      }
+    },
+    {
+      "id": "pau-079",
+      "estado": "pc_desligado_pausa",
+      "modo": "carinha_e_gestos",
+      "frase": "Pausa limpa no radar: silêncio, descanso, parada, tchau e paz!",
+      "carinha": "emoji_u1f614_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_longa",
+        "passos": [
+          {
+            "gesto": "emoji_u1f92b_3d (1).webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1faf4_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u270b_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44b_3d.webp",
+            "duracao_ms": 950
+          },
+          {
+            "gesto": "emoji_u1f64f_3d.webp",
+            "duracao_ms": 1100
+          }
+        ]
+      }
+    },
+    {
+      "id": "pau-080",
+      "estado": "pc_desligado_pausa",
+      "modo": "carinha_e_gestos",
+      "frase": "Até a próxima ligação! Tudo em pausa.",
+      "carinha": "emoji_u1f62a_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44b_3d.webp",
+            "duracao_ms": 1300
+          }
+        ]
+      }
+    },
+    {
+      "id": "pau-081",
+      "estado": "pc_desligado_pausa",
+      "modo": "carinha_e_gestos",
+      "frase": "Psiu: sem medições falsas neste intervalo.",
+      "carinha": "emoji_u1f971_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f92b_3d (1).webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f64f_3d.webp",
+            "duracao_ms": 1100
+          }
+        ]
+      }
+    },
+    {
+      "id": "pau-082",
+      "estado": "pc_desligado_pausa",
+      "modo": "carinha_e_gestos",
+      "frase": "Pausa serena: paz, descanso e aceno!",
+      "carinha": "emoji_u1f60c_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f64f_3d.webp",
+            "duracao_ms": 900
+          },
+          {
+            "gesto": "emoji_u1faf4_3d.webp",
+            "duracao_ms": 900
+          },
+          {
+            "gesto": "emoji_u1f44b_3d.webp",
+            "duracao_ms": 1100
+          }
+        ]
+      }
+    },
+    {
+      "id": "pau-083",
+      "estado": "pc_desligado_pausa",
+      "modo": "carinha_e_gestos",
+      "frase": "Sossego na pausa da bancada.",
+      "carinha": "emoji_u1f634_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f64f_3d.webp",
+            "duracao_ms": 1300
+          }
+        ]
+      }
+    },
+    {
+      "id": "pau-084",
+      "estado": "pc_desligado_pausa",
+      "modo": "carinha_e_gestos",
+      "frase": "Tchauzinho! O Ping espera o retorno.",
+      "carinha": "emoji_u1f614_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1faf4_3d.webp",
+            "duracao_ms": 900
+          },
+          {
+            "gesto": "emoji_u1f44b_3d.webp",
+            "duracao_ms": 1100
+          }
+        ]
+      }
+    },
+    {
+      "id": "pau-085",
+      "estado": "pc_desligado_pausa",
+      "modo": "carinha_e_gestos",
+      "frase": "Psiu: tudo quieto e pausado por aqui.",
+      "carinha": "emoji_u1f62a_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f92b_3d (1).webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1faf4_3d.webp",
+            "duracao_ms": 900
+          },
+          {
+            "gesto": "emoji_u1f64f_3d.webp",
+            "duracao_ms": 1100
+          }
+        ]
+      }
+    },
+    {
+      "id": "pau-086",
+      "estado": "pc_desligado_pausa",
+      "modo": "carinha_e_gestos",
+      "frase": "Pausa tranquila até a próxima medição.",
+      "carinha": "emoji_u1f971_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44b_3d.webp",
+            "duracao_ms": 1300
+          }
+        ]
+      }
+    },
+    {
+      "id": "pau-087",
+      "estado": "pc_desligado_pausa",
+      "modo": "carinha_e_gestos",
+      "frase": "Descanso da bancada: silêncio, pausa, descanso, tchau e paz!",
+      "carinha": "emoji_u1f634_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_longa",
+        "passos": [
+          {
+            "gesto": "emoji_u1f92b_3d (1).webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u270b_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1faf4_3d.webp",
+            "duracao_ms": 900
+          },
+          {
+            "gesto": "emoji_u1f44b_3d.webp",
+            "duracao_ms": 950
+          },
+          {
+            "gesto": "emoji_u1f64f_3d.webp",
+            "duracao_ms": 1100
+          }
+        ]
+      }
+    },
+    {
+      "id": "pau-088",
+      "estado": "pc_desligado_pausa",
+      "modo": "carinha_e_gestos",
+      "frase": "Psiu: modo pausa ligado com sossego.",
+      "carinha": "emoji_u1f60c_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f92b_3d (1).webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f64f_3d.webp",
+            "duracao_ms": 1100
+          }
+        ]
+      }
+    },
+    {
+      "id": "pau-089",
+      "estado": "pc_desligado_pausa",
+      "modo": "carinha_e_gestos",
+      "frase": "Pausa serena: descanso, paz e aceno!",
+      "carinha": "emoji_u1f614_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1faf4_3d.webp",
+            "duracao_ms": 900
+          },
+          {
+            "gesto": "emoji_u1f64f_3d.webp",
+            "duracao_ms": 900
+          },
+          {
+            "gesto": "emoji_u1f44b_3d.webp",
+            "duracao_ms": 1100
+          }
+        ]
+      }
+    },
+    {
+      "id": "pau-090",
+      "estado": "pc_desligado_pausa",
+      "modo": "carinha_e_gestos",
+      "frase": "Tchauzinho na pausa do Pingnet!",
+      "carinha": "emoji_u1f62a_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f44b_3d.webp",
+            "duracao_ms": 1300
+          }
+        ]
+      }
+    },
+    {
+      "id": "pau-091",
+      "estado": "pc_desligado_pausa",
+      "modo": "carinha_e_gestos",
+      "frase": "Psiu: nada rodando nesta pausa.",
+      "carinha": "emoji_u1f971_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1f92b_3d (1).webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1faf4_3d.webp",
+            "duracao_ms": 1000
+          }
+        ]
+      }
+    },
+    {
+      "id": "pau-092",
+      "estado": "pc_desligado_pausa",
+      "modo": "carinha_e_gestos",
+      "frase": "Pausa calma e respeitosa na bancada.",
+      "carinha": "emoji_u1f60c_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f64f_3d.webp",
+            "duracao_ms": 900
+          },
+          {
+            "gesto": "emoji_u1faf4_3d.webp",
+            "duracao_ms": 900
+          },
+          {
+            "gesto": "emoji_u1f44b_3d.webp",
+            "duracao_ms": 1100
+          }
+        ]
+      }
+    },
+    {
+      "id": "pau-093",
+      "estado": "pc_desligado_pausa",
+      "modo": "carinha_e_gestos",
+      "frase": "Sossego total nesta pausa do Ping!",
+      "carinha": "emoji_u1f634_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f64f_3d.webp",
+            "duracao_ms": 1300
+          }
+        ]
+      }
+    },
+    {
+      "id": "pau-094",
+      "estado": "pc_desligado_pausa",
+      "modo": "carinha_e_gestos",
+      "frase": "Pausa assumida: silêncio, descanso, parada, tchau e paz!",
+      "carinha": "emoji_u1f614_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_longa",
+        "passos": [
+          {
+            "gesto": "emoji_u1f92b_3d (1).webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1faf4_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u270b_3d.webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f44b_3d.webp",
+            "duracao_ms": 950
+          },
+          {
+            "gesto": "emoji_u1f64f_3d.webp",
+            "duracao_ms": 1100
+          }
+        ]
+      }
+    },
+    {
+      "id": "pau-095",
+      "estado": "pc_desligado_pausa",
+      "modo": "carinha_e_gestos",
+      "frase": "Tchauzinho! Tudo sossegado por aqui.",
+      "carinha": "emoji_u1f62a_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1faf4_3d.webp",
+            "duracao_ms": 900
+          },
+          {
+            "gesto": "emoji_u1f44b_3d.webp",
+            "duracao_ms": 1100
+          }
+        ]
+      }
+    },
+    {
+      "id": "pau-096",
+      "estado": "pc_desligado_pausa",
+      "modo": "carinha_e_gestos",
+      "frase": "Psiu: pausa limpa no observatório.",
+      "carinha": "emoji_u1f971_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f92b_3d (1).webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f64f_3d.webp",
+            "duracao_ms": 900
+          },
+          {
+            "gesto": "emoji_u1f44b_3d.webp",
+            "duracao_ms": 1100
+          }
+        ]
+      }
+    },
+    {
+      "id": "pau-097",
+      "estado": "pc_desligado_pausa",
+      "modo": "carinha_e_gestos",
+      "frase": "Paz na pausa da bancada agora.",
+      "carinha": "emoji_u1f60c_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "gesto_unico",
+        "passos": [
+          {
+            "gesto": "emoji_u1f64f_3d.webp",
+            "duracao_ms": 1300
+          }
+        ]
+      }
+    },
+    {
+      "id": "pau-098",
+      "estado": "pc_desligado_pausa",
+      "modo": "carinha_e_gestos",
+      "frase": "Tchau por enquanto — modo pausa ativo!",
+      "carinha": "emoji_u1f634_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1faf4_3d.webp",
+            "duracao_ms": 900
+          },
+          {
+            "gesto": "emoji_u1f44b_3d.webp",
+            "duracao_ms": 1100
+          }
+        ]
+      }
+    },
+    {
+      "id": "pau-099",
+      "estado": "pc_desligado_pausa",
+      "modo": "carinha_e_gestos",
+      "frase": "Fechando o ciclo com pausa tranquila e silêncio.",
+      "carinha": "emoji_u1f614_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_media",
+        "passos": [
+          {
+            "gesto": "emoji_u1f92b_3d (1).webp",
+            "duracao_ms": 850
+          },
+          {
+            "gesto": "emoji_u1f64f_3d.webp",
+            "duracao_ms": 900
+          },
+          {
+            "gesto": "emoji_u1f44b_3d.webp",
+            "duracao_ms": 1100
+          }
+        ]
+      }
+    },
+    {
+      "id": "pau-100",
+      "estado": "pc_desligado_pausa",
+      "modo": "carinha_e_gestos",
+      "frase": "Em pausa! O Ping fica quietinho até a próxima volta.",
+      "carinha": "emoji_u1f62a_3d.webp",
+      "gesto_ou_coreografia": {
+        "tipo": "coreografia_curta",
+        "passos": [
+          {
+            "gesto": "emoji_u1faf4_3d.webp",
+            "duracao_ms": 900
+          },
+          {
+            "gesto": "emoji_u1f44b_3d.webp",
+            "duracao_ms": 1100
+          }
+        ]
+      }
+    }
+  ]
+}
