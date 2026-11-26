@@ -1,3 +1,4 @@
+import {ratingText} from './ping-rating.js';
 import {settings} from './settings.js';
 import {mountSync} from './ping-sync.js';
 import {mountVoice,playVoice,stopVoice,configureVoice} from './ping-voice.js';
@@ -16,7 +17,7 @@ function save(){revision++;put('pingState',{id:'position',...pos}).catch(console
 mountVoice();
 const motion=mountMotion(root,snapshot,activeId);
 const sync=mountSync(root,bubble,motion,playVoice,stopVoice);
-const speak=(text,emotion)=>{if(!settings().visible)return;sync.speak(text,emotion);if(settings().vibration&&!document.hidden&&navigator.vibrate)navigator.vibrate(emotion==='tristeza'?[80,60,80]:35);};
+const speak=(text,emotion)=>{if(!settings().visible)return;sync.speak(`${ratingText(snapshot(),activeId())} ${text}`,emotion);if(settings().vibration&&!document.hidden&&navigator.vibrate)navigator.vibrate(emotion==='tristeza'?[80,60,80]:35);};
 function applySettings(){const s=settings();root.hidden=!s.visible;root.dataset.animations=String(s.animations);root.dataset.size=s.size;configureVoice({enabled:s.voice&&s.visible,volume:s.volume/100});if(!s.visible)sync.cancel();if(pos&&s.visible)place(pos.x,pos.y);}
 document.addEventListener('pingnet:settings',applySettings);applySettings();
 place(innerWidth-root.offsetWidth-12,innerHeight-root.offsetHeight-56);get('pingState','position').then(p=>{if(p&&!revision&&!drag)place(p.x,p.y)}).catch(console.error);
