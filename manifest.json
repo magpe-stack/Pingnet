@@ -1,0 +1,32 @@
+{
+  "id": "./",
+  "name": "Pingnet — Observatório Local da Internet",
+  "short_name": "Pingnet",
+  "description": "Sua internet, sem mistérios.",
+  "lang": "pt-BR",
+  "start_url": "./index.html#inicio",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#fff7e6",
+  "theme_color": "#6f1d1b",
+  "icons": [
+    {
+      "src": "assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icon-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

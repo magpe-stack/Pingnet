@@ -2,7 +2,7 @@
 
 *Sua internet, sem mistérios.*
 
-## Interface responsiva — etapa 04 de 30
+## Infraestrutura PWA — etapa 05 de 30
 
 Esta entrega contém navegação funcional, identidade oficial, tema Café inicial, alternância clara/escura persistida localmente, estrutura modular e recursos originais. Não realiza medições nem gera registros fictícios. As áreas futuras estão explicitamente identificadas.
 
@@ -16,7 +16,7 @@ Os logotipos fornecidos foram preservados; favicon e ícone adaptável foram der
 
 ## Próximas etapas
 
-Infraestrutura PWA e offline (05), banco IndexedDB (06), motor de monitoramento (07). As demais funcionalidades seguem o plano aprovado. Nesta etapa não há manifest nem Service Worker ativo: a instalação PWA será implementada na etapa 05.
+Banco IndexedDB (06), motor de monitoramento (07). As demais funcionalidades seguem o plano aprovado. O manifest e o Service Worker estão incluídos.
 
 ## Sistema visual
 
@@ -29,3 +29,7 @@ Em Configurações de Sistema, selecione uma das 12 paletas por botão de opçã
 ## Interface responsiva
 
 Cabeçalho e rodapé permanecem visíveis; somente a área central rola quando necessário. Início usa cartões compactos e grade adaptativa. O menu sanfona tem rolagem independente e opção de tela cheia quando suportada. Telas pequenas, zoom e conteúdo extenso permitem rolagem para preservar acessibilidade. A impressão remove os limites de altura.
+
+## Instalação e funcionamento offline
+
+Abra por HTTPS no Chrome. Aguarde a preparação dos recursos offline. Em Exibição, use Instalar Pingnet quando oferecido pelo navegador; também é possível usar o menu do Chrome. Desconecte a internet e recarregue para testar. A primeira preparação exige conexão. Em Exibição, Verificar atualização consulta o Service Worker; Aplicar atualização aparece quando uma versão está aguardando. O cache é versionado e não intercepta destinos externos. O armazenamento local não é apagado. O título e subtítulo não são links; somente o logotipo leva ao Início. O monitoramento ainda não está disponível.
