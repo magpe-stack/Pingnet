@@ -101,3 +101,6 @@ Voz procedural revisada: assobios eletrônicos, bipes, glissandos e modulação 
 
 ### Nota informal do Ping
 Toda fala inclui a nota de 0 a 10 da rodada recente do perfil ativo, ou informa que faltam dados. Cada resposta válida vale 10, 9, 8, 6 ou 4 conforme os limites de 100, 200, 350 e 700 ms; resposta ausente vale zero, e a soma é dividida por dois. Interrupção confirmada vale zero. Resultados inconclusivos e dados com mais de 90 segundos não recebem nota. Com coletas pausadas, a nota recente é identificada como última rodada. A nota não mede velocidade contratada nem identifica a causa de problemas.
+
+### Revisão emocional
+186 de 190 imagens integradas a grupos emocionais, com sorteio sem repetição por grupo durante a sessão. Símbolos e gestos complementam os rostos. Irritação e impaciência respondem a problemas recorrentes; a sequência é reiniciada ao mudar de perfil. A cobertura é de imagens elegíveis, não uma garantia de exibição de todas em cada sessão.
