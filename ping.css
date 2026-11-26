@@ -1,0 +1,8 @@
+#ping{position:fixed;z-index:4;width:64px;height:64px;pointer-events:none;}
+#ping .ping-face{position:relative;display:block;width:64px;height:64px;padding:0;border:0;background:transparent;box-shadow:none;touch-action:none;cursor:grab;pointer-events:auto;user-select:none;}
+#ping .ping-face:active{cursor:grabbing}#ping .ping-face:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+#ping .ping-face img{width:58px;height:58px;object-fit:contain;pointer-events:none;filter:drop-shadow(0 2px 3px #0004)}
+#ping .ping-face .ping-hand{position:absolute;width:26px;height:26px;right:0;bottom:0}
+#ping .ping-bubble{position:absolute;bottom:100%;left:0;width:min(200px,calc(100vw - 16px));max-width:calc(100vw - 16px);padding:8px;background:var(--surface);color:var(--ink);border:1px solid var(--line);border-radius:var(--radius-sm);box-shadow:var(--shadow);font-size:.85rem;overflow-wrap:anywhere;pointer-events:none}
+#ping .ping-bubble.left{left:auto;right:0}#ping .ping-bubble.below{bottom:auto;top:100%}
+@media print{#ping{display:none!important}}

@@ -70,3 +70,7 @@ Abra Anotações no menu Observatório. Use Nova anotação, informe data e hor�
 
 ## Minha conexão — etapa 17
 Crie e edite perfis em Sistema → Minha conexão. Selecione manualmente o perfil da rede atual. O perfil ativo é persistido no IndexedDB. As consultas e anotações são isoladas por perfil; os registros anteriores permanecem no perfil padrão. A troca encerra a sessão anterior sem reiniciar a cota experimental de seis rodadas por abertura. Não há identificação automática de rede nem exclusão de perfis nesta etapa, para preservar registros. Campos adicionais são opcionais e locais. Salvar/Abrir geral continua previsto para a etapa 26.
+
+
+## Ping — personagem flutuante (etapa 18)
+Arraste o Ping com mouse ou toque, ou use as setas quando o botão estiver em foco. Toque para uma fala inicial. A posição é guardada no IndexedDB e ajustada aos limites da tela. O personagem não aparece na impressão. Expressões contextuais, repertório completo e voz serão incorporados nas próximas etapas.
