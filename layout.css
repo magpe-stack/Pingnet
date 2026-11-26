@@ -13,3 +13,23 @@ main[data-page=inicio] h1{margin-bottom:8px}main[data-page=inicio] .panel{margin
 
 main[data-page=inicio] .reference-grid{grid-template-columns:repeat(2,minmax(0,1fr));margin-bottom:8px} @media(min-width:700px){main[data-page=inicio] .reference-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 main[data-page=inicio] .collection-grid{grid-template-columns:repeat(2,minmax(0,1fr))}@media(min-width:700px){main[data-page=inicio] .collection-grid{grid-template-columns:repeat(4,minmax(0,1fr))}}.collection-bar{display:flex;height:8px;margin-top:8px;background:var(--line);border-radius:8px;overflow:hidden}.collection-bar span:first-child{background:#22C55E}.collection-bar span:last-child{background:#EF4444}
+
+/* Etapa 11: painel compacto; overflow permanece acessível em telas reduzidas. */
+main[data-page=inicio]{padding:8px 12px;display:flex;flex-direction:column;gap:6px;justify-content:flex-start}
+main[data-page=inicio] h1{font-size:clamp(1.25rem,3vw,1.65rem);margin:0;line-height:1.2}
+main[data-page=inicio] .panel{margin:0;padding:8px;flex-shrink:0;border-radius:12px}
+main[data-page=inicio] h2{font-size:clamp(.95rem,2vw,1.1rem);margin:0 0 4px}
+main[data-page=inicio] h3{font-size:.8rem;margin:4px 0;line-height:1.2}
+main[data-page=inicio] .grid{gap:4px}
+main[data-page=inicio] .metric{padding:4px 6px;display:flex;flex-direction:column;justify-content:center;gap:2px}
+main[data-page=inicio] .metric small{font-size:.78rem;line-height:1.2}
+main[data-page=inicio] .metric strong{font-size:clamp(1rem,2.5vw,1.35rem);line-height:1.1}
+main[data-page=inicio] .reference-grid{margin:0;grid-template-columns:repeat(2,minmax(0,1fr))}
+main[data-page=inicio] .quality-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+.monitor-meta{display:flex;flex-wrap:wrap;align-items:baseline;gap:2px 8px;margin-bottom:4px;font-size:.82rem;line-height:1.25}
+.monitor-meta small,.update-line{color:var(--muted);font-size:.75rem}.monitor-meta small:empty{display:none}
+.update-line{margin-top:3px;text-align:right;font-variant-numeric:tabular-nums}
+main[data-page=inicio] .collection-bar{margin-top:4px;height:6px}
+main[data-page=inicio] #analytics-status,main[data-page=inicio] .home-timeline p{font-size:.75rem;line-height:1.2;margin:3px 0 0;display:block}
+@media(min-width:700px){main[data-page=inicio] .quality-grid{grid-template-columns:repeat(6,minmax(0,1fr))}}
+@media(max-width:340px){main[data-page=inicio] .quality-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}

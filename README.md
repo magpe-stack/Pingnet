@@ -47,3 +47,7 @@ Cada sequência de coletas recebe um identificador local. Uma lacuna superior a 
 
 ## Etapa 10 — Indicadores
 O resumo diário utiliza a média dos tempos de respostas verificadas e conta consultas individuais, inclusive registros anteriores. Engasgos contam rodadas classificadas como lentas. Quedas contam entradas no estado de interrupção observada. A estabilidade estima a proporção de tempo disponível entre observações consecutivas da mesma sessão, separadas por até 90 segundos; estados inconclusivos e lacunas não entram no denominador. Não extrapola após a última coleta. A duração de interrupção é conservadora e começa na classificação confirmada. Sem intervalo suficiente, mostra travessão. Os quatro indicadores de coletas são diários e incluem todas as consultas concluídas, mesmo as não verificáveis; não equivalem à estabilidade. Mantido o limite experimental anterior.
+
+## Etapa 11 — Painel Início
+
+O cartão promocional foi removido; o logotipo principal permanece. Servidores, estado da coleta, contadores e horário real da última rodada registrada estão no mesmo painel. Resultados anteriores permanecem identificados pelo horário, inclusive após o fim da bateria. A qualidade diária fica em painel separado. A interface compacta permite rolagem quando necessária por tamanho de tela ou acessibilidade. A linha do tempo real será implementada na etapa 12; não se apresenta uma faixa cinza fictícia. O intervalo e limite experimental de coletas permanecem inalterados.
