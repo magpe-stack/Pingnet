@@ -95,3 +95,6 @@ Texto progressivo proporcional à duração da voz, com alternativa silenciosa. 
 
 ## Configurações de Sistema (etapa 25)
 Ping: visibilidade, voz, volume, animações, vibração, tamanho e frequência. Visual: temas e modo. Coletas: início automático, iniciar e pausar, mantendo o limite experimental de seis rodadas por abertura. Dados: consulta ao armazenamento. Preferências em IndexedDB (`preferences/system`), sem apagar dados anteriores. Backup em arquivo ainda não implementado. Vibração depende do navegador; áudio exige interação inicial.
+
+### Refinamento Pinglish
+Voz procedural revisada: assobios eletrônicos, bipes, glissandos e modulação de frequência, sem amostras externas. Mantém as 15 emoções e controles existentes.
