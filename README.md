@@ -67,3 +67,6 @@ Consulte 24 faixas horárias locais, hoje ou nos últimos 7/30 dias completos. A
 ## Anotações — etapa 16
 
 Abra Anotações no menu Observatório. Use Nova anotação, informe data e horário, título (até 100 caracteres) e descrição (até 4.000 caracteres). Salvar anotação grava no IndexedDB; Editar permite corrigir o registro e Excluir solicita confirmação. A pesquisa consulta título e descrição; os registros mais recentes aparecem primeiro, em grupos de 30. O Histórico também inclui anotações identificadas como registros manuais, com filtro próprio. Elas não alteram os indicadores automáticos. Nesta etapa utiliza-se o perfil padrão; perfis múltiplos serão implementados na etapa 17. Salvar/Abrir arquivos permanece previsto para a etapa 26. Não há envio de anotações a servidores.
+
+## Minha conexão — etapa 17
+Crie e edite perfis em Sistema → Minha conexão. Selecione manualmente o perfil da rede atual. O perfil ativo é persistido no IndexedDB. As consultas e anotações são isoladas por perfil; os registros anteriores permanecem no perfil padrão. A troca encerra a sessão anterior sem reiniciar a cota experimental de seis rodadas por abertura. Não há identificação automática de rede nem exclusão de perfis nesta etapa, para preservar registros. Campos adicionais são opcionais e locais. Salvar/Abrir geral continua previsto para a etapa 26.
