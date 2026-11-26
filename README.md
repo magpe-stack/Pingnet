@@ -107,3 +107,7 @@ Toda fala inclui a nota de 0 a 10 da rodada recente do perfil ativo, ou informa 
 
 ### Humor visual contextual
 Piadas especiais usam imagens originais vinculadas à fala, mantidas até o balão desaparecer. Cocô para nota até 4 em engasgos ou interrupção confirmada; palhaço para possível sinal enganoso ou interrupção confirmada. As piadas são intercaladas com o repertório comum, sem mudar a nota.
+
+
+## Ping Comedy Club
+40 piadas do pontinho, pergunta, suspense de cinco segundos e resposta com plateia sintetizada. A cada terceiro toque ou aproximadamente quatro minutos de atividade, e por botão nas configurações. Efeitos e piadas configuráveis separadamente. Os sons são procedurais, não gravações humanas.
