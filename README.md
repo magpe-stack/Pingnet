@@ -2,7 +2,7 @@
 
 *Sua internet, sem mistérios.*
 
-## Temas cromáticos — etapa 03 de 30
+## Interface responsiva — etapa 04 de 30
 
 Esta entrega contém navegação funcional, identidade oficial, tema Café inicial, alternância clara/escura persistida localmente, estrutura modular e recursos originais. Não realiza medições nem gera registros fictícios. As áreas futuras estão explicitamente identificadas.
 
@@ -16,7 +16,7 @@ Os logotipos fornecidos foram preservados; favicon e ícone adaptável foram der
 
 ## Próximas etapas
 
-Interface responsiva (04), infraestrutura PWA e offline (05), banco IndexedDB (06), motor de monitoramento (07). As demais funcionalidades seguem o plano aprovado. Nesta etapa não há manifest nem Service Worker ativo: a instalação PWA será implementada na etapa 05.
+Infraestrutura PWA e offline (05), banco IndexedDB (06), motor de monitoramento (07). As demais funcionalidades seguem o plano aprovado. Nesta etapa não há manifest nem Service Worker ativo: a instalação PWA será implementada na etapa 05.
 
 ## Sistema visual
 
@@ -25,3 +25,7 @@ Interface responsiva (04), infraestrutura PWA e offline (05), banco IndexedDB (0
 ## Temas cromáticos
 
 Em Configurações de Sistema, selecione uma das 12 paletas por botão de opção. Cada tema possui modo claro e escuro. Café claro é o padrão inicial; a seleção e o modo persistem em localStorage. As cores de monitoramento não mudam. A integração ao IndexedDB e ao backup ocorrerá nas etapas correspondentes. O evento `pingnet:theme-selected` prepara a integração futura do Ping; as opiniões ainda não são executadas.
+
+## Interface responsiva
+
+Cabeçalho e rodapé permanecem visíveis; somente a área central rola quando necessário. Início usa cartões compactos e grade adaptativa. O menu sanfona tem rolagem independente e opção de tela cheia quando suportada. Telas pequenas, zoom e conteúdo extenso permitem rolagem para preservar acessibilidade. A impressão remove os limites de altura.
