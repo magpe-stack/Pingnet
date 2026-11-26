@@ -77,3 +77,6 @@ Arraste o Ping com mouse ou toque, ou use as setas quando o botão estiver em fo
 
 ## Expressões e coreografia do Ping
 O personagem reage à condição recente do perfil ativo enquanto a coleta está em andamento. Quando parada, apresenta expressão de repouso. Gestos espontâneos e animações respeitam a redução de movimento; o arraste interrompe a animação. A linha do tempo utiliza branco para períodos sem monitoramento, inclusive futuros, em ambos os modos visuais.
+
+## Etapa 20 — Cérebro do Ping
+Humor fictício diário persistido em pingState, separado das observações. Falas contextuais ao toque e automaticamente, com intervalo mínimo de 20 segundos e 90 segundos para repetição de condição. Não fala automaticamente em aba oculta ou durante arraste. Sem nota numérica nesta etapa; repertório completo e voz nas próximas etapas.
