@@ -40,3 +40,7 @@ Etapa 06: IndexedDB `pingnet-observatorio-local-Pingnet`, versão 1. Coleções:
 
 ## Monitoramento experimental
 Duas referências funcionalmente testadas: Cloudflare Speed Test e Wikimedia. Coletas automáticas limitadas a seis rodadas por abertura, com intervalo de 60 segundos. Restrições HTTP encerram a bateria. Não há autorização confirmada para uso contínuo. Três rodadas consecutivas sem resposta validada indicam interrupção observada, não prova de falha da operadora. Respostas parciais ou acima de 350 ms indicam engasgos provisórios. Lacunas superiores a 90 segundos reiniciam a confirmação. Registros anteriores preservados. Nenhum indicador histórico calculado nesta etapa.
+
+## Etapa 09 — Sessões de monitoramento
+
+Cada sequência de coletas recebe um identificador local. Uma lacuna superior a 90 segundos entre inícios de coletas, ou relógio retrocedendo, inicia nova sessão e reinicia a classificação. O encerramento registra somente até a última observação concluída, sem atribuir tempo de indisponibilidade a períodos sem coleta. Encerramentos abruptos podem deixar sessões abertas; seu último horário observado continua sendo o limite válido. Registros antigos sem sessão são preservados. A visualização e os cálculos serão implementados nas etapas seguintes. Mantido o limite experimental de seis rodadas por abertura.
