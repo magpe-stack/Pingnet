@@ -11,4 +11,4 @@ main[data-page=inicio] h1{margin-bottom:8px}main[data-page=inicio] .panel{margin
 @media(max-height:420px){nav{max-height:calc(100dvh - 75px)}footer a{min-height:32px}header .brand img{width:32px;height:32px}}
 @media print{html,body,main{height:auto!important;overflow:visible!important;display:block}main{width:100%;padding:0}}
 
-main[data-page=inicio] .reference-grid{grid-template-columns:repeat(2,minmax(0,1fr));margin-bottom:8px} @media(min-width:700px){main[data-page=inicio] .reference-grid{grid-template-columns:repeat(4,minmax(0,1fr))}}
+main[data-page=inicio] .reference-grid{grid-template-columns:repeat(2,minmax(0,1fr));margin-bottom:8px} @media(min-width:700px){main[data-page=inicio] .reference-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
