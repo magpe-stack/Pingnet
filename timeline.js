@@ -1,5 +1,5 @@
 import {MAX_GAP} from './sessions.js';
-export const kinds={stable:['Estável','#22C55E'],slow:['Engasgos','#EAB308'],suspect:['Possível sinal enganoso','#9333EA'],down:['Interrupção','#EF4444'],gap:['Sem monitoramento','#E9EDF2'],unknown:['Inconclusivo','#94A3B8']};
+export const kinds={stable:['Estável','#22C55E'],slow:['Engasgos','#EAB308'],suspect:['Possível sinal enganoso','#9333EA'],down:['Interrupção','#EF4444'],gap:['Sem monitoramento','#FFFFFF'],unknown:['Inconclusivo','#94A3B8']};
 export function segments(rows,from,to,now=Date.now()){
  const end=Math.min(to,now), out=[];let cursor=from;
  const add=(a,b,k)=>{if(b<=a)return;const last=out.at(-1);if(last?.kind===k&&last.end===a)last.end=b;else out.push({start:a,end:b,kind:k});};
@@ -14,5 +14,5 @@ export function paintTimeline(el,rows,from,to,now=Date.now()){
  for(const p of parts){const d=p.end-p.start;totals[p.kind]=(totals[p.kind]||0)+d;const span=document.createElement('span');span.style.flexBasis=100*d/(to-from)+'%';span.style.background=kinds[p.kind][1];span.title=`${kinds[p.kind][0]}: ${new Date(p.start).toLocaleTimeString('pt-BR')} – ${new Date(p.end).toLocaleTimeString('pt-BR')}`;track.append(span);}
  const fmt=d=>`${Math.floor(d/3600000)}h ${Math.floor(d%3600000/60000)}min ${Math.floor(d%60000/1000)}s`;track.setAttribute('aria-label',Object.entries(totals).map(([k,d])=>`${kinds[k][0]}: ${fmt(d)}`).join('; '));
  for(const b of el.querySelectorAll('[data-duration]'))b.textContent=fmt(totals[b.dataset.duration]||0);
- el.querySelector('.timeline-info').textContent='Intervalos estimados entre coletas; cinza inclui períodos futuros.';
+ el.querySelector('.timeline-info').textContent='Intervalos estimados entre coletas; branco inclui períodos futuros.';
 }

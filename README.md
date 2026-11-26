@@ -74,3 +74,6 @@ Crie e edite perfis em Sistema → Minha conexão. Selecione manualmente o perfi
 
 ## Ping — personagem flutuante (etapa 18)
 Arraste o Ping com mouse ou toque, ou use as setas quando o botão estiver em foco. Toque para uma fala inicial. A posição é guardada no IndexedDB e ajustada aos limites da tela. O personagem não aparece na impressão. Expressões contextuais, repertório completo e voz serão incorporados nas próximas etapas.
+
+## Expressões e coreografia do Ping
+O personagem reage à condição recente do perfil ativo enquanto a coleta está em andamento. Quando parada, apresenta expressão de repouso. Gestos espontâneos e animações respeitam a redução de movimento; o arraste interrompe a animação. A linha do tempo utiliza branco para períodos sem monitoramento, inclusive futuros, em ambos os modos visuais.
