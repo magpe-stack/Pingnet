@@ -12,3 +12,4 @@ main[data-page=inicio] h1{margin-bottom:8px}main[data-page=inicio] .panel{margin
 @media print{html,body,main{height:auto!important;overflow:visible!important;display:block}main{width:100%;padding:0}}
 
 main[data-page=inicio] .reference-grid{grid-template-columns:repeat(2,minmax(0,1fr));margin-bottom:8px} @media(min-width:700px){main[data-page=inicio] .reference-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+main[data-page=inicio] .collection-grid{grid-template-columns:repeat(2,minmax(0,1fr))}@media(min-width:700px){main[data-page=inicio] .collection-grid{grid-template-columns:repeat(4,minmax(0,1fr))}}.collection-bar{display:flex;height:8px;margin-top:8px;background:var(--line);border-radius:8px;overflow:hidden}.collection-bar span:first-child{background:#22C55E}.collection-bar span:last-child{background:#EF4444}
