@@ -1,8 +1,8 @@
-# Pingnet — Observatório Pessoal da Internet
+# Pingnet — Observatório Local da Internet
 
 *Sua internet, sem mistérios.*
 
-## Fundação arquitetônica — etapa 01 de 30
+## Design System e acessibilidade — etapa 02 de 30
 
 Esta entrega contém navegação funcional, identidade oficial, tema Café inicial, alternância clara/escura persistida localmente, estrutura modular e recursos originais. Não realiza medições nem gera registros fictícios. As áreas futuras estão explicitamente identificadas.
 
@@ -16,4 +16,8 @@ Os logotipos fornecidos foram preservados; favicon e ícone adaptável foram der
 
 ## Próximas etapas
 
-Design System (02), temas (03), interface responsiva (04), infraestrutura PWA e offline (05), banco IndexedDB (06), motor de monitoramento (07). As demais funcionalidades seguem o plano aprovado. Nesta etapa não há manifest nem Service Worker ativo: a instalação PWA será implementada na etapa 05.
+Temas (03), interface responsiva (04), infraestrutura PWA e offline (05), banco IndexedDB (06), motor de monitoramento (07). As demais funcionalidades seguem o plano aprovado. Nesta etapa não há manifest nem Service Worker ativo: a instalação PWA será implementada na etapa 05.
+
+## Sistema visual
+
+`tokens.css` centraliza cores, espaçamentos, tipografia, dimensões de toque e estados semânticos. `styles.css` aplica os tokens aos componentes. A denominação institucional agora é Observatório Local da Internet. Os estados de foco, interação e movimento reduzido foram refinados. A homologação visual no Chrome e no celular permanece necessária.
