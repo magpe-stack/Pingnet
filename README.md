@@ -63,3 +63,7 @@ Compare ontem com anteontem, ou dois períodos consecutivos de 7 ou 30 dias comp
 
 ## Horários críticos (etapa 15)
 Consulte 24 faixas horárias locais, hoje ou nos últimos 7/30 dias completos. A proporção de problemas soma engasgos, possíveis sinais enganosos e interrupções, divididos pelo tempo classificado nessas condições ou estável. Não equivale ao percentual de indisponibilidade. Lacunas e inconclusivos são excluídos. Exige cinco minutos classificados por faixa para apresentar percentual e identificar a maior proporção; esse mínimo operacional não garante representatividade estatística. Selecione uma faixa para ver suas durações. Somente metodologia atual, consulta local offline. Salvar/Abrir permanecem previstos para etapa 26.
+
+## Anotações — etapa 16
+
+Abra Anotações no menu Observatório. Use Nova anotação, informe data e horário, título (até 100 caracteres) e descrição (até 4.000 caracteres). Salvar anotação grava no IndexedDB; Editar permite corrigir o registro e Excluir solicita confirmação. A pesquisa consulta título e descrição; os registros mais recentes aparecem primeiro, em grupos de 30. O Histórico também inclui anotações identificadas como registros manuais, com filtro próprio. Elas não alteram os indicadores automáticos. Nesta etapa utiliza-se o perfil padrão; perfis múltiplos serão implementados na etapa 17. Salvar/Abrir arquivos permanece previsto para a etapa 26. Não há envio de anotações a servidores.
