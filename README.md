@@ -83,3 +83,6 @@ Humor fictício diário persistido em pingState, separado das observações. Fal
 
 ## Repertório contextual
 800 entradas adaptadas em sete grupos, com IDs e metadados gráficos originais preservados. Os textos ativos são combinações conservadoras de frases por condição; os JSON originais permanecem intactos. Estados inconclusivos e de verificação mantêm as falas específicas anteriores. A coreografia continua determinada pelo estado, não pelos metadados de cada frase.
+
+## Etapa 22 — Opiniões cromáticas
+180 opiniões, 15 por tema, persistidas em pingState. A escolha diária usa o humor como peso, sem repetir até esgotar o ciclo. Clique inclusive no tema ativo. Voz ainda não implementada.

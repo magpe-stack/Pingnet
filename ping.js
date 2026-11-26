@@ -1,3 +1,4 @@
+import {mountOpinions} from './ping-opinions.js';
 import {mountBrain} from './ping-brain.js';
 import {mountMotion} from './ping-motion.js';
 import {snapshot} from './monitor.js';
@@ -5,7 +6,7 @@ import {activeId} from './profiles.js';
 import {get,put} from './database.js';
 export function clampPosition(x,y,w,h,vw,vh){return {x:Math.max(0,Math.min(Math.max(0,vw-w),Number.isFinite(x)?x:0)),y:Math.max(0,Math.min(Math.max(0,vh-h),Number.isFinite(y)?y:0))};}
 const root=document.createElement('aside');root.id='ping';root.setAttribute('aria-label','Ping');root.innerHTML='<div class="ping-bubble" role="status" hidden></div><button type="button" class="ping-face" aria-label="Ping: toque para conversar; arraste ou use as setas para mover"><img src="assets/emoji_u1f604_3d.webp" alt="" draggable="false"><img class="ping-hand" src="assets/emoji_u1f44b_3d.webp" alt="" draggable="false"></button>';document.body.append(root);
-const face=root.querySelector('button'),bubble=root.querySelector('.ping-bubble');let pos,drag,timer,revision=0,phrase=0,suppress=false;
+const face=root.querySelector('button'),bubble=root.querySelector('.ping-bubble');let pos,drag,timer,revision=0,phrase=0,suppress=false,opinionUntil=0;
 
 function place(x,y){pos=clampPosition(x,y,root.offsetWidth,root.offsetHeight,document.documentElement.clientWidth,document.documentElement.clientHeight);root.style.left=pos.x+'px';root.style.top=pos.y+'px';bubble.classList.toggle('below',pos.y<100);bubble.classList.toggle('left',pos.x>document.documentElement.clientWidth/2);}
 function save(){revision++;put('pingState',{id:'position',...pos}).catch(console.error);}
@@ -21,4 +22,6 @@ window.addEventListener('resize',()=>place(pos.x,pos.y));
 
 mountMotion(root,snapshot,activeId);
 
-const talk=mountBrain({read:snapshot,profile:activeId,speak,blocked:()=>!!drag});
+const talk=mountBrain({read:snapshot,profile:activeId,speak,blocked:()=>!!drag||Date.now()<opinionUntil});
+
+mountOpinions({speak:text=>{opinionUntil=Date.now()+8500;speak(text)},blocked:()=>!!drag});
