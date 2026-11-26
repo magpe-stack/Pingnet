@@ -60,3 +60,6 @@ Consulta local de mudanças de condição e primeiras observações de sessões,
 
 ## Comparativos (etapa 14)
 Compare ontem com anteontem, ou dois períodos consecutivos de 7 ou 30 dias completos. Hoje é excluído. Apenas registros da metodologia atual (versão de medição 9, dois destinos) entram no cálculo. A cobertura classificada é exibida separadamente; lacunas e estados inconclusivos não entram no denominador da estabilidade. Contagens não são normalizadas e dependem da cobertura. Sem dados suficientes, indicadores indisponíveis aparecem como travessão. Consulta local offline.
+
+## Horários críticos (etapa 15)
+Consulte 24 faixas horárias locais, hoje ou nos últimos 7/30 dias completos. A proporção de problemas soma engasgos, possíveis sinais enganosos e interrupções, divididos pelo tempo classificado nessas condições ou estável. Não equivale ao percentual de indisponibilidade. Lacunas e inconclusivos são excluídos. Exige cinco minutos classificados por faixa para apresentar percentual e identificar a maior proporção; esse mínimo operacional não garante representatividade estatística. Selecione uma faixa para ver suas durações. Somente metodologia atual, consulta local offline. Salvar/Abrir permanecem previstos para etapa 26.
