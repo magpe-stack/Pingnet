@@ -54,3 +54,6 @@ O cartão promocional foi removido; o logotipo principal permanece. Servidores, 
 
 ## Etapa 12 — Linha do tempo
 Visualização diária na página Início e seleção de data na página Linha do tempo. Intervalos estimados apenas entre rodadas consecutivas da mesma sessão, separadas por até 90 segundos. Cinza inclui períodos futuros e sem monitoramento; inconclusivo é distinto de interrupção. Salvar e Abrir permanecem previstos para a etapa 26.
+
+## Etapa 13 — Histórico
+Consulta local de mudanças de condição e primeiras observações de sessões, com período e filtro por condição. Exibe data, hora e resultados da rodada, em ordem decrescente, 30 registros por vez. Não infere acontecimentos em lacunas. Possível sinal enganoso usa roxo #9333EA. Salvar e Abrir previstos para etapa 26.

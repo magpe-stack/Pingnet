@@ -1,5 +1,5 @@
 import {MAX_GAP} from './sessions.js';
-export const kinds={stable:['Estável','#22C55E'],slow:['Engasgos','#EAB308'],suspect:['Possível sinal enganoso','#F97316'],down:['Interrupção','#EF4444'],gap:['Sem monitoramento','#E9EDF2'],unknown:['Inconclusivo','#94A3B8']};
+export const kinds={stable:['Estável','#22C55E'],slow:['Engasgos','#EAB308'],suspect:['Possível sinal enganoso','#9333EA'],down:['Interrupção','#EF4444'],gap:['Sem monitoramento','#E9EDF2'],unknown:['Inconclusivo','#94A3B8']};
 export function segments(rows,from,to,now=Date.now()){
  const end=Math.min(to,now), out=[];let cursor=from;
  const add=(a,b,k)=>{if(b<=a)return;const last=out.at(-1);if(last?.kind===k&&last.end===a)last.end=b;else out.push({start:a,end:b,kind:k});};
