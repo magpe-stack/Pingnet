@@ -1,5 +1,6 @@
+import {settings} from './settings.js';
 import {mountSync} from './ping-sync.js';
-import {mountVoice,playVoice,stopVoice} from './ping-voice.js';
+import {mountVoice,playVoice,stopVoice,configureVoice} from './ping-voice.js';
 import {mountOpinions} from './ping-opinions.js';
 import {mountBrain} from './ping-brain.js';
 import {mountMotion} from './ping-motion.js';
@@ -15,7 +16,9 @@ function save(){revision++;put('pingState',{id:'position',...pos}).catch(console
 mountVoice();
 const motion=mountMotion(root,snapshot,activeId);
 const sync=mountSync(root,bubble,motion,playVoice,stopVoice);
-const speak=sync.speak;
+const speak=(text,emotion)=>{if(!settings().visible)return;sync.speak(text,emotion);if(settings().vibration&&!document.hidden&&navigator.vibrate)navigator.vibrate(emotion==='tristeza'?[80,60,80]:35);};
+function applySettings(){const s=settings();root.hidden=!s.visible;root.dataset.animations=String(s.animations);root.dataset.size=s.size;configureVoice({enabled:s.voice&&s.visible,volume:s.volume/100});if(!s.visible)sync.cancel();if(pos&&s.visible)place(pos.x,pos.y);}
+document.addEventListener('pingnet:settings',applySettings);applySettings();
 place(innerWidth-root.offsetWidth-12,innerHeight-root.offsetHeight-56);get('pingState','position').then(p=>{if(p&&!revision&&!drag)place(p.x,p.y)}).catch(console.error);
 face.addEventListener('pointerdown',e=>{if(!e.isPrimary||e.button!==0)return;suppress=false;drag={id:e.pointerId,x:e.clientX,y:e.clientY,start:{...pos},moved:false};face.setPointerCapture(e.pointerId)});
 face.addEventListener('pointermove',e=>{if(drag?.id!==e.pointerId)return;const dx=e.clientX-drag.x,dy=e.clientY-drag.y;if(Math.hypot(dx,dy)>5)drag.moved=true;if(drag.moved){root.dataset.dragging='true';face.dataset.motion='';sync.cancel();place(drag.start.x+dx,drag.start.y+dy)}});
@@ -26,6 +29,6 @@ face.addEventListener('keydown',e=>{const delta={ArrowLeft:[-16,0],ArrowRight:[1
 window.addEventListener('resize',()=>place(pos.x,pos.y));
 
 
-const talk=mountBrain({read:snapshot,profile:activeId,speak,blocked:()=>!!drag||Date.now()<opinionUntil});
+const talk=mountBrain({read:snapshot,profile:activeId,speak,blocked:()=>!settings().visible||!!drag||Date.now()<opinionUntil});
 
-mountOpinions({speak:(text,emotion)=>{opinionUntil=Date.now()+8500;speak(text,emotion)},blocked:()=>!!drag});
+mountOpinions({speak:(text,emotion)=>{opinionUntil=Date.now()+8500;speak(text,emotion)},blocked:()=>!settings().visible||!!drag});

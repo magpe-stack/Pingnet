@@ -92,3 +92,6 @@ Voz procedural original com 15 perfis emocionais. O áudio depende de interaçã
 
 ## Etapa 24 — Sincronização audiovisual
 Texto progressivo proporcional à duração da voz, com alternativa silenciosa. Expressões e gestos por emoção, retorno ao contexto atual ao terminar, cancelamento ao arrastar ou ocultar a página. Leitores de tela recebem a frase completa; redução de movimento apresenta texto integral.
+
+## Configurações de Sistema (etapa 25)
+Ping: visibilidade, voz, volume, animações, vibração, tamanho e frequência. Visual: temas e modo. Coletas: início automático, iniciar e pausar, mantendo o limite experimental de seis rodadas por abertura. Dados: consulta ao armazenamento. Preferências em IndexedDB (`preferences/system`), sem apagar dados anteriores. Backup em arquivo ainda não implementado. Vibração depende do navegador; áudio exige interação inicial.

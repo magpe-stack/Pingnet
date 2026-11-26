@@ -1,3 +1,4 @@
+import {settings} from './settings.js';
 import {activeId} from './profiles.js';
 import {needsSession,newSession,recordObservation,closeSession} from './sessions.js';
 import {initializeDatabase,put,list,commitObservation} from './database.js';
@@ -11,4 +12,4 @@ export async function start(){if(running||rounds>=6)return;running=true;error=''
 export function stop(reason='stopped'){generation++;running=false;clearTimeout(timer);const old=session;session=null;const unlock=release;release=null;closing=closing.then(async()=>{try{if(old)await put('sessions',closeSession(old,typeof reason==='string'?reason:'pagehide'));}catch(e){console.error(e)}finally{unlock?.()}});emit()}
 export async function loadLatest(){const token=generation;const rows=await list('measurements',{index:'profileTime',range:IDBKeyRange.bound([activeId(),0],[activeId(),Number.MAX_SAFE_INTEGER]),limit:1});if(token===generation&&!latest){latest=rows[0]||null;emit()}}
 
-export async function resetProfile(){stop("profile-switch");await closing;latest=null;error="";assessment={};lastAt=0;await loadLatest();emit();start();}
+export async function resetProfile(){stop("profile-switch");await closing;latest=null;error="";assessment={};lastAt=0;await loadLatest();emit();if(settings().autoCollect)start();}
