@@ -104,3 +104,6 @@ Toda fala inclui a nota de 0 a 10 da rodada recente do perfil ativo, ou informa 
 
 ### Revisão emocional
 186 de 190 imagens integradas a grupos emocionais, com sorteio sem repetição por grupo durante a sessão. Símbolos e gestos complementam os rostos. Irritação e impaciência respondem a problemas recorrentes; a sequência é reiniciada ao mudar de perfil. A cobertura é de imagens elegíveis, não uma garantia de exibição de todas em cada sessão.
+
+### Humor visual contextual
+Piadas especiais usam imagens originais vinculadas à fala, mantidas até o balão desaparecer. Cocô para nota até 4 em engasgos ou interrupção confirmada; palhaço para possível sinal enganoso ou interrupção confirmada. As piadas são intercaladas com o repertório comum, sem mudar a nota.
