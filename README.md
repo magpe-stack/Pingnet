@@ -57,3 +57,6 @@ Visualização diária na página Início e seleção de data na página Linha d
 
 ## Etapa 13 — Histórico
 Consulta local de mudanças de condição e primeiras observações de sessões, com período e filtro por condição. Exibe data, hora e resultados da rodada, em ordem decrescente, 30 registros por vez. Não infere acontecimentos em lacunas. Possível sinal enganoso usa roxo #9333EA. Salvar e Abrir previstos para etapa 26.
+
+## Comparativos (etapa 14)
+Compare ontem com anteontem, ou dois períodos consecutivos de 7 ou 30 dias completos. Hoje é excluído. Apenas registros da metodologia atual (versão de medição 9, dois destinos) entram no cálculo. A cobertura classificada é exibida separadamente; lacunas e estados inconclusivos não entram no denominador da estabilidade. Contagens não são normalizadas e dependem da cobertura. Sem dados suficientes, indicadores indisponíveis aparecem como travessão. Consulta local offline.
