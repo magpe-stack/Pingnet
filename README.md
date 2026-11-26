@@ -86,3 +86,6 @@ Humor fictício diário persistido em pingState, separado das observações. Fal
 
 ## Etapa 22 — Opiniões cromáticas
 180 opiniões, 15 por tema, persistidas em pingState. A escolha diária usa o humor como peso, sem repetir até esgotar o ciclo. Clique inclusive no tema ativo. Voz ainda não implementada.
+
+## Etapa 23 — Pinglish
+Voz procedural original com 15 perfis emocionais. O áudio depende de interação inicial permitida pelo navegador. Texto integral permanece disponível; sincronização progressiva na etapa 24 e controles na etapa 25.
