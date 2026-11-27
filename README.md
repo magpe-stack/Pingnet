@@ -114,3 +114,5 @@ Piadas especiais usam imagens originais vinculadas à fala, mantidas até o bal�
 
 ### Áudio do Comedy Club
 Bateria e risadas utilizam amostras locais fornecidas pelo usuário, com compressão suave, redução de volume, fades e codificação mono MP3. Palmas e demais efeitos continuam procedurais. As amostras são armazenadas no cache offline.
+
+Correção de áudio: carregamento com nova tentativa, reprodução aguardada até o fim de cada gravação e cancelamento ao interromper a piada.
