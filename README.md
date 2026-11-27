@@ -99,7 +99,7 @@ Ping: visibilidade, voz, volume, animações, vibração, tamanho e frequência.
 ### Refinamento Pinglish
 Voz procedural revisada: assobios eletrônicos, bipes, glissandos e modulação de frequência, sem amostras externas. Mantém as 15 emoções e controles existentes.
 
-### Nota informal do Ping
+### Nota do Ping
 Toda fala inclui a nota de 0 a 10 da rodada recente do perfil ativo, ou informa que faltam dados. Cada resposta válida recebe pontuação interpolada entre 10 (até 100 ms), 9 (200 ms), 8 (350 ms), 6 (700 ms), 4 (1000 ms) e 0 (5000 ms). Resposta ausente vale zero, e a soma é dividida por dois. A nota é arredondada a um décimo, exibida com vírgula decimal e sem barra. Interrupção confirmada vale zero. Resultados inconclusivos e dados com mais de 90 segundos não recebem nota. Com coletas pausadas, a nota recente é identificada como última rodada. A nota não mede velocidade contratada nem identifica a causa de problemas.
 
 ### Revisão emocional
@@ -118,7 +118,10 @@ Bateria e risadas utilizam amostras locais fornecidas pelo usuário, com compres
 Correção de áudio: carregamento com nova tentativa, reprodução aguardada até o fim de cada gravação e cancelamento ao interromper a piada.
 
 ### Nota permanente e humor moderado
-Nota informal no cabeçalho, com estrela, números ampliados e leitura assistiva. Sem dados recentes: travessão. Piadas sem nota no balão; frequência automática e por toque reduzida à metade, e probabilidade de humor contextual reduzida à metade. O botão de piada sob demanda permanece.
+Nota no cabeçalho, com estrela, números ampliados e leitura assistiva. Sem dados recentes: travessão. Piadas sem nota no balão; frequência automática e por toque reduzida à metade, e probabilidade de humor contextual reduzida à metade. O botão de piada sob demanda permanece.
 
 ## Salvar e Abrir
 No menu Arquivo, Salvar cria um JSON cumulativo de todos os perfis, medições, sessões, acontecimentos, anotações, preferências e memória do Ping. O primeiro salvamento do dia solicita um destino; os seguintes reutilizam a autorização e o arquivo. A API de escrita requer navegador compatível (Chrome desktop); não há download automático. Abrir valida o formato e permite mesclar por identificador ou substituir integralmente após confirmação. Na mesclagem, registros locais existentes são preservados e preferências e memória importadas têm prioridade. Autorizações de arquivos não são exportadas. O backup não é criptografado. Guarde-o em local seguro.
+
+### Relatórios
+Arquivo → Imprimir: escolha o período, gere a prévia e imprima ou salve como PDF pelo navegador. O relatório inclui apenas o perfil ativo e registros locais, com lacunas separadas de interrupções.
