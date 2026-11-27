@@ -445,3 +445,14 @@ Em Arquivo → Exportar CSV, selecione medições HTTP, anotações ou protocolo
 ## Agenda e camarim do Comedy Club
 
 Em Observatório → Ping Comedy Club, consulte a agenda automática, a contagem regressiva, o progresso do espetáculo e os shows concluídos nesta aba. Inicie um show ou uma piada manualmente. O camarim permite visualizar os acessórios originais. Microfone, cartola, bateria e trompete acompanham momentos da apresentação. A agenda depende do aplicativo aberto e visível. Os contadores de shows desta aba reiniciam ao recarregar. Verifique a licença dos novos arquivos antes de publicar.
+
+
+### Sonoplastia ampliada
+
+A sonoplastia inclui novas vinhetas, reações cômicas e três montagens curtas. As trilhas variam na abertura e no encerramento; os efeitos de humor variam após as piadas, com efeitos de flatulência reservados a textos com palavras relacionadas. O volume e a chave de sonoplastia existentes continuam válidos. Os créditos estão em assets/comedy-creditos.txt; confirme as licenças antes de publicar.
+
+
+<a id="modo-silencioso-e-atalhos"></a>
+## Modo silencioso e atalhos
+
+O modo silencioso pode ser alternado pelo botão de alto-falante no cabeçalho ou em Configurações → Ping. Suspende voz, vinhetas, efeitos sonoros e vibração, inclusive durante apresentações, sem modificar os volumes ou as preferências individuais. Os textos, acessórios, animações e coletas continuam disponíveis. A preferência integra o backup JSON. Os atalhos do aplicativo instalado permitem abrir Início, Histórico, Diário de protocolos e Ping Comedy Club; sua disponibilidade depende do navegador e do sistema operacional.

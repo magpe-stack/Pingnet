@@ -11,7 +11,7 @@ import {mountCalendar} from './calendar.js';
 import {historicalRatings,ratingPeriods,formatRating,ratingLabels} from './ping-rating.js';
 import {mountReport} from './reports.js';
 import {bindFiles} from './files.js';
-import {settings,ready,mountSettings,bindSettings} from './settings.js';
+import {settings,ready,mountSettings,bindSettings,updateSettings} from './settings.js';
 import {initProfiles,activeProfile,selectProfile,mountProfiles,deleteProfile} from './profiles.js';
 import {resetProfile} from './monitor.js';
 import {activeId} from './profiles.js';
@@ -92,3 +92,7 @@ main.addEventListener("click",e=>{const a=e.target.closest("[data-manual-anchor]
 var ratingBusy=false;
 async function refreshRatingAverages(){const el=main.querySelector('.rating-averages');if(!el||ratingBusy)return;ratingBusy=true;const profile=activeId(),now=Date.now(),starts=ratingPeriods(now);const labels=ratingLabels(now);const d=new Date(now);const month=d.toLocaleDateString('pt-BR',{month:'long'});const tags=['Hoje',labels[1].split(' (')[0],month[0].toUpperCase()+month.slice(1),String(d.getFullYear())];const details=[d.toLocaleDateString('pt-BR'),labels[1].split(' (')[1].replace(/\)$/,'').replace(/\/\d{4}/g,''),String(d.getFullYear()),''];el.querySelectorAll('.rating-card').forEach((card,i)=>{card.querySelector('.rating-tag').textContent=tags[i];card.querySelector('.rating-period').textContent=details[i];card.setAttribute('aria-label',labels[i]);});try{const rows=await list('measurements',{index:'profileTime',range:IDBKeyRange.bound([profile,Math.min(...starts)-90000],[profile,now]),limit:Infinity});if(!el.isConnected||profile!==activeId())return;historicalRatings(rows,profile,now+1,starts).forEach(({value,count},i)=>{const node=el.querySelector('#rating-average-'+i);node.textContent=formatRating(value);node.title=count+' notas válidas';});}catch(e){console.error(e);if(el.isConnected)el.querySelectorAll('strong').forEach(n=>n.textContent='—');}finally{ratingBusy=false;}}
 setInterval(refreshRatingAverages,60000);
+
+const silentButton=document.querySelector('#silent');
+function syncSilent(){const on=settings().silent;silentButton.setAttribute('aria-pressed',String(on));silentButton.setAttribute('aria-label',on?'Desativar modo silencioso':'Ativar modo silencioso');silentButton.title=on?'Modo silencioso ativo':'Ativar modo silencioso';const check=main.querySelector('[data-setting="silent"]');if(check)check.checked=on;}
+document.addEventListener('pingnet:settings',syncSilent);ready.then(()=>{syncSilent();silentButton.disabled=false;});silentButton.addEventListener('click',async()=>{try{await updateSettings({silent:!settings().silent});}catch(e){console.error(e);alert('Não foi possível guardar o modo silencioso.');}});

@@ -12,3 +12,19 @@ assets/comedy-sting.mp3: openmindaudio-comedy-stinger-playful-short-punch-cue-46
 assets/comedy-intro-2.mp3: kaazoom-funny-benny-15-sec-stinger-comedy-slapstick-music-636453.mp3
 assets/comedy-boing.mp3: kalsstockmedia-funny-boing-spring-sound-comedy-301692.mp3
 assets/comedy-rimshot-2.mp3: universfield-comedy-rimshot-352439.mp3
+Sonoplastia adicional (arquivos fornecidos pelo usuário; licenças a confirmar):
+oceanframemusic-comedy-music-no-copyright-474552.mp3 → comedy-s2-theme.mp3
+alex_jauk-funny-fart-216687.mp3 → comedy-s2-fart-a.mp3
+universfield-fail-trombone-229173.mp3 → comedy-s2-fail.mp3
+universfield-cartoon-running-footsteps-250962.mp3 → comedy-s2-run.mp3
+openmindaudio-comedy-stinger-quick-joke-cue-469097.mp3 → comedy-s2-cue.mp3
+universfield-cartoon-spring-boing-140378.mp3 → comedy-s2-spring.mp3
+universfield-wah-wah-horn-117724.mp3 → comedy-s2-wah.mp3
+alex_jauk-funny-short-comedy-fart-sound-effect-318912.mp3 → comedy-s2-fart-b.mp3
+waveloom-children-627408 (1).mp3 → comedy-s2-kids.mp3
+oceanframemusic-comedy-474551 (1).mp3 → comedy-s2-theme-b.mp3
+universfield-sad-trumpet-278822 (1).mp3 → comedy-s2-sad.mp3
+kaazoom-funny-benny-15-sec-stinger-comedy-slapstick-music-636453 (1).mp3 → comedy-s2-benny.mp3
+universfield-comedy-flute-144564.mp3 → comedy-s2-flute.mp3
+kalsstockmedia-funny-boing-spring-sound-comedy-301692 (1).mp3 → comedy-s2-spring-b.mp3
+Remixes: escape-mix (spring/run), awkward-mix (fart-b/wah), finale-mix (cue/kids).
