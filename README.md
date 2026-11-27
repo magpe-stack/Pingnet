@@ -129,3 +129,6 @@ Arquivo → Imprimir: escolha o período, gere a prévia e imprima ou salve como
 ## Abertura audiovisual
 
 A abertura dura três segundos e pode ser pulada. Utiliza o tema atual, ondas de sinal, o Ping e o logotipo. Respeita a redução de movimento e as preferências de animação e visibilidade. A vinheta original é sintetizada localmente e depende de interação durante a abertura e autorização de áudio do navegador; não há reprodução automática garantida.
+
+## Auditoria integrada — etapa 29
+Abertura de quatro segundos, sem botão de pular, vinheta ascendente com tentativa de reprodução automática sujeita à política do navegador. Sintaxe dos módulos, oito verificações lógicas e existência dos recursos do cache conferidas. Homologação audiovisual, restauração e impressão no dispositivo ainda pendentes.
