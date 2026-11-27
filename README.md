@@ -426,3 +426,10 @@ Em Observatório → Ping Detective, selecione 7, 30 ou 90 dias e clique em Inve
 ## Ping News
 
 Em Observatório → Ping News, escolha edição diária, semanal, mensal ou anual. Use Anterior, Seguinte e Atual para navegar por períodos de calendário; semanas começam na segunda-feira. A edição atual é parcial. O boletim reúne manchete, notas, cobertura, estabilidade, coletas, interrupções e agilidade HTTP, exclusivamente a partir do perfil ativo. Não há notícias externas, novas requisições ou diagnóstico causal. As edições são reconstruídas na consulta, não arquivadas como documentos imutáveis.
+
+
+<a id="central-de-manutencao"></a>
+
+## Central de manutenção e integridade
+
+Em Configurações → Central de manutenção, use Verificar agora para consultar a estimativa de armazenamento da origem, a persistência, as contagens do banco, referências a perfis e sessões, presença dos recursos offline e último salvamento registrado. A cota é compartilhada por aplicativos da mesma origem e não corresponde ao espaço livre do dispositivo. A verificação é somente leitura e não garante integridade binária ou existência do arquivo de backup. Use Salvar backup para abrir o fluxo habitual de salvamento.
