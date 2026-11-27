@@ -132,3 +132,6 @@ A abertura dura três segundos e pode ser pulada. Utiliza o tema atual, ondas de
 
 ## Auditoria integrada — etapa 29
 Abertura de quatro segundos, sem botão de pular, vinheta ascendente com tentativa de reprodução automática sujeita à política do navegador. Sintaxe dos módulos, oito verificações lógicas e existência dos recursos do cache conferidas. Homologação audiovisual, restauração e impressão no dispositivo ainda pendentes.
+
+### Revisão da abertura
+Vinheta original de assinatura tecnológica, com notas fixas, harmonia e ressonância. Duração da abertura mantida em quatro segundos; áudio sujeito à política de reprodução do navegador.
