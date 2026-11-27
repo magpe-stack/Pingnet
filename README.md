@@ -366,6 +366,8 @@ Depois da preparação inicial do cache, a interface, documentação, configura�
 
 Em Configurações, Atualizações, solicite a verificação do Service Worker. Quando houver atualização disponível, utilize o comando de aplicação correspondente. Preserve os dados locais durante o procedimento. Não é necessário apagar o histórico para atualizar. Se houver dúvida sobre a versão em execução, consulte Ajuda, Sobre.
 
+Em Observatório, Cobertura e servidores, escolha Hoje, últimos sete ou trinta dias e consulte os intervalos efetivamente observados, classificados, inconclusivos e sem monitoramento. A cobertura divide o tempo observado pelo período decorrido até a consulta. A tabela dos cinco destinos atuais mostra respostas válidas, tempo médio das respostas válidas, restrições, tempos esgotados e outras respostas não verificadas. Não mede disponibilidade isolada do servidor nem identifica a causa das falhas. Atualizar consulta somente o histórico local.
+
 <a id="14-solucao-de-problemas"></a>
 
 ## 14. Solução de problemas
