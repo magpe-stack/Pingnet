@@ -407,3 +407,8 @@ Antes de uma distribuição pública definitiva, confirme as licenças dos recur
 ## Dossiê da conexão
 
 Em Observatório → Dossiê da conexão, selecione o período e gere a prévia. O documento reúne identificação do perfil, notas, indicadores, ocorrências, interrupções, anotações, protocolos cadastrados no período e distribuição temporal por condição. Use Imprimir / Salvar PDF para guardar o documento. Os protocolos mostram a situação atual cadastrada, não um histórico de alterações. Confira os dados pessoais antes de compartilhar. O dossiê é um registro auxiliar, não um laudo certificado.
+
+
+## Comparação entre perfis
+
+Em Observatório → Comparação entre perfis, selecione dois perfis distintos e as datas inicial e final. Consulte notas, cobertura, estabilidade, respostas e interrupções lado a lado. A seleção não altera o perfil ativo. Não há classificação automática de vencedor; horários e cobertura diferentes limitam a interpretação.

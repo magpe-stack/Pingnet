@@ -22,3 +22,5 @@ nav a{display:flex;align-items:center} nav a[aria-current=page]{box-shadow:inset
 .manual-doc{max-width:78ch;margin-inline:auto;line-height:1.65}.manual-doc h2{margin-top:1.6em}.manual-doc h3{margin-top:1.2em}.manual-doc p{margin-block:.75em}.manual-doc nav p{margin-block:.2em}.manual-index-3{padding-inline-start:1.25rem}.manual-doc h2,.manual-doc h3{scroll-margin-top:12px}
 
 .rating-averages .metric small{overflow-wrap:anywhere;line-height:1.2}
+
+.pc-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-block:12px}.pc-grid label{min-width:0}.pc-grid input,.pc-grid select{width:100%;min-width:0}.pc-table{width:100%;table-layout:fixed;border-collapse:collapse}.pc-table th,.pc-table td{padding:8px 4px;border-bottom:1px solid currentColor;overflow-wrap:anywhere;text-align:center}.pc-table th:first-child{text-align:left;width:38%}@media(max-width:360px){.pc-grid{grid-template-columns:1fr}.pc-table{font-size:.8rem}}
