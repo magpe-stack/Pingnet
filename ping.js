@@ -46,6 +46,6 @@ const talk=mountBrain({read:snapshot,profile:activeId,speak,blocked:()=>document
 mountOpinions({speak:(text,emotion)=>{cancelShow();opinionUntil=Date.now()+8500;speak(text,emotion)},blocked:()=>!settings().visible||!!drag});
 
 // Persistent rating, independent of mascot visibility and speech.
-const ratingValue=document.getElementById('ping-rating-value'),ratingDetail=document.getElementById('ping-rating-detail');
-function refreshHeaderRating(){const snap=snapshot(),n=rating(snap,activeId());const value=n===null?'—':n.toLocaleString('pt-BR',{maximumFractionDigits:1});const detail=n===null?'Sem dados recentes suficientes':snap.running?'Nota da conexão':'Última rodada; coletas pausadas';if(ratingValue.textContent!==value)ratingValue.textContent=value;if(ratingDetail.textContent!==detail)ratingDetail.textContent=detail;ratingValue.closest('.header-rating').title=detail;}
+const ratingValue=document.getElementById('ping-rating-value');
+function refreshHeaderRating(){const n=rating(snapshot(),activeId());const value=n===null?'—':n.toLocaleString('pt-BR',{maximumFractionDigits:1});if(ratingValue.textContent!==value)ratingValue.textContent=value;}
 document.addEventListener('pingnet:monitor',refreshHeaderRating);document.addEventListener('visibilitychange',refreshHeaderRating);setInterval(refreshHeaderRating,1000);refreshHeaderRating();
