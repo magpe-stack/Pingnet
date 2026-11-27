@@ -75,3 +75,5 @@ document.addEventListener('pingnet:monitor',()=>refreshCritical?.());
 main.addEventListener('click',e=>{if(e.target.matches('input[name=theme]')&&validTheme(e.target.value))document.dispatchEvent(new CustomEvent('pingnet:theme-selected',{detail:{theme:e.target.value}}));});
 
 bindSettings(main);function syncMonitorSettings(){const el=main.querySelector('#settings-monitor');if(el){const s=snapshot();el.textContent=s.error||(s.running?'Monitoramento ativo':'Monitoramento pausado ou encerrado');}}document.addEventListener('pingnet:monitor',syncMonitorSettings);main.addEventListener('click',e=>{if(e.target.closest('[data-action=start-monitor]'))start();if(e.target.closest('[data-action=stop-monitor]'))stop('manual');});
+
+main.addEventListener("click",e=>{const a=e.target.closest("[data-manual-anchor]");if(!a)return;e.preventDefault();const h=document.getElementById(a.dataset.manualAnchor);if(h){h.focus({preventScroll:true});h.scrollIntoView({block:"start"});}});

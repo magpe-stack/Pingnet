@@ -250,7 +250,7 @@ A voz Pinglish é uma síntese eletrônica original, acompanhada de texto progre
 
 ### 8.2 Comedy Club e efeitos táteis
 
-O Ping Comedy Club possui quarenta piadas do pontinho, com pergunta, suspense de aproximadamente cinco segundos e resposta. Efeitos de bateria, risadas e sons sintetizados complementam a apresentação. As piadas espontâneas possuem frequência moderada e podem ocorrer após interações com o personagem. Em Configurações, Ping, utilize Contar uma piada agora para solicitar uma apresentação diretamente.
+O Ping Comedy Club possui 139 piadas: 41 do pontinho e 98 de humor variado, incluindo perguntas e respostas, diálogos e monólogo. O motor alterna os dois grupos, sorteando sem repetir dentro de cada ciclo. As piadas originais do pontinho mantêm suspense de cinco segundos; as novas respeitam as pausas cadastradas. Diálogos são apresentados em falas sucessivas. Efeitos de bateria, risadas e sons sintetizados complementam a apresentação. As piadas espontâneas possuem frequência moderada e podem ocorrer após interações com o personagem. Em Configurações, Ping, utilize Contar uma piada agora para solicitar uma apresentação diretamente.
 
 Os efeitos de vibração são reservados a momentos especiais, em vez de acompanhar todas as falas. A preferência permite ativá-los ou desativá-los e ajustar a intensidade percebida pela duração dos pulsos. A API do navegador não controla diretamente a potência física do motor. Utilize Testar vibração para verificar a resposta do dispositivo; a aceitação do comando não comprova que houve vibração física.
 
