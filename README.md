@@ -466,3 +466,8 @@ A Retrospectiva anual, em Observatório, permite consultar um ano do perfil ativ
 ## Coreografias contextuais
 
 Motor de coreografias contextuais: o Ping combina até dois acessórios com as expressões, gestos e efeitos existentes. As cenas de comédia têm prioridade sobre lembretes e leituras. Os acessórios desaparecem automaticamente, ao cancelar uma apresentação ou ocultar a aba. O modo silencioso e a redução de movimento continuam respeitados.
+
+
+## Personalidades contextuais do Ping
+
+As 12 personalidades do Ping são Detective, Jornalista, Cientista, Comediante, Mecânico, Professor, Artista, Maestro, Bibliotecário, Estatístico, Fiscal e Guardião. Toque no pequeno acessório ao lado do título de uma ferramenta para convidar o personagem a apresentar seu papel. A cena usa dois objetos, expressão e gesto do motor existente, diálogo e, em papéis selecionados, uma vinheta após a fala. O modo silencioso é respeitado. O convite não interrompe espetáculos ou lembretes e não altera medições.

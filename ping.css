@@ -15,3 +15,5 @@
 #ping .ping-face .ping-prop{position:absolute;left:0;bottom:0;width:42%;height:42%;object-fit:contain;z-index:2}#ping .ping-prop[hidden]{display:none!important}
 
 #ping .ping-face .ping-prop-0{left:0;bottom:0;width:38%;height:38%;animation:ping-prop-in .22s ease-out}#ping .ping-face .ping-prop-1{left:auto;right:0;bottom:38%;width:34%;height:34%;animation:ping-prop-in .22s ease-out}@keyframes ping-prop-in{from{opacity:0;transform:scale(.75)}to{opacity:1;transform:scale(1)}}
+
+.ping-role-button{display:inline-flex;align-items:center;justify-content:center;vertical-align:middle;margin-inline-start:8px;width:36px;height:36px;padding:4px;border:1px solid var(--border);border-radius:8px;background:transparent;cursor:pointer}.ping-role-button img{width:26px;height:26px;object-fit:contain}.ping-role-button:focus-visible{outline:2px solid currentColor;outline-offset:2px}@media print{.ping-role-button{display:none!important}}
