@@ -419,3 +419,10 @@ Em Observatório → Comparação entre perfis, selecione dois perfis distintos 
 ## Ping Detective
 
 Em Observatório → Ping Detective, selecione 7, 30 ou 90 dias e clique em Investigar. A análise usa somente o perfil ativo. Exige três dias com tempo classificado, uma hora classificada e 30 coletas. Horários recorrentes exigem três dias com pelo menos cinco minutos classificados e 20% de engasgos ou interrupções, além de 20% no conjunto elegível. Destinos exigem 20 coletas próprias, 40 nos demais, respostas não verificadas em três dias, taxa de 20% e diferença de 15 pontos percentuais. Três entradas em interrupção geram um indício adicional. Ausência de indícios não garante ausência de problemas. Não identifica causas nem responsáveis.
+
+
+<a id="ping-news"></a>
+
+## Ping News
+
+Em Observatório → Ping News, escolha edição diária, semanal, mensal ou anual. Use Anterior, Seguinte e Atual para navegar por períodos de calendário; semanas começam na segunda-feira. A edição atual é parcial. O boletim reúne manchete, notas, cobertura, estabilidade, coletas, interrupções e agilidade HTTP, exclusivamente a partir do perfil ativo. Não há notícias externas, novas requisições ou diagnóstico causal. As edições são reconstruídas na consulta, não arquivadas como documentos imutáveis.
