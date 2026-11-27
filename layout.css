@@ -92,3 +92,5 @@ main[data-page=protocolos]{overflow-y:auto}.protocol-summary,.protocol-fields{di
 .dossier-bar{display:flex;height:18px;border:1px solid #888;overflow:hidden;border-radius:4px}.dossier-bar span{height:100%}@media print{.dossier-bar{print-color-adjust:exact;-webkit-print-color-adjust:exact}}
 
 main[data-page=manutencao]{overflow-y:auto}.maint-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.maint-grid .metric{min-width:0;overflow-wrap:anywhere}#maint-progress{width:100%;accent-color:var(--ink)}#maint-cache details{overflow-wrap:anywhere}
+
+main[data-page=csv]{overflow-y:auto}.csv-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-bottom:12px}.csv-grid label{display:grid;gap:4px;min-width:0}.csv-grid input,.csv-grid select{width:100%;min-width:0;box-sizing:border-box;background:var(--surface);color:var(--ink);border:1px solid var(--line);border-radius:6px;padding:8px;font:inherit}

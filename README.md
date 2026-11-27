@@ -433,3 +433,10 @@ Em Observatório → Ping News, escolha edição diária, semanal, mensal ou anu
 ## Central de manutenção e integridade
 
 Em Configurações → Central de manutenção, use Verificar agora para consultar a estimativa de armazenamento da origem, a persistência, as contagens do banco, referências a perfis e sessões, presença dos recursos offline e último salvamento registrado. A cota é compartilhada por aplicativos da mesma origem e não corresponde ao espaço livre do dispositivo. A verificação é somente leitura e não garante integridade binária ou existência do arquivo de backup. Use Salvar backup para abrir o fluxo habitual de salvamento.
+
+
+<a id="exportacao-csv"></a>
+
+## Exportação CSV
+
+Em Arquivo → Exportar CSV, selecione medições HTTP, anotações ou protocolos, o separador e o intervalo de datas ou todo o histórico do perfil ativo. O CSV usa UTF-8 com BOM e datas UTC ISO 8601. Cada resposta HTTP ocupa uma linha. Campos ausentes ficam vazios; textos que possam ser fórmulas recebem apóstrofo de proteção. Confira o download do navegador. CSV não substitui backup JSON e pode conter dados pessoais.
