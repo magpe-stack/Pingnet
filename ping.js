@@ -9,7 +9,7 @@ import {mountBrain} from './ping-brain.js';
 import {mountMotion} from './ping-motion.js';
 import {snapshot} from './monitor.js';
 import {activeId} from './profiles.js';
-import {get,put} from './database.js';
+import {get,put,list} from './database.js';
 export function clampPosition(x,y,w,h,vw,vh){return {x:Math.max(0,Math.min(Math.max(0,vw-w),Number.isFinite(x)?x:0)),y:Math.max(0,Math.min(Math.max(0,vh-h),Number.isFinite(y)?y:0))};}
 const root=document.createElement('aside');root.id='ping';root.setAttribute('aria-label','Ping');root.innerHTML='<div class="ping-bubble" role="status" hidden></div><button type="button" class="ping-face" aria-label="Ping: toque para conversar; arraste ou use as setas para mover"><img src="assets/emoji_u1f604_3d.webp" alt="" draggable="false"><img class="ping-hand" src="assets/emoji_u1f44b_3d.webp" alt="" draggable="false"></button>';document.body.append(root);
 const face=root.querySelector('button'),bubble=root.querySelector('.ping-bubble');let pos,drag,timer,revision=0,phrase=0,suppress=false,opinionUntil=0;
@@ -76,3 +76,8 @@ scheduleReady.then(async()=>{if(!await get('pingState','comedy-schedule'))await 
 setInterval(scheduleTick,5000);
 
 document.addEventListener("click",e=>{if(!e.target.closest("#comedy-full-now"))return;const status=document.querySelector("#comedy-now-status");if(showing||drag||document.hidden||!settings().visible||!settings().jokes){if(status)status.textContent=showing?"Já existe uma apresentação em andamento.":"Ative o Ping e as piadas para iniciar o show.";return;}sync.cancel();startFullShow(true);if(status)status.textContent="Show iniciado!";});
+
+// Lembrete local de prazos, sem interromper apresentações.
+let protocolReminderBusy=false;
+async function remindProtocols(){if(protocolReminderBusy||!settings().visible||document.hidden||showing||drag||Date.now()<Math.max(opinionUntil,reminderUntil)||!bubble.hidden||document.documentElement.hasAttribute('data-starting'))return;protocolReminderBusy=true;try{const work=async()=>{const profile=activeId(),now=Date.now(),day=new Date(now).toLocaleDateString('pt-BR'),id='protocol-reminder-'+profile;const last=await get('pingState',id);if(last?.day===day)return;const rows=await list('protocols',{index:'profileTime',range:IDBKeyRange.bound([profile,-8640000000000000],[profile,8640000000000000]),limit:Infinity});const due=rows.filter(r=>['Aberto','Aguardando solução'].includes(r.status)&&Number.isFinite(r.deadline)&&r.deadline<=now+86400000);if(!due.length||profile!==activeId()||!settings().visible||document.hidden||showing||drag||!bubble.hidden||Date.now()<Math.max(opinionUntil,reminderUntil))return;reminderUntil=Date.now()+15000;speak('Você tem '+due.length+' protocolo(s) com prazo vencido ou nas próximas 24 horas. Consulte o Diário de protocolos.','preocupação');await put('pingState',{id,day,at:now});};if(navigator.locks)await navigator.locks.request('pingnet-protocol-reminder',work);else await work();}catch(e){console.error(e)}finally{protocolReminderBusy=false;}}
+setInterval(remindProtocols,60000);

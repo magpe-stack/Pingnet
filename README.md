@@ -35,6 +35,7 @@
   - [7.1 Perfis de conexão](#7-1-perfis-de-conexao)
   - [7.2 Exclusão de perfis](#7-2-exclusao-de-perfis)
   - [7.3 Anotações pessoais](#7-3-anotacoes-pessoais)
+  - [7.4 Diário de protocolos](#7-4-diario-de-protocolos)
 - [8. Ping e experiência audiovisual](#8-ping-e-experiencia-audiovisual)
   - [8.1 Personagem e comunicação](#8-1-personagem-e-comunicacao)
   - [8.2 Comedy Club e efeitos táteis](#8-2-comedy-club-e-efeitos-tateis)
@@ -245,6 +246,12 @@ Abra a edição do perfil e localize a Zona de perigo abaixo dos controles de ed
 Abra Observatório, Anotações, e escolha Nova anotação. Informe data, horário, título de até cem caracteres e descrição de até quatro mil caracteres. Utilize um título objetivo, como Reunião interrompida, e descreva o que foi observado, evitando afirmar uma causa que não tenha sido confirmada. Salve o registro no perfil ativo.
 
 A pesquisa permite localizar anotações pelo conteúdo. Utilize Editar para corrigir informações e Excluir para remover um registro mediante confirmação. As anotações aparecem também no histórico e nos relatórios, mas não modificam os indicadores de conectividade. Essa separação preserva a distinção entre observação automatizada e relato pessoal.
+
+<a id="7-4-diario-de-protocolos"></a>
+
+### 7.4 Diário de protocolos
+
+Em Observatório → Diário de protocolos, cadastre o número, a operadora, a data do atendimento, o motivo e a situação. O prazo é opcional. Use a descrição para registrar o acompanhamento. Pesquise, filtre, edite ou exclua registros com confirmação. Prazos vencidos são protocolos abertos ou aguardando solução cujo prazo já passou. O Ping pode lembrar uma vez por dia, por perfil, sobre prazos vencidos ou nas próximas 24 horas, enquanto estiver visível e disponível. Os protocolos integram o backup e são excluídos junto com o perfil. Backups antigos sem protocolos continuam compatíveis; na restauração por substituição, protocolos atuais são apagados.
 
 <a id="8-ping-e-experiencia-audiovisual"></a>
 

@@ -1,7 +1,7 @@
 // Banco exclusivo desta aplicação. Datas em milissegundos Unix.
 export const DB_NAME='pingnet-observatorio-local-Pingnet';
-export const DB_VERSION=1;
-const schema={preferences:[],profiles:[],sessions:[['profileId','profileId'],['startedAt','startedAt']],measurements:[['profileTime',['profileId','at']],['sessionId','sessionId']],events:[['profileTime',['profileId','at']],['sessionId','sessionId']],notes:[['profileTime',['profileId','at']]],pingState:[],fileHandles:[]};
+export const DB_VERSION=2;
+const schema={preferences:[],profiles:[],sessions:[['profileId','profileId'],['startedAt','startedAt']],measurements:[['profileTime',['profileId','at']],['sessionId','sessionId']],events:[['profileTime',['profileId','at']],['sessionId','sessionId']],protocols:[['profileTime',['profileId','at']]],notes:[['profileTime',['profileId','at']]],pingState:[],fileHandles:[]};
 let opening;
 export function openDatabase(){if(opening)return opening;opening=new Promise((resolve,reject)=>{const r=indexedDB.open(DB_NAME,DB_VERSION);r.onupgradeneeded=()=>{const db=r.result;for(const [name,indexes] of Object.entries(schema)){const s=db.objectStoreNames.contains(name)?r.transaction.objectStore(name):db.createObjectStore(name,{keyPath:'id'});for(const [n,k] of indexes)if(!s.indexNames.contains(n))s.createIndex(n,k)}};r.onerror=()=>reject(r.error);r.onblocked=()=>reject(new Error('Feche outras abas do Pingnet para atualizar o banco.'));r.onsuccess=()=>{const db=r.result;db.onversionchange=()=>{db.close();opening=null};resolve(db)}}).catch(e=>{opening=null;throw e});return opening}
 async function run(store,mode,operation){const db=await openDatabase();return new Promise((resolve,reject)=>{const tx=db.transaction(store,mode);let request;try{request=operation(tx.objectStore(store))}catch(e){tx.abort();reject(e);return}tx.oncomplete=()=>resolve(request.result);tx.onabort=tx.onerror=()=>reject(tx.error||request.error||new Error('Transação interrompida.'))})}
