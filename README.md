@@ -475,3 +475,7 @@ As 12 personalidades do Ping são Detective, Jornalista, Cientista, Comediante, 
 ## Identidade visual das ferramentas
 
 Os menus e títulos das ferramentas usam acessórios tridimensionais locais, com tamanho padronizado. Os textos e botões continuam disponíveis; os ícones decorativos não são anunciados por leitores de tela e não aparecem na impressão. Os botões de personalidade continuam independentes.
+
+## Museu do Ping
+
+Em Observatório → Museu do Ping, explore o acervo por categoria ou busca por nome, emoji e código. Selecione um item para ampliar. Adicione até dois acessórios ao guarda-roupa e pressione Experimentar no Ping. A cena dura sete segundos, quando o personagem estiver disponível. Expressões e gestos são apenas consultáveis. A seleção é temporária e não altera medições ou preferências. Nomes sem tradução usam a nomenclatura Unicode em inglês.
