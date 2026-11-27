@@ -63,3 +63,5 @@ main[data-page=inicio] #analytics-status,main[data-page=inicio] .home-timeline p
 #nav #pwa-status,#nav #file-status{font-size:.75rem;line-height:1.2;margin:3px 8px;overflow-wrap:anywhere}
 #nav #pwa-status:empty,#nav #file-status:empty{display:none}
 @media(pointer:coarse){#nav summary,#nav details a,#nav details button{min-height:40px;padding-block:6px}}
+
+.rating-averages{grid-template-columns:repeat(4,minmax(0,1fr));gap:4px;margin-bottom:6px}.rating-averages .metric{padding:4px;text-align:center}.rating-averages strong{font-size:clamp(1rem,3vw,1.35rem)}

@@ -20,3 +20,5 @@ nav a{display:flex;align-items:center} nav a[aria-current=page]{box-shadow:inset
 @media(min-width:900px){.reference-grid{grid-template-columns:repeat(5,minmax(0,1fr));}}
 
 .manual-doc{max-width:78ch;margin-inline:auto;line-height:1.65}.manual-doc h2{margin-top:1.6em}.manual-doc h3{margin-top:1.2em}.manual-doc p{margin-block:.75em}.manual-doc nav p{margin-block:.2em}.manual-index-3{padding-inline-start:1.25rem}.manual-doc h2,.manual-doc h3{scroll-margin-top:12px}
+
+.rating-averages .metric small{overflow-wrap:anywhere;line-height:1.2}
