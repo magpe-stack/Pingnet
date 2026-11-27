@@ -13,3 +13,5 @@
 #ping[hidden]{display:none!important}#ping[data-animations=false] img{animation:none!important}#ping[data-size=small],#ping[data-size=small] .ping-face{width:48px;height:48px}#ping[data-size=small] .ping-face img{width:44px;height:44px}#ping[data-size=small] .ping-face .ping-hand{width:20px;height:20px}#ping[data-size=large],#ping[data-size=large] .ping-face{width:88px;height:88px}#ping[data-size=large] .ping-face img{width:80px;height:80px}#ping[data-size=large] .ping-face .ping-hand{width:34px;height:34px}
 
 #ping .ping-face .ping-prop{position:absolute;left:0;bottom:0;width:42%;height:42%;object-fit:contain;z-index:2}#ping .ping-prop[hidden]{display:none!important}
+
+#ping .ping-face .ping-prop-0{left:0;bottom:0;width:38%;height:38%;animation:ping-prop-in .22s ease-out}#ping .ping-face .ping-prop-1{left:auto;right:0;bottom:38%;width:34%;height:34%;animation:ping-prop-in .22s ease-out}@keyframes ping-prop-in{from{opacity:0;transform:scale(.75)}to{opacity:1;transform:scale(1)}}

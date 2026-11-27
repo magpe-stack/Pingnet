@@ -461,3 +461,8 @@ O modo silencioso pode ser alternado pelo botão de alto-falante no cabeçalho o
 ## Retrospectiva anual
 
 A Retrospectiva anual, em Observatório, permite consultar um ano do perfil ativo, com oito indicadores, médias mensais, destaques e uma apresentação manual em quatro quadros. A vinheta utiliza a sonoplastia existente e respeita o modo silencioso. Meses sem notas aparecem com travessão; o ano atual é parcial. Não gera novas coletas.
+
+
+## Coreografias contextuais
+
+Motor de coreografias contextuais: o Ping combina até dois acessórios com as expressões, gestos e efeitos existentes. As cenas de comédia têm prioridade sobre lembretes e leituras. Os acessórios desaparecem automaticamente, ao cancelar uma apresentação ou ocultar a aba. O modo silencioso e a redução de movimento continuam respeitados.
