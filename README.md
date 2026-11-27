@@ -106,7 +106,7 @@ O repertório contém 40 piadas do pontinho, com pergunta, suspense de cinco seg
 
 ## Configurações
 
-A área Ping controla visibilidade, voz, animações, efeitos de vibração com ajuste de duração dos pulsos, volume, tamanho e frequência das falas (Reservado, Equilibrado, Conversador e Tagarela). Visual oferece 12 temas: Jardim, Verão, Vulcão, Ecológico, Elegante, Sol, Aço, Oceano, Místico, Café, Cereja e Extravagante, cada um em claro e escuro. Café claro é o padrão. Ping pode comentar a escolha de tema; suas opiniões são fictícias, variam por dia e usam repertórios de 15 por tema. Coletas controla início automático, início manual e pausa. Dados permite verificar o armazenamento local. Preferências são preservadas no backup.
+A área Ping oferece lembretes de backup opcionais (ativados por padrão), no máximo uma vez por dia, quando não houver salvamento confirmado nas últimas 24 horas. A nota não acompanha esses lembretes. A área Ping controla visibilidade, voz, animações, efeitos de vibração com ajuste de duração dos pulsos, volume, tamanho e frequência das falas (Reservado, Equilibrado, Conversador e Tagarela). Visual oferece 12 temas: Jardim, Verão, Vulcão, Ecológico, Elegante, Sol, Aço, Oceano, Místico, Café, Cereja e Extravagante, cada um em claro e escuro. Café claro é o padrão. Ping pode comentar a escolha de tema; suas opiniões são fictícias, variam por dia e usam repertórios de 15 por tema. Coletas controla início automático, início manual e pausa. Dados permite verificar o armazenamento local. Preferências são preservadas no backup.
 
 <a id="salvar-abrir"></a>
 

@@ -20,7 +20,7 @@ mountVoice();
 const motion=mountMotion(root,snapshot,activeId);
 const sync=mountSync(root,bubble,motion,playVoice,stopVoice);
 const speak=(text,emotion,image,reading=false)=>{if(!settings().visible||document.documentElement.hasAttribute("data-starting"))return;sync.speak(reading&&!image?`${ratingText(snapshot(),activeId())} ${text}`:text,emotion,image,image?()=>effect(image.includes("4a9")?"fart":emotion==="celebração"?"ovation":"rimshot"):undefined);if(!image&&['surpresa','celebração'].includes(emotion))vibrateEffect([90,60,120]);};
-let showing=false,showToken=0,showTimer=0,taps=0,lastShow=Date.now();
+let reminderUntil=0;let showing=false,showToken=0,showTimer=0,taps=0,lastShow=Date.now();
 function applySettings(){const s=settings();root.hidden=!s.visible;root.dataset.animations=String(s.animations);root.dataset.size=s.size;configureVoice({enabled:s.voice&&s.visible,volume:s.volume/100});if(!s.visible){sync.cancel();cancelShow();}if(!s.comedy)stopComedy();if(!s.jokes)cancelShow();if(pos&&s.visible)place(pos.x,pos.y);}
 document.addEventListener('pingnet:settings',applySettings);applySettings();
 place(innerWidth-root.offsetWidth-12,innerHeight-root.offsetHeight-56);get('pingState','position').then(p=>{if(p&&!revision&&!drag)place(p.x,p.y)}).catch(console.error);
@@ -42,8 +42,8 @@ async function showJoke(){if(showing||!settings().visible||!settings().jokes||do
 for(const event of ["pointerdown","pointerup","touchend","keydown","click"])document.addEventListener(event,()=>{if(settings().comedy)unlockComedy();},true);
 document.addEventListener("click",e=>{if(e.target.closest("#comedy-joke"))showJoke();});
 document.addEventListener("visibilitychange",()=>{if(document.hidden)cancelShow();});
-setInterval(()=>{if(Date.now()-lastShow>480000&&Date.now()>opinionUntil&&!showing&&settings().jokes&&settings().visible&&!document.hidden&&!drag)showJoke();},30000);
-const talk=mountBrain({read:snapshot,profile:activeId,speak,blocked:()=>document.documentElement.hasAttribute("data-starting")||!settings().visible||!!drag||showing||Date.now()<opinionUntil});
+setInterval(()=>{if(Date.now()>reminderUntil&&Date.now()-lastShow>480000&&Date.now()>opinionUntil&&!showing&&settings().jokes&&settings().visible&&!document.hidden&&!drag)showJoke();},30000);
+const talk=mountBrain({read:snapshot,profile:activeId,speak,blocked:()=>document.documentElement.hasAttribute("data-starting")||!settings().visible||!!drag||showing||Date.now()<reminderUntil||Date.now()<opinionUntil});
 
 mountOpinions({speak:(text,emotion)=>{cancelShow();opinionUntil=Date.now()+8500;speak(text,emotion)},blocked:()=>!settings().visible||!!drag});
 
@@ -51,3 +51,9 @@ mountOpinions({speak:(text,emotion)=>{cancelShow();opinionUntil=Date.now()+8500;
 
 function refreshHeaderRating(){const ratingValue=document.getElementById("ping-rating-value");if(!ratingValue)return;const n=rating(snapshot(),activeId());const value=n===null?'—':n.toLocaleString('pt-BR',{maximumFractionDigits:1});if(ratingValue.textContent!==value)ratingValue.textContent=value;}
 document.addEventListener('pingnet:monitor',refreshHeaderRating);document.addEventListener('visibilitychange',refreshHeaderRating);setInterval(refreshHeaderRating,1000);refreshHeaderRating();
+
+// Backup reminders: at most once per local day, only if no successful save in 24h.
+let checkingBackup=false;
+const backupLines=['Seus registros ficam neste navegador. Faça um backup em Arquivo → Salvar para protegê-los.','Que tal guardar uma cópia do histórico? Use Arquivo → Salvar.','Não deixe suas medições sem uma cópia de segurança. Abra Arquivo → Salvar.'];
+async function remindBackup(){if(checkingBackup||!settings().backupReminder||!settings().visible||document.hidden||showing||drag||Date.now()<opinionUntil||document.documentElement.hasAttribute('data-starting')||!bubble.hidden)return;checkingBackup=true;try{const work=async()=>{const [saved,last]=await Promise.all([get('pingState','backup-last-success'),get('pingState','backup-last-reminder')]);const now=Date.now(),day=new Date(now).toLocaleDateString('pt-BR');if(now-(saved?.at||0)<86400000||last?.day===day||!settings().backupReminder||!settings().visible||document.hidden||showing||drag||now<opinionUntil||!bubble.hidden)return;reminderUntil=now+15000;speak(backupLines[Math.floor(Math.random()*backupLines.length)],'preocupação');await put('pingState',{id:'backup-last-reminder',day,at:now});};if(navigator.locks)await navigator.locks.request('pingnet-backup-reminder',work);else await work();}catch(e){console.error(e)}finally{checkingBackup=false;}}
+setTimeout(remindBackup,60000);setInterval(remindBackup,60000);
