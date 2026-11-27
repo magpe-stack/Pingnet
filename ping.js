@@ -19,7 +19,7 @@ function save(){revision++;put('pingState',{id:'position',...pos}).catch(console
 mountVoice();
 const motion=mountMotion(root,snapshot,activeId);
 const sync=mountSync(root,bubble,motion,playVoice,stopVoice);
-const speak=(text,emotion,image)=>{if(!settings().visible)return;sync.speak(image?text:`${ratingText(snapshot(),activeId())} ${text}`,emotion,image,image?()=>effect(image.includes("4a9")?"fart":emotion==="celebração"?"ovation":"rimshot"):undefined);if(settings().vibration&&!document.hidden&&navigator.vibrate)navigator.vibrate(emotion==='irritação'?[70,40,70,40,100]:emotion==='impaciência'?[35,40,35]:emotion==='tristeza'?[80,60,80]:35);};
+const speak=(text,emotion,image)=>{if(!settings().visible||document.documentElement.hasAttribute("data-starting"))return;sync.speak(image?text:`${ratingText(snapshot(),activeId())} ${text}`,emotion,image,image?()=>effect(image.includes("4a9")?"fart":emotion==="celebração"?"ovation":"rimshot"):undefined);if(settings().vibration&&!document.hidden&&navigator.vibrate)navigator.vibrate(emotion==='irritação'?[70,40,70,40,100]:emotion==='impaciência'?[35,40,35]:emotion==='tristeza'?[80,60,80]:35);};
 let showing=false,showToken=0,showTimer=0,taps=0,lastShow=Date.now();
 function applySettings(){const s=settings();root.hidden=!s.visible;root.dataset.animations=String(s.animations);root.dataset.size=s.size;configureVoice({enabled:s.voice&&s.visible,volume:s.volume/100});if(!s.visible){sync.cancel();cancelShow();}if(!s.comedy)stopComedy();if(!s.jokes)cancelShow();if(pos&&s.visible)place(pos.x,pos.y);}
 document.addEventListener('pingnet:settings',applySettings);applySettings();
@@ -41,7 +41,7 @@ for(const event of ["pointerdown","pointerup","touchend","keydown","click"])docu
 document.addEventListener("click",e=>{if(e.target.closest("#comedy-joke"))showJoke();});
 document.addEventListener("visibilitychange",()=>{if(document.hidden)cancelShow();});
 setInterval(()=>{if(Date.now()-lastShow>480000&&Date.now()>opinionUntil&&!showing&&settings().jokes&&settings().visible&&!document.hidden&&!drag)showJoke();},30000);
-const talk=mountBrain({read:snapshot,profile:activeId,speak,blocked:()=>!settings().visible||!!drag||showing||Date.now()<opinionUntil});
+const talk=mountBrain({read:snapshot,profile:activeId,speak,blocked:()=>document.documentElement.hasAttribute("data-starting")||!settings().visible||!!drag||showing||Date.now()<opinionUntil});
 
 mountOpinions({speak:(text,emotion)=>{cancelShow();opinionUntil=Date.now()+8500;speak(text,emotion)},blocked:()=>!settings().visible||!!drag});
 

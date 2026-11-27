@@ -125,3 +125,7 @@ No menu Arquivo, Salvar cria um JSON cumulativo de todos os perfis, medições, 
 
 ### Relatórios
 Arquivo → Imprimir: escolha o período, gere a prévia e imprima ou salve como PDF pelo navegador. O relatório inclui apenas o perfil ativo e registros locais, com lacunas separadas de interrupções.
+
+## Abertura audiovisual
+
+A abertura dura três segundos e pode ser pulada. Utiliza o tema atual, ondas de sinal, o Ping e o logotipo. Respeita a redução de movimento e as preferências de animação e visibilidade. A vinheta original é sintetizada localmente e depende de interação durante a abertura e autorização de áudio do navegador; não há reprodução automática garantida.
