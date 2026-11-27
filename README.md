@@ -111,3 +111,6 @@ Piadas especiais usam imagens originais vinculadas à fala, mantidas até o bal�
 
 ## Ping Comedy Club
 40 piadas do pontinho, pergunta, suspense de cinco segundos e resposta com plateia sintetizada. A cada terceiro toque ou aproximadamente quatro minutos de atividade, e por botão nas configurações. Efeitos e piadas configuráveis separadamente. Os sons são procedurais, não gravações humanas.
+
+### Áudio do Comedy Club
+Bateria e risadas utilizam amostras locais fornecidas pelo usuário, com compressão suave, redução de volume, fades e codificação mono MP3. Palmas e demais efeitos continuam procedurais. As amostras são armazenadas no cache offline.
