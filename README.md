@@ -412,3 +412,10 @@ Em Observatório → Dossiê da conexão, selecione o período e gere a prévia.
 ## Comparação entre perfis
 
 Em Observatório → Comparação entre perfis, selecione dois perfis distintos e as datas inicial e final. Consulte notas, cobertura, estabilidade, respostas e interrupções lado a lado. A seleção não altera o perfil ativo. Não há classificação automática de vencedor; horários e cobertura diferentes limitam a interpretação.
+
+
+<a id="ping-detective"></a>
+
+## Ping Detective
+
+Em Observatório → Ping Detective, selecione 7, 30 ou 90 dias e clique em Investigar. A análise usa somente o perfil ativo. Exige três dias com tempo classificado, uma hora classificada e 30 coletas. Horários recorrentes exigem três dias com pelo menos cinco minutos classificados e 20% de engasgos ou interrupções, além de 20% no conjunto elegível. Destinos exigem 20 coletas próprias, 40 nos demais, respostas não verificadas em três dias, taxa de 20% e diferença de 15 pontos percentuais. Três entradas em interrupção geram um indício adicional. Ausência de indícios não garante ausência de problemas. Não identifica causas nem responsáveis.
