@@ -54,3 +54,12 @@ main[data-page=inicio] #analytics-status,main[data-page=inicio] .home-timeline p
 
 @media(min-width:900px){main[data-page=inicio] .reference-grid{grid-template-columns:repeat(5,minmax(0,1fr))}}
 @media(max-width:899px){main[data-page=inicio] .reference-grid .metric:last-child{grid-column:1/-1}}
+
+/* Menu compacto: rolagem somente quando a altura disponível exigir. */
+#nav{padding:6px 8px;max-height:calc(100dvh - 88px);line-height:1.2}
+#nav details{padding-block:1px}
+#nav summary{min-height:32px;padding:6px 8px;line-height:1.2}
+#nav details a,#nav details button{min-height:32px;padding:5px 12px;line-height:1.2}
+#nav #pwa-status,#nav #file-status{font-size:.75rem;line-height:1.2;margin:3px 8px;overflow-wrap:anywhere}
+#nav #pwa-status:empty,#nav #file-status:empty{display:none}
+@media(pointer:coarse){#nav summary,#nav details a,#nav details button{min-height:40px;padding-block:6px}}
