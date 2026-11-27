@@ -44,7 +44,7 @@ Abra o aplicativo pelo endereço https://magpe-stack.github.io/Pingnet/ no Chrom
 
 ## Monitoramento e condições
 
-As coletas começam automaticamente quando habilitadas. Cada coleta alterna Cloudflare Speed Test, Wikimedia, Mozilla, GitHub e NIC.br, sem cookies e sem cache, com limite de cinco segundos por consulta. As consultas ocorrem a cada 12 segundos, uma por minuto por referência, sem limite fixo. Restrições HTTP suspendem individualmente a referência, com espera progressiva. Não há autorização confirmada para monitoramento contínuo desses serviços. Em Configurações → Configurações → Coletas, é possível iniciar ou pausar, respeitando as restrições dos destinos.
+As coletas começam automaticamente quando habilitadas. Cada coleta alterna Cloudflare Speed Test, Wikimedia, GitHub, USGS e jsDelivr, sem cookies e sem cache, com limite de cinco segundos por consulta. As consultas ocorrem a cada 12 segundos, uma por minuto por referência, sem limite fixo. Restrições HTTP suspendem individualmente a referência, com espera progressiva. Não há autorização confirmada para monitoramento contínuo desses serviços. Em Configurações → Configurações → Coletas, é possível iniciar ou pausar, respeitando as restrições dos destinos.
 
 Conexão estável: resposta válida de até 350 ms. Engasgos: resposta acima de 350 ms. Possível sinal enganoso: nenhuma resposta válida, embora o navegador indique conexão. Verificando interrupção: nenhuma resposta válida e navegador indica desconexão. Interrupção observada: três falhas elegíveis envolvendo pelo menos duas referências. Conexão recuperada: primeira rodada com resposta válida após interrupção. Observação inconclusiva: resposta inesperada ou restrição do serviço. Uma lacuna superior a 90 segundos reinicia a sessão e a confirmação. Nenhuma dessas condições identifica isoladamente a causa ou a responsabilidade da operadora.
 
@@ -70,7 +70,7 @@ Escolha o período e a condição para consultar mudanças de estado, primeiras 
 
 ## Comparativos
 
-Compare ontem com anteontem, os últimos sete dias completos com os sete anteriores ou os últimos 30 dias completos com os 30 anteriores. Hoje fica de fora. Somente registros da metodologia alternada da versão 32 entram nessa análise. Observe a cobertura classificada de cada período: contagens não são normalizadas e coberturas diferentes limitam a comparação.
+Compare ontem com anteontem, os últimos sete dias completos com os sete anteriores ou os últimos 30 dias completos com os 30 anteriores. Hoje fica de fora. Somente registros da metodologia alternada das versões 32 e 33 (referências diferentes) entram nessa análise. Observe a cobertura classificada de cada período: contagens não são normalizadas e coberturas diferentes limitam a comparação.
 
 <a id="horarios-criticos"></a>
 

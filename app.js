@@ -42,7 +42,7 @@ main.addEventListener('click',e=>{if(e.target.closest('[data-action=database]'))
 
 function renderMonitor(){
  const box=main.querySelector('#monitor-results');if(!box)return;
- const {running,latest,error,recent}=snapshot();const valid=[9,32].includes(latest?.version)&&Number.isFinite(latest.completedAt);const fresh=valid&&running&&Date.now()-latest.completedAt<90000;
+ const {running,latest,error,recent}=snapshot();const valid=[9,32,33].includes(latest?.version)&&Number.isFinite(latest.completedAt);const fresh=valid&&running&&Date.now()-latest.completedAt<90000;
  main.querySelector('#connection-state').textContent=fresh?(labels[latest.assessment?.state]||labels.unknown):running?labels.waiting:'Monitoramento inativo';
  main.querySelector('#monitor-status').textContent=error||(!fresh&&valid?'Última rodada registrada': '');
  const time=main.querySelector('#last-update');if(valid){const d=new Date(latest.completedAt);time.dateTime=d.toISOString();time.textContent=(d.toDateString()===new Date().toDateString()?'':d.toLocaleDateString('pt-BR')+' · ')+d.toLocaleTimeString('pt-BR',{hour12:false});}else{time.textContent='—';time.removeAttribute('datetime');}
