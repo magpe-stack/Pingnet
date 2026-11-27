@@ -6,3 +6,10 @@ export function classify(results,online,previous={}){
  const failures=(previous.failures||0)+1;
  return {state:failures>=3?'down':online?'suspect':'checking',failures};
 }
+
+export function classifyAlternating(r,online,previous={},experimental=false){
+ if(r.result==='verified')return {state:previous.state==='down'?'recovered':r.ms>350?'slow':'stable',failures:0,failedTargets:[]};
+ if(experimental||['restricted','unexpected'].includes(r.result))return {...previous,state:'unknown'};
+ const failedTargets=[...new Set([...(previous.failedTargets||[]),r.target])];const failures=(previous.failures||0)+1;
+ return {state:failures>=3&&failedTargets.length>=2?'down':online?'suspect':'checking',failures,failedTargets};
+}

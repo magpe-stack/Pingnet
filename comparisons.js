@@ -5,7 +5,7 @@ import {MAX_GAP} from './sessions.js';
 export function windows(days,now=new Date()){
  const [today]=dayBounds(now);const end=new Date(today),mid=new Date(today),start=new Date(today);mid.setDate(mid.getDate()-days);start.setDate(start.getDate()-2*days);return [[+mid,+end],[+start,+mid]];
 }
-export function compare(rows,periods){const eligible=rows.filter(r=>r.version===9&&r.sessionId&&r.results?.length===2&&r.results.some(x=>x.target==='cf-speed')&&r.results.some(x=>x.target==='wikimedia'));return periods.map(([a,b])=>summarize(eligible,a,b));}
+export function compare(rows,periods){const eligible=rows.filter(r=>r.version===32&&r.sessionId);return periods.map(([a,b])=>summarize(eligible,a,b));}
 const fmt=n=>n.toLocaleString('pt-BR',{maximumFractionDigits:1});
 const duration=n=>`${Math.floor(n/3600000)}h ${Math.floor(n%3600000/60000)}min ${Math.floor(n%60000/1000)}s`;
 const pct=n=>n===null?'—':fmt(n)+'%';

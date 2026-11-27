@@ -6,7 +6,7 @@ import {MAX_GAP} from './sessions.js';
 export const MIN_COVERAGE=300000;
 export function analyzeHours(rows,from,to,now=Date.now()){
  const bins=Array.from({length:24},(_,hour)=>({hour,stable:0,slow:0,suspect:0,down:0,unknown:0,observed:0,rate:null}));
- const eligible=rows.filter(r=>r.version===9&&r.sessionId&&r.results?.length===2&&r.results.some(x=>x.target==='cf-speed')&&r.results.some(x=>x.target==='wikimedia'));
+ const eligible=rows.filter(r=>r.version===32&&r.sessionId);
  for(const p of segments(eligible,from,to,now)){if(p.kind==='gap')continue;let a=p.start;while(a<p.end){const d=new Date(a),hour=d.getHours();const next=a+(3600000-(d.getMinutes()*60000+d.getSeconds()*1000+d.getMilliseconds()));const b=Math.min(p.end,next);bins[hour][p.kind]+=b-a;a=b;}}
  for(const b of bins){b.observed=b.stable+b.slow+b.suspect+b.down;b.rate=b.observed>=MIN_COVERAGE?100*(b.slow+b.suspect+b.down)/b.observed:null;}
  return bins;
