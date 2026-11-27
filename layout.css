@@ -98,3 +98,12 @@ main[data-page=csv]{overflow-y:auto}.csv-grid{display:grid;grid-template-columns
 .comedy-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin:8px 0}.comedy-grid>div{border:1px solid var(--line);border-radius:8px;padding:12px;display:grid;gap:4px;text-align:center}.comedy-grid strong{overflow-wrap:anywhere}.comedy-catalog{display:grid;grid-template-columns:repeat(auto-fill,minmax(64px,1fr));gap:8px}.comedy-catalog button{padding:4px;min-width:0}.comedy-catalog img{width:48px;height:48px;object-fit:contain}.comedy-preview{display:flex;align-items:center;justify-content:center;gap:12px;min-height:100px}.comedy-preview img{width:88px;height:88px;object-fit:contain}
 
 #silent{display:inline-flex;align-items:center;justify-content:center}#silent .sound-off{display:none}#silent[aria-pressed=true] .sound-off{display:inline}#silent[aria-pressed=true] .sound-on{display:none}#silent[aria-pressed=true]{box-shadow:inset 0 0 0 2px currentColor}@media(max-width:480px){header .actions{gap:4px}header .brand small{display:none}header .brand{min-width:0}header .brand strong{font-size:clamp(.85rem,3.5vw,1.1rem)}}@media(max-width:330px){header .brand span{display:none}}
+
+/* Identidade visual v61: escala constante, sem alterar a semântica ou os controles. */
+.visual-icon{display:inline-block;width:24px;height:24px;object-fit:contain;flex:none;vertical-align:middle;margin-inline-end:8px;pointer-events:none}
+#nav .visual-icon{width:20px;height:20px;margin-inline-end:8px}
+#nav details button:not([hidden]){display:flex;align-items:center;text-align:start}
+main h1>.visual-icon{width:28px;height:28px}
+main h2>.visual-icon,main h3>.visual-icon{width:20px;height:20px}
+@media(max-width:380px){main h1>.visual-icon{width:24px;height:24px;margin-inline-end:4px}}
+@media print{.visual-icon{display:none!important}}

@@ -471,3 +471,7 @@ Motor de coreografias contextuais: o Ping combina até dois acessórios com as e
 ## Personalidades contextuais do Ping
 
 As 12 personalidades do Ping são Detective, Jornalista, Cientista, Comediante, Mecânico, Professor, Artista, Maestro, Bibliotecário, Estatístico, Fiscal e Guardião. Toque no pequeno acessório ao lado do título de uma ferramenta para convidar o personagem a apresentar seu papel. A cena usa dois objetos, expressão e gesto do motor existente, diálogo e, em papéis selecionados, uma vinheta após a fala. O modo silencioso é respeitado. O convite não interrompe espetáculos ou lembretes e não altera medições.
+
+## Identidade visual das ferramentas
+
+Os menus e títulos das ferramentas usam acessórios tridimensionais locais, com tamanho padronizado. Os textos e botões continuam disponíveis; os ícones decorativos não são anunciados por leitores de tela e não aparecem na impressão. Os botões de personalidade continuam independentes.
