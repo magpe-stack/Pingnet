@@ -402,3 +402,8 @@ Se Salvar estiver indisponível, utilize um navegador desktop compatível com a 
 Para publicar o software, extraia o pacote em uma pasta vazia e envie os arquivos da raiz e a pasta assets para a raiz do [repositório Pingnet](https://github.com/magpe-stack/Pingnet). Não envie somente o ZIP nem inclua diretórios de versões anteriores. O manifest utiliza o caminho /Pingnet/. Preserve nomes, capitalização e estrutura dos recursos. A aplicação utiliza HTML, CSS, JavaScript, IndexedDB, Cache API e Web Audio API, sem bibliotecas externas obrigatórias.
 
 Antes de uma distribuição pública definitiva, confirme as licenças dos recursos gráficos e sonoros fornecidos e as permissões de uso recorrente dos destinos externos. Teste instalação, atualização, restauração, impressão, acessibilidade e monitoramento prolongado em dispositivos reais. A documentação descreve os recursos existentes e suas limitações; não substitui a homologação prática. O objetivo da manutenção é preservar os dados, a coerência visual e a interpretação responsável das observações.
+
+
+## Dossiê da conexão
+
+Em Observatório → Dossiê da conexão, selecione o período e gere a prévia. O documento reúne identificação do perfil, notas, indicadores, ocorrências, interrupções, anotações, protocolos cadastrados no período e distribuição temporal por condição. Use Imprimir / Salvar PDF para guardar o documento. Os protocolos mostram a situação atual cadastrada, não um histórico de alterações. Confira os dados pessoais antes de compartilhar. O dossiê é um registro auxiliar, não um laudo certificado.
