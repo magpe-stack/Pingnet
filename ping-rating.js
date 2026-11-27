@@ -23,14 +23,18 @@ export function ratingText(snapshot,profile,now=Date.now()){
 
 // Reconstruct each eligible observation using only its own session and past data.
 export function ratingPeriods(now){const d=new Date(now);d.setHours(0,0,0,0);const w=new Date(d);w.setDate(w.getDate()-((w.getDay()+6)%7));const m=new Date(d);m.setDate(1);const y=new Date(d);y.setMonth(0,1);return [+d,+w,+m,+y];}
-export function historicalRatings(rows,profile,end,starts=ratingPeriods(end-1)){
- const sums=starts.map(()=>0),counts=starts.map(()=>0),recent=new Map();let session;
+export function* ratingSamples(rows,profile,end){
+ const recent=new Map();let session;
  for(const r of rows.filter(r=>r.profileId===profile&&[9,32,33].includes(r.version)&&Number.isFinite(r.completedAt)&&r.completedAt<end).sort((a,b)=>a.completedAt-b.completedAt)){
   if(session!==r.sessionId){recent.clear();session=r.sessionId;}
   for(const x of r.results||[])recent.set(x.target,{...x,at:r.completedAt});
   const n=rating({latest:r,recent:[...recent.values()]},profile,r.completedAt);if(n===null)continue;
-  starts.forEach((start,i)=>{if(r.completedAt>=start){sums[i]+=Math.round(n*10);counts[i]++;}});
+  yield {at:r.completedAt,n};
  }
+}
+export function historicalRatings(rows,profile,end,starts=ratingPeriods(end-1)){
+ const sums=starts.map(()=>0),counts=starts.map(()=>0);
+ for(const {at,n} of ratingSamples(rows,profile,end))starts.forEach((start,i)=>{if(at>=start){sums[i]+=Math.round(n*10);counts[i]++;}});
  return counts.map((count,i)=>({count,value:count?sums[i]/count/10:null}));
 }
 export const formatRating=n=>n===null?'—':n.toLocaleString('pt-BR',{maximumFractionDigits:1});

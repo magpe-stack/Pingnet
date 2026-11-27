@@ -208,6 +208,8 @@ Comparativos permite confrontar ontem com anteontem, os últimos sete dias compl
 
 Observe a cobertura classificada de cada período antes de interpretar diferenças. Um período com muitas horas observadas naturalmente oferece mais oportunidades de registrar ocorrências do que outro com poucos minutos. As contagens não são normalizadas pela duração. Se a cobertura for muito desigual, prefira interpretar as proporções com cautela e evite concluir que uma redução de ocorrências significa necessariamente melhoria da conexão.
 
+Na página Comparativos, Evolução das notas apresenta médias mensais, semanas ISO de um ano ou os últimos 30 dias. Escolha o período e o ano e pressione Consultar para atualizar. O gráfico usa a escala de zero a dez, sem unir pontos separados por lacunas. Abra Valores e quantidade de notas para consultar as amostras. Os períodos em andamento são parciais; a consulta usa apenas o perfil ativo e os registros locais.
+
 <a id="6-2-identificacao-de-horarios-criticos"></a>
 
 ### 6.2 Identificação de horários críticos
