@@ -1,0 +1,14 @@
+Fontes fornecidas pelo usuário; licenças não verificadas.
+assets/comedy-laugh-1.mp3: freesound_community-laughter1-98297.mp3
+assets/comedy-laugh-2.mp3: universfield-men-laughing-03-242216.mp3
+assets/comedy-laugh-3.mp3: freesound_community-laughter3-43820.mp3
+assets/comedy-laugh-4.mp3: u_me7de86ad6-risas-de-programas-sound-effect-468064.mp3
+assets/comedy-laugh-5.mp3: freesound_community-hysterical-laughter-73517.mp3
+assets/comedy-laugh-6.mp3: waveloom-children-627408.mp3
+assets/comedy-intro-1.mp3: oceanframemusic-comedy-474551.mp3
+assets/comedy-trumpet.mp3: universfield-sad-trumpet-278822.mp3
+assets/comedy-outro-1.mp3: oceanframemusic-free-comedy-music-474555.mp3
+assets/comedy-sting.mp3: openmindaudio-comedy-stinger-playful-short-punch-cue-469095.mp3
+assets/comedy-intro-2.mp3: kaazoom-funny-benny-15-sec-stinger-comedy-slapstick-music-636453.mp3
+assets/comedy-boing.mp3: kalsstockmedia-funny-boing-spring-sound-comedy-301692.mp3
+assets/comedy-rimshot-2.mp3: universfield-comedy-rimshot-352439.mp3
