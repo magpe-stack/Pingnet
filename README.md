@@ -1,137 +1,148 @@
 # Pingnet — Observatório Local da Internet
 
+![Pingnet](assets/logo.svg)
+
 *Sua internet, sem mistérios.*
 
-## Infraestrutura PWA — etapa 05 de 30
+## Manual de software
 
-Esta entrega contém navegação funcional, identidade oficial, tema Café inicial, alternância clara/escura persistida localmente, estrutura modular e recursos originais. Não realiza medições nem gera registros fictícios. As áreas futuras estão explicitamente identificadas.
+## Sumário
 
-## Publicação
+- [Apresentação](#apresentacao)
+- [Instalação e primeiros passos](#primeiros-passos)
+- [Monitoramento e condições](#monitoramento)
+- [Painel Início e indicadores](#inicio)
+- [Linha do tempo](#linha-do-tempo)
+- [Histórico](#historico)
+- [Comparativos](#comparativos)
+- [Horários críticos](#horarios-criticos)
+- [Anotações](#anotacoes)
+- [Minha conexão](#perfis)
+- [Ping e nota da conexão](#ping)
+- [Ping Comedy Club](#comedy)
+- [Configurações de Sistema](#configuracoes)
+- [Salvar e Abrir](#salvar-abrir)
+- [Relatórios e impressão](#imprimir)
+- [Privacidade e armazenamento](#privacidade)
+- [Funcionamento offline e atualização](#offline)
+- [Solução de problemas](#solucao)
+- [Publicação e manutenção](#publicacao)
 
-Extraia o ZIP. Envie os arquivos da raiz e a pasta `assets` para a raiz do repositório GitHub Pages. Não envie o ZIP como substituto dos arquivos. Guarde uma cópia da versão anterior. Se houver um Service Worker antigo, remova seu registro nas ferramentas de desenvolvedor do Chrome (Application > Service Workers > Unregister) e recarregue. Não limpe o armazenamento se precisar preservar dados antigos. A migração de dados antigos não está incluída.
+<a id="apresentacao"></a>
 
-## Recursos
+## Apresentação
 
-Os logotipos fornecidos foram preservados; favicon e ícone adaptável foram derivados. Os WebP e sete JSON originais foram incluídos para integração posterior. Os JSON foram normalizados sintaticamente, mas suas falas ainda não foram revisadas semanticamente nem são executadas. Licenças dos recursos gráficos ainda devem ser confirmadas antes de distribuição definitiva.
+O Pingnet é um observatório local da conectividade, destinado a acompanhar respostas HTTP, identificar alterações e organizar registros de uso da internet. Não é um medidor de velocidade contratada nem um instrumento certificado. Seu lema é “Sua internet, sem mistérios”.
 
-## Próximas etapas
+<a id="primeiros-passos"></a>
 
-Banco IndexedDB (06), motor de monitoramento (07). As demais funcionalidades seguem o plano aprovado. O manifest e o Service Worker estão incluídos.
+## Instalação e primeiros passos
 
-## Sistema visual
+Abra o aplicativo pelo endereço https://magpe-stack.github.io/Pingnet/ no Chrome. Aguarde a abertura de quatro segundos e a preparação dos recursos offline. No menu Exibição, escolha Instalar Pingnet quando disponível; alternativamente, utilize o menu do navegador. A instalação não exige conta no aplicativo. O logotipo retorna ao Início; os botões superiores alternam o modo visual e abrem o menu. Tela cheia está disponível em Exibição quando suportada. O rodapé oferece GitHub, Ajuda e Sobre.
 
-`tokens.css` centraliza cores, espaçamentos, tipografia, dimensões de toque e estados semânticos. `styles.css` aplica os tokens aos componentes. A denominação institucional agora é Observatório Local da Internet. Os estados de foco, interação e movimento reduzido foram refinados. A homologação visual no Chrome e no celular permanece necessária.
+<a id="monitoramento"></a>
 
-## Temas cromáticos
+## Monitoramento e condições
 
-Em Configurações de Sistema, selecione uma das 12 paletas por botão de opção. Cada tema possui modo claro e escuro. Café claro é o padrão inicial; a seleção e o modo persistem em localStorage. As cores de monitoramento não mudam. A integração ao IndexedDB e ao backup ocorrerá nas etapas correspondentes. O evento `pingnet:theme-selected` prepara a integração futura do Ping; as opiniões ainda não são executadas.
+As coletas começam automaticamente quando habilitadas. Cada rodada consulta Cloudflare Speed Test e Wikimedia em paralelo, sem cookies e sem cache, com limite de cinco segundos por consulta. A bateria experimental realiza até seis rodadas por abertura, aproximadamente uma por minuto. Restrições HTTP encerram a bateria. Não há autorização confirmada para monitoramento contínuo desses serviços. Em Sistema → Configurações de Sistema → Coletas, é possível iniciar ou pausar, respeitando a cota da abertura.
 
-## Interface responsiva
+Conexão estável: duas respostas válidas de até 350 ms. Engasgos: resposta parcial ou acima de 350 ms. Possível sinal enganoso: nenhuma resposta válida, embora o navegador indique conexão. Verificando interrupção: nenhuma resposta válida e navegador indica desconexão. Interrupção observada: três rodadas consecutivas sem resposta válida. Conexão recuperada: primeira rodada com resposta válida após interrupção. Observação inconclusiva: resposta inesperada ou restrição do serviço. Uma lacuna superior a 90 segundos reinicia a sessão e a confirmação. Nenhuma dessas condições identifica isoladamente a causa ou a responsabilidade da operadora.
 
-Cabeçalho e rodapé permanecem visíveis; somente a área central rola quando necessário. Início usa cartões compactos e grade adaptativa. O menu sanfona tem rolagem independente e opção de tela cheia quando suportada. Telas pequenas, zoom e conteúdo extenso permitem rolagem para preservar acessibilidade. A impressão remove os limites de altura.
+<a id="inicio"></a>
 
-## Instalação e funcionamento offline
+## Painel Início e indicadores
 
-Abra por HTTPS no Chrome. Aguarde a preparação dos recursos offline. Em Exibição, use Instalar Pingnet quando oferecido pelo navegador; também é possível usar o menu do Chrome. Desconecte a internet e recarregue para testar. A primeira preparação exige conexão. Em Exibição, Verificar atualização consulta o Service Worker; Aplicar atualização aparece quando uma versão está aguardando. O cache é versionado e não intercepta destinos externos. O armazenamento local não é apagado. O título e subtítulo não são links; somente o logotipo leva ao Início. O monitoramento depende da conexão com destinos externos.
+O painel reúne as referências HTTP, a condição mais recente, o horário da última atualização e os indicadores diários. Coletas realizadas contam consultas individuais, não rodadas; duas referências representam duas coletas. Coletas OK são respostas verificadas; coletas não OK são as demais. Respostas válidas correspondem à proporção de coletas OK sobre o total. O tempo de resposta é a média das respostas válidas. Estabilidade estima o tempo disponível sobre o tempo classificado, excluindo lacunas e condições inconclusivas. Quedas contam entradas em interrupção confirmada; tempo interrompido e maior interrupção são estimativas entre observações. Engasgos contam rodadas classificadas como lentas. O travessão indica ausência de informação suficiente quando aplicável. Consulte sempre o horário da última coleta.
 
-## Armazenamento local e isolamento
+<a id="linha-do-tempo"></a>
 
-Etapa 06: IndexedDB `pingnet-observatorio-local-Pingnet`, versão 1. Coleções: preferences, profiles, sessions, measurements, events, notes, pingState e fileHandles. Índices por perfil e data para consultas futuras. Apenas o perfil padrão e as preferências de aparência são gravados nesta etapa; nenhuma medição é simulada. Em Configurações de Sistema, Verificar armazenamento consulta contagens reais. O manifest fixa a identidade e o escopo em `/Pingnet/`, portanto publique nesse diretório exato. O cache tem prefixo próprio e a atualização remove somente caches conhecidos do Pingnet. Não limpe os dados da origem compartilhada com outros aplicativos. O backup externo será implementado na etapa 26.
+## Linha do tempo
 
-## Monitoramento experimental
-Duas referências funcionalmente testadas: Cloudflare Speed Test e Wikimedia. Coletas automáticas limitadas a seis rodadas por abertura, com intervalo de 60 segundos. Restrições HTTP encerram a bateria. Não há autorização confirmada para uso contínuo. Três rodadas consecutivas sem resposta validada indicam interrupção observada, não prova de falha da operadora. Respostas parciais ou acima de 350 ms indicam engasgos provisórios. Lacunas superiores a 90 segundos reiniciam a confirmação. Registros anteriores preservados. Nenhum indicador histórico calculado nesta etapa.
+A faixa diária apresenta os intervalos estimados entre observações da mesma sessão, separadas por até 90 segundos. Em Linha do tempo, escolha a data. Verde representa estabilidade, amarelo engasgos, roxo possível sinal enganoso, vermelho interrupção, cinza-azulado condição inconclusiva e branco ausência de monitoramento ou período futuro. Uma coleta isolada não estabelece duração. Não se extrapola após a última observação.
 
-## Etapa 09 — Sessões de monitoramento
+<a id="historico"></a>
 
-Cada sequência de coletas recebe um identificador local. Uma lacuna superior a 90 segundos entre inícios de coletas, ou relógio retrocedendo, inicia nova sessão e reinicia a classificação. O encerramento registra somente até a última observação concluída, sem atribuir tempo de indisponibilidade a períodos sem coleta. Encerramentos abruptos podem deixar sessões abertas; seu último horário observado continua sendo o limite válido. Registros antigos sem sessão são preservados. A visualização e os cálculos serão implementados nas etapas seguintes. Mantido o limite experimental de seis rodadas por abertura.
+## Histórico
 
-## Etapa 10 — Indicadores
-O resumo diário utiliza a média dos tempos de respostas verificadas e conta consultas individuais, inclusive registros anteriores. Engasgos contam rodadas classificadas como lentas. Quedas contam entradas no estado de interrupção observada. A estabilidade estima a proporção de tempo disponível entre observações consecutivas da mesma sessão, separadas por até 90 segundos; estados inconclusivos e lacunas não entram no denominador. Não extrapola após a última coleta. A duração de interrupção é conservadora e começa na classificação confirmada. Sem intervalo suficiente, mostra travessão. Os quatro indicadores de coletas são diários e incluem todas as consultas concluídas, mesmo as não verificáveis; não equivalem à estabilidade. Mantido o limite experimental anterior.
+Escolha o período e a condição para consultar mudanças de estado, primeiras observações de sessões e anotações manuais. Os registros mais recentes aparecem primeiro, em grupos de 30. Consulte datas, horários e respostas das referências. Anotações não são medições e não alteram os indicadores.
 
-## Etapa 11 — Painel Início
+<a id="comparativos"></a>
 
-O cartão promocional foi removido; o logotipo principal permanece. Servidores, estado da coleta, contadores e horário real da última rodada registrada estão no mesmo painel. Resultados anteriores permanecem identificados pelo horário, inclusive após o fim da bateria. A qualidade diária fica em painel separado. A interface compacta permite rolagem quando necessária por tamanho de tela ou acessibilidade. A linha do tempo real será implementada na etapa 12; não se apresenta uma faixa cinza fictícia. O intervalo e limite experimental de coletas permanecem inalterados.
+## Comparativos
 
-## Etapa 12 — Linha do tempo
-Visualização diária na página Início e seleção de data na página Linha do tempo. Intervalos estimados apenas entre rodadas consecutivas da mesma sessão, separadas por até 90 segundos. Cinza inclui períodos futuros e sem monitoramento; inconclusivo é distinto de interrupção. Salvar e Abrir permanecem previstos para a etapa 26.
+Compare ontem com anteontem, os últimos sete dias completos com os sete anteriores ou os últimos 30 dias completos com os 30 anteriores. Hoje fica de fora. Somente registros da metodologia atual de duas referências entram nessa análise. Observe a cobertura classificada de cada período: contagens não são normalizadas e coberturas diferentes limitam a comparação.
 
-## Etapa 13 — Histórico
-Consulta local de mudanças de condição e primeiras observações de sessões, com período e filtro por condição. Exibe data, hora e resultados da rodada, em ordem decrescente, 30 registros por vez. Não infere acontecimentos em lacunas. Possível sinal enganoso usa roxo #9333EA. Salvar e Abrir previstos para etapa 26.
+<a id="horarios-criticos"></a>
 
-## Comparativos (etapa 14)
-Compare ontem com anteontem, ou dois períodos consecutivos de 7 ou 30 dias completos. Hoje é excluído. Apenas registros da metodologia atual (versão de medição 9, dois destinos) entram no cálculo. A cobertura classificada é exibida separadamente; lacunas e estados inconclusivos não entram no denominador da estabilidade. Contagens não são normalizadas e dependem da cobertura. Sem dados suficientes, indicadores indisponíveis aparecem como travessão. Consulta local offline.
+## Horários críticos
 
-## Horários críticos (etapa 15)
-Consulte 24 faixas horárias locais, hoje ou nos últimos 7/30 dias completos. A proporção de problemas soma engasgos, possíveis sinais enganosos e interrupções, divididos pelo tempo classificado nessas condições ou estável. Não equivale ao percentual de indisponibilidade. Lacunas e inconclusivos são excluídos. Exige cinco minutos classificados por faixa para apresentar percentual e identificar a maior proporção; esse mínimo operacional não garante representatividade estatística. Selecione uma faixa para ver suas durações. Somente metodologia atual, consulta local offline. Salvar/Abrir permanecem previstos para etapa 26.
+Selecione hoje ou os últimos sete ou 30 dias completos. As 24 faixas horárias mostram a proporção de tempo classificado com engasgos, possível sinal enganoso ou interrupção. São necessários pelo menos cinco minutos classificados por faixa para exibir percentual. Selecione uma faixa para consultar suas durações. Esse percentual não é sinônimo de indisponibilidade e a cobertura mínima não garante representatividade.
 
-## Anotações — etapa 16
+<a id="anotacoes"></a>
 
-Abra Anotações no menu Observatório. Use Nova anotação, informe data e horário, título (até 100 caracteres) e descrição (até 4.000 caracteres). Salvar anotação grava no IndexedDB; Editar permite corrigir o registro e Excluir solicita confirmação. A pesquisa consulta título e descrição; os registros mais recentes aparecem primeiro, em grupos de 30. O Histórico também inclui anotações identificadas como registros manuais, com filtro próprio. Elas não alteram os indicadores automáticos. Nesta etapa utiliza-se o perfil padrão; perfis múltiplos serão implementados na etapa 17. Salvar/Abrir arquivos permanece previsto para a etapa 26. Não há envio de anotações a servidores.
+## Anotações
 
-## Minha conexão — etapa 17
-Crie e edite perfis em Sistema → Minha conexão. Selecione manualmente o perfil da rede atual. O perfil ativo é persistido no IndexedDB. As consultas e anotações são isoladas por perfil; os registros anteriores permanecem no perfil padrão. A troca encerra a sessão anterior sem reiniciar a cota experimental de seis rodadas por abertura. Não há identificação automática de rede nem exclusão de perfis nesta etapa, para preservar registros. Campos adicionais são opcionais e locais. Salvar/Abrir geral continua previsto para a etapa 26.
+Abra Observatório → Anotações e escolha Nova anotação. Informe data, horário, título (até 100 caracteres) e descrição (até 4.000 caracteres). Salve o registro. Use a pesquisa para localizar texto, Editar para corrigir e Excluir para remover mediante confirmação. Os registros pertencem ao perfil ativo e também aparecem no histórico e nos relatórios.
 
+<a id="perfis"></a>
 
-## Ping — personagem flutuante (etapa 18)
-Arraste o Ping com mouse ou toque, ou use as setas quando o botão estiver em foco. Toque para uma fala inicial. A posição é guardada no IndexedDB e ajustada aos limites da tela. O personagem não aparece na impressão. Expressões contextuais, repertório completo e voz serão incorporados nas próximas etapas.
+## Minha conexão
 
-## Expressões e coreografia do Ping
-O personagem reage à condição recente do perfil ativo enquanto a coleta está em andamento. Quando parada, apresenta expressão de repouso. Gestos espontâneos e animações respeitam a redução de movimento; o arraste interrompe a animação. A linha do tempo utiliza branco para períodos sem monitoramento, inclusive futuros, em ambos os modos visuais.
+Em Sistema → Minha conexão, crie um perfil para cada rede que deseja acompanhar. Informe um nome e, opcionalmente, operadora, plano, velocidade contratada, contrato, titular, local e observações. Salve e selecione o perfil correspondente à rede em uso. A troca é manual, encerra a sessão anterior e não reinicia a cota de coletas. Não altera a rede física. O perfil padrão preserva os registros iniciais. Não há exclusão de perfis na interface atual.
 
-## Etapa 20 — Cérebro do Ping
-Humor fictício diário persistido em pingState, separado das observações. Falas contextuais ao toque e automaticamente, com intervalo mínimo de 20 segundos e 90 segundos para repetição de condição. Não fala automaticamente em aba oculta ou durante arraste. Sem nota numérica nesta etapa; repertório completo e voz nas próximas etapas.
+<a id="ping"></a>
 
-## Repertório contextual
-800 entradas adaptadas em sete grupos, com IDs e metadados gráficos originais preservados. Os textos ativos são combinações conservadoras de frases por condição; os JSON originais permanecem intactos. Estados inconclusivos e de verificação mantêm as falas específicas anteriores. A coreografia continua determinada pelo estado, não pelos metadados de cada frase.
+## Ping e nota da conexão
 
-## Etapa 22 — Opiniões cromáticas
-180 opiniões, 15 por tema, persistidas em pingState. A escolha diária usa o humor como peso, sem repetir até esgotar o ciclo. Clique inclusive no tema ativo. Voz ainda não implementada.
+Ping é o personagem flutuante que comenta as observações, com personalidade adaptativa, expressões e humor fictício. Arraste-o com mouse ou toque; com foco no personagem, utilize as setas. Toque para ouvir ou ler uma fala. A voz Pinglish é uma síntese eletrônica original, acompanhada de texto progressivo. A nota no cabeçalho varia de zero a dez, com até uma casa decimal, calculada a partir da rodada recente e das respostas válidas. Uma interrupção confirmada recebe zero; respostas parciais reduzem a nota. Após 90 segundos sem atualização, ou em condição insuficiente, aparece um travessão. A nota não mede velocidade nem constitui certificação. Piadas e humor não alteram seu cálculo.
 
-## Etapa 23 — Pinglish
-Voz procedural original com 15 perfis emocionais. O áudio depende de interação inicial permitida pelo navegador. Texto integral permanece disponível; sincronização progressiva na etapa 24 e controles na etapa 25.
-
-## Etapa 24 — Sincronização audiovisual
-Texto progressivo proporcional à duração da voz, com alternativa silenciosa. Expressões e gestos por emoção, retorno ao contexto atual ao terminar, cancelamento ao arrastar ou ocultar a página. Leitores de tela recebem a frase completa; redução de movimento apresenta texto integral.
-
-## Configurações de Sistema (etapa 25)
-Ping: visibilidade, voz, volume, animações, vibração, tamanho e frequência. Visual: temas e modo. Coletas: início automático, iniciar e pausar, mantendo o limite experimental de seis rodadas por abertura. Dados: consulta ao armazenamento. Preferências em IndexedDB (`preferences/system`), sem apagar dados anteriores. Backup em arquivo ainda não implementado. Vibração depende do navegador; áudio exige interação inicial.
-
-### Refinamento Pinglish
-Voz procedural revisada: assobios eletrônicos, bipes, glissandos e modulação de frequência, sem amostras externas. Mantém as 15 emoções e controles existentes.
-
-### Nota do Ping
-Toda fala inclui a nota de 0 a 10 da rodada recente do perfil ativo, ou informa que faltam dados. Cada resposta válida recebe pontuação interpolada entre 10 (até 100 ms), 9 (200 ms), 8 (350 ms), 6 (700 ms), 4 (1000 ms) e 0 (5000 ms). Resposta ausente vale zero, e a soma é dividida por dois. A nota é arredondada a um décimo, exibida com vírgula decimal e sem barra. Interrupção confirmada vale zero. Resultados inconclusivos e dados com mais de 90 segundos não recebem nota. Com coletas pausadas, a nota recente é identificada como última rodada. A nota não mede velocidade contratada nem identifica a causa de problemas.
-
-### Revisão emocional
-186 de 190 imagens integradas a grupos emocionais, com sorteio sem repetição por grupo durante a sessão. Símbolos e gestos complementam os rostos. Irritação e impaciência respondem a problemas recorrentes; a sequência é reiniciada ao mudar de perfil. A cobertura é de imagens elegíveis, não uma garantia de exibição de todas em cada sessão.
-
-### Humor visual contextual
-Piadas especiais usam imagens originais vinculadas à fala, mantidas até o balão desaparecer. Cocô para nota até 4 em engasgos ou interrupção confirmada; palhaço para possível sinal enganoso ou interrupção confirmada. As piadas são intercaladas com o repertório comum, sem mudar a nota.
-
+<a id="comedy"></a>
 
 ## Ping Comedy Club
-40 piadas do pontinho, pergunta, suspense de cinco segundos e resposta com plateia sintetizada. A cada sexto toque ou aproximadamente oito minutos de atividade, e por botão nas configurações. Efeitos e piadas configuráveis separadamente. Os sons são procedurais, não gravações humanas.
 
-### Áudio do Comedy Club
-Bateria e risadas utilizam amostras locais fornecidas pelo usuário, com compressão suave, redução de volume, fades e codificação mono MP3. Palmas e demais efeitos continuam procedurais. As amostras são armazenadas no cache offline.
+O repertório contém 40 piadas do pontinho, com pergunta, suspense de cinco segundos e resposta. Os efeitos incluem bateria e risadas locais, além de efeitos sintetizados. A frequência espontânea é moderada, com intervalo aproximado de oito minutos e possibilidade de piada a cada sexto toque. Em Configurações de Sistema → Ping, controle piadas, efeitos de plateia e volume separadamente ou escolha Contar uma piada agora. A reprodução depende das permissões de áudio do navegador.
 
-Correção de áudio: carregamento com nova tentativa, reprodução aguardada até o fim de cada gravação e cancelamento ao interromper a piada.
+<a id="configuracoes"></a>
 
-### Nota permanente e humor moderado
-Nota no cabeçalho, com estrela, números ampliados e leitura assistiva. Sem dados recentes: travessão. Piadas sem nota no balão; frequência automática e por toque reduzida à metade, e probabilidade de humor contextual reduzida à metade. O botão de piada sob demanda permanece.
+## Configurações de Sistema
+
+A área Ping controla visibilidade, voz, animações, vibração, volume, tamanho e frequência das falas (Reservado, Equilibrado, Conversador e Tagarela). Visual oferece 12 temas: Jardim, Verão, Vulcão, Ecológico, Elegante, Sol, Aço, Oceano, Místico, Café, Cereja e Extravagante, cada um em claro e escuro. Café claro é o padrão. Ping pode comentar a escolha de tema; suas opiniões são fictícias, variam por dia e usam repertórios de 15 por tema. Coletas controla início automático, início manual e pausa. Dados permite verificar o armazenamento local. Preferências são preservadas no backup.
+
+<a id="salvar-abrir"></a>
 
 ## Salvar e Abrir
-No menu Arquivo, Salvar cria um JSON cumulativo de todos os perfis, medições, sessões, acontecimentos, anotações, preferências e memória do Ping. O primeiro salvamento do dia solicita um destino; os seguintes reutilizam a autorização e o arquivo. A API de escrita requer navegador compatível (Chrome desktop); não há download automático. Abrir valida o formato e permite mesclar por identificador ou substituir integralmente após confirmação. Na mesclagem, registros locais existentes são preservados e preferências e memória importadas têm prioridade. Autorizações de arquivos não são exportadas. O backup não é criptografado. Guarde-o em local seguro.
 
-### Relatórios
-Arquivo → Imprimir: escolha o período, gere a prévia e imprima ou salve como PDF pelo navegador. O relatório inclui apenas o perfil ativo e registros locais, com lacunas separadas de interrupções.
+Em Arquivo → Salvar, escolha o destino do JSON cumulativo no primeiro salvamento do dia. O nome sugerido é Pingnet-AAAA-MM-DD.json. Os salvamentos seguintes tentam reutilizar o mesmo arquivo e sua autorização. Em outro dia, um novo arquivo é sugerido. O recurso exige suporte à API de escrita de arquivos, como no Chrome desktop; não há download automático alternativo. O backup contém todos os perfis, sessões, medições, eventos, anotações, preferências e memória do Ping, mas não autorizações de arquivos. Não é criptografado.
 
-## Abertura audiovisual
+Em Arquivo → Abrir, selecione um backup JSON. Confirme a substituição integral ou escolha mesclar. Na mesclagem, registros existentes com o mesmo identificador são preservados e preferências e memória importadas têm prioridade. Faça um backup antes de substituir dados. Feche outras abas do Pingnet antes de restaurar. Após a operação, o aplicativo recarrega.
 
-A abertura dura três segundos e pode ser pulada. Utiliza o tema atual, ondas de sinal, o Ping e o logotipo. Respeita a redução de movimento e as preferências de animação e visibilidade. A vinheta original é sintetizada localmente e depende de interação durante a abertura e autorização de áudio do navegador; não há reprodução automática garantida.
+<a id="imprimir"></a>
 
-## Auditoria integrada — etapa 29
-Abertura de quatro segundos, sem botão de pular, vinheta ascendente com tentativa de reprodução automática sujeita à política do navegador. Sintaxe dos módulos, oito verificações lógicas e existência dos recursos do cache conferidas. Homologação audiovisual, restauração e impressão no dispositivo ainda pendentes.
+## Relatórios e impressão
 
-### Revisão da abertura
-Vinheta original de assinatura tecnológica, com notas fixas, harmonia e ressonância. Duração da abertura mantida em quatro segundos; áudio sujeito à política de reprodução do navegador.
+Selecione o perfil desejado e abra Arquivo → Imprimir. Escolha Hoje, Ontem, Últimos 7 dias (inclui hoje), Mês atual, Ano atual, Personalizado ou Todo o histórico. Clique em Gerar relatório, confira a prévia e use Imprimir / Salvar PDF. O documento A4 apresenta identificação do perfil, indicadores, ocorrências, intervalos de interrupção estimados, anotações e metodologia. Dados pessoais cadastrados no perfil podem aparecer no relatório: revise antes de compartilhar. O relatório exclui o personagem e a nota. Pode auxiliar uma reclamação, mas não é laudo certificado nem prova de responsabilidade da operadora.
+
+<a id="privacidade"></a>
+
+## Privacidade e armazenamento
+
+Os registros são guardados no navegador, principalmente em IndexedDB. Não há telemetria própria nem envio automático do histórico. As consultas externas expõem aos destinos os dados técnicos normais de uma conexão HTTP, inclusive o endereço IP público. O aplicativo não coleta automaticamente IP, MAC, SSID ou localização para seu histórico. Campos de perfil são preenchidos manualmente. Limpar dados do navegador, usar outro perfil do Chrome ou perder o dispositivo pode tornar os registros inacessíveis. Faça backups regulares e guarde-os em local seguro.
+
+<a id="offline"></a>
+
+## Funcionamento offline e atualização
+
+Depois da preparação inicial do cache, a interface, os registros, as configurações, o Ping e a documentação podem funcionar offline. As consultas externas dependem de conectividade. Não há garantia de coleta com aplicativo fechado, suspenso ou dispositivo bloqueado. Em Exibição, Verificar atualização consulta o Service Worker; Aplicar atualização aparece quando disponível. Não apague o armazenamento para atualizar.
+
+<a id="solucao"></a>
+
+## Solução de problemas
+
+Sem som na abertura: o Chrome pode bloquear áudio antes de interação; confira também voz e volume. A abertura dura quatro segundos e usa uma vinheta tecnológica original. Sem novas coletas: confira a cota experimental, a configuração automática, a conexão e se outra aba está monitorando. Resposta não verificada: pode decorrer de rede, destino ou restrições do navegador; não conclua que a operadora falhou. Nota ausente: aguarde nova rodada válida. Salvar indisponível: use Chrome desktop compatível e confira a permissão do arquivo. Impressão: gere a prévia antes de imprimir, escolha A4 e revise as páginas. Se a interface estiver desatualizada, verifique e aplique a atualização; preserve os dados locais.
+
+<a id="publicacao"></a>
+
+## Publicação e manutenção
+
+Extraia o pacote e envie os arquivos da raiz e a pasta assets para a raiz do repositório Pingnet. O manifest utiliza o caminho /Pingnet/. Não envie somente o ZIP. Preserve a estrutura e os nomes dos arquivos. A aplicação usa HTML, CSS, JavaScript, IndexedDB, Cache API e Web Audio API, sem dependências de bibliotecas externas. Antes de distribuição pública definitiva, confirme as licenças dos recursos gráficos e sonoros fornecidos e a autorização de uso dos destinos de monitoramento. A homologação em dispositivos reais, incluindo impressão e restauração, permanece necessária.
+
