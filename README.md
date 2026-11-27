@@ -119,3 +119,6 @@ Correção de áudio: carregamento com nova tentativa, reprodução aguardada at
 
 ### Nota permanente e humor moderado
 Nota informal no cabeçalho, com estrela, números ampliados e leitura assistiva. Sem dados recentes: travessão. Piadas sem nota no balão; frequência automática e por toque reduzida à metade, e probabilidade de humor contextual reduzida à metade. O botão de piada sob demanda permanece.
+
+## Salvar e Abrir
+No menu Arquivo, Salvar cria um JSON cumulativo de todos os perfis, medições, sessões, acontecimentos, anotações, preferências e memória do Ping. O primeiro salvamento do dia solicita um destino; os seguintes reutilizam a autorização e o arquivo. A API de escrita requer navegador compatível (Chrome desktop); não há download automático. Abrir valida o formato e permite mesclar por identificador ou substituir integralmente após confirmação. Na mesclagem, registros locais existentes são preservados e preferências e memória importadas têm prioridade. Autorizações de arquivos não são exportadas. O backup não é criptografado. Guarde-o em local seguro.
