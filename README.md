@@ -31,6 +31,10 @@
 - [6. Comparativos e horários críticos](#6-comparativos-e-horarios-criticos)
   - [6.1 Comparação entre períodos](#6-1-comparacao-entre-periodos)
   - [6.2 Identificação de horários críticos](#6-2-identificacao-de-horarios-criticos)
+  - [6.3 Comparação entre perfis](#6-3-comparacao-entre-perfis)
+  - [6.4 Ping Detective](#6-4-ping-detective)
+  - [6.5 Ping News](#6-5-ping-news)
+  - [6.6 Retrospectiva anual](#6-6-retrospectiva-anual)
 - [7. Organização dos registros](#7-organizacao-dos-registros)
   - [7.1 Perfis de conexão](#7-1-perfis-de-conexao)
   - [7.2 Exclusão de perfis](#7-2-exclusao-de-perfis)
@@ -40,23 +44,34 @@
   - [8.1 Personagem e comunicação](#8-1-personagem-e-comunicacao)
   - [8.2 Comedy Club e efeitos táteis](#8-2-comedy-club-e-efeitos-tateis)
   - [8.3 Lembretes de backup](#8-3-lembretes-de-backup)
+  - [8.4 Agenda e camarim do Comedy Club](#8-4-agenda-e-camarim-do-comedy-club)
+  - [8.5 Coreografias contextuais](#8-5-coreografias-contextuais)
+  - [8.6 Personalidades contextuais do Ping](#8-6-personalidades-contextuais-do-ping)
+  - [8.7 Museu do Ping](#8-7-museu-do-ping)
+  - [8.8 Palco do Ping](#8-8-palco-do-ping)
 - [9. Configurações e identidade visual](#9-configuracoes-e-identidade-visual)
   - [9.1 Preferências do personagem](#9-1-preferencias-do-personagem)
   - [9.2 Aparência e temas](#9-2-aparencia-e-temas)
   - [9.3 Coletas e dados](#9-3-coletas-e-dados)
+  - [9.4 Modo silencioso e atalhos](#9-4-modo-silencioso-e-atalhos)
+  - [9.5 Expressividade e acessibilidade](#9-5-expressividade-e-acessibilidade)
 - [10. Design da Gestalt e acessibilidade](#10-design-da-gestalt-e-acessibilidade)
   - [10.1 Proximidade, similaridade e região comum](#10-1-proximidade-similaridade-e-regiao-comum)
   - [10.2 Continuidade, fechamento e pregnância](#10-2-continuidade-fechamento-e-pregnancia)
   - [10.3 Figura-fundo e ponto focal](#10-3-figura-fundo-e-ponto-focal)
+  - [10.4 Identidade visual das ferramentas](#10-4-identidade-visual-das-ferramentas)
 - [11. Backup e restauração](#11-backup-e-restauracao)
   - [11.1 Salvar os dados](#11-1-salvar-os-dados)
   - [11.2 Abrir e restaurar](#11-2-abrir-e-restaurar)
 - [12. Relatórios e impressão](#12-relatorios-e-impressao)
+  - [12.1 Dossiê da conexão](#12-1-dossie-da-conexao)
+  - [12.2 Exportação CSV](#12-2-exportacao-csv)
 - [13. Privacidade, funcionamento offline e atualizações](#13-privacidade-funcionamento-offline-e-atualizacoes)
 - [14. Solução de problemas](#14-solucao-de-problemas)
   - [14.1 Monitoramento e indicadores](#14-1-monitoramento-e-indicadores)
   - [14.2 Áudio, vibração e arquivos](#14-2-audio-vibracao-e-arquivos)
 - [15. Publicação e manutenção](#15-publicacao-e-manutencao)
+  - [15.1 Central de manutenção e integridade](#15-1-central-de-manutencao-e-integridade)
 
 <a id="1-apresentacao"></a>
 
@@ -193,6 +208,7 @@ Abra Observatório, Histórico. Selecione o período e, quando necessário, a co
 Para investigar uma dificuldade percebida, escolha o dia correspondente, procure a ocorrência próxima do horário e examine as respostas disponíveis. Uma anotação pode complementar a informação com o nome do serviço utilizado ou a descrição da atividade interrompida. Não transforme a coincidência de horários em conclusão causal: ela serve como ponto de partida para investigação, não como diagnóstico definitivo.
 
 <a id="5-3-calendario-da-qualidade"></a>
+
 ### 5.3 Calendário da qualidade
 
 O Calendário da qualidade, no menu Observatório, permite escolher um mês e consultar cada dia. A cor representa a condição predominante pela duração dos intervalos observados; em empate prevalece a condição mais crítica. Branco indica ausência de intervalos observados, incluindo dias futuros. Selecione um dia para consultar nota média, coletas, interrupções, engasgos, duração classificada, linha do tempo e anotações do perfil ativo. A consulta é local e atualizada ao abrir a página ou mudar o mês.
@@ -220,6 +236,34 @@ Na página Comparativos, Evolução das notas apresenta médias mensais, semanas
 Horários críticos distribui as observações em vinte e quatro faixas horárias. Escolha hoje, os últimos sete dias completos ou os últimos trinta dias completos. Cada faixa apresenta a proporção de tempo classificado associada a condições problemáticas, incluindo engasgos, possível sinal enganoso e interrupção, conforme o cálculo da ferramenta. São necessários pelo menos cinco minutos classificados na faixa para apresentar um percentual.
 
 Selecione uma faixa para examinar suas durações. Uma faixa com percentual elevado pode orientar a escolha de um horário para observação adicional. Não representa uma previsão garantida de problemas futuros. Para obter uma interpretação mais útil, acompanhe vários dias com horários semelhantes de utilização e compare a cobertura disponível. A ausência de percentual significa informação insuficiente, não ausência de problemas.
+
+
+<a id="6-3-comparacao-entre-perfis"></a>
+
+### 6.3 Comparação entre perfis
+
+Em Observatório → Comparação entre perfis, selecione dois perfis distintos e as datas inicial e final. Consulte notas, cobertura, estabilidade, respostas e interrupções lado a lado. A seleção não altera o perfil ativo. Não há classificação automática de vencedor; horários e cobertura diferentes limitam a interpretação.
+
+
+<a id="6-4-ping-detective"></a>
+
+### 6.4 Ping Detective
+
+Em Observatório → Ping Detective, selecione 7, 30 ou 90 dias e clique em Investigar. A análise usa somente o perfil ativo. Exige três dias com tempo classificado, uma hora classificada e 30 coletas. Horários recorrentes exigem três dias com pelo menos cinco minutos classificados e 20% de engasgos ou interrupções, além de 20% no conjunto elegível. Destinos exigem 20 coletas próprias, 40 nos demais, respostas não verificadas em três dias, taxa de 20% e diferença de 15 pontos percentuais. Três entradas em interrupção geram um indício adicional. Ausência de indícios não garante ausência de problemas. Não identifica causas nem responsáveis.
+
+
+<a id="6-5-ping-news"></a>
+
+### 6.5 Ping News
+
+Em Observatório → Ping News, escolha edição diária, semanal, mensal ou anual. Use Anterior, Seguinte e Atual para navegar por períodos de calendário; semanas começam na segunda-feira. A edição atual é parcial. O boletim reúne manchete, notas, cobertura, estabilidade, coletas, interrupções e agilidade HTTP, exclusivamente a partir do perfil ativo. Não há notícias externas, novas requisições ou diagnóstico causal. As edições são reconstruídas na consulta, não arquivadas como documentos imutáveis.
+
+
+<a id="6-6-retrospectiva-anual"></a>
+
+### 6.6 Retrospectiva anual
+
+A Retrospectiva anual, em Observatório, permite consultar um ano do perfil ativo, com oito indicadores, médias mensais, destaques e uma apresentação manual em quatro quadros. A vinheta utiliza a sonoplastia existente e respeita o modo silencioso. Meses sem notas aparecem com travessão; o ano atual é parcial. Não gera novas coletas.
 
 <a id="7-organizacao-dos-registros"></a>
 
@@ -283,6 +327,46 @@ O Ping lembra o usuário de proteger os registros quando não existe salvamento 
 
 Após salvar com sucesso, o intervalo de duas horas começa novamente. Se o aplicativo for fechado, não há garantia de aviso externo ou notificação do sistema. A preferência Lembretes de backup, ativada por padrão, permite desativar essa comunicação. O lembrete não realiza o backup automaticamente: é necessário utilizar Arquivo, Salvar, e confirmar a operação.
 
+
+<a id="8-4-agenda-e-camarim-do-comedy-club"></a>
+
+### 8.4 Agenda e camarim do Comedy Club
+
+Em Observatório → Ping Comedy Club, consulte a agenda automática, a contagem regressiva, o progresso do espetáculo e os shows concluídos nesta aba. Inicie um show ou uma piada manualmente. O camarim permite visualizar os acessórios originais. Microfone, cartola, bateria e trompete acompanham momentos da apresentação. A agenda depende do aplicativo aberto e visível. Os contadores de shows desta aba reiniciam ao recarregar. Verifique a licença dos novos arquivos antes de publicar.
+
+
+**Sonoplastia ampliada**
+
+A sonoplastia inclui novas vinhetas, reações cômicas e três montagens curtas. As trilhas variam na abertura e no encerramento; os efeitos de humor variam após as piadas, com efeitos de flatulência reservados a textos com palavras relacionadas. O volume e a chave de sonoplastia existentes continuam válidos. Os créditos estão em assets/comedy-creditos.txt; confirme as licenças antes de publicar.
+
+
+<a id="8-5-coreografias-contextuais"></a>
+
+### 8.5 Coreografias contextuais
+
+Motor de coreografias contextuais: o Ping combina até dois acessórios com as expressões, gestos e efeitos existentes. As cenas de comédia têm prioridade sobre lembretes e leituras. Os acessórios desaparecem automaticamente, ao cancelar uma apresentação ou ocultar a aba. O modo silencioso e a redução de movimento continuam respeitados.
+
+
+<a id="8-6-personalidades-contextuais-do-ping"></a>
+
+### 8.6 Personalidades contextuais do Ping
+
+As 12 personalidades do Ping são Detective, Jornalista, Cientista, Comediante, Mecânico, Professor, Artista, Maestro, Bibliotecário, Estatístico, Fiscal e Guardião. Toque no pequeno acessório ao lado do título de uma ferramenta para convidar o personagem a apresentar seu papel. A cena usa dois objetos, expressão e gesto do motor existente, diálogo e, em papéis selecionados, uma vinheta após a fala. O modo silencioso é respeitado. O convite não interrompe espetáculos ou lembretes e não altera medições.
+
+
+<a id="8-7-museu-do-ping"></a>
+
+### 8.7 Museu do Ping
+
+Em Observatório → Museu do Ping, explore o acervo por categoria ou busca por nome, emoji e código. Selecione um item para ampliar. Adicione até dois acessórios ao guarda-roupa e pressione Experimentar no Ping. A cena dura sete segundos, quando o personagem estiver disponível. Expressões e gestos são apenas consultáveis. A seleção é temporária e não altera medições ou preferências. Nomes sem tradução usam a nomenclatura Unicode em inglês.
+
+
+<a id="8-8-palco-do-ping"></a>
+
+### 8.8 Palco do Ping
+
+Em Observatório → Palco do Ping, escolha uma encenação fictícia ou Surpreenda-me. Para interromper, use Parar apresentação ou toque no Ping. Interlúdios ocasionais podem ocorrer com as piadas ativadas, quando o personagem estiver livre. O modo silencioso é respeitado; as medições continuam independentes.
+
 <a id="9-configuracoes-e-identidade-visual"></a>
 
 ## 9. Configurações e identidade visual
@@ -306,6 +390,20 @@ Ping pode comentar a seleção de um tema com opiniões fictícias que variam co
 ### 9.3 Coletas e dados
 
 Na área Coletas, controle o início automático e utilize os comandos de iniciar ou pausar o monitoramento. Pausar não apaga o histórico. Na área Dados, consulte as informações disponíveis sobre o armazenamento local. As preferências integram o backup, permitindo recuperar a configuração junto com os registros. A disponibilidade de determinados recursos depende das APIs oferecidas pelo navegador.
+
+
+<a id="9-4-modo-silencioso-e-atalhos"></a>
+
+### 9.4 Modo silencioso e atalhos
+
+O modo silencioso pode ser alternado pelo botão de alto-falante no cabeçalho ou em Configurações → Ping. Suspende voz, vinhetas, efeitos sonoros e vibração, inclusive durante apresentações, sem modificar os volumes ou as preferências individuais. Os textos, acessórios, animações e coletas continuam disponíveis. A preferência integra o backup JSON. Os atalhos do aplicativo instalado permitem abrir Início, Histórico, Diário de protocolos e Ping Comedy Club; sua disponibilidade depende do navegador e do sistema operacional.
+
+
+<a id="9-5-expressividade-e-acessibilidade"></a>
+
+### 9.5 Expressividade e acessibilidade
+
+Em Configurações → Ping, escolha Minimalista (sem mãos, acessórios ou movimentos do personagem), Discreto (até um acessório, sem interlúdios automáticos), Natural (até dois acessórios, interlúdios com intervalo mínimo de 45 minutos), Teatral (30 minutos) ou Espetacular (15 minutos). A frequência real depende da disponibilidade e da seleção aleatória. O nível não altera coletas, voz, volume ou programação do Comedy Club. A opção Exibir diálogo completo imediatamente desativa a revelação progressiva, sem alterar a sincronização sonora. As preferências são guardadas no backup; backups antigos usam Natural por padrão. No nível Minimalista a experimentação de acessórios fica indisponível.
 
 <a id="10-design-da-gestalt-e-acessibilidade"></a>
 
@@ -335,6 +433,13 @@ Os painéis, bordas e superfícies temáticas distinguem conteúdo e fundo. A no
 
 A acessibilidade é favorecida por controles identificados, navegação por teclado, legendas textuais, opções de contraste e respeito à preferência de movimento reduzido quando aplicável. Esses recursos não equivalem a uma certificação formal de conformidade. Se uma combinação visual dificultar a leitura, altere o tema ou o modo, amplie o texto e utilize a rolagem disponível. A homologação com tecnologias assistivas e dispositivos reais continua importante.
 
+
+<a id="10-4-identidade-visual-das-ferramentas"></a>
+
+### 10.4 Identidade visual das ferramentas
+
+Os menus e títulos das ferramentas usam acessórios tridimensionais locais, com tamanho padronizado. Os textos e botões continuam disponíveis; os ícones decorativos não são anunciados por leitores de tela e não aparecem na impressão. Os botões de personalidade continuam independentes.
+
 <a id="11-backup-e-restauracao"></a>
 
 ## 11. Backup e restauração
@@ -345,7 +450,7 @@ A acessibilidade é favorecida por controles identificados, navegação por tecl
 
 Abra Arquivo, Salvar. No primeiro salvamento do dia, escolha a pasta e o arquivo sugerido Pingnet-AAAA-MM-DD.json. Nos salvamentos seguintes, o aplicativo tenta reutilizar o mesmo arquivo e a autorização correspondente. Em outro dia, sugere um novo arquivo. A operação depende da API de acesso a arquivos, disponível em navegadores desktop compatíveis. Não existe download automático alternativo nesta implementação.
 
-O arquivo é cumulativo e reúne todos os perfis, sessões, medições, eventos, anotações, preferências e memória do Ping. Não inclui as autorizações de acesso aos arquivos do dispositivo. Aguarde a confirmação de salvamento antes de fechar a aplicação. Guarde cópias em local seguro e, periodicamente, mantenha uma cópia separada do dispositivo principal. O JSON não é criptografado e pode conter informações pessoais cadastradas manualmente.
+O arquivo é cumulativo e reúne todos os perfis, sessões, medições, eventos, anotações, protocolos, preferências e memória do Ping. Não inclui as autorizações de acesso aos arquivos do dispositivo. Aguarde a confirmação de salvamento antes de fechar a aplicação. Guarde cópias em local seguro e, periodicamente, mantenha uma cópia separada do dispositivo principal. O JSON não é criptografado e pode conter informações pessoais cadastradas manualmente.
 
 <a id="11-2-abrir-e-restaurar"></a>
 
@@ -361,7 +466,21 @@ O aplicativo valida a estrutura básica do arquivo antes de escrever os registro
 
 Selecione o perfil desejado e abra Arquivo, Imprimir. Escolha Hoje, Ontem, Últimos sete dias (incluindo hoje), Mês atual, Ano atual, Personalizado ou Todo o histórico. Gere o relatório e confira a prévia antes de utilizar Imprimir / Salvar PDF. O navegador oferece as opções de impressora, papel e destino PDF. Utilize A4 e revise a paginação antes de confirmar.
 
-O documento reúne identificação da conexão, indicadores, ocorrências, intervalos estimados de interrupção, anotações e metodologia. O personagem, seus controles e a nota não fazem parte da impressão. Os dados pessoais cadastrados no perfil podem aparecer no documento; revise-os antes de compartilhar. O relatório pode auxiliar a comunicação com o suporte, mas não constitui laudo certificado nem comprova responsabilidade da operadora.
+O documento reúne identificação da conexão, indicadores, ocorrências, intervalos estimados de interrupção, anotações e metodologia. O personagem e seus controles não fazem parte da impressão. Os dados pessoais cadastrados no perfil podem aparecer no documento; revise-os antes de compartilhar. O relatório pode auxiliar a comunicação com o suporte, mas não constitui laudo certificado nem comprova responsabilidade da operadora.
+
+
+<a id="12-1-dossie-da-conexao"></a>
+
+### 12.1 Dossiê da conexão
+
+Em Observatório → Dossiê da conexão, selecione o período e gere a prévia. O documento reúne identificação do perfil, notas, indicadores, ocorrências, interrupções, anotações, protocolos cadastrados no período e distribuição temporal por condição. Use Imprimir / Salvar PDF para guardar o documento. Os protocolos mostram a situação atual cadastrada, não um histórico de alterações. Confira os dados pessoais antes de compartilhar. O dossiê é um registro auxiliar, não um laudo certificado.
+
+
+<a id="12-2-exportacao-csv"></a>
+
+### 12.2 Exportação CSV
+
+Em Arquivo → Exportar CSV, selecione medições HTTP, anotações ou protocolos, o separador e o intervalo de datas ou todo o histórico do perfil ativo. O CSV usa UTF-8 com BOM e datas UTC ISO 8601. Cada resposta HTTP ocupa uma linha. Campos ausentes ficam vazios; textos que possam ser fórmulas recebem apóstrofo de proteção. Confira o download do navegador. CSV não substitui backup JSON e pode conter dados pessoais.
 
 <a id="13-privacidade-funcionamento-offline-e-atualizacoes"></a>
 
@@ -404,86 +523,8 @@ Para publicar o software, extraia o pacote em uma pasta vazia e envie os arquivo
 Antes de uma distribuição pública definitiva, confirme as licenças dos recursos gráficos e sonoros fornecidos e as permissões de uso recorrente dos destinos externos. Teste instalação, atualização, restauração, impressão, acessibilidade e monitoramento prolongado em dispositivos reais. A documentação descreve os recursos existentes e suas limitações; não substitui a homologação prática. O objetivo da manutenção é preservar os dados, a coerência visual e a interpretação responsável das observações.
 
 
-## Dossiê da conexão
+<a id="15-1-central-de-manutencao-e-integridade"></a>
 
-Em Observatório → Dossiê da conexão, selecione o período e gere a prévia. O documento reúne identificação do perfil, notas, indicadores, ocorrências, interrupções, anotações, protocolos cadastrados no período e distribuição temporal por condição. Use Imprimir / Salvar PDF para guardar o documento. Os protocolos mostram a situação atual cadastrada, não um histórico de alterações. Confira os dados pessoais antes de compartilhar. O dossiê é um registro auxiliar, não um laudo certificado.
-
-
-## Comparação entre perfis
-
-Em Observatório → Comparação entre perfis, selecione dois perfis distintos e as datas inicial e final. Consulte notas, cobertura, estabilidade, respostas e interrupções lado a lado. A seleção não altera o perfil ativo. Não há classificação automática de vencedor; horários e cobertura diferentes limitam a interpretação.
-
-
-<a id="ping-detective"></a>
-
-## Ping Detective
-
-Em Observatório → Ping Detective, selecione 7, 30 ou 90 dias e clique em Investigar. A análise usa somente o perfil ativo. Exige três dias com tempo classificado, uma hora classificada e 30 coletas. Horários recorrentes exigem três dias com pelo menos cinco minutos classificados e 20% de engasgos ou interrupções, além de 20% no conjunto elegível. Destinos exigem 20 coletas próprias, 40 nos demais, respostas não verificadas em três dias, taxa de 20% e diferença de 15 pontos percentuais. Três entradas em interrupção geram um indício adicional. Ausência de indícios não garante ausência de problemas. Não identifica causas nem responsáveis.
-
-
-<a id="ping-news"></a>
-
-## Ping News
-
-Em Observatório → Ping News, escolha edição diária, semanal, mensal ou anual. Use Anterior, Seguinte e Atual para navegar por períodos de calendário; semanas começam na segunda-feira. A edição atual é parcial. O boletim reúne manchete, notas, cobertura, estabilidade, coletas, interrupções e agilidade HTTP, exclusivamente a partir do perfil ativo. Não há notícias externas, novas requisições ou diagnóstico causal. As edições são reconstruídas na consulta, não arquivadas como documentos imutáveis.
-
-
-<a id="central-de-manutencao"></a>
-
-## Central de manutenção e integridade
+### 15.1 Central de manutenção e integridade
 
 Em Configurações → Central de manutenção, use Verificar agora para consultar a estimativa de armazenamento da origem, a persistência, as contagens do banco, referências a perfis e sessões, presença dos recursos offline e último salvamento registrado. A cota é compartilhada por aplicativos da mesma origem e não corresponde ao espaço livre do dispositivo. A verificação é somente leitura e não garante integridade binária ou existência do arquivo de backup. Use Salvar backup para abrir o fluxo habitual de salvamento.
-
-
-<a id="exportacao-csv"></a>
-
-## Exportação CSV
-
-Em Arquivo → Exportar CSV, selecione medições HTTP, anotações ou protocolos, o separador e o intervalo de datas ou todo o histórico do perfil ativo. O CSV usa UTF-8 com BOM e datas UTC ISO 8601. Cada resposta HTTP ocupa uma linha. Campos ausentes ficam vazios; textos que possam ser fórmulas recebem apóstrofo de proteção. Confira o download do navegador. CSV não substitui backup JSON e pode conter dados pessoais.
-
-<a id="comedy-club"></a>
-## Agenda e camarim do Comedy Club
-
-Em Observatório → Ping Comedy Club, consulte a agenda automática, a contagem regressiva, o progresso do espetáculo e os shows concluídos nesta aba. Inicie um show ou uma piada manualmente. O camarim permite visualizar os acessórios originais. Microfone, cartola, bateria e trompete acompanham momentos da apresentação. A agenda depende do aplicativo aberto e visível. Os contadores de shows desta aba reiniciam ao recarregar. Verifique a licença dos novos arquivos antes de publicar.
-
-
-### Sonoplastia ampliada
-
-A sonoplastia inclui novas vinhetas, reações cômicas e três montagens curtas. As trilhas variam na abertura e no encerramento; os efeitos de humor variam após as piadas, com efeitos de flatulência reservados a textos com palavras relacionadas. O volume e a chave de sonoplastia existentes continuam válidos. Os créditos estão em assets/comedy-creditos.txt; confirme as licenças antes de publicar.
-
-
-<a id="modo-silencioso-e-atalhos"></a>
-## Modo silencioso e atalhos
-
-O modo silencioso pode ser alternado pelo botão de alto-falante no cabeçalho ou em Configurações → Ping. Suspende voz, vinhetas, efeitos sonoros e vibração, inclusive durante apresentações, sem modificar os volumes ou as preferências individuais. Os textos, acessórios, animações e coletas continuam disponíveis. A preferência integra o backup JSON. Os atalhos do aplicativo instalado permitem abrir Início, Histórico, Diário de protocolos e Ping Comedy Club; sua disponibilidade depende do navegador e do sistema operacional.
-
-
-## Retrospectiva anual
-
-A Retrospectiva anual, em Observatório, permite consultar um ano do perfil ativo, com oito indicadores, médias mensais, destaques e uma apresentação manual em quatro quadros. A vinheta utiliza a sonoplastia existente e respeita o modo silencioso. Meses sem notas aparecem com travessão; o ano atual é parcial. Não gera novas coletas.
-
-
-## Coreografias contextuais
-
-Motor de coreografias contextuais: o Ping combina até dois acessórios com as expressões, gestos e efeitos existentes. As cenas de comédia têm prioridade sobre lembretes e leituras. Os acessórios desaparecem automaticamente, ao cancelar uma apresentação ou ocultar a aba. O modo silencioso e a redução de movimento continuam respeitados.
-
-
-## Personalidades contextuais do Ping
-
-As 12 personalidades do Ping são Detective, Jornalista, Cientista, Comediante, Mecânico, Professor, Artista, Maestro, Bibliotecário, Estatístico, Fiscal e Guardião. Toque no pequeno acessório ao lado do título de uma ferramenta para convidar o personagem a apresentar seu papel. A cena usa dois objetos, expressão e gesto do motor existente, diálogo e, em papéis selecionados, uma vinheta após a fala. O modo silencioso é respeitado. O convite não interrompe espetáculos ou lembretes e não altera medições.
-
-## Identidade visual das ferramentas
-
-Os menus e títulos das ferramentas usam acessórios tridimensionais locais, com tamanho padronizado. Os textos e botões continuam disponíveis; os ícones decorativos não são anunciados por leitores de tela e não aparecem na impressão. Os botões de personalidade continuam independentes.
-
-## Museu do Ping
-
-Em Observatório → Museu do Ping, explore o acervo por categoria ou busca por nome, emoji e código. Selecione um item para ampliar. Adicione até dois acessórios ao guarda-roupa e pressione Experimentar no Ping. A cena dura sete segundos, quando o personagem estiver disponível. Expressões e gestos são apenas consultáveis. A seleção é temporária e não altera medições ou preferências. Nomes sem tradução usam a nomenclatura Unicode em inglês.
-
-
-## Palco do Ping
-Em Observatório → Palco do Ping, escolha uma encenação fictícia ou Surpreenda-me. Para interromper, use Parar apresentação ou toque no Ping. Interlúdios ocasionais podem ocorrer com as piadas ativadas, quando o personagem estiver livre. O modo silencioso é respeitado; as medições continuam independentes.
-
-## Expressividade e acessibilidade
-
-Em Configurações → Ping, escolha Minimalista (sem mãos, acessórios ou movimentos do personagem), Discreto (até um acessório, sem interlúdios automáticos), Natural (até dois acessórios, interlúdios com intervalo mínimo de 45 minutos), Teatral (30 minutos) ou Espetacular (15 minutos). A frequência real depende da disponibilidade e da seleção aleatória. O nível não altera coletas, voz, volume ou programação do Comedy Club. A opção Exibir diálogo completo imediatamente desativa a revelação progressiva, sem alterar a sincronização sonora. As preferências são guardadas no backup; backups antigos usam Natural por padrão. No nível Minimalista a experimentação de acessórios fica indisponível.
