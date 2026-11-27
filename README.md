@@ -479,3 +479,7 @@ Os menus e títulos das ferramentas usam acessórios tridimensionais locais, com
 ## Museu do Ping
 
 Em Observatório → Museu do Ping, explore o acervo por categoria ou busca por nome, emoji e código. Selecione um item para ampliar. Adicione até dois acessórios ao guarda-roupa e pressione Experimentar no Ping. A cena dura sete segundos, quando o personagem estiver disponível. Expressões e gestos são apenas consultáveis. A seleção é temporária e não altera medições ou preferências. Nomes sem tradução usam a nomenclatura Unicode em inglês.
+
+
+## Palco do Ping
+Em Observatório → Palco do Ping, escolha uma encenação fictícia ou Surpreenda-me. Para interromper, use Parar apresentação ou toque no Ping. Interlúdios ocasionais podem ocorrer com as piadas ativadas, quando o personagem estiver livre. O modo silencioso é respeitado; as medições continuam independentes.

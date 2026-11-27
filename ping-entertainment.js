@@ -1,0 +1,14 @@
+// Fictional miniatures, independent of connection measurements.
+const frame=(line,emotion,props,sound)=>({line,emotion,props,sound});
+export const acts=[
+{id:'magic',name:'Ping Mágico',icon:'1f3a9',frames:[frame('Atenção! Vou fazer desaparecer uma coisa imaginária.','entusiasmo',['1f3a9','1f3a9'],'cue'),frame('Pronto! Desapareceu a minha vontade de lavar a louça.','brincadeira',['1f3a9','1f3a9'],'spring')]},
+{id:'dj',name:'Ping DJ',icon:'1f3a7',frames:[frame('DJ Ping na área! Uma vinheta para animar o intervalo.','entusiasmo',['1f3a7','1f39a'],'theme'),frame('Obrigado! Meu próximo disco será um disco rígido.','celebração',['1f3a7','1f4bf'],'cue')]},
+{id:'cinema',name:'Ping Cinema',icon:'1f3ac',frames:[frame('Luzes, câmera, ação! O herói entra em cena.','orgulho',['1f3ac','1f3a5'],'benny'),frame('O herói esqueceu o roteiro. Corta!','confusão',['1f3ac','1f4dd'],'escape-mix')]},
+{id:'paint',name:'Ping Pintor',icon:'1f58c',frames:[frame('Minha próxima obra será uma pintura abstrata.','reflexão',['1f58c','1f58d'],'flute'),frame('Tão abstrata que nem eu sei o que pintei.','brincadeira',['1f58c','1f58d'],'wah')]},
+{id:'music',name:'Ping Maestro',icon:'1f3b7',frames:[frame('Um solo imaginário para a nossa plateia!','entusiasmo',['1f3b7','1f3b9'],'flute'),frame('A orquestra agradece. O maestro também!','celebração',['1f3ba','1f3bb'],'finale-mix')]},
+{id:'theatre',name:'Ping Teatral',icon:'1f3a9',frames:[frame('Ser ou não ser... eis a questão!','reflexão',['1f3a9','1f4d6'],'cue'),frame('Decidi ser. Agora falta decidir o que fazer.','brincadeira',['1f3a9','1f4d6'],'fail')]},
+{id:'secret',secret:true,frames:[frame('Encontrei um botão imaginário. Será que devo apertar?','reflexão',['1f50d','1f39b'],'spring-b'),frame('Ops! Não fui eu. Foi o vento!','surpresa',['1f4a8','1f3a9'],'awkward-mix')]},
+{id:'secret2',secret:true,frames:[frame('Missão ultrassecreta: localizar o último biscoito.','reflexão',['1f50d','1f4cb'],'cue'),frame('Caso encerrado. As migalhas não mentem!','celebração',['1f50d','1f4cb'],'escape-mix')]}
+];
+export function entertainmentMarkup(){return `<h1>Palco do Ping</h1><section class="panel"><h2>Pequenos espetáculos</h2><p>Encenações fictícias, sem relação com a qualidade da conexão. Escolha uma apresentação ou deixe o Ping surpreender você.</p><div class="entertainment-grid">${acts.filter(a=>!a.secret).map(a=>`<button type="button" data-ping-act="${a.id}"><img src="assets/emoji_u${a.icon}_3d.webp" alt=""><span>${a.name}</span></button>`).join('')}</div><div class="entertainment-grid"><button type="button" data-ping-act="random">Surpreenda-me</button><button type="button" data-ping-act="stop">Parar apresentação</button></div><p id="entertainment-status" role="status"></p></section>`;}
+export function chooseAct(id,last){if(id!=='random')return acts.find(a=>a.id===id&&!a.secret);const pool=acts.filter(a=>a.id!==last);return pool[Math.floor(Math.random()*pool.length)];}
