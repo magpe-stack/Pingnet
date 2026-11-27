@@ -27,6 +27,7 @@
 - [5. Linha do tempo e histórico](#5-linha-do-tempo-e-historico)
   - [5.1 Leitura da faixa diária](#5-1-leitura-da-faixa-diaria)
   - [5.2 Consulta do histórico](#5-2-consulta-do-historico)
+  - [5.3 Calendário da qualidade](#5-3-calendario-da-qualidade)
 - [6. Comparativos e horários críticos](#6-comparativos-e-horarios-criticos)
   - [6.1 Comparação entre períodos](#6-1-comparacao-entre-periodos)
   - [6.2 Identificação de horários críticos](#6-2-identificacao-de-horarios-criticos)
@@ -189,6 +190,11 @@ Uma faixa branca pela manhã pode significar que o aplicativo ainda não estava 
 Abra Observatório, Histórico. Selecione o período e, quando necessário, a condição que deseja investigar. Os registros são apresentados do mais recente para o mais antigo, com carregamento progressivo em grupos de trinta. A ferramenta privilegia mudanças de estado e primeiras observações de sessões, além de incluir anotações manuais. Não é uma reprodução integral de cada solicitação HTTP na tela.
 
 Para investigar uma dificuldade percebida, escolha o dia correspondente, procure a ocorrência próxima do horário e examine as respostas disponíveis. Uma anotação pode complementar a informação com o nome do serviço utilizado ou a descrição da atividade interrompida. Não transforme a coincidência de horários em conclusão causal: ela serve como ponto de partida para investigação, não como diagnóstico definitivo.
+
+<a id="5-3-calendario-da-qualidade"></a>
+### 5.3 Calendário da qualidade
+
+O Calendário da qualidade, no menu Observatório, permite escolher um mês e consultar cada dia. A cor representa a condição predominante pela duração dos intervalos observados; em empate prevalece a condição mais crítica. Branco indica ausência de intervalos observados, incluindo dias futuros. Selecione um dia para consultar nota média, coletas, interrupções, engasgos, duração classificada, linha do tempo e anotações do perfil ativo. A consulta é local e atualizada ao abrir a página ou mudar o mês.
 
 <a id="6-comparativos-e-horarios-criticos"></a>
 
