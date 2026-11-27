@@ -456,3 +456,8 @@ A sonoplastia inclui novas vinhetas, reações cômicas e três montagens curtas
 ## Modo silencioso e atalhos
 
 O modo silencioso pode ser alternado pelo botão de alto-falante no cabeçalho ou em Configurações → Ping. Suspende voz, vinhetas, efeitos sonoros e vibração, inclusive durante apresentações, sem modificar os volumes ou as preferências individuais. Os textos, acessórios, animações e coletas continuam disponíveis. A preferência integra o backup JSON. Os atalhos do aplicativo instalado permitem abrir Início, Histórico, Diário de protocolos e Ping Comedy Club; sua disponibilidade depende do navegador e do sistema operacional.
+
+
+## Retrospectiva anual
+
+A Retrospectiva anual, em Observatório, permite consultar um ano do perfil ativo, com oito indicadores, médias mensais, destaques e uma apresentação manual em quatro quadros. A vinheta utiliza a sonoplastia existente e respeita o modo silencioso. Meses sem notas aparecem com travessão; o ano atual é parcial. Não gera novas coletas.
