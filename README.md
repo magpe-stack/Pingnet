@@ -440,3 +440,8 @@ Em Configurações → Central de manutenção, use Verificar agora para consult
 ## Exportação CSV
 
 Em Arquivo → Exportar CSV, selecione medições HTTP, anotações ou protocolos, o separador e o intervalo de datas ou todo o histórico do perfil ativo. O CSV usa UTF-8 com BOM e datas UTC ISO 8601. Cada resposta HTTP ocupa uma linha. Campos ausentes ficam vazios; textos que possam ser fórmulas recebem apóstrofo de proteção. Confira o download do navegador. CSV não substitui backup JSON e pode conter dados pessoais.
+
+<a id="comedy-club"></a>
+## Agenda e camarim do Comedy Club
+
+Em Observatório → Ping Comedy Club, consulte a agenda automática, a contagem regressiva, o progresso do espetáculo e os shows concluídos nesta aba. Inicie um show ou uma piada manualmente. O camarim permite visualizar os acessórios originais. Microfone, cartola, bateria e trompete acompanham momentos da apresentação. A agenda depende do aplicativo aberto e visível. Os contadores de shows desta aba reiniciam ao recarregar. Verifique a licença dos novos arquivos antes de publicar.

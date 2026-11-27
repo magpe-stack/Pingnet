@@ -11,3 +11,5 @@
 
 #ping .ping-sr{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap;}
 #ping[hidden]{display:none!important}#ping[data-animations=false] img{animation:none!important}#ping[data-size=small],#ping[data-size=small] .ping-face{width:48px;height:48px}#ping[data-size=small] .ping-face img{width:44px;height:44px}#ping[data-size=small] .ping-face .ping-hand{width:20px;height:20px}#ping[data-size=large],#ping[data-size=large] .ping-face{width:88px;height:88px}#ping[data-size=large] .ping-face img{width:80px;height:80px}#ping[data-size=large] .ping-face .ping-hand{width:34px;height:34px}
+
+#ping .ping-face .ping-prop{position:absolute;left:0;bottom:0;width:42%;height:42%;object-fit:contain;z-index:2}#ping .ping-prop[hidden]{display:none!important}
