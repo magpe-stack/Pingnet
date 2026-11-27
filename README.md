@@ -20,7 +20,7 @@
 - [Minha conexão](#perfis)
 - [Ping e nota da conexão](#ping)
 - [Ping Comedy Club](#comedy)
-- [Configurações de Sistema](#configuracoes)
+- [Configurações](#configuracoes)
 - [Salvar e Abrir](#salvar-abrir)
 - [Relatórios e impressão](#imprimir)
 - [Privacidade e armazenamento](#privacidade)
@@ -38,13 +38,13 @@ O Pingnet é um observatório local da conectividade, destinado a acompanhar res
 
 ## Instalação e primeiros passos
 
-Abra o aplicativo pelo endereço https://magpe-stack.github.io/Pingnet/ no Chrome. Aguarde a abertura de quatro segundos e a preparação dos recursos offline. No menu Exibição, escolha Instalar Pingnet quando disponível; alternativamente, utilize o menu do navegador. A instalação não exige conta no aplicativo. O logotipo retorna ao Início; os botões superiores alternam o modo visual e abrem o menu. Tela cheia está disponível em Exibição quando suportada. O rodapé oferece GitHub, Ajuda e Sobre.
+Abra o aplicativo pelo endereço https://magpe-stack.github.io/Pingnet/ no Chrome. Aguarde a abertura de quatro segundos e a preparação dos recursos offline. No menu Configurações, escolha Instalar Pingnet quando disponível; alternativamente, utilize o menu do navegador. A instalação não exige conta no aplicativo. O logotipo retorna ao Início; os botões superiores alternam o modo visual e abrem o menu. Tela cheia está disponível no cabeçalho e em Configurações quando suportada. O rodapé oferece GitHub, Ajuda e Sobre.
 
 <a id="monitoramento"></a>
 
 ## Monitoramento e condições
 
-As coletas começam automaticamente quando habilitadas. Cada rodada consulta Cloudflare Speed Test e Wikimedia em paralelo, sem cookies e sem cache, com limite de cinco segundos por consulta. A bateria experimental realiza até seis rodadas por abertura, aproximadamente uma por minuto. Restrições HTTP encerram a bateria. Não há autorização confirmada para monitoramento contínuo desses serviços. Em Sistema → Configurações de Sistema → Coletas, é possível iniciar ou pausar, respeitando a cota da abertura.
+As coletas começam automaticamente quando habilitadas. Cada rodada consulta Cloudflare Speed Test e Wikimedia em paralelo, sem cookies e sem cache, com limite de cinco segundos por consulta. As rodadas ocorrem aproximadamente uma vez por minuto, sem limite fixo. Restrições HTTP suspendem individualmente a referência, com espera progressiva. Não há autorização confirmada para monitoramento contínuo desses serviços. Em Configurações → Configurações → Coletas, é possível iniciar ou pausar, respeitando as restrições dos destinos.
 
 Conexão estável: duas respostas válidas de até 350 ms. Engasgos: resposta parcial ou acima de 350 ms. Possível sinal enganoso: nenhuma resposta válida, embora o navegador indique conexão. Verificando interrupção: nenhuma resposta válida e navegador indica desconexão. Interrupção observada: três rodadas consecutivas sem resposta válida. Conexão recuperada: primeira rodada com resposta válida após interrupção. Observação inconclusiva: resposta inesperada ou restrição do serviço. Uma lacuna superior a 90 segundos reinicia a sessão e a confirmação. Nenhuma dessas condições identifica isoladamente a causa ou a responsabilidade da operadora.
 
@@ -88,25 +88,25 @@ Abra Observatório → Anotações e escolha Nova anotação. Informe data, hor�
 
 ## Minha conexão
 
-Em Sistema → Minha conexão, crie um perfil para cada rede que deseja acompanhar. Informe um nome e, opcionalmente, operadora, plano, velocidade contratada, contrato, titular, local e observações. Salve e selecione o perfil correspondente à rede em uso. A troca é manual, encerra a sessão anterior e não reinicia a cota de coletas. Não altera a rede física. O perfil padrão preserva os registros iniciais. Não há exclusão de perfis na interface atual.
+Em Configurações → Minha conexão, crie um perfil para cada rede que deseja acompanhar. Informe um nome e, opcionalmente, operadora, plano, velocidade contratada, contrato, titular, local e observações. Salve e selecione o perfil correspondente à rede em uso. A troca é manual, encerra a sessão anterior. Não altera a rede física. O perfil padrão preserva os registros iniciais. Na edição, a Zona de perigo permite excluir o perfil e seus registros após confirmação. O perfil padrão é recriado vazio quando excluído.
 
 <a id="ping"></a>
 
 ## Ping e nota da conexão
 
-Ping é o personagem flutuante que comenta as observações, com personalidade adaptativa, expressões e humor fictício. Arraste-o com mouse ou toque; com foco no personagem, utilize as setas. Toque para ouvir ou ler uma fala. A voz Pinglish é uma síntese eletrônica original, acompanhada de texto progressivo. A nota no cabeçalho varia de zero a dez, com até uma casa decimal, calculada a partir da rodada recente e das respostas válidas. Uma interrupção confirmada recebe zero; respostas parciais reduzem a nota. Após 90 segundos sem atualização, ou em condição insuficiente, aparece um travessão. A nota não mede velocidade nem constitui certificação. Piadas e humor não alteram seu cálculo.
+Ping é o personagem flutuante que comenta as observações, com personalidade adaptativa, expressões e humor fictício. Arraste-o com mouse ou toque; com foco no personagem, utilize as setas. Toque para ouvir ou ler uma fala. A voz Pinglish é uma síntese eletrônica original, acompanhada de texto progressivo. A nota no painel Início varia de zero a dez, com até uma casa decimal, calculada a partir da rodada recente e das respostas válidas. Uma interrupção confirmada recebe zero; respostas parciais reduzem a nota. Após 90 segundos sem atualização, ou em condição insuficiente, aparece um travessão. A nota não mede velocidade nem constitui certificação. Piadas e humor não alteram seu cálculo.
 
 <a id="comedy"></a>
 
 ## Ping Comedy Club
 
-O repertório contém 40 piadas do pontinho, com pergunta, suspense de cinco segundos e resposta. Os efeitos incluem bateria e risadas locais, além de efeitos sintetizados. A frequência espontânea é moderada, com intervalo aproximado de oito minutos e possibilidade de piada a cada sexto toque. Em Configurações de Sistema → Ping, controle piadas, efeitos de plateia e volume separadamente ou escolha Contar uma piada agora. A reprodução depende das permissões de áudio do navegador.
+O repertório contém 40 piadas do pontinho, com pergunta, suspense de cinco segundos e resposta. Os efeitos incluem bateria e risadas locais, além de efeitos sintetizados. A frequência espontânea é moderada, com intervalo aproximado de oito minutos e possibilidade de piada a cada sexto toque. Em Configurações → Ping, controle piadas, efeitos de plateia e volume separadamente ou escolha Contar uma piada agora. A reprodução depende das permissões de áudio do navegador.
 
 <a id="configuracoes"></a>
 
-## Configurações de Sistema
+## Configurações
 
-A área Ping controla visibilidade, voz, animações, vibração, volume, tamanho e frequência das falas (Reservado, Equilibrado, Conversador e Tagarela). Visual oferece 12 temas: Jardim, Verão, Vulcão, Ecológico, Elegante, Sol, Aço, Oceano, Místico, Café, Cereja e Extravagante, cada um em claro e escuro. Café claro é o padrão. Ping pode comentar a escolha de tema; suas opiniões são fictícias, variam por dia e usam repertórios de 15 por tema. Coletas controla início automático, início manual e pausa. Dados permite verificar o armazenamento local. Preferências são preservadas no backup.
+A área Ping controla visibilidade, voz, animações, efeitos de vibração com ajuste de duração dos pulsos, volume, tamanho e frequência das falas (Reservado, Equilibrado, Conversador e Tagarela). Visual oferece 12 temas: Jardim, Verão, Vulcão, Ecológico, Elegante, Sol, Aço, Oceano, Místico, Café, Cereja e Extravagante, cada um em claro e escuro. Café claro é o padrão. Ping pode comentar a escolha de tema; suas opiniões são fictícias, variam por dia e usam repertórios de 15 por tema. Coletas controla início automático, início manual e pausa. Dados permite verificar o armazenamento local. Preferências são preservadas no backup.
 
 <a id="salvar-abrir"></a>
 
@@ -132,13 +132,13 @@ Os registros são guardados no navegador, principalmente em IndexedDB. Não há 
 
 ## Funcionamento offline e atualização
 
-Depois da preparação inicial do cache, a interface, os registros, as configurações, o Ping e a documentação podem funcionar offline. As consultas externas dependem de conectividade. Não há garantia de coleta com aplicativo fechado, suspenso ou dispositivo bloqueado. Em Exibição, Verificar atualização consulta o Service Worker; Aplicar atualização aparece quando disponível. Não apague o armazenamento para atualizar.
+Depois da preparação inicial do cache, a interface, os registros, as configurações, o Ping e a documentação podem funcionar offline. As consultas externas dependem de conectividade. Não há garantia de coleta com aplicativo fechado, suspenso ou dispositivo bloqueado. Em Configurações, Atualizações consulta o Service Worker; Aplicar atualização aparece quando disponível. Não apague o armazenamento para atualizar.
 
 <a id="solucao"></a>
 
 ## Solução de problemas
 
-Sem som na abertura: o Chrome pode bloquear áudio antes de interação; confira também voz e volume. A abertura dura quatro segundos e usa uma vinheta tecnológica original. Sem novas coletas: confira a cota experimental, a configuração automática, a conexão e se outra aba está monitorando. Resposta não verificada: pode decorrer de rede, destino ou restrições do navegador; não conclua que a operadora falhou. Nota ausente: aguarde nova rodada válida. Salvar indisponível: use Chrome desktop compatível e confira a permissão do arquivo. Impressão: gere a prévia antes de imprimir, escolha A4 e revise as páginas. Se a interface estiver desatualizada, verifique e aplique a atualização; preserve os dados locais.
+Sem som na abertura: o Chrome pode bloquear áudio antes de interação; confira também voz e volume. A abertura dura quatro segundos e usa uma vinheta tecnológica original. Sem novas coletas: confira a espera dos servidores, a configuração automática, a conexão e se outra aba está monitorando. Resposta não verificada: pode decorrer de rede, destino ou restrições do navegador; não conclua que a operadora falhou. Nota ausente: aguarde nova rodada válida. Salvar indisponível: use Chrome desktop compatível e confira a permissão do arquivo. Impressão: gere a prévia antes de imprimir, escolha A4 e revise as páginas. Se a interface estiver desatualizada, verifique e aplique a atualização; preserve os dados locais.
 
 <a id="publicacao"></a>
 
