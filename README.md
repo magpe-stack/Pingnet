@@ -483,3 +483,7 @@ Em Observatório → Museu do Ping, explore o acervo por categoria ou busca por 
 
 ## Palco do Ping
 Em Observatório → Palco do Ping, escolha uma encenação fictícia ou Surpreenda-me. Para interromper, use Parar apresentação ou toque no Ping. Interlúdios ocasionais podem ocorrer com as piadas ativadas, quando o personagem estiver livre. O modo silencioso é respeitado; as medições continuam independentes.
+
+## Expressividade e acessibilidade
+
+Em Configurações → Ping, escolha Minimalista (sem mãos, acessórios ou movimentos do personagem), Discreto (até um acessório, sem interlúdios automáticos), Natural (até dois acessórios, interlúdios com intervalo mínimo de 45 minutos), Teatral (30 minutos) ou Espetacular (15 minutos). A frequência real depende da disponibilidade e da seleção aleatória. O nível não altera coletas, voz, volume ou programação do Comedy Club. A opção Exibir diálogo completo imediatamente desativa a revelação progressiva, sem alterar a sincronização sonora. As preferências são guardadas no backup; backups antigos usam Natural por padrão. No nível Minimalista a experimentação de acessórios fica indisponível.

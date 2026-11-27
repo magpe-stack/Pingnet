@@ -18,3 +18,5 @@
 
 .ping-role-button{display:inline-flex;align-items:center;justify-content:center;vertical-align:middle;margin-inline-start:8px;width:36px;height:36px;padding:4px;border:1px solid var(--border);border-radius:8px;background:transparent;cursor:pointer}.ping-role-button img{width:26px;height:26px;object-fit:contain}.ping-role-button:focus-visible{outline:2px solid currentColor;outline-offset:2px}@media print{.ping-role-button{display:none!important}}
 .entertainment-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-block:8px}.entertainment-grid button{display:flex;align-items:center;justify-content:center;gap:8px;min-height:48px;white-space:normal;text-align:center}.entertainment-grid img{width:36px;height:36px;object-fit:contain;flex:none}@media print{.entertainment-grid{display:none}}
+
+#ping[data-expressivity=minimal] .ping-hand,#ping[data-expressivity=minimal] .ping-prop{display:none!important}#ping[data-expressivity=minimal] img{animation:none!important}

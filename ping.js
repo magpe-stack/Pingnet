@@ -4,7 +4,7 @@ import {mountChoreography} from './ping-choreography.js';
 import {nextJoke} from './ping-jokes.js';
 import {unlockComedy,stopComedy,playEffect} from './ping-comedy.js';
 import {rating,ratingText} from './ping-rating.js';
-import {settings} from './settings.js';
+import {settings,expressivityLevels} from './settings.js';
 import {mountSync} from './ping-sync.js';
 import {mountVoice,playVoice,stopVoice,configureVoice} from './ping-voice.js';
 import {mountOpinions} from './ping-opinions.js';
@@ -29,7 +29,8 @@ let showCount=0,manualShow=false,showIds=[],completedShows=0;
 let scheduled=false, nextShow=Date.now()+7200000, announced=new Set(), scheduleBusy=false;
 let entertainmentActive=false,lastAct=null,lastActAt=Date.now();
 let reminderUntil=0;let showing=false,showToken=0,showTimer=0,taps=0,lastShow=Date.now();
-function applySettings(){const s=settings();root.hidden=!s.visible;root.dataset.animations=String(s.animations);root.dataset.size=s.size;configureVoice({enabled:s.voice&&s.visible&&!s.silent,volume:s.volume/100});if(!s.visible){sync.cancel();cancelShow();}if(!s.comedy||s.silent)stopComedy();if(s.silent&&navigator.vibrate)navigator.vibrate(0);if(!s.jokes||(!s.fullShow&&scheduled&&!manualShow))cancelShow();if(pos&&s.visible)place(pos.x,pos.y);}
+let previousExpressivity;
+function applySettings(){const s=settings();if(previousExpressivity!==s.expressivity){choreography.clear();previousExpressivity=s.expressivity;}root.dataset.expressivity=s.expressivity;root.dataset.instantText=String(s.instantText||s.expressivity==='minimal');root.hidden=!s.visible;root.dataset.animations=String(s.animations);root.dataset.size=s.size;configureVoice({enabled:s.voice&&s.visible&&!s.silent,volume:s.volume/100});if(!s.visible){sync.cancel();cancelShow();}if(!s.comedy||s.silent)stopComedy();if(s.silent&&navigator.vibrate)navigator.vibrate(0);if(!s.jokes||(!s.fullShow&&scheduled&&!manualShow))cancelShow();if(pos&&s.visible)place(pos.x,pos.y);}
 document.addEventListener('pingnet:settings',applySettings);applySettings();
 place(innerWidth-root.offsetWidth-12,innerHeight-root.offsetHeight-56);get('pingState','position').then(p=>{if(p&&!revision&&!drag)place(p.x,p.y)}).catch(console.error);
 face.addEventListener('pointerdown',e=>{if(!e.isPrimary||e.button!==0)return;suppress=false;drag={id:e.pointerId,x:e.clientX,y:e.clientY,start:{...pos},moved:false};face.setPointerCapture(e.pointerId)});
@@ -101,4 +102,4 @@ function startAct(id){const status=document.querySelector('#entertainment-status
 if(status)status.textContent='Ping em cena!';step(0);}
 document.addEventListener('click',e=>{const b=e.target.closest('[data-ping-act]');if(b)startAct(b.dataset.pingAct);});
 // Rare voluntary-style interlude, only while idle and visible; no catch-up.
-setInterval(()=>{if(Date.now()-lastActAt>=2700000&&Date.now()-lastShow>=120000&&Math.random()<0.15)startAct('random');},60000);
+setInterval(()=>{if(Date.now()-lastActAt>=expressivityLevels[settings().expressivity].interval&&Date.now()-lastShow>=120000&&Math.random()<0.15)startAct('random');},60000);
