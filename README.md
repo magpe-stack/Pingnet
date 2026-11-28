@@ -510,6 +510,8 @@ Se a nota apresentar travessão, aguarde respostas recentes suficientes. Se a es
 
 ### 14.2 Áudio, vibração e arquivos
 
+Em telas pequenas ou dispositivos de toque, durante coreografias com acessórios, o rosto ocupa a parte superior e os acessórios e a mão ocupam posições independentes na faixa inferior. Os três tamanhos do Ping continuam disponíveis. O personagem retorna à composição habitual quando os acessórios desaparecem.
+
 Se a abertura não emitir som, interaja com a aplicação e confira as preferências de voz e volume. O bloqueio de reprodução automática pode impedir a vinheta. Para testar a vibração, desative o modo silencioso, ative Efeitos de vibração, ajuste a duração acima de zero e toque em Testar vibração com a tela ativa. A aceitação do comando não comprova a vibração física. Confira as configurações de vibração e Não perturbe do Android. O controle ajusta a duração dos pulsos, não a força do motor. A vibração automática requer interação prévia com a página. Computadores sem motor de vibração não produzirão efeito físico.
 
 Se Salvar estiver indisponível, utilize um navegador desktop compatível com a API de escrita e confira a autorização do arquivo. Se a restauração for recusada, confirme que selecionou um backup do Pingnet. Se a impressão apresentar cortes, gere novamente a prévia e revise as opções de papel e escala do navegador. Preserve uma cópia dos dados antes de qualquer procedimento de manutenção.
