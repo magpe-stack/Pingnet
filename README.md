@@ -536,4 +536,9 @@ Em Configurações → Central de manutenção, use Verificar agora para consult
 
 ## Modo Sentinela
 
-O Modo Sentinela, no menu Configurações, solicita a manutenção da tela ligada pela Screen Wake Lock API. Ative ou desative na página Sentinela. O estado informa se o bloqueio foi concedido; caso seja liberado, retorne ao primeiro plano ou toque em Tentar manter tela ligada. O Ping fica temporariamente oculto e seus sons, vibrações e apresentações são suspensos. As preferências originais são preservadas e o modo termina ao recarregar. Coletas pausadas permanecem pausadas. Não há garantia de execução em segundo plano ou com tela bloqueada. O consumo de bateria pode aumentar.
+O Modo Sentinela, em Configurações → Coletas, abaixo dos controles de coleta, solicita a manutenção da tela ligada pela Screen Wake Lock API. Ative ou desative nessa seção ou pelo menu de acesso rápido. O estado informa se o bloqueio foi concedido; caso seja liberado, retorne ao primeiro plano ou toque em Tentar manter tela ligada. O Ping fica temporariamente oculto e seus sons, vibrações e apresentações são suspensos. As preferências originais são preservadas e o modo termina ao recarregar. Coletas pausadas permanecem pausadas. Não há garantia de execução em segundo plano ou com tela bloqueada. O consumo de bateria pode aumentar.
+
+
+## Menu de acesso rápido
+
+O menu de acesso rápido do cabeçalho abre para a esquerda e fecha para a direita, sem deslocar o conteúdo. Os seis atalhos são: modo silencioso, claro/escuro, tela cheia, Sentinela, próximo tema e Salvar. O tema avança na ordem da galeria e retorna ao primeiro após o último. Salvar utiliza o mesmo fluxo de Arquivo → Salvar. Esc ou toque fora fecha o painel.

@@ -1,4 +1,4 @@
-import './sentinel.js';
+import {sentinelActive,setSentinel} from './sentinel.js';
 import {mountMuseum} from './museum.js';
 import {decorateMenu,decoratePage} from './visual-icons.js';
 import {personalities,personalityFor} from './ping-personalities.js';
@@ -47,8 +47,8 @@ main.addEventListener('change',e=>{if(e.target.matches('input[name=theme]')&&val
 const initial=getTheme();document.documentElement.dataset.theme=validTheme(initial)?initial:'cafe';apply(getMode());
 
 const full=document.querySelector('#fullscreen'),fullStatus=document.querySelector('#pwa-status');
-function syncFull(){full.textContent=document.fullscreenElement?'⤢':'⛶';full.title=document.fullscreenElement?'Sair da tela cheia':'Tela cheia';full.setAttribute('aria-label',full.title);full.disabled=!document.fullscreenEnabled&&!document.fullscreenElement;for(const b of main.querySelectorAll('[data-action=fullscreen]')){b.disabled=full.disabled;b.textContent=full.title;}}
-full.addEventListener('click',async()=>{try{if(document.fullscreenElement)await document.exitFullscreen();else await document.documentElement.requestFullscreen();close(true)}catch{fullStatus.textContent='Não foi possível alterar a tela cheia.'}});main.addEventListener('click',e=>{if(e.target.closest('[data-action=fullscreen]'))full.click()});document.addEventListener('fullscreenchange',syncFull);syncFull();
+function syncFull(){full.textContent=document.fullscreenElement?'⤢':'⛶';full.setAttribute('aria-pressed',String(!!document.fullscreenElement));full.title=document.fullscreenElement?'Sair da tela cheia':'Tela cheia';full.setAttribute('aria-label',full.title);full.disabled=!document.fullscreenEnabled&&!document.fullscreenElement;for(const b of main.querySelectorAll('[data-action=fullscreen]')){b.disabled=full.disabled;b.textContent=full.title;}}
+full.addEventListener('click',async()=>{try{if(document.fullscreenElement)await document.exitFullscreen();else await document.documentElement.requestFullscreen();close()}catch{fullStatus.textContent='Não foi possível alterar a tela cheia.'}});main.addEventListener('click',e=>{if(e.target.closest('[data-action=fullscreen]'))full.click()});document.addEventListener('fullscreenchange',syncFull);syncFull();
 
 let appearanceRevision=0;
 async function persistAppearance(){appearanceRevision++;try{await put('preferences',{id:'appearance',theme:document.documentElement.dataset.theme,mode:document.documentElement.dataset.mode});}catch(e){console.error('Pingnet: preferências IndexedDB',e);const el=document.querySelector('#database-status');if(el)el.textContent='Não foi possível guardar no banco local.'}}
@@ -101,3 +101,14 @@ setInterval(refreshRatingAverages,60000);
 const silentButton=document.querySelector('#silent');
 function syncSilent(){const on=settings().silent;silentButton.setAttribute('aria-pressed',String(on));silentButton.setAttribute('aria-label',on?'Desativar modo silencioso':'Ativar modo silencioso');silentButton.title=on?'Modo silencioso ativo':'Ativar modo silencioso';const check=main.querySelector('[data-setting="silent"]');if(check)check.checked=on;}
 document.addEventListener('pingnet:settings',syncSilent);ready.then(()=>{syncSilent();silentButton.disabled=false;});silentButton.addEventListener('click',async()=>{try{await updateSettings({silent:!settings().silent});}catch(e){console.error(e);alert('Não foi possível guardar o modo silencioso.');}});
+
+// Floating quick controls; no changes to header flow.
+const quickToggle=document.querySelector('#quick-toggle'),quickPanel=document.querySelector('#quick-panel'),quickStatus=document.querySelector('#quick-status'),quickSentinel=document.querySelector('#quick-sentinel'),quickTheme=document.querySelector('#quick-theme'),quickSave=document.querySelector('#quick-save');
+function quickOpen(on,focus=false){quickPanel.inert=!on;quickPanel.classList.toggle('open',on);quickToggle.textContent=on?'›':'‹';quickToggle.setAttribute('aria-expanded',String(on));quickToggle.title=on?'Fechar atalhos':'Abrir atalhos';quickToggle.setAttribute('aria-label',quickToggle.title);if(on)close();if(focus)quickToggle.focus();}
+quickToggle.addEventListener('click',()=>quickOpen(quickPanel.inert));
+document.addEventListener('click',e=>{if(!quickPanel.inert&&!quickPanel.contains(e.target)&&!quickToggle.contains(e.target))quickOpen(false);});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!quickPanel.inert)quickOpen(false,true);});window.addEventListener('hashchange',()=>quickOpen(false));
+function syncQuickSentinel(){quickSentinel.setAttribute('aria-pressed',String(sentinelActive()));quickSentinel.title=sentinelActive()?'Desativar Sentinela':'Ativar Sentinela';quickSentinel.setAttribute('aria-label',quickSentinel.title);}
+quickSentinel.addEventListener('click',()=>setSentinel(!sentinelActive()));document.addEventListener('pingnet:sentinel',syncQuickSentinel);syncQuickSentinel();
+quickTheme.addEventListener('click',()=>{const i=themes.findIndex(t=>t.id===document.documentElement.dataset.theme),t=themes[(i+1)%themes.length];document.documentElement.dataset.theme=t.id;const saved=saveTheme(t.id);persistAppearance();syncAppearance();quickStatus.textContent='Tema '+t.name+(saved?'':' · preferência local não guardada');document.dispatchEvent(new CustomEvent('pingnet:theme-selected',{detail:{theme:t.id}}));});
+const originalSave=document.querySelector('#file-save'),originalStatus=document.querySelector('#file-status');quickSave.addEventListener('click',()=>{if(!originalSave.disabled){quickStatus.textContent='Salvando…';originalSave.click();}});new MutationObserver(()=>{quickSave.disabled=originalSave.disabled;quickStatus.textContent=originalStatus.textContent;}).observe(originalStatus,{childList:true,subtree:true,characterData:true});new MutationObserver(()=>{quickSave.disabled=originalSave.disabled;}).observe(originalSave,{attributes:true,attributeFilter:['disabled']});
