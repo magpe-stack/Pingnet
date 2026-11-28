@@ -147,6 +147,8 @@ A interrupção observada exige pelo menos três falhas elegíveis envolvendo do
 
 ### 3.3 Restrições e continuidade
 
+Ao ocultar o aplicativo, as consultas continuam somente enquanto o navegador permitir. Ao retornar, uma coleta atrasada pode ser retomada automaticamente, sem reativar uma pausa manual. Consultas que durarem mais de 90 segundos são descartadas; lacunas superiores a 90 segundos separam sessões e não contam como quedas. O Chrome pode suspender ou encerrar a página; não há garantia de coleta com tela bloqueada ou aplicativo fechado.
+
 Respostas HTTP 403, 429 e 503 acionam espera individual para a referência, com aumento progressivo do intervalo e consideração do cabeçalho Retry-After quando acessível. Os demais destinos continuam elegíveis. Uma consulta não executada durante a espera não deve ser interpretada como nova falha. O cartão pode manter a última resposta conhecida, identificada pelo horário e, quando aplicável, pela indicação de resultado anterior.
 
 O uso contínuo dos destinos externos ainda depende de confirmação de suas políticas e autorizações. A disponibilidade pública de uma URL não constitui permissão irrestrita para consultas automatizadas. O monitoramento é experimental e pode ser pausado em Configurações, na área Coletas. Não tente contornar bloqueios aumentando a frequência, alternando identidades ou removendo os mecanismos de espera.

@@ -30,7 +30,7 @@ import {paintTimeline} from './timeline.js';
 import {summarize,dayBounds} from './analytics.js';
 import {list} from './database.js';
 import {labels} from './states.js';
-import {start,stop,snapshot,loadLatest,targets} from './monitor.js';
+import {start,stop,snapshot,loadLatest,targets,onMonitorHidden,onMonitorReturn,onMonitorPageHide} from './monitor.js';
 import {initializeDatabase,databaseStatus,get,put} from './database.js';
 import {themes,validTheme} from './themes.js';
 import {groups,current} from './navigation.js';import {getMode,saveMode,getTheme,saveTheme} from './preferences.js';import {render} from './views.js';
@@ -63,7 +63,7 @@ function renderMonitor(){
  const time=main.querySelector('#last-update');if(valid){const d=new Date(latest.completedAt);time.dateTime=d.toISOString();time.textContent=(d.toDateString()===new Date().toDateString()?'':d.toLocaleDateString('pt-BR')+' · ')+d.toLocaleTimeString('pt-BR',{hour12:false});}else{time.textContent='—';time.removeAttribute('datetime');}
  box.replaceChildren();for(const t of targets){const card=document.createElement('div');card.className='metric';const label=document.createElement('small'),value=document.createElement('strong');label.textContent=t.name;const r=recent.find(x=>x.target===t.id);value.textContent=r?.result==='verified'?r.ms+' ms':'—';card.title=r?.result==='verified'?'Resposta verificada na última rodada':r?'Resposta não verificada':'Aguardando coleta';card.setAttribute('aria-label',t.name+': '+(value.textContent==='—'?card.title:value.textContent));const stamp=document.createElement('small');stamp.textContent=r?new Date(r.at).toLocaleTimeString('pt-BR')+(Date.now()-r.at>90000?' · anterior':''):'Aguardando';card.append(label,value,stamp);box.append(card)}
 }
-document.addEventListener('pingnet:monitor',renderMonitor);window.addEventListener('pagehide',stop);window.addEventListener('pageshow',e=>{if(e.persisted&&settings().autoCollect)start()});initProfiles().then(()=>{show();return loadLatest()}).then(()=>ready).then(()=>{if(settings().autoCollect)start()}).catch(e=>{main.textContent="Não foi possível iniciar os perfis: "+e.message;});setInterval(renderMonitor,10000);
+document.addEventListener('pingnet:monitor',renderMonitor);window.addEventListener('pagehide',onMonitorPageHide);window.addEventListener('pageshow',e=>{if(e.persisted)onMonitorReturn()});document.addEventListener('visibilitychange',()=>{if(document.hidden)onMonitorHidden();else onMonitorReturn()});document.addEventListener('resume',onMonitorReturn);initProfiles().then(()=>{show();return loadLatest()}).then(()=>ready).then(()=>{if(settings().autoCollect)start()}).catch(e=>{main.textContent="Não foi possível iniciar os perfis: "+e.message;});setInterval(renderMonitor,10000);
 
 async function refreshAnalytics(){
  const panel=main.querySelector('#analytics-status');if(!panel)return;
@@ -89,7 +89,7 @@ document.addEventListener('pingnet:monitor',()=>refreshCritical?.());
 
 main.addEventListener('click',e=>{if(e.target.matches('input[name=theme]')&&validTheme(e.target.value))document.dispatchEvent(new CustomEvent('pingnet:theme-selected',{detail:{theme:e.target.value}}));});
 
-bindSettings(main);function syncMonitorSettings(){const el=main.querySelector('#settings-monitor');if(el){const s=snapshot();el.textContent=s.error||(s.running?'Monitoramento ativo':'Monitoramento pausado ou encerrado');}}document.addEventListener('pingnet:monitor',syncMonitorSettings);main.addEventListener('click',e=>{if(e.target.closest('[data-action=start-monitor]'))start();if(e.target.closest('[data-action=stop-monitor]'))stop('manual');});
+bindSettings(main);function syncMonitorSettings(){const el=main.querySelector('#settings-monitor');if(el){const s=snapshot();el.textContent=s.error||(s.running?(s.hidden?'Monitoramento em segundo plano, sujeito a suspensão':'Monitoramento ativo'):'Monitoramento pausado ou encerrado');}}document.addEventListener('pingnet:monitor',syncMonitorSettings);main.addEventListener('click',e=>{if(e.target.closest('[data-action=start-monitor]'))start();if(e.target.closest('[data-action=stop-monitor]'))stop('manual');});
 
 main.addEventListener("click",e=>{const a=e.target.closest("[data-manual-anchor]");if(!a)return;e.preventDefault();const h=document.getElementById(a.dataset.manualAnchor);if(h){h.focus({preventScroll:true});h.scrollIntoView({block:"start"});}});
 
