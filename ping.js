@@ -30,7 +30,7 @@ let scheduled=false, nextShow=Date.now()+7200000, announced=new Set(), scheduleB
 let entertainmentActive=false,lastAct=null,lastActAt=Date.now();
 let reminderUntil=0;let showing=false,showToken=0,showTimer=0,taps=0,lastShow=Date.now();
 let previousExpressivity;
-function applySettings(){const s=settings();if(previousExpressivity!==s.expressivity){choreography.clear();previousExpressivity=s.expressivity;}root.dataset.expressivity=s.expressivity;root.dataset.instantText=String(s.instantText||s.expressivity==='minimal');root.hidden=!s.visible;root.dataset.animations=String(s.animations);root.dataset.size=s.size;configureVoice({enabled:s.voice&&s.visible&&!s.silent,volume:s.volume/100});if(!s.visible){sync.cancel();cancelShow();}if(!s.comedy||s.silent)stopComedy();if(s.silent&&navigator.vibrate)navigator.vibrate(0);if(!s.jokes||(!s.fullShow&&scheduled&&!manualShow))cancelShow();if(pos&&s.visible)place(pos.x,pos.y);}
+function applySettings(){const s=settings();if(previousExpressivity!==s.expressivity){choreography.clear();previousExpressivity=s.expressivity;}root.dataset.expressivity=s.expressivity;root.dataset.instantText=String(s.instantText||s.expressivity==='minimal');root.hidden=!s.visible;root.dataset.animations=String(s.animations);root.dataset.size=s.size;configureVoice({enabled:s.voice&&s.visible&&!s.silent,volume:s.volume/100});if(!s.visible){sync.cancel();cancelShow();}if(!s.comedy||s.silent)stopComedy();if(s.silent||!s.vibration||!s.vibrationLevel||!s.visible)stopVibration();if(!s.jokes||(!s.fullShow&&scheduled&&!manualShow))cancelShow();if(pos&&s.visible)place(pos.x,pos.y);}
 document.addEventListener('pingnet:settings',applySettings);applySettings();
 place(innerWidth-root.offsetWidth-12,innerHeight-root.offsetHeight-56);get('pingState','position').then(p=>{if(p&&!revision&&!drag)place(p.x,p.y)}).catch(console.error);
 face.addEventListener('pointerdown',e=>{if(!e.isPrimary||e.button!==0)return;suppress=false;drag={id:e.pointerId,x:e.clientX,y:e.clientY,start:{...pos},moved:false};face.setPointerCapture(e.pointerId)});
@@ -43,8 +43,23 @@ window.addEventListener('resize',()=>place(pos.x,pos.y));
 
 
 
-function vibrateEffect(pattern){const s=settings();if(s.silent||!s.vibration||!s.vibrationLevel||document.hidden||!navigator.vibrate)return false;return navigator.vibrate(pattern.map((n,i)=>i%2?n:Math.max(1,Math.round(n*s.vibrationLevel/60))));}
-document.addEventListener("click",e=>{if(e.target.closest("#test-vibration")){const ok=vibrateEffect([180,80,220]);const status=document.querySelector("#settings-status");if(status)status.textContent=ok?"Comando de vibração aceito.":"Vibração desativada ou indisponível.";}});
+function stopVibration(){try{if(typeof navigator.vibrate==='function')navigator.vibrate(0);}catch{}}
+function vibrationRequest(pattern,test=false){
+ const s=settings();
+ if(s.silent)return 'Desative o modo silencioso para vibrar.';
+ if(!test&&!s.visible)return 'Ping oculto.';
+ if(!s.vibration)return 'Ative Efeitos de vibração.';
+ if(!s.vibrationLevel)return 'Aumente a duração da vibração acima de zero.';
+ if(document.hidden)return 'Mantenha o aplicativo visível.';
+ if(typeof navigator.vibrate!=='function')return 'API de vibração indisponível neste navegador.';
+ if(navigator.userActivation&&!navigator.userActivation.hasBeenActive)return 'Toque na tela antes de usar a vibração.';
+ try{
+  const scaled=pattern.map((n,i)=>i%2?n:Math.max(1,Math.round(n*s.vibrationLevel/60)));
+  return navigator.vibrate(scaled)?'Comando aceito pelo navegador. Sentiu a vibração? Se não, confira as configurações de vibração e Não perturbe do Android.':'O navegador recusou a vibração. Mantenha a tela ativa e tente novamente.';
+ }catch{return 'Não foi possível solicitar vibração neste navegador.';}
+}
+function vibrateEffect(pattern){return vibrationRequest(pattern);}
+document.addEventListener('click',e=>{if(e.target.closest('#test-vibration')){const status=document.querySelector('#vibration-status');const result=vibrationRequest([350,150,350],true);if(status)status.textContent=result;}});
 const effect=(kind)=>{choreography.show(kind,{level:3,duration:kind==="intro"||kind==="outro"?7000:3500});if(kind==="drumroll"||kind==="rimshot")vibrateEffect(kind==="drumroll"?[60,50,60,50,100]:[140,60,180]);const s=settings();if(!s.silent&&s.comedy&&s.visible)return playEffect(kind,s.comedyVolume);};
 function cancelShow(){if(entertainmentActive){entertainmentActive=false;sync.cancel();}choreography.clear();manualShow=false;showToken++;scheduled=false;showing=false;clearTimeout(showTimer);stopComedy();}
 async function showJoke(inShow=false){if((showing&&!inShow)||!settings().visible||!settings().jokes||document.hidden||drag)return;showing=true;lastShow=Date.now();const token=++showToken;try{const old=await get("pingState","comedy-jokes");if(token!==showToken)return;const next=nextJoke(old?.used||[],Math.random,{...old,excluded:inShow?showIds:[]});if(inShow)showIds.push(next.joke.id);const steps=next.joke.sequencia;const valid=()=>token===showToken&&showing&&!document.hidden&&settings().visible&&settings().jokes;
@@ -55,7 +70,7 @@ async function showJoke(inShow=false){if((showing&&!inShow)||!settings().visible
 
 for(const event of ["pointerdown","pointerup","touchend","keydown","click"])document.addEventListener(event,()=>{if(settings().comedy&&!settings().silent)unlockComedy();},true);
 document.addEventListener("click",e=>{if(e.target.closest("#comedy-joke"))showJoke();});
-document.addEventListener("visibilitychange",()=>{if(document.hidden)cancelShow();});
+document.addEventListener("visibilitychange",()=>{if(document.hidden){stopVibration();cancelShow();}});
 setInterval(()=>{if(Date.now()>reminderUntil&&Date.now()-lastShow>480000&&Date.now()>opinionUntil&&!showing&&settings().jokes&&settings().visible&&!document.hidden&&!drag)showJoke();},30000);
 const talk=mountBrain({read:snapshot,profile:activeId,speak,blocked:()=>document.documentElement.hasAttribute("data-starting")||!settings().visible||!!drag||showing||Date.now()<reminderUntil||Date.now()<opinionUntil});
 
@@ -98,7 +113,7 @@ document.addEventListener('click',e=>{const b=e.target.closest('[data-ping-role]
 document.addEventListener('pingnet:museum-try',e=>{const d=e.detail;if(!d||!Array.isArray(d.codes)||!d.codes.length||d.codes.some(c=>!/^([0-9a-f]+_)*[0-9a-f]+$/.test(c)))return;const now=Date.now();d.accepted=!!(!showing&&!drag&&bubble.hidden&&now>=Math.max(reminderUntil,opinionUntil)&&choreography.show(d.codes,{level:1,duration:7000}));});
 
 // Shared show lock prevents overlapping Comedy Club and fictional acts.
-function startAct(id){const status=document.querySelector('#entertainment-status'),now=Date.now(),s=settings();if(id==='stop'){if(entertainmentActive)cancelShow();if(status)status.textContent='Apresentação encerrada.';return;}if(!s.visible||!s.jokes||showing||drag||document.hidden||!bubble.hidden||now<Math.max(reminderUntil,opinionUntil)||document.documentElement.hasAttribute('data-starting')||nextShow-now<60000){if(status)status.textContent='Ping indisponível. Aguarde ou confira as configurações de piadas.';return;}const act=chooseAct(id,lastAct);if(!act)return;lastAct=act.id;lastActAt=now;showing=true;entertainmentActive=true;const token=++showToken;const valid=()=>entertainmentActive&&token===showToken&&settings().visible&&settings().jokes&&!document.hidden&&!drag;const later=(fn,ms)=>{showTimer=setTimeout(()=>{if(valid())fn();},ms);};function step(i){if(!valid())return;if(i>=act.frames.length){entertainmentActive=false;showing=false;choreography.clear();lastShow=Date.now();if(status?.isConnected)status.textContent='Apresentação concluída.';return;}const f=act.frames[i];choreography.show(f.props,{level:3,duration:12000});sync.speak(f.line,f.emotion,undefined,async()=>{if(!valid())return;const prefs=settings();if(f.sound&&prefs.comedy&&!prefs.silent)await Promise.race([Promise.resolve(playEffect(f.sound,prefs.comedyVolume)),new Promise(r=>setTimeout(r,8000))]);if(valid())later(()=>step(i+1),2500);},9000);}
+function startAct(id){const status=document.querySelector('#entertainment-status'),now=Date.now(),s=settings();if(id==='stop'){if(entertainmentActive)cancelShow();if(status)status.textContent='Apresentação encerrada.';return;}if(!s.visible||!s.jokes||showing||drag||document.hidden||!bubble.hidden||now<Math.max(reminderUntil,opinionUntil)||document.documentElement.hasAttribute('data-starting')||nextShow-now<60000){if(status)status.textContent='Ping indisponível. Aguarde ou confira as configurações de piadas.';return;}const act=chooseAct(id,lastAct);if(!act)return;lastAct=act.id;lastActAt=now;showing=true;entertainmentActive=true;const token=++showToken;const valid=()=>entertainmentActive&&token===showToken&&settings().visible&&settings().jokes&&!document.hidden&&!drag;const later=(fn,ms)=>{showTimer=setTimeout(()=>{if(valid())fn();},ms);};function step(i){if(!valid())return;if(i>=act.frames.length){entertainmentActive=false;showing=false;choreography.clear();lastShow=Date.now();if(status?.isConnected)status.textContent='Apresentação concluída.';return;}const f=act.frames[i];choreography.show(f.props,{level:3,duration:12000});sync.speak(f.line,f.emotion,undefined,async()=>{if(!valid())return;const prefs=settings();if(f.sound&&["drumroll","rimshot"].includes(f.sound))vibrateEffect([140,60,180]);if(f.sound&&prefs.comedy&&!prefs.silent)await Promise.race([Promise.resolve(playEffect(f.sound,prefs.comedyVolume)),new Promise(r=>setTimeout(r,8000))]);if(valid())later(()=>step(i+1),2500);},9000);}
 if(status)status.textContent='Ping em cena!';step(0);}
 document.addEventListener('click',e=>{const b=e.target.closest('[data-ping-act]');if(b)startAct(b.dataset.pingAct);});
 // Rare voluntary-style interlude, only while idle and visible; no catch-up.
