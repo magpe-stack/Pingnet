@@ -1,3 +1,4 @@
+import './sentinel.js';
 import {mountMuseum} from './museum.js';
 import {decorateMenu,decoratePage} from './visual-icons.js';
 import {personalities,personalityFor} from './ping-personalities.js';

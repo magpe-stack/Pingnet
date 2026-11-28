@@ -1,9 +1,11 @@
+import {sentinelActive} from './sentinel.js';
 import {get,put} from './database.js';
 export const defaults=Object.freeze({id:'system',visible:true,voice:true,volume:28,animations:true,vibration:false,backupReminder:true,vibrationLevel:60,size:'medium',frequency:'balanced',autoCollect:true,comedy:true,comedyVolume:35,jokes:true,fullShow:true,silent:false,expressivity:"natural",instantText:false});
 export const expressivityLevels=Object.freeze({minimal:{props:0,chance:0,interval:Infinity},discrete:{props:1,chance:.25,interval:Infinity},natural:{props:2,chance:.65,interval:2700000},theatrical:{props:2,chance:.9,interval:1800000},spectacular:{props:2,chance:1,interval:900000}});
 export const cadence={reserved:[120000,300000],balanced:[20000,90000],talkative:[15000,60000],chatty:[8000,30000]};
 export function normalize(p={}){const s={...defaults};for(const k of ['visible','voice','animations','vibration','backupReminder','autoCollect','comedy','jokes','fullShow','silent','instantText'])if(typeof p[k]==='boolean')s[k]=p[k];if(Number.isFinite(p.vibrationLevel))s.vibrationLevel=Math.round(Math.max(0,Math.min(100,p.vibrationLevel)));if(Number.isFinite(p.comedyVolume))s.comedyVolume=Math.round(Math.max(0,Math.min(100,p.comedyVolume)));if(Number.isFinite(p.volume))s.volume=Math.round(Math.max(0,Math.min(100,p.volume)));if(['small','medium','large'].includes(p.size))s.size=p.size;if(Object.hasOwn(cadence,p.frequency))s.frequency=p.frequency;if(Object.hasOwn(expressivityLevels,p.expressivity))s.expressivity=p.expressivity;return s;}
 let state={...defaults},revision=0,queue=Promise.resolve();export const settings=()=>({...state});
+export const effectiveSettings=()=>sentinelActive()?{...state,visible:false,silent:true,animations:false,vibration:false,voice:false,comedy:false,jokes:false,fullShow:false,expressivity:"minimal"}:settings();
 const emit=()=>document.dispatchEvent(new Event('pingnet:settings'));
 export const ready=(async()=>{try{const p=await get('preferences','system');if(!revision){state=normalize(p||{});emit();}}catch(e){console.error(e)}})();
 export async function updateSettings(p){revision++;state=normalize({...state,...p});emit();const copy=settings();queue=queue.catch(()=>{}).then(()=>put('preferences',copy));return queue;}

@@ -1,7 +1,7 @@
 import {chooseHumor} from './ping-humor.js';
 import {connectionEmotion} from './ping-catalog.js';
 import {rating} from './ping-rating.js';
-import {settings,cadence} from './settings.js';
+import {effectiveSettings as settings,cadence} from './settings.js';
 import {dialogueLine} from './ping-dialogue.js';
 import {get,put} from './database.js';
 export const moods=['animado','tranquilo','brincalhão','reflexivo','sonolento','impaciente'];

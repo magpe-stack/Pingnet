@@ -1,4 +1,4 @@
-import {settings,expressivityLevels} from './settings.js';
+import {effectiveSettings as settings,expressivityLevels} from './settings.js';
 import {personalities} from './ping-personalities.js';
 // Visual scene coordinator. Audio, speech and vibration remain under their existing controls.
 export const scenes=Object.freeze({intro:['1f3a9','1f3a4'],outro:['1f3a9','1f3ba'],drumroll:['1f941'],rimshot:['1f941'],trumpet:['1f3ba'],comic:['1f3b6'],fart:['1f4a8'],ovation:['1f3a4'],joke:['1f3a4'],backup:['1f4be'],protocol:['1f4de','1f4c5'],announcement:['1f4e2'],stable:['1f4ca'],slow:['1f50d'],suspect:['1f50d'],down:['1f527'],recovered:['1f3ba'],unknown:['1f50d']});

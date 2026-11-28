@@ -1,4 +1,4 @@
-import {ready,settings} from './settings.js';
+import {ready,effectiveSettings as settings} from './settings.js';
 const overlay=document.querySelector('#startup');
 const started=performance.now();let done=false,ctx,played=false,loaded=false;const blocked=[];
 function finish(){if(done)return;done=true;overlay.hidden=true;for(const el of blocked)el.inert=false;document.documentElement.removeAttribute('data-starting');document.removeEventListener('pointerdown',sound,true);document.removeEventListener('keydown',sound,true);if(ctx)ctx.close().catch(()=>{});document.dispatchEvent(new Event('pingnet:startup-end'));}

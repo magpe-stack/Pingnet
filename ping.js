@@ -4,7 +4,7 @@ import {mountChoreography} from './ping-choreography.js';
 import {nextJoke} from './ping-jokes.js';
 import {unlockComedy,stopComedy,playEffect} from './ping-comedy.js';
 import {rating,ratingText} from './ping-rating.js';
-import {settings,expressivityLevels} from './settings.js';
+import {effectiveSettings as settings,expressivityLevels} from './settings.js';
 import {mountSync} from './ping-sync.js';
 import {mountVoice,playVoice,stopVoice,configureVoice} from './ping-voice.js';
 import {mountOpinions} from './ping-opinions.js';
@@ -31,7 +31,7 @@ let entertainmentActive=false,lastAct=null,lastActAt=Date.now();
 let reminderUntil=0;let showing=false,showToken=0,showTimer=0,taps=0,lastShow=Date.now();
 let previousExpressivity;
 function applySettings(){const s=settings();if(previousExpressivity!==s.expressivity){choreography.clear();previousExpressivity=s.expressivity;}root.dataset.expressivity=s.expressivity;root.dataset.instantText=String(s.instantText||s.expressivity==='minimal');root.hidden=!s.visible;root.dataset.animations=String(s.animations);root.dataset.size=s.size;configureVoice({enabled:s.voice&&s.visible&&!s.silent,volume:s.volume/100});if(!s.visible){sync.cancel();cancelShow();}if(!s.comedy||s.silent)stopComedy();if(s.silent||!s.vibration||!s.vibrationLevel||!s.visible)stopVibration();if(!s.jokes||(!s.fullShow&&scheduled&&!manualShow))cancelShow();if(pos&&s.visible)place(pos.x,pos.y);}
-document.addEventListener('pingnet:settings',applySettings);applySettings();
+document.addEventListener('pingnet:sentinel',applySettings);document.addEventListener('pingnet:settings',applySettings);applySettings();
 place(innerWidth-root.offsetWidth-12,innerHeight-root.offsetHeight-56);get('pingState','position').then(p=>{if(p&&!revision&&!drag)place(p.x,p.y)}).catch(console.error);
 face.addEventListener('pointerdown',e=>{if(!e.isPrimary||e.button!==0)return;suppress=false;drag={id:e.pointerId,x:e.clientX,y:e.clientY,start:{...pos},moved:false};face.setPointerCapture(e.pointerId)});
 face.addEventListener('pointermove',e=>{if(drag?.id!==e.pointerId)return;const dx=e.clientX-drag.x,dy=e.clientY-drag.y;if(Math.hypot(dx,dy)>5)drag.moved=true;if(drag.moved){root.dataset.dragging='true';face.dataset.motion='';cancelShow();sync.cancel();place(drag.start.x+dx,drag.start.y+dy)}});

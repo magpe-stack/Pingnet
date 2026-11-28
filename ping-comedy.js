@@ -1,4 +1,4 @@
-import {settings} from "./settings.js";
+import {effectiveSettings as settings} from "./settings.js";
 // Local user-supplied samples and procedural stage effects.
 export const effects=['rimshot','laugh','clap','slowclap','crickets','drumroll','trombone','boo','ovation','gasp','cymbal','whistle','fart','bell','violin'];
 let ctx,bus,nodes=[];

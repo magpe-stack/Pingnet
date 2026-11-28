@@ -532,3 +532,8 @@ Antes de uma distribuição pública definitiva, confirme as licenças dos recur
 ### 15.1 Central de manutenção e integridade
 
 Em Configurações → Central de manutenção, use Verificar agora para consultar a estimativa de armazenamento da origem, a persistência, as contagens do banco, referências a perfis e sessões, presença dos recursos offline e último salvamento registrado. A cota é compartilhada por aplicativos da mesma origem e não corresponde ao espaço livre do dispositivo. A verificação é somente leitura e não garante integridade binária ou existência do arquivo de backup. Use Salvar backup para abrir o fluxo habitual de salvamento.
+
+
+## Modo Sentinela
+
+O Modo Sentinela, no menu Configurações, solicita a manutenção da tela ligada pela Screen Wake Lock API. Ative ou desative na página Sentinela. O estado informa se o bloqueio foi concedido; caso seja liberado, retorne ao primeiro plano ou toque em Tentar manter tela ligada. O Ping fica temporariamente oculto e seus sons, vibrações e apresentações são suspensos. As preferências originais são preservadas e o modo termina ao recarregar. Coletas pausadas permanecem pausadas. Não há garantia de execução em segundo plano ou com tela bloqueada. O consumo de bateria pode aumentar.
